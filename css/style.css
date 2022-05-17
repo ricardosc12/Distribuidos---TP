@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100vw;   
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    padding: 20px;
+}

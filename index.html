@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./Data/harry.js"></script>
+    <script src="./Data/meta_humans.js"></script>
+    <script src="./components/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+
+    </div>
+</body>
+<script>
+
+    // console.log(META) 
+    const main = document.getElementsByClassName('main')[0]
+    content = ''
+    aux=0
+    META.forEach(card => {
+        let split_name = card.images.lg.split('/')
+        let name = split_name[split_name.length - 1]
+        content = content + Card(`./Server/CompressImages/${name}`)
+        aux++
+    });
+    main.innerHTML = content
+    // console.log(aux)
+    // let images = []
+    // fetch('http://homologacao3.azapfy.com.br/api/ps/metahumans').then(resp=>resp.json()).then(data=>{
+    //     data.forEach(element => {
+    //         images.push(element.images.lg)
+    //     });
+    //     console.log(images)
+    // })
+    
+</script>
+</html>
