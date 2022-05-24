@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./src/dados/meta_humans.js"></script>
+    <script src="./src/Components/Card.js"></script>
+</head>
+<body>
+    <div class="main">
+    </div>
+</body>
+<script>
+    const CARDS = META.map(card=>{
+        let image = card.images.lg.split('/').pop()
+        return {...card,images:image}
+    })
+    let main = document.getElementsByClassName("main")[0]
+    let cards = ''
+    // CARDS.forEach(card => {
+    //     cards+=Card(card)
+    // });
+    main.innerHTML = Card(CARDS[23],'rare') + Card(CARDS[13],'legendary') + Card(CARDS[95],'supreme') + Card(CARDS[3],'epic') + Card(CARDS[5],'comun')
+
+</script>
+</html>
