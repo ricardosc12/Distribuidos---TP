@@ -1,0 +1,2 @@
+Para o build 
+# npm run dist
