@@ -1,0 +1,35 @@
+.route-cartas {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.route-cartas-list {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    height: 100%;
+    width: 80%;
+    background-color: black;
+}
+
+.route-cartas-filter {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    min-width: 250px;
+}
+
+.search-filter input {
+    margin: 20px;
+    height: 50px;
+}

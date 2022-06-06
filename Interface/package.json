@@ -3,13 +3,24 @@
   "version": "1.0.0",
   "description": "VOID",
   "main": "index.js",
-  "scripts": {
-    "start":"electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "I.R",
   "license": "ISC",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.jamzi.quickstart",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png"
+    },
+    "extraResources":["./assets/**"]
+  },
   "devDependencies": {
-    "electron": "18.3.0"
+    "electron": "18.3.0",
+    "electron-builder": "^23.0.3"
   }
+
 }

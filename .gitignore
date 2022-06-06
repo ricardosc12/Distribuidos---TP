@@ -1,3 +1,5 @@
 
 /Server/Images
 node_modules
+dist
+build

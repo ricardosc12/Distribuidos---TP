@@ -1,4 +1,4 @@
-const META = [
+const DATA = [
     {
         "id": 1,
         "name": "A-Bomb",
@@ -44,8 +44,12 @@ const META = [
             "groupAffiliation": "Hulk Family; Excelsior (sponsor), Avengers (honorary member); formerly partner of the Hulk, Captain America and Captain Marvel; Teen Brigade; ally of Rom",
             "relatives": "Marlo Chandler-Jones (wife); Polly (aunt); Mrs. Chandler (mother-in-law); Keith Chandler, Ray Chandler, three unidentified others (brothers-in-law); unidentified father (deceased); Jackie Shorr (alleged mother; unconfirmed)"
         },
-        "images": "1-a-bomb.jpg",
-        "poder_total": 323
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/1-a-bomb.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/1-a-bomb.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/1-a-bomb.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/1-a-bomb.jpg"
+        }
     },
     {
         "id": 2,
@@ -94,8 +98,12 @@ const META = [
             "groupAffiliation": "Bureau for Paranormal Research and Defense",
             "relatives": "Edith Howard (wife, deceased)"
         },
-        "images": "2-abe-sapien.jpg",
-        "poder_total": 401
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/2-abe-sapien.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/2-abe-sapien.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/2-abe-sapien.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/2-abe-sapien.jpg"
+        }
     },
     {
         "id": 3,
@@ -142,8 +150,12 @@ const META = [
             "groupAffiliation": "Green Lantern Corps, Black Lantern Corps",
             "relatives": "Amon Sur (son), Arin Sur (sister), Thaal Sinestro (brother-in-law), Soranik Natu (niece)"
         },
-        "images": "3-abin-sur.jpg",
-        "poder_total": 421
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/3-abin-sur.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/3-abin-sur.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/3-abin-sur.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/3-abin-sur.jpg"
+        }
     },
     {
         "id": 4,
@@ -191,8 +203,12 @@ const META = [
             "groupAffiliation": "former member of the crew of the Andromeda Starship, ally of the Abominations and Forgotten",
             "relatives": "Nadia Dornova Blonsky (wife, separated)"
         },
-        "images": "4-abomination.jpg",
-        "poder_total": 443
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/4-abomination.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/4-abomination.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/4-abomination.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/4-abomination.jpg"
+        }
     },
     {
         "id": 5,
@@ -239,8 +255,12 @@ const META = [
             "groupAffiliation": "Cosmic Beings",
             "relatives": "Eternity (\"Father\")"
         },
-        "images": "5-abraxas.jpg",
-        "poder_total": 489
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/5-abraxas.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/5-abraxas.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/5-abraxas.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/5-abraxas.jpg"
+        }
     },
     {
         "id": 6,
@@ -292,8 +312,12 @@ const META = [
             "groupAffiliation": "Masters of Evil, Lethal Legion; formerly Worthy, Frightful Four: former agent of Loki and They Who Wield Power",
             "relatives": "Mary MacPherran (Titania) (wife); Jerry Sledge (son); Rockwell \"Rocky\" Davis (Hi-Llite) (cousin)"
         },
-        "images": "6-absorbing-man.jpg",
-        "poder_total": 405
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/6-absorbing-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/6-absorbing-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/6-absorbing-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/6-absorbing-man.jpg"
+        }
     },
     {
         "id": 7,
@@ -341,8 +365,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "7-adam-monroe.jpg",
-        "poder_total": 349
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/7-adam-monroe.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/7-adam-monroe.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/7-adam-monroe.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/7-adam-monroe.jpg"
+        }
     },
     {
         "id": 8,
@@ -390,8 +418,12 @@ const META = [
             "groupAffiliation": "Omega Men, L.E.G.I.O.N., R.E.B.E.L.S., formerly Seven Soldiers of Victory",
             "relatives": "Alanna Strange (wife); Aleea Strange (daughter); Sardath (father-in-law); Janey Strange (sister); Todd Strange (brother, deceased); Bantteir (mother-in-law); Adam Strange II (descendent)"
         },
-        "images": "8-adam-strange.jpg",
-        "poder_total": 239
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/8-adam-strange.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/8-adam-strange.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/8-adam-strange.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/8-adam-strange.jpg"
+        }
     },
     {
         "id": 10,
@@ -441,8 +473,12 @@ const META = [
             "groupAffiliation": "A.I.M., Deadpool; formerly Agency X, Hydra",
             "relatives": "Allison (ex-wife); Terry and Howie (sons)"
         },
-        "images": "10-agent-bob.jpg",
-        "poder_total": 61
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/10-agent-bob.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/10-agent-bob.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/10-agent-bob.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/10-agent-bob.jpg"
+        }
     },
     {
         "id": 11,
@@ -489,8 +525,12 @@ const META = [
             "groupAffiliation": "Formerly Weapon X, Weapon Plus, Team X, Cell Six, former bodyguard of Psi-Borg, former agent of Major Barrington",
             "relatives": "Unidentified parents (deceased), Andreas Nord (brother, deceased), Ginetta Lucia Barsalini (wife, deceased), unnamed child (deceased)"
         },
-        "images": "11-agent-zero.jpg",
-        "poder_total": 388
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/11-agent-zero.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/11-agent-zero.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/11-agent-zero.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/11-agent-zero.jpg"
+        }
     },
     {
         "id": 12,
@@ -537,8 +577,12 @@ const META = [
             "groupAffiliation": "Former member of Nova Corps, Heralds of Galactus",
             "relatives": "-"
         },
-        "images": "12-air-walker.jpg",
-        "poder_total": 460
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/12-air-walker.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/12-air-walker.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/12-air-walker.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/12-air-walker.jpg"
+        }
     },
     {
         "id": 13,
@@ -587,8 +631,12 @@ const META = [
             "groupAffiliation": "Formerly Weapon X",
             "relatives": "-"
         },
-        "images": "13-ajax.jpg",
-        "poder_total": 308
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/13-ajax.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/13-ajax.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/13-ajax.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/13-ajax.jpg"
+        }
     },
     {
         "id": 14,
@@ -637,8 +685,12 @@ const META = [
             "groupAffiliation": "Justice Society of America; Formerly Checkmate; the Sentinels of Magic; Formerly All-Star Squadron",
             "relatives": "Harlequin (Molly Mayne-Scott) (wife), Thorn (Rose Canton) (first wife, deceased), Todd Rice (Obsidian, son), Jennie-Lynn Hayden (Jade, daughter, deceased)"
         },
-        "images": "14-alan-scott.jpg",
-        "poder_total": 388
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/14-alan-scott.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/14-alan-scott.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/14-alan-scott.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/14-alan-scott.jpg"
+        }
     },
     {
         "id": 15,
@@ -687,8 +739,12 @@ const META = [
             "groupAffiliation": "Gentek, The Infected",
             "relatives": "Dana Mercer (sister)"
         },
-        "images": "15-alex-mercer.jpg",
-        "poder_total": 412
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/15-alex-mercer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/15-alex-mercer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/15-alex-mercer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/15-alex-mercer.jpg"
+        }
     },
     {
         "id": 17,
@@ -735,8 +791,12 @@ const META = [
             "groupAffiliation": "Batman Family, Outsiders",
             "relatives": "Jarvis Pennyworth (father, deceased), Wilfred Pennyworth (older brother), Daphne Pennyworth (niece); Bruce Wayne (Batman, legal ward)"
         },
-        "images": "17-alfred-pennyworth.jpg",
-        "poder_total": 162
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/17-alfred-pennyworth.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/17-alfred-pennyworth.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/17-alfred-pennyworth.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/17-alfred-pennyworth.jpg"
+        }
     },
     {
         "id": 18,
@@ -783,8 +843,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Alien Queen (mother)"
         },
-        "images": "18-alien.jpg",
-        "poder_total": 327
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/18-alien.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/18-alien.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/18-alien.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/18-alien.jpg"
+        }
     },
     {
         "id": 20,
@@ -834,8 +898,12 @@ const META = [
             "groupAffiliation": "Formerly the Secret Society of Super Villains",
             "relatives": "Professor Ivo (creator), Kid Amazo (cyborg offspring)"
         },
-        "images": "20-amazo.jpg",
-        "poder_total": 546
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/20-amazo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/20-amazo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/20-amazo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/20-amazo.jpg"
+        }
     },
     {
         "id": 23,
@@ -883,8 +951,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Kathy (sister), Connor (son), Twilight (\"child\")"
         },
-        "images": "23-angel.jpg",
-        "poder_total": 428
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/23-angel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/23-angel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/23-angel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/23-angel.jpg"
+        }
     },
     {
         "id": 24,
@@ -935,8 +1007,12 @@ const META = [
             "groupAffiliation": "X-Men, Mutantes Sans Fronti?res, Hellfire Club; formerly Secret Defenders, X-Factor/X-Terminators, Horsemen of Apocalypse, Defenders, Death's champions, Champions of Los Angeles",
             "relatives": "Warren Kenneth Worthington Sr. (grandfather, deceased), Warren Kenneth Worthington Jr. (father, deceased), Kathryn Worthington (mother, deceased), Burtram \"Burt\" Worthington (Dazzler, paternal uncle), unnamed cousin"
         },
-        "images": "24-angel.jpg",
-        "poder_total": 256
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/24-angel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/24-angel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/24-angel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/24-angel.jpg"
+        }
     },
     {
         "id": 25,
@@ -984,8 +1060,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "25-angel-dust.jpg",
-        "poder_total": 205
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/25-angel-dust.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/25-angel-dust.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/25-angel-dust.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/25-angel-dust.jpg"
+        }
     },
     {
         "id": 26,
@@ -1032,8 +1112,12 @@ const META = [
             "groupAffiliation": "Formerly New Warriors; Special Class",
             "relatives": "Tito Bohusk (son); Axel Bohusk (son); Kara Bohusk (daughter); three other unidentified children;"
         },
-        "images": "26-angel-salvadore.jpg",
-        "poder_total": 220
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/26-angel-salvadore.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/26-angel-salvadore.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/26-angel-salvadore.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/26-angel-salvadore.jpg"
+        }
     },
     {
         "id": 28,
@@ -1080,8 +1164,12 @@ const META = [
             "groupAffiliation": "Formerly Animal Masters, Forgotten Heroes, Justice League of America, Justice League Europe",
             "relatives": "Ellen Frazier (wife), Cliff Baker (son), Maxine Baker (daughter), unnamed second daughter, Frank Baker, Jr. (father), Phyllis Baker (mother), unnamed sister, Frank, Sr (grandfather), Teddy (great grandfather), Sherman (great-great grandfather), Jack (great-great-great grandfather), Mary Frazier (mother-in-law), Dudley (uncle-in-law), Annie Cassidy (mother of second daughter), Lucy Cassidy (half-sister of second daughter)"
         },
-        "images": "28-animal-man.jpg",
-        "poder_total": 389
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/28-animal-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/28-animal-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/28-animal-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/28-animal-man.jpg"
+        }
     },
     {
         "id": 29,
@@ -1129,8 +1217,12 @@ const META = [
             "groupAffiliation": "Sometime ally of Blastaar",
             "relatives": "Annihilus is a series of clonal scions"
         },
-        "images": "29-annihilus.jpg",
-        "poder_total": 381
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/29-annihilus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/29-annihilus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/29-annihilus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/29-annihilus.jpg"
+        }
     },
     {
         "id": 30,
@@ -1183,8 +1275,12 @@ const META = [
             "groupAffiliation": "Avengers Academy, Secret Avengers; formerly Mighty Avengers, Avengers (founding member), Defenders, Future Iron Man's Team",
             "relatives": "-"
         },
-        "images": "30-ant-man.jpg",
-        "poder_total": 233
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/30-ant-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/30-ant-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/30-ant-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/30-ant-man.jpg"
+        }
     },
     {
         "id": 31,
@@ -1232,8 +1328,12 @@ const META = [
             "groupAffiliation": "Ant-Man Security Solutions; formerly Future Foundation (leader), Fantastic Four (leader), Defenders, Avengers, Heroes For Hire, Stark Industries",
             "relatives": "Cassandra Eleanor Lang (daughter), Ruth (sister), Carl (brother-in-law), Peggy Rae (ex-wife)"
         },
-        "images": "31-ant-man-ii.jpg",
-        "poder_total": 233
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/31-ant-man-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/31-ant-man-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/31-ant-man-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/31-ant-man-ii.jpg"
+        }
     },
     {
         "id": 32,
@@ -1281,8 +1381,12 @@ const META = [
             "groupAffiliation": "Sinestro Corps, Weaponers of Qward, Thunderers of Qward, Shadow Demons",
             "relatives": "Monitor (\"brother\"), The Monitors"
         },
-        "images": "32-anti-monitor.jpg",
-        "poder_total": 528
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/32-anti-monitor.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/32-anti-monitor.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/32-anti-monitor.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/32-anti-monitor.jpg"
+        }
     },
     {
         "id": 34,
@@ -1334,8 +1438,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Carl Brock (father, estranged), Janine Brock (mother, deceased), Mary Brock (sister), Ann Weying (ex-wife, deceased), Symbiotes' relatives: Toxin Symbiote (current symbiote, former grandson), Venom Symbiote (former symbiote, grandfather, former brother), Agony, Phage, Riot, Lasher (uncles, former sons), Scorn (sister, former niece), Carnage (father, former son), Scream (aunt, former daughter, deceased), Hybrid (uncle, former son, deceased)"
         },
-        "images": "34-anti-venom.jpg",
-        "poder_total": 470
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/34-anti-venom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/34-anti-venom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/34-anti-venom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/34-anti-venom.jpg"
+        }
     },
     {
         "id": 35,
@@ -1387,8 +1495,12 @@ const META = [
             "groupAffiliation": "Clan Akkaba, employer of Apocalypse's Horsemen, Dark Riders, former employer of the Alliance of Evil, 198",
             "relatives": "Baal of the Crimson Sands (adopted father, deceased)"
         },
-        "images": "35-apocalypse.jpg",
-        "poder_total": 493
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/35-apocalypse.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/35-apocalypse.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/35-apocalypse.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/35-apocalypse.jpg"
+        }
     },
     {
         "id": 36,
@@ -1435,8 +1547,12 @@ const META = [
             "groupAffiliation": "Aquaman Family",
             "relatives": "Aquaman (Orin/Arthur Curry) (father); Mera (mother); Koryak (half-brother); A.J. (half-brother); Atlan (grandfather); Tom Curry (adoptive grandfather, deceased); Orm Marius (uncle); Kordax (ancestor, deceased); Arthur Joseph Curry (adoptive cousin)"
         },
-        "images": "36-aquababy.jpg",
-        "poder_total": 103
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/36-aquababy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/36-aquababy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/36-aquababy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/36-aquababy.jpg"
+        }
     },
     {
         "id": 37,
@@ -1483,8 +1599,12 @@ const META = [
             "groupAffiliation": "Aquaman Family; formerly Black Lantern Corps, Sentinels of Magic, Teen Titans",
             "relatives": "Cerdian (son), Dolphin (wife), Berra (mother), Thar (father), Slizzath (uncle) Donna (grand-daughter)"
         },
-        "images": "37-aqualad.jpg",
-        "poder_total": 373
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/37-aqualad.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/37-aqualad.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/37-aqualad.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/37-aqualad.jpg"
+        }
     },
     {
         "id": 38,
@@ -1536,8 +1656,12 @@ const META = [
             "groupAffiliation": "Justice League, Aquaman Family, Atlantean Royal Family; formerly Black Lantern Corps, Justice League International, Justice League Detroit, U.N.",
             "relatives": "Koryak (son), Arthur Curry, Jr. (son), A.J. (son), Orm Marius (half-brother), Debbie Perkins (half-sister), Drin (adopted brother), Atlanna (mother), Atlan (father), Atlena (aunt), Porm (adopted mother), Tom Curry (adopted father), Mera (wife), Hila (sister-in-law), Haumond (uncle), Kraken (uncle), Honsu (grandfather), Lorelei (grandmother), Manu (ancestor), Nala (ancestor), Fatima (ancestor), Kalunga (ancestor), Gana (ancestor), Fiona (ancestor), Regin (ancestor), Kordax (ancestor), Bazil (ancestor), Cora (ancestor), Illya (ancestor), Dardanus (ancestor), Alloroc (ancestor), Cole (ancestor), Narmea (ancestor), Orin (ancestor), Loma (ancestor), Shalako (ancestor), Thorvall (ancestor)"
         },
-        "images": "38-aquaman.jpg",
-        "poder_total": 505
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/38-aquaman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/38-aquaman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/38-aquaman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/38-aquaman.jpg"
+        }
     },
     {
         "id": 39,
@@ -1585,8 +1709,12 @@ const META = [
             "groupAffiliation": "Omega Flight, formerly Commission on Superhuman Activities , Freedom Force , Avengers , Secret Defenders , Force Works , Queen?s Vengeance , West Coast Avengers, Secret Avengers (Civil War)",
             "relatives": "Rachel Carpenter (daughter), Walter Cornwall (father), Elizabeth Cornwall (mother), Larry Carpenter (ex-husband, deceased)"
         },
-        "images": "39-arachne.jpg",
-        "poder_total": 359
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/39-arachne.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/39-arachne.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/39-arachne.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/39-arachne.jpg"
+        }
     },
     {
         "id": 40,
@@ -1636,8 +1764,12 @@ const META = [
             "groupAffiliation": "X-Men (founding member); X-Force; Mutantes Sans Fronti?res; Hellfire Club; formerly X-Club (founding member); Death's champions; Secret Defenders; X-Factor/X-Terminators (founding member); Horsemen of Apocalypse; Defenders; Champions of Los Angeles (fou",
             "relatives": "Wallace Worthington (paternal ancestor, deceased), Warren Worthington Sr. (paternal grandfather, deceased), Warren Worthington Jr. (father, deceased), Kathryn Worthington (mother, deceased), Burt Worthington (paternal uncle), Mimi (maternal aunt), unnamed distant cousin"
         },
-        "images": "40-archangel.jpg",
-        "poder_total": 275
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/40-archangel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/40-archangel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/40-archangel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/40-archangel.jpg"
+        }
     },
     {
         "id": 41,
@@ -1684,8 +1816,12 @@ const META = [
             "groupAffiliation": "Marauders formerly, 198, Femizons",
             "relatives": "-"
         },
-        "images": "41-arclight.jpg",
-        "poder_total": 288
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/41-arclight.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/41-arclight.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/41-arclight.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/41-arclight.jpg"
+        }
     },
     {
         "id": 42,
@@ -1732,8 +1868,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Norrin Radd (Silver Surfer, clonal source), Clea (creator)"
         },
-        "images": "42-ardina.jpg",
-        "poder_total": 468
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/42-ardina.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/42-ardina.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/42-ardina.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/42-ardina.jpg"
+        }
     },
     {
         "id": 43,
@@ -1783,8 +1923,12 @@ const META = [
             "groupAffiliation": "Avengers, Mighty Avengers, Olympic Pantheon; Warhawks",
             "relatives": "Zeus (father), Hera (mother), Enyo (wife), Deimos, Phobos, Alexander (sons), Neptune, Pluto (uncles), Demeter, Hestia (aunts), Hephaestus (brother), Apollo, Dionysus, Hercules, Hermes(half-brothers), Artemis, Pallas Athena, Venus, (half-sisters)"
         },
-        "images": "43-ares.jpg",
-        "poder_total": 457
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/43-ares.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/43-ares.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/43-ares.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/43-ares.jpg"
+        }
     },
     {
         "id": 44,
@@ -1831,8 +1975,12 @@ const META = [
             "groupAffiliation": "X-Men, Formerly Fallen Angels",
             "relatives": "-"
         },
-        "images": "44-ariel.jpg",
-        "poder_total": 208
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/44-ariel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/44-ariel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/44-ariel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/44-ariel.jpg"
+        }
     },
     {
         "id": 45,
@@ -1880,8 +2028,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly: Xavier Institute Student Body, New X-Men",
             "relatives": "-"
         },
-        "images": "45-armor.jpg",
-        "poder_total": 314
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/45-armor.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/45-armor.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/45-armor.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/45-armor.jpg"
+        }
     },
     {
         "id": 48,
@@ -1933,8 +2085,12 @@ const META = [
             "groupAffiliation": "Thunderbolts, formerly Revengers, Defenders (New Jersey Initiative team), Masters of Evil, Maggia, Grim Reaper's Lethal Legion, Mandarin's Minions, Emissaries of Evil; former partner of Citizen V (Dallas Riordan) and Swordsman, Count Nefaria's Lethal Legi",
             "relatives": "Unidentified parents (deceased), Carl (brother, deceased), Conrad (brother), Lindy (sister, deceased)"
         },
-        "images": "48-atlas.jpg",
-        "poder_total": 416
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/48-atlas.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/48-atlas.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/48-atlas.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/48-atlas.jpg"
+        }
     },
     {
         "id": 49,
@@ -1982,8 +2138,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "49-atlas.jpg",
-        "poder_total": 412
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/49-atlas.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/49-atlas.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/49-atlas.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/49-atlas.jpg"
+        }
     },
     {
         "id": 52,
@@ -2030,8 +2190,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes",
             "relatives": "-"
         },
-        "images": "52-atom-girl.jpg",
-        "poder_total": 179
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/52-atom-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/52-atom-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/52-atom-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/52-atom-girl.jpg"
+        }
     },
     {
         "id": 53,
@@ -2080,8 +2244,12 @@ const META = [
             "groupAffiliation": "Justice League of America, formerly; Suicide Squad, Teen Titans",
             "relatives": "Jean Loring (ex-wife, deceased), Princess Laethwen (wife, deceased), Danny Palmer (brother, deceased), David Palmer (father), Susan Palmer (mother, deceased), David Palmer (uncle)"
         },
-        "images": "53-atom-ii.jpg",
-        "poder_total": 276
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/53-atom-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/53-atom-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/53-atom-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/53-atom-ii.jpg"
+        }
     },
     {
         "id": 56,
@@ -2128,8 +2296,12 @@ const META = [
             "groupAffiliation": "Alpha Flight, Alpha Flight (Space Program), Royal Canadian Mounted Police; formerly Weapon X, ally of the Havok's Brotherhood, Headbangers , Children of the Vault, X-Men (interim member)",
             "relatives": "Jean-Baptiste Beaubier (father, deceased), unidentified mother (deceased), Jean-Paul Beaubier (Northstar, twin brother) Joanna Beaubier (adopted niece, deceased); Lois and Genevieve Martin (first cousins once removed/adopted parents, deceased)"
         },
-        "images": "56-aurora.jpg",
-        "poder_total": 359
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/56-aurora.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/56-aurora.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/56-aurora.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/56-aurora.jpg"
+        }
     },
     {
         "id": 57,
@@ -2183,8 +2355,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Kurt Wagner (Nightcrawler, son), Nils Styger (Abyss, son), Kiwi Black (son), numberous other offspring (deceased)"
         },
-        "images": "57-azazel.jpg",
-        "poder_total": 383
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/57-azazel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/57-azazel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/57-azazel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/57-azazel.jpg"
+        }
     },
     {
         "id": 58,
@@ -2231,8 +2407,12 @@ const META = [
             "groupAffiliation": "Order of St. Dumas; formerly Gotham City Police Department; Three Ghosts of Batman",
             "relatives": "Mitchell Lane (father; deceased), Barbara Lane (mother; deceased), Marion Lane (brother; deceased), Gwendolyn Lane (sister; deceased), Chante Coles (wife; deceased), Henry Mitchell Lane (son; deceased), Jenny Lane (Sister-in-law)"
         },
-        "images": "58-azrael.jpg",
-        "poder_total": 233
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/58-azrael.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/58-azrael.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/58-azrael.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/58-azrael.jpg"
+        }
     },
     {
         "id": 60,
@@ -2279,8 +2459,12 @@ const META = [
             "groupAffiliation": "Suicide Squad, The Secret Society of Super Villains",
             "relatives": "King Snake (father)"
         },
-        "images": "60-bane.jpg",
-        "poder_total": 351
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/60-bane.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/60-bane.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/60-bane.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/60-bane.jpg"
+        }
     },
     {
         "id": 61,
@@ -2327,8 +2511,12 @@ const META = [
             "groupAffiliation": "Currently X-Corps, formerly Generation X, Factor Three, X-Men",
             "relatives": "Maeve Rourke Cassidy (wife, deceased), Thomas (Black Tom, cousin), Theresa Rourke (Siryn, daughter)"
         },
-        "images": "61-banshee.jpg",
-        "poder_total": 291
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/61-banshee.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/61-banshee.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/61-banshee.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/61-banshee.jpg"
+        }
     },
     {
         "id": 62,
@@ -2375,8 +2563,12 @@ const META = [
             "groupAffiliation": "Captain America, Pro-Registration forces",
             "relatives": "-"
         },
-        "images": "62-bantam.jpg",
-        "poder_total": 232
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/62-bantam.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/62-bantam.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/62-bantam.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/62-bantam.jpg"
+        }
     },
     {
         "id": 63,
@@ -2424,8 +2616,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "James Gordon (father) ? Barbara Eileen (mother) ? James Gordon, Jr. (brother)"
         },
-        "images": "63-batgirl.jpg",
-        "poder_total": 296
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/63-batgirl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/63-batgirl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/63-batgirl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/63-batgirl.jpg"
+        }
     },
     {
         "id": 66,
@@ -2473,8 +2669,12 @@ const META = [
             "groupAffiliation": "Titans East, League of Assassins, Batman Family, Justice League Elite, Young Justice",
             "relatives": "David Cain (father), Lady Shiva (mother), Carolyn (aunt, deceased), Annalea (sibling, deceased), 'The Mad Dog' (sibling)"
         },
-        "images": "66-batgirl-iv.jpg",
-        "poder_total": 310
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/66-batgirl-iv.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/66-batgirl-iv.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/66-batgirl-iv.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/66-batgirl-iv.jpg"
+        }
     },
     {
         "id": 68,
@@ -2524,8 +2724,12 @@ const META = [
             "groupAffiliation": "The Batman Family, formerly the Birds of Prey, Tim Drake (on-and-off boyfriend)",
             "relatives": "Arthur Brown (The Cluemaster, father), Crystal Brown (mother), unnamed daughter (given up for adoption)"
         },
-        "images": "68-batgirl-vi.jpg",
-        "poder_total": 238
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/68-batgirl-vi.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/68-batgirl-vi.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/68-batgirl-vi.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/68-batgirl-vi.jpg"
+        }
     },
     {
         "id": 69,
@@ -2576,8 +2780,12 @@ const META = [
             "groupAffiliation": "Batman Family, Justice League Unlimited",
             "relatives": "Bruce Wayne (biological father), Warren McGinnis (father, deceased), Mary McGinnis (mother), Matt McGinnis (brother)"
         },
-        "images": "69-batman.jpg",
-        "poder_total": 358
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/69-batman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/69-batman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/69-batman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/69-batman.jpg"
+        }
     },
     {
         "id": 70,
@@ -2625,8 +2833,12 @@ const META = [
             "groupAffiliation": "Batman Family, Batman Incorporated, Justice League, Outsiders, Wayne Enterprises, Club of Heroes, formerly White Lantern Corps, Sinestro Corps",
             "relatives": "Damian Wayne (son), Dick Grayson (adopted son), Tim Drake (adopted son), Jason Todd (adopted son), Cassandra Cain (adopted ward)\nMartha Wayne (mother, deceased), Thomas Wayne (father, deceased), Alfred Pennyworth (former guardian), Roderick Kane (grandfather, deceased), Elizabeth Kane (grandmother, deceased), Nathan Kane (uncle, deceased), Simon Hurt (ancestor), Wayne Family"
         },
-        "images": "70-batman.jpg",
-        "poder_total": 350
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/70-batman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/70-batman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/70-batman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/70-batman.jpg"
+        }
     },
     {
         "id": 71,
@@ -2673,8 +2885,12 @@ const META = [
             "groupAffiliation": "Justice League Of America, Batman Family",
             "relatives": "John Grayson (father, deceased), Mary Grayson (mother, deceased), Bruce Wayne / Batman (adoptive father), Damian Wayne / Robin (foster brother), Jason Todd / Red Hood (adoptive brother), Tim Drake / Red Robin (adoptive brother), Cassandra Cain / Batgirl IV (adoptive sister)"
         },
-        "images": "71-batman-ii.jpg",
-        "poder_total": 296
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/71-batman-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/71-batman-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/71-batman-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/71-batman-ii.jpg"
+        }
     },
     {
         "id": 72,
@@ -2721,8 +2937,12 @@ const META = [
             "groupAffiliation": "Formerly Wild Pack, Bold Urban Commandos (Buckies), former partner of U.S.Agent, operative of the Commission on Superhuman Activities",
             "relatives": "-"
         },
-        "images": "72-battlestar.jpg",
-        "poder_total": 334
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/72-battlestar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/72-battlestar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/72-battlestar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/72-battlestar.jpg"
+        }
     },
     {
         "id": 73,
@@ -2769,8 +2989,12 @@ const META = [
             "groupAffiliation": "Batman Family (unofficially), D.E.O, Unknowns",
             "relatives": "Jacob Kane (father), Gabi Kane (mother; deceased), Beth Kane (twin sister), Mary Elizabeth \"Bette\" Kane (cousin), Catherine Hamilton-Kane (stepmother), Philip Kane (uncle), Kane Family"
         },
-        "images": "73-batwoman-v.jpg",
-        "poder_total": 250
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/73-batwoman-v.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/73-batwoman-v.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/73-batwoman-v.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/73-batwoman-v.jpg"
+        }
     },
     {
         "id": 75,
@@ -2822,8 +3046,12 @@ const META = [
             "groupAffiliation": "Secret Avengers, S.W.O.R.D.; formerly X-Men (founding member); X-Club (founding member); Initiative; 198; X-Treme X-Men; Acolytes (while mind-controlled); Queen's Vengeance; X-Factor/X-Terminators (founding member); Rejects; Defenders, Avengers",
             "relatives": "Sadie McCoy (paternal grandmother), Norton McCoy (father), Edna McCoy (mother), Robert McCoy (paternal great-uncle), John McCoy (uncle)"
         },
-        "images": "75-beast.jpg",
-        "poder_total": 368
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/75-beast.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/75-beast.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/75-beast.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/75-beast.jpg"
+        }
     },
     {
         "id": 76,
@@ -2876,8 +3104,12 @@ const META = [
             "groupAffiliation": "Teen Titans; former member of the original Doom Patrol, Titans West",
             "relatives": "Mark Logan (father, deceased), Marie Logan (mother, deceased), Steve Dayton/Mento (adoptive father), Rita Farr/Elasti-Girl (adoptive mother), Matt Logan (cousin)"
         },
-        "images": "76-beast-boy.jpg",
-        "poder_total": 317
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/76-beast-boy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/76-beast-boy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/76-beast-boy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/76-beast-boy.jpg"
+        }
     },
     {
         "id": 78,
@@ -2924,8 +3156,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "78-ben-10.jpg",
-        "poder_total": 165
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/78-ben-10.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/78-ben-10.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/78-ben-10.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/78-ben-10.jpg"
+        }
     },
     {
         "id": 79,
@@ -2973,8 +3209,12 @@ const META = [
             "groupAffiliation": "ally of the Asgardians, Thor Corps, Star Masters",
             "relatives": "-"
         },
-        "images": "79-beta-ray-bill.jpg",
-        "poder_total": 457
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/79-beta-ray-bill.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/79-beta-ray-bill.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/79-beta-ray-bill.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/79-beta-ray-bill.jpg"
+        }
     },
     {
         "id": 80,
@@ -3031,8 +3271,12 @@ const META = [
             "groupAffiliation": "Was once in a merged form with the Molecule Man but is no longer merged with him.",
             "relatives": "-"
         },
-        "images": "80-beyonder.jpg",
-        "poder_total": 584
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/80-beyonder.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/80-beyonder.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/80-beyonder.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/80-beyonder.jpg"
+        }
     },
     {
         "id": 81,
@@ -3080,8 +3324,12 @@ const META = [
             "groupAffiliation": "Apocalypse, New Gods, Birds of Prey, formerly Female Furies, formerly Justice League of America",
             "relatives": "Big Breeda (mother), Scott Free (Mister Miricle, husband), Highfather Izaya (father-in-law, deceased)"
         },
-        "images": "81-big-barda.jpg",
-        "poder_total": 567
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/81-big-barda.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/81-big-barda.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/81-big-barda.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/81-big-barda.jpg"
+        }
     },
     {
         "id": 82,
@@ -3128,8 +3376,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Hit-Girl (daughter)"
         },
-        "images": "82-big-daddy.jpg",
-        "poder_total": 178
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/82-big-daddy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/82-big-daddy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/82-big-daddy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/82-big-daddy.jpg"
+        }
     },
     {
         "id": 83,
@@ -3176,8 +3428,12 @@ const META = [
             "groupAffiliation": "Daily Bugle, the Enforcers",
             "relatives": "Janice Foswell (daughter), unnamed wife"
         },
-        "images": "83-big-man.jpg",
-        "poder_total": 227
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/83-big-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/83-big-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/83-big-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/83-big-man.jpg"
+        }
     },
     {
         "id": 84,
@@ -3224,8 +3480,12 @@ const META = [
             "groupAffiliation": "Alphas",
             "relatives": "-"
         },
-        "images": "84-bill-harken.jpg",
-        "poder_total": 259
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/84-bill-harken.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/84-bill-harken.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/84-bill-harken.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/84-bill-harken.jpg"
+        }
     },
     {
         "id": 87,
@@ -3272,8 +3532,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "87-bionic-woman.jpg",
-        "poder_total": 226
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/87-bionic-woman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/87-bionic-woman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/87-bionic-woman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/87-bionic-woman.jpg"
+        }
     },
     {
         "id": 88,
@@ -3320,8 +3584,12 @@ const META = [
             "groupAffiliation": "New Mutants, Ani-Mate",
             "relatives": "-"
         },
-        "images": "88-bird-brain.jpg",
-        "poder_total": 161
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/88-bird-brain.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/88-bird-brain.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/88-bird-brain.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/88-bird-brain.jpg"
+        }
     },
     {
         "id": 92,
@@ -3368,8 +3636,12 @@ const META = [
             "groupAffiliation": "\"Clean City\"; formerly Stryfe; X-Men; X.S.E. (Storm's team); X-Treme X-Men; X.S.E. (Hecate'e's team); The Twelve",
             "relatives": "Burnum Bishop (father, deceased), Kadee Bishop (mother, deceased), Shard (sister, deceased), unnamed grandmother, Gateway (great-grandfather), Aliyah Bishop (alternate reality daughter);"
         },
-        "images": "92-bishop.jpg",
-        "poder_total": 340
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/92-bishop.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/92-bishop.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/92-bishop.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/92-bishop.jpg"
+        }
     },
     {
         "id": 93,
@@ -3416,8 +3688,12 @@ const META = [
             "groupAffiliation": "Superman Revenge Squad; Bizarros of Bizarro World; former associate of the Secret Society of Super-Villains; Joker League of Anarchy; former partner of Batzarro",
             "relatives": "Bizarro-Lois No. 1 (wife, Pre-Crisis only), Bizarro, Jr. (son, Pre-Crisis only), Bizarro-Lois, Jr. (daughter, Pre-Crisis only)"
         },
-        "images": "93-bizarro.jpg",
-        "poder_total": 518
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/93-bizarro.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/93-bizarro.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/93-bizarro.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/93-bizarro.jpg"
+        }
     },
     {
         "id": 95,
@@ -3467,8 +3743,12 @@ const META = [
             "groupAffiliation": "None; Formerly the Black Marvel Family, Society of Villains, Injustice Society, Justice Society of America",
             "relatives": "Shiruta (wife, deceased), Gon and Hurut (sons, deceased) Theo Adam (descendant, currently in control of his body), Sarah Primm (descendant, Theo's sister), Adrianna Tomaz (wife. deceased), Amon Tomaz (brother-in-law, deceased)"
         },
-        "images": "95-black-adam.jpg",
-        "poder_total": 536
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/95-black-adam.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/95-black-adam.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/95-black-adam.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/95-black-adam.jpg"
+        }
     },
     {
         "id": 96,
@@ -3515,8 +3795,12 @@ const META = [
             "groupAffiliation": "Universal Inhumans; Inhuman Royal Family; formerly Illuminati",
             "relatives": "Medusa (wife and first cousin), Ahura (son), Agon (father, deceased), Rynda(mother, deceased), Maximus (brother), Crystal (sister-in-law), Gorgon, Karnak, Triton (cousins)"
         },
-        "images": "96-black-bolt.jpg",
-        "poder_total": 482
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/96-black-bolt.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/96-black-bolt.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/96-black-bolt.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/96-black-bolt.jpg"
+        }
     },
     {
         "id": 97,
@@ -3563,8 +3847,12 @@ const META = [
             "groupAffiliation": "Birds of Prey; formerly Justice League of America, Justice Society of America, Justice League Task Force, Justice League International, Team Arrow",
             "relatives": "Larry Lance (father, deceased), Dinah Drake Lance (Black Canary, mother, deceased); Oliver Queen (Green Arrow, husband); Craig Windrow (ex-husband); Sin (adoptive daughter)"
         },
-        "images": "97-black-canary.jpg",
-        "poder_total": 256
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/97-black-canary.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/97-black-canary.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/97-black-canary.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/97-black-canary.jpg"
+        }
     },
     {
         "id": 98,
@@ -3611,8 +3899,12 @@ const META = [
             "groupAffiliation": "Justice Society of America",
             "relatives": "Richard Drake (father), Lawrence Lance (husband), Dinah Laurel Lance (Black Canary, daughter), Oliver Queen (Green Arrow, son-in-law)"
         },
-        "images": "98-black-canary.jpg",
-        "poder_total": 244
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/98-black-canary.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/98-black-canary.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/98-black-canary.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/98-black-canary.jpg"
+        }
     },
     {
         "id": 99,
@@ -3659,8 +3951,12 @@ const META = [
             "groupAffiliation": "Formerly Heroes for Hire",
             "relatives": "Walter Hardy (father, deceased), Lydia Hardy (mother)"
         },
-        "images": "99-black-cat.jpg",
-        "poder_total": 227
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/99-black-cat.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/99-black-cat.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/99-black-cat.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/99-black-cat.jpg"
+        }
     },
     {
         "id": 100,
@@ -3712,8 +4008,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "100-black-flash.jpg",
-        "poder_total": 364
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/100-black-flash.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/100-black-flash.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/100-black-flash.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/100-black-flash.jpg"
+        }
     },
     {
         "id": 102,
@@ -3762,8 +4062,12 @@ const META = [
             "groupAffiliation": "MI-13; formerly Avengers, Masters of Evil (as a mole), Excalibur, Heroes for Hire, Ultraforce (in the Ultraverse), Defenders, Knights of Wundagore, Queen's Vengeance, King Richard's Army",
             "relatives": "Nathan Garrett (Black Knight II, uncle, deceased); Sir Percy of Scandia (Black Knight), Sir Raston, Eobar Garrington (Black Knights of past eras, ancestors, deceased); Lady Rosamund, Edward, Geoffrey (ancestral relations, presumed deceased); Dafydd ap Iowerth, Arthur Pendragon, Mordred the Evil, Morgan Le Fay (distant ancestral relations)"
         },
-        "images": "102-black-knight-iii.jpg",
-        "poder_total": 264
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/102-black-knight-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/102-black-knight-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/102-black-knight-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/102-black-knight-iii.jpg"
+        }
     },
     {
         "id": 103,
@@ -3810,8 +4114,12 @@ const META = [
             "groupAffiliation": "Justice League of America (current), formerly Presidential Cabinet, The Outsiders (sporadically), Batman's Brother Eye attack group",
             "relatives": "Unnamed father (deceased), Lynn Stewart (ex-wife), Joanna Pierce (niece, deceased), Anissa Pierce (Thunder, daughter), Jennifer Pierce (Lightning, daughter)"
         },
-        "images": "103-black-lightning.jpg",
-        "poder_total": 287
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/103-black-lightning.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/103-black-lightning.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/103-black-lightning.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/103-black-lightning.jpg"
+        }
     },
     {
         "id": 104,
@@ -3858,8 +4166,12 @@ const META = [
             "groupAffiliation": "Serpent Squad, Serpent Society, BAD Girls",
             "relatives": "-"
         },
-        "images": "104-black-mamba.jpg",
-        "poder_total": 315
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/104-black-mamba.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/104-black-mamba.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/104-black-mamba.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/104-black-mamba.jpg"
+        }
     },
     {
         "id": 105,
@@ -3908,8 +4220,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "105-black-manta.jpg",
-        "poder_total": 374
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/105-black-manta.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/105-black-manta.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/105-black-manta.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/105-black-manta.jpg"
+        }
     },
     {
         "id": 106,
@@ -3962,8 +4278,12 @@ const META = [
             "groupAffiliation": "Formerly Fantastic Four, Secret Avengers, Avengers, Pendragons, Queen's Vengeance, former Fantastic Force financier",
             "relatives": "Bashenga (paternal ancestor, deceased), Azzuri the Wise (paternal grandfather, deceased), Nanali (paternal grandmother, deceased), Chanda (paternal grandfather, presumably deceased), T?Chaka (father, deceased), S'Yan (uncle, deceased), N?Yami (mother, deceased), Ramonda (stepmother), Hunter (adopted brother), Jakarra (half-brother), Shuri (sister), Ororo Munroe (wife), Joshua Itobo, Ishanta, Zuni, M'Koni, T'Shan (cousins), Wheeler (cousin by marriage, deceased), Billy Wheeler (1st cousin once removed)"
         },
-        "images": "106-black-panther.jpg",
-        "poder_total": 335
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/106-black-panther.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/106-black-panther.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/106-black-panther.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/106-black-panther.jpg"
+        }
     },
     {
         "id": 107,
@@ -4020,8 +4340,12 @@ const META = [
             "groupAffiliation": "Secret Avengers; formerly Thunderbolts (as Yelena Belova), Nick Fury, Mighty Avengers, S.H.I.E.L.D., Avengers, Champions of Los Angeles, Lady Liberators, KGB, \"Marvel Knights\", partner of Daredevil, Hawkeye, Boris Turgenov, Logan",
             "relatives": "Unnamed parents (presumed deceased); Alexi Shostakov (Red Guardian, estranged husband); Vindiktor (alleged brother, deceased)"
         },
-        "images": "107-black-widow.jpg",
-        "poder_total": 287
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/107-black-widow.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/107-black-widow.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/107-black-widow.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/107-black-widow.jpg"
+        }
     },
     {
         "id": 109,
@@ -4068,8 +4392,12 @@ const META = [
             "groupAffiliation": "Lilin; Deathwatch; Hood's gang",
             "relatives": "Lilith (Great Grandmother)"
         },
-        "images": "109-blackout.jpg",
-        "poder_total": 330
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/109-blackout.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/109-blackout.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/109-blackout.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/109-blackout.jpg"
+        }
     },
     {
         "id": 110,
@@ -4119,8 +4447,12 @@ const META = [
             "groupAffiliation": "Heavy Mettle; (formerly) Masters of Evil, Skeleton Crew, Circus of Crime; (formerly) division leader of Hydra",
             "relatives": "Silvio Manfredi (Silvermane, father), Caterina Manfredi (mother, deceased)"
         },
-        "images": "110-blackwing.jpg",
-        "poder_total": 191
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/110-blackwing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/110-blackwing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/110-blackwing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/110-blackwing.jpg"
+        }
     },
     {
         "id": 111,
@@ -4168,8 +4500,12 @@ const META = [
             "groupAffiliation": "Underground Legion",
             "relatives": "Tantalus (father); Nirvana (mother); Pelops (brother, deceased)"
         },
-        "images": "111-blackwulf.jpg",
-        "poder_total": 210
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/111-blackwulf.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/111-blackwulf.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/111-blackwulf.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/111-blackwulf.jpg"
+        }
     },
     {
         "id": 112,
@@ -4218,8 +4554,12 @@ const META = [
             "groupAffiliation": "Formerly Noah van Helsing's vampire hunters, Nightstalkers, Midnight Sons, the Nine, Quincy Harker's vampire hunters, Ogun Strong's vampire hunters, Bloodshadows gang",
             "relatives": "Tara Brooks (mother)"
         },
-        "images": "112-blade.jpg",
-        "poder_total": 309
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/112-blade.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/112-blade.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/112-blade.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/112-blade.jpg"
+        }
     },
     {
         "id": 114,
@@ -4266,8 +4606,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Roy \"Daddy Libido\" Washington (father), Angel \"Sexy Mutha\" Depres (mother)"
         },
-        "images": "114-bling!.jpg",
-        "poder_total": 265
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/114-bling!.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/114-bling!.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/114-bling!.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/114-bling!.jpg"
+        }
     },
     {
         "id": 115,
@@ -4314,8 +4658,12 @@ const META = [
             "groupAffiliation": "New Mutants; formerly X-Men, Selene's Inner Circle",
             "relatives": "Apocalypse (ancestor, deceased);Margaret Slade (ancestor, deceased);Hamilton Slade (distant relative, deceased);Frederick Slade (great-great-grandfather);Ms. Ferguson (great-great-grandmother, deceased);Chamber (distant cousin);Clan Akkaba (relatives)"
         },
-        "images": "115-blink.jpg",
-        "poder_total": 247
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/115-blink.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/115-blink.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/115-blink.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/115-blink.jpg"
+        }
     },
     {
         "id": 118,
@@ -4362,8 +4710,12 @@ const META = [
             "groupAffiliation": "Formerly Thunderbolts, Hammer Industries",
             "relatives": "-"
         },
-        "images": "118-blizzard-ii.jpg",
-        "poder_total": 220
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/118-blizzard-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/118-blizzard-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/118-blizzard-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/118-blizzard-ii.jpg"
+        }
     },
     {
         "id": 119,
@@ -4410,8 +4762,12 @@ const META = [
             "groupAffiliation": "X-Cell, formerly X-Corps, Magneto's army, Brotherhood Of Evil Mutants, Freedom Force, Factor Three, former partner of Unus",
             "relatives": "-"
         },
-        "images": "119-blob.jpg",
-        "poder_total": 311
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/119-blob.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/119-blob.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/119-blob.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/119-blob.jpg"
+        }
     },
     {
         "id": 120,
@@ -4458,8 +4814,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "120-bloodaxe.jpg",
-        "poder_total": 440
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/120-bloodaxe.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/120-bloodaxe.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/120-bloodaxe.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/120-bloodaxe.jpg"
+        }
     },
     {
         "id": 121,
@@ -4506,8 +4866,12 @@ const META = [
             "groupAffiliation": "X-Peditioners, formerly X-Men, Halo City Protectorate, Oasis",
             "relatives": "-"
         },
-        "images": "121-bloodhawk.jpg",
-        "poder_total": 334
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/121-bloodhawk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/121-bloodhawk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/121-bloodhawk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/121-bloodhawk.jpg"
+        }
     },
     {
         "id": 126,
@@ -4554,8 +4918,12 @@ const META = [
             "groupAffiliation": "Justice League International,Posse; Teen Titans",
             "relatives": "Alberto Reyes (father); Bianca Reyes (mother); Milagro Reyes (younger sister); Alejandro Reyes (grandfather, deceased); Elena Leal (maternal grandmother)"
         },
-        "images": "126-blue-beetle-iii.jpg",
-        "poder_total": 352
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/126-blue-beetle-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/126-blue-beetle-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/126-blue-beetle-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/126-blue-beetle-iii.jpg"
+        }
     },
     {
         "id": 127,
@@ -4606,8 +4974,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "127-boba-fett.jpg",
-        "poder_total": 285
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/127-boba-fett.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/127-boba-fett.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/127-boba-fett.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/127-boba-fett.jpg"
+        }
     },
     {
         "id": 130,
@@ -4660,8 +5032,12 @@ const META = [
             "groupAffiliation": "Formerly Utopians, X-Men (New Charles Xavier School member), X-Force, X-Men, Nextwave, The Underground, Genoshan Mutates, New Mutants, X-Terminators (founding member), X-Factor (trainee), Fallen Angels, Beyonder (associate)",
             "relatives": "-"
         },
-        "images": "130-boom-boom.jpg",
-        "poder_total": 223
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/130-boom-boom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/130-boom-boom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/130-boom-boom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/130-boom-boom.jpg"
+        }
     },
     {
         "id": 135,
@@ -4709,8 +5085,12 @@ const META = [
             "groupAffiliation": "Alpha Flight, Gamma Flight, Zodiac, Team_Weapon_X",
             "relatives": "Scramble (Lionel Jeffries, brother, deceased), Diamond Lil (wife)"
         },
-        "images": "135-box-iv.jpg",
-        "poder_total": 243
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/135-box-iv.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/135-box-iv.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/135-box-iv.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/135-box-iv.jpg"
+        }
     },
     {
         "id": 136,
@@ -4757,8 +5137,12 @@ const META = [
             "groupAffiliation": "Lex Luthor",
             "relatives": "Vril Dox II (son), Brainiac 5 (descendant)"
         },
-        "images": "136-brainiac.jpg",
-        "poder_total": 483
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/136-brainiac.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/136-brainiac.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/136-brainiac.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/136-brainiac.jpg"
+        }
     },
     {
         "id": 137,
@@ -4805,8 +5189,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes",
             "relatives": "Unnamed mother, Brainiac (ancestor)"
         },
-        "images": "137-brainiac-5.jpg",
-        "poder_total": 253
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/137-brainiac-5.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/137-brainiac-5.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/137-brainiac-5.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/137-brainiac-5.jpg"
+        }
     },
     {
         "id": 139,
@@ -4853,8 +5241,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "139-brundlefly.jpg",
-        "poder_total": 208
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/139-brundlefly.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/139-brundlefly.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/139-brundlefly.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/139-brundlefly.jpg"
+        }
     },
     {
         "id": 140,
@@ -4909,8 +5301,12 @@ const META = [
             "groupAffiliation": "Slayer Army, Scooby Gang, (formerly) The Initiative, Watchers Council",
             "relatives": "Joyce Summers (mother, deceased) ; Hank Summers (father) ; Dawn Summers (sister) ; Celia (cousin, deceased) ; Arlene (aunt)"
         },
-        "images": "140-buffy.jpg",
-        "poder_total": 311
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/140-buffy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/140-buffy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/140-buffy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/140-buffy.jpg"
+        }
     },
     {
         "id": 141,
@@ -4962,8 +5358,12 @@ const META = [
             "groupAffiliation": "Formerly Dark Avengers, Thunderbolts, employee of Kingpin, Purple Man, Eric Slaughter, Mysterio; formerly US Army",
             "relatives": "Kingmaker (father)"
         },
-        "images": "141-bullseye.jpg",
-        "poder_total": 246
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/141-bullseye.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/141-bullseye.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/141-bullseye.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/141-bullseye.jpg"
+        }
     },
     {
         "id": 142,
@@ -5010,8 +5410,12 @@ const META = [
             "groupAffiliation": "Doom Patrol, S.T.A.R. Labs, Formerly Teen Titans",
             "relatives": "Mal Duncan (husband)"
         },
-        "images": "142-bumblebee.jpg",
-        "poder_total": 208
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/142-bumblebee.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/142-bumblebee.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/142-bumblebee.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/142-bumblebee.jpg"
+        }
     },
     {
         "id": 144,
@@ -5058,8 +5462,12 @@ const META = [
             "groupAffiliation": "Teen Titans",
             "relatives": "-"
         },
-        "images": "144-bushido.jpg",
-        "poder_total": 155
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/144-bushido.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/144-bushido.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/144-bushido.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/144-bushido.jpg"
+        }
     },
     {
         "id": 145,
@@ -5113,8 +5521,12 @@ const META = [
             "groupAffiliation": "X-Force, (former) X-Men, Clan Askani, Clan Chosen, Six Pack (formerly Wild Pack II)",
             "relatives": "Scott Summers (Cyclops, father), Madelyne Pryor-Summers (Goblin Queen, mother, deceased), Jean Grey (Phoenix, stepmother), Alexander Summers (Havok, uncle), Christopher Summers (Corsair, paternal grandfather), Katherine Anne Summers (paternal grandmother, deceased), Philip Summers (great-grandfather), Deborah Summers (great-grandmother), Jenskot (Aliya, wife, deceased), Tyler (Genesis, son, deceased), Stryfe (clone, deceased), Gabriel Summers (Vulcan, uncle)"
         },
-        "images": "145-cable.jpg",
-        "poder_total": 395
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/145-cable.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/145-cable.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/145-cable.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/145-cable.jpg"
+        }
     },
     {
         "id": 146,
@@ -5161,8 +5573,12 @@ const META = [
             "groupAffiliation": "Excalibur, Morlocks, Gene Nation",
             "relatives": "-"
         },
-        "images": "146-callisto.jpg",
-        "poder_total": 318
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/146-callisto.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/146-callisto.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/146-callisto.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/146-callisto.jpg"
+        }
     },
     {
         "id": 147,
@@ -5209,8 +5625,12 @@ const META = [
             "groupAffiliation": "Alphas",
             "relatives": "-"
         },
-        "images": "147-cameron-hicks.jpg",
-        "poder_total": 232
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/147-cameron-hicks.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/147-cameron-hicks.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/147-cameron-hicks.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/147-cameron-hicks.jpg"
+        }
     },
     {
         "id": 148,
@@ -5259,8 +5679,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly X.S.E., Mutant Liberation Front, X-Treme X-Men, X-Corporation, X-Force, New Mutants, Hellions, Hellfire Club",
             "relatives": "Thomas Zebulon (father, deceased), Lucinda (mother), Lucas Bartholemew (uncle), Paige (Husk, sister), Joshua \"Jay\" (Icarus, brother, deceased), Joelle (sister), Elizabeth (sister), Melody (Aero, sister), Jebediah (brother), Lewis (brother), two other unnamed siblings, Ray Jr. (adopted brother)"
         },
-        "images": "148-cannonball.jpg",
-        "poder_total": 394
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/148-cannonball.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/148-cannonball.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/148-cannonball.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/148-cannonball.jpg"
+        }
     },
     {
         "id": 149,
@@ -5308,8 +5732,12 @@ const META = [
             "groupAffiliation": "Secret Avengers (Black OPS Unit Formerly,The Avengers, Secret Avengers (Civil War), New Avengers, formerly The Invaders, Secret Defenders The Redeemers; formerly partner of Bucky, Golden Girl, Rick Jones, Falcon, Demolition-Man and Nomad (Jack Monroe)",
             "relatives": "Joseph (father, deceased), Sara (mother, deceased), Ian Zola (Nomad) (adopted son)"
         },
-        "images": "149-captain-america.jpg",
-        "poder_total": 341
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/149-captain-america.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/149-captain-america.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/149-captain-america.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/149-captain-america.jpg"
+        }
     },
     {
         "id": 150,
@@ -5358,8 +5786,12 @@ const META = [
             "groupAffiliation": "Justice League, Extreme Justice, Super Buddies, Living Assault Weapons, Monarch's Army, United States Air Force",
             "relatives": "Angela Adam Eiling (wife, deceased), Peggy Eiling (daughter), Randy Eiling (son), Bette Sans Souci (ex-wife, divorced)"
         },
-        "images": "150-captain-atom.jpg",
-        "poder_total": 527
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/150-captain-atom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/150-captain-atom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/150-captain-atom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/150-captain-atom.jpg"
+        }
     },
     {
         "id": 151,
@@ -5410,8 +5842,12 @@ const META = [
             "groupAffiliation": "Braddock Academy, Captain Britain Corps, MI-13; formerly Excalibur, Hellfire Club (London Branch), Secret Avengers, Court of Otherworld, Knights of Pendragon's ally, Future Iron Man's Team",
             "relatives": "John Braddock (ancestor, possibly grandfather), James Braddock, Sr. (father, deceased), Lady Elizabeth Braddock (mother, deceased), James Braddock, Jr. (brother), Elizabeth Braddock (twin sister), Meggan (wife), William Puceanu (father-in-law)"
         },
-        "images": "151-captain-britain.jpg",
-        "poder_total": 373
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/151-captain-britain.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/151-captain-britain.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/151-captain-britain.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/151-captain-britain.jpg"
+        }
     },
     {
         "id": 152,
@@ -5463,8 +5899,12 @@ const META = [
             "groupAffiliation": "Justice League, Rogues; formerly Secret Society of Super-Villains, Injustice League",
             "relatives": "Lisa Snart (sister)"
         },
-        "images": "152-captain-cold.jpg",
-        "poder_total": 145
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/152-captain-cold.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/152-captain-cold.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/152-captain-cold.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/152-captain-cold.jpg"
+        }
     },
     {
         "id": 154,
@@ -5511,8 +5951,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "154-captain-hindsight.jpg",
-        "poder_total": 178
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/154-captain-hindsight.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/154-captain-hindsight.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/154-captain-hindsight.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/154-captain-hindsight.jpg"
+        }
     },
     {
         "id": 156,
@@ -5562,8 +6006,12 @@ const META = [
             "groupAffiliation": "Marvel Family, Justice Society of America",
             "relatives": "C.C. Batson (father, deceased), Marilyn Batson (mother, deceased), Ebenezer Batson (uncle), Mary Batson (Mary Marvel, sister)"
         },
-        "images": "156-captain-marvel.jpg",
-        "poder_total": 546
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/156-captain-marvel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/156-captain-marvel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/156-captain-marvel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/156-captain-marvel.jpg"
+        }
     },
     {
         "id": 157,
@@ -5614,8 +6062,12 @@ const META = [
             "groupAffiliation": "currently Avengers, former companion to the X-Men (as Carol Danvers), former member of the Starjammers (as Binary), Former Avenger (as Ms. Marvel)",
             "relatives": "Marie Danvers (mother), Joseph Danvers, Sr. (father), Joseph Danvers, Jr. (brother), Steve Danvers (brother, deceased), Marcus Immortus (Danvers) (\"son\", deceased)"
         },
-        "images": "157-captain-marvel.jpg",
-        "poder_total": 528
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/157-captain-marvel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/157-captain-marvel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/157-captain-marvel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/157-captain-marvel.jpg"
+        }
     },
     {
         "id": 158,
@@ -5663,8 +6115,12 @@ const META = [
             "groupAffiliation": "Marvel Family, formerly Outsiders and Teen Titans.",
             "relatives": "parents, deceased, Jacob Freeman (granfather, deceased), Timothy Karnes (Sabbac, foster brother, deceased)"
         },
-        "images": "158-captain-marvel-ii.jpg",
-        "poder_total": 363
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/158-captain-marvel-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/158-captain-marvel-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/158-captain-marvel-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/158-captain-marvel-ii.jpg"
+        }
     },
     {
         "id": 160,
@@ -5713,8 +6169,12 @@ const META = [
             "groupAffiliation": "The Planeteers",
             "relatives": "-"
         },
-        "images": "160-captain-planet.jpg",
-        "poder_total": 453
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/160-captain-planet.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/160-captain-planet.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/160-captain-planet.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/160-captain-planet.jpg"
+        }
     },
     {
         "id": 162,
@@ -5762,8 +6222,12 @@ const META = [
             "groupAffiliation": "Maximum Carnage: (Carrion, Shriek, Demogoblin, Doppelganger)",
             "relatives": "Venom (\"father\"); Shriek (\"wife\"); Hybrid, Lasher, Phage, Riot (\"brothers\"); Agony, Scream (\"sisters\"); Carrion, Demogoblin, Doppelganger, Toxin (\"sons\"); Scorn (\"Daughter\")"
         },
-        "images": "162-carnage.jpg",
-        "poder_total": 458
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/162-carnage.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/162-carnage.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/162-carnage.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/162-carnage.jpg"
+        }
     },
     {
         "id": 165,
@@ -5815,8 +6279,12 @@ const META = [
             "groupAffiliation": "Batman Family, Outsiders; formerly Birds of Prey, Injustice League, Secret Society of Super-Villains",
             "relatives": "Brian Kyle (father, deceased), Maria Kyle (mother, deceased), Maggie Kyle (sister), Helena Kyle (daughter)"
         },
-        "images": "165-catwoman.jpg",
-        "poder_total": 253
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/165-catwoman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/165-catwoman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/165-catwoman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/165-catwoman.jpg"
+        }
     },
     {
         "id": 167,
@@ -5863,8 +6331,12 @@ const META = [
             "groupAffiliation": "Force Works",
             "relatives": "-"
         },
-        "images": "167-century.jpg",
-        "poder_total": 485
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/167-century.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/167-century.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/167-century.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/167-century.jpg"
+        }
     },
     {
         "id": 169,
@@ -5913,8 +6385,12 @@ const META = [
             "groupAffiliation": "X-Men; formerly New Warriors; Clan Akkaba; Weapon X; Generation X",
             "relatives": "-"
         },
-        "images": "169-chamber.jpg",
-        "poder_total": 281
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/169-chamber.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/169-chamber.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/169-chamber.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/169-chamber.jpg"
+        }
     },
     {
         "id": 170,
@@ -5970,8 +6446,12 @@ const META = [
             "groupAffiliation": "The Exterminators; formerly Sinister Six, Sinister Twelve",
             "relatives": "Kravinoff Patriarch (father, deceased), mother (unnamed), Sergei Kravinoff (Kraven I, half-brother, deceased), Vladimir Kravinoff (The Grim Hunter, nephew, deceased), Alyosha Kravinoff (Kraven the Hunter, nephew), Ned Tannengarden (nephew, deceased)"
         },
-        "images": "170-chameleon.jpg",
-        "poder_total": 194
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/170-chameleon.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/170-chameleon.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/170-chameleon.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/170-chameleon.jpg"
+        }
     },
     {
         "id": 171,
@@ -6019,8 +6499,12 @@ const META = [
             "groupAffiliation": "Formerly X-Humed, X-Men, Factor Three",
             "relatives": "-"
         },
-        "images": "171-changeling.jpg",
-        "poder_total": 266
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/171-changeling.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/171-changeling.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/171-changeling.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/171-changeling.jpg"
+        }
     },
     {
         "id": 172,
@@ -6068,8 +6552,12 @@ const META = [
             "groupAffiliation": "Villainy Inc",
             "relatives": "Claudia Rich (cousin), Debi Domaine (niece)"
         },
-        "images": "172-cheetah.jpg",
-        "poder_total": 210
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/172-cheetah.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/172-cheetah.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/172-cheetah.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/172-cheetah.jpg"
+        }
     },
     {
         "id": 174,
@@ -6120,8 +6608,12 @@ const META = [
             "groupAffiliation": "The Society, Injustice League",
             "relatives": "-"
         },
-        "images": "174-cheetah-iii.jpg",
-        "poder_total": 529
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/174-cheetah-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/174-cheetah-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/174-cheetah-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/174-cheetah-iii.jpg"
+        }
     },
     {
         "id": 176,
@@ -6168,8 +6660,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "176-chuck-norris.jpg",
-        "poder_total": 374
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/176-chuck-norris.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/176-chuck-norris.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/176-chuck-norris.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/176-chuck-norris.jpg"
+        }
     },
     {
         "id": 177,
@@ -6218,8 +6714,12 @@ const META = [
             "groupAffiliation": "Justice Society of America",
             "relatives": "Hank Heywood, Sr. (Commander Steel, grandfather, deceased) ? Hank Heywood, Jr. (uncle, deceased) ? Hank Heywood III (Steel, cousin, deceased) ? Kirk Heywood (brother, deceased), Nicole (cousin)"
         },
-        "images": "177-citizen-steel.jpg",
-        "poder_total": 361
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/177-citizen-steel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/177-citizen-steel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/177-citizen-steel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/177-citizen-steel.jpg"
+        }
     },
     {
         "id": 178,
@@ -6267,8 +6767,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Adoptive parents: Sandra Bennet, Noah Bennet, Biological parents: Meredith Gordon, Nathan Petrelli, Younger adoptive brother: Lyle Bennet,  Younger half brothers: Simon Petrelli, Monty Petrelli"
         },
-        "images": "178-claire-bennet.jpg",
-        "poder_total": 277
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/178-claire-bennet.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/178-claire-bennet.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/178-claire-bennet.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/178-claire-bennet.jpg"
+        }
     },
     {
         "id": 180,
@@ -6315,8 +6819,12 @@ const META = [
             "groupAffiliation": "Cloak and Dagger, New Warriors, Marvel Knights",
             "relatives": "Smokin' Joe (rumored grandfather)"
         },
-        "images": "180-cloak.jpg",
-        "poder_total": 340
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/180-cloak.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/180-cloak.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/180-cloak.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/180-cloak.jpg"
+        }
     },
     {
         "id": 181,
@@ -6363,8 +6871,12 @@ const META = [
             "groupAffiliation": "Clockwatchers, Justice League Antarctica, Suicide Squad, Time Foes",
             "relatives": "Beverly (sister, deceased)"
         },
-        "images": "181-clock-king.jpg",
-        "poder_total": 159
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/181-clock-king.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/181-clock-king.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/181-clock-king.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/181-clock-king.jpg"
+        }
     },
     {
         "id": 185,
@@ -6414,8 +6926,12 @@ const META = [
             "groupAffiliation": "X-Men; formerly Excalibur, Acolytes, Defender",
             "relatives": "Grigory Efimovich Rasputin (great-grandfather, deceased), Elena (great-grandmother, deceased), Ivan Rasputin (great-grand uncle, deceased), Grigory Rasputin (grandfather, deceased), Nikolai Rasputin (father, deceased), Alexandra Rasputina (mother, deceased), Vladimir Rasputin (uncle, deceased), unidentified aunt & uncle (deceased), Illyana Nikolievna Rasputina (Magik, sister, deceased), Mikhail Rasputin (brother), Peter Jr. (son), Larissa Mishchenko (cousin, deceased), Konstantin (cousin, deceased), Klara (cousin, deceased), Dimitriy (cousin, deceased)"
         },
-        "images": "185-colossus.jpg",
-        "poder_total": 404
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/185-colossus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/185-colossus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/185-colossus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/185-colossus.jpg"
+        }
     },
     {
         "id": 186,
@@ -6471,8 +6987,12 @@ const META = [
             "groupAffiliation": "Weapon X/Weapon Plus and Six Pack (as Copycat), X-Force and New Mutants (as Domino)",
             "relatives": "Burt Carlysle (father, deceased), Dorothy Carlysle (mother)"
         },
-        "images": "186-copycat.jpg",
-        "poder_total": 226
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/186-copycat.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/186-copycat.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/186-copycat.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/186-copycat.jpg"
+        }
     },
     {
         "id": 188,
@@ -6519,8 +7039,12 @@ const META = [
             "groupAffiliation": "Serpent Society",
             "relatives": "-"
         },
-        "images": "188-cottonmouth.jpg",
-        "poder_total": 130
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/188-cottonmouth.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/188-cottonmouth.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/188-cottonmouth.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/188-cottonmouth.jpg"
+        }
     },
     {
         "id": 191,
@@ -6568,8 +7092,12 @@ const META = [
             "groupAffiliation": "Inhumans (Royal Family); formerly Fantastic Four, Avengers, Queen's Vengeance",
             "relatives": "Quelin (father), Ambur (mother), Medusa (sister), Gorgon, Karnak, Triton (cousins), Black Bolt (cousin, brother-in-law), Pietro Maximoff (Quicksilver, estranged husband), Luna (daughter), Ahura (nephew), extensive extended family"
         },
-        "images": "191-crystal.jpg",
-        "poder_total": 222
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/191-crystal.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/191-crystal.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/191-crystal.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/191-crystal.jpg"
+        }
     },
     {
         "id": 194,
@@ -6618,8 +7146,12 @@ const META = [
             "groupAffiliation": "Justice League; formerly Teen Titans, Titans, Titans East, New Teen Titans",
             "relatives": "Silas Stone (father), Elinore Stone (mother), Tucker Stone (grandfather), Maude Stone (grandmother)"
         },
-        "images": "194-cyborg.jpg",
-        "poder_total": 390
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/194-cyborg.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/194-cyborg.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/194-cyborg.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/194-cyborg.jpg"
+        }
     },
     {
         "id": 195,
@@ -6668,8 +7200,12 @@ const META = [
             "groupAffiliation": "Alpha Lantern Corps, Manhunters, Warworld, formerly Apokolips and Sinestro Corps",
             "relatives": "Terri Henshaw (wife, deceased)"
         },
-        "images": "195-cyborg-superman.jpg",
-        "poder_total": 540
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/195-cyborg-superman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/195-cyborg-superman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/195-cyborg-superman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/195-cyborg-superman.jpg"
+        }
     },
     {
         "id": 196,
@@ -6724,8 +7260,12 @@ const META = [
             "groupAffiliation": "X-Men (leader, founding member); formerly X-Force (founder); Corsairs (squad leader); The Twelve; X-Factor/X-Terminators (founding member); 198",
             "relatives": "Oscar Summers (adoptive paternal distant ancestor, deceased); Daniel Summers (paternal distant ancestor, deceased); Amanda Mueller (Black Womb) (paternal distant ancestor); unnamed great-grandfather, deceased; Gloria Dayne (Fontanelle) (paternal distant ancestor); Philip Summers (paternal grandfather); Deborah Summers (paternal grandmother); Christopher Summers (Corsair) (father, deceased); Katherine Ann Summers (mother, deceased); Jack Winters (Jack O'Diamonds) (former foster father); Alexander Summers (Havok) (brother); Gabriel Summers (Vulcan) (brother, deceased); Madelyne Pryor-Summers (Red Queen) (first wife/second wife's clone, deceased); Jean Grey-Summers (Phoenix) (second wife, deceased); Nathan Summers (Cable) (son, deceased); Gailyn Bailey (niece, deceased); Joseph Bailey (nephew, deceased); Adam Neramani (X-Treme) (nephew, alleged half-brother); Hope Summers (adoptive granddaughter); Stryfe (son's clone); Summers and Grey Family Tree (more relatives)"
         },
-        "images": "196-cyclops.jpg",
-        "poder_total": 306
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/196-cyclops.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/196-cyclops.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/196-cyclops.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/196-cyclops.jpg"
+        }
     },
     {
         "id": 198,
@@ -6772,8 +7312,12 @@ const META = [
             "groupAffiliation": "Cloak and Dagger, Defenders, League of Losers, Marvel Knights, New Warriors, Secret Avengers",
             "relatives": "Melissa Bowen (mother), unnamed father, Phillip Carlisle (stepfather), Father Michael Bowen (uncle)"
         },
-        "images": "198-dagger.jpg",
-        "poder_total": 272
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/198-dagger.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/198-dagger.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/198-dagger.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/198-dagger.jpg"
+        }
     },
     {
         "id": 200,
@@ -6820,8 +7364,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Jim Powell and Stephanie Powell (parents), JJ Powell (brother)"
         },
-        "images": "200-daphne-powell.jpg",
-        "poder_total": 132
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/200-daphne-powell.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/200-daphne-powell.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/200-daphne-powell.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/200-daphne-powell.jpg"
+        }
     },
     {
         "id": 201,
@@ -6882,8 +7430,12 @@ const META = [
             "groupAffiliation": "none; Formerly: partner of Black Widow (Natasha Romanoff), Defenders, S.H.I.E.L.D., Marvel Knights, Secret Avengers (Civil War), Hand leader.",
             "relatives": "Jonathan \"Battling Jack\" Murdock (Father, deceased), Maggie Murdock (aka Sister Maggie, Mother), Milla Donovan (ex-wife)"
         },
-        "images": "201-daredevil.jpg",
-        "poder_total": 309
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/201-daredevil.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/201-daredevil.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/201-daredevil.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/201-daredevil.jpg"
+        }
     },
     {
         "id": 202,
@@ -6932,8 +7484,12 @@ const META = [
             "groupAffiliation": "formerly Loners, New Warriors, Avengers West Coast (reservist), Secret Defenders (founder)",
             "relatives": "Michael Powell (father), Grace Powell (mother), Jonathon and Jason Powell (brothers)"
         },
-        "images": "202-darkhawk.jpg",
-        "poder_total": 323
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/202-darkhawk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/202-darkhawk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/202-darkhawk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/202-darkhawk.jpg"
+        }
     },
     {
         "id": 203,
@@ -6980,8 +7536,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Julie Hastings (girlfriend)"
         },
-        "images": "203-darkman.jpg",
-        "poder_total": 237
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/203-darkman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/203-darkman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/203-darkman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/203-darkman.jpg"
+        }
     },
     {
         "id": 204,
@@ -7028,8 +7588,12 @@ const META = [
             "groupAffiliation": "New Gods of Apokolips(ruler), Secret Society of Supervillains",
             "relatives": "Zonuz (father), Izaya (brother), Avia (sister, deceased), Grail (daughter), Kalibak (son), Orion (son), Deathspawn (son), Scot (nephew/adopted son)"
         },
-        "images": "204-darkseid.jpg",
-        "poder_total": 566
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/204-darkseid.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/204-darkseid.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/204-darkseid.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/204-darkseid.jpg"
+        }
     },
     {
         "id": 206,
@@ -7076,8 +7640,12 @@ const META = [
             "groupAffiliation": "(at death)X-Corps (formerly) Champions, Winter Guard, Soviet Super Soldiers",
             "relatives": "Nicolai Krylenko a.k.a. Vanguard (brother), Sergi Krylov a.k.a. The Presence (father), Marya Krylova (mother, deceased)"
         },
-        "images": "206-darkstar.jpg",
-        "poder_total": 266
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/206-darkstar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/206-darkstar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/206-darkstar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/206-darkstar.jpg"
+        }
     },
     {
         "id": 207,
@@ -7125,8 +7693,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Darth Sidious (Master)"
         },
-        "images": "207-darth-maul.jpg",
-        "poder_total": 384
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/207-darth-maul.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/207-darth-maul.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/207-darth-maul.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/207-darth-maul.jpg"
+        }
     },
     {
         "id": 208,
@@ -7173,8 +7745,12 @@ const META = [
             "groupAffiliation": "Sith, Galactic Empire",
             "relatives": "Luke Skywalker (Son), Princess Leia (Daughter)"
         },
-        "images": "208-darth-vader.jpg",
-        "poder_total": 385
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/208-darth-vader.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/208-darth-vader.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/208-darth-vader.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/208-darth-vader.jpg"
+        }
     },
     {
         "id": 209,
@@ -7222,8 +7798,12 @@ const META = [
             "groupAffiliation": "Incredible Family (genetic member), National Supers Agency (ties), Edna Mode (receives costumes and gadgets from her), Frozone (long-time friend), Mirage (ally)",
             "relatives": "Robert Parr (Mr Incredible, father), Helen Parr (Elastigirl, mother), Violet Parr(Violet, sister), , Jack-jack (brother)"
         },
-        "images": "209-dash.jpg",
-        "poder_total": 239
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/209-dash.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/209-dash.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/209-dash.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/209-dash.jpg"
+        }
     },
     {
         "id": 210,
@@ -7270,8 +7850,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Dr. Noonian Soong (creator)"
         },
-        "images": "210-data.jpg",
-        "poder_total": 299
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/210-data.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/210-data.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/210-data.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/210-data.jpg"
+        }
     },
     {
         "id": 211,
@@ -7323,8 +7907,12 @@ const META = [
             "groupAffiliation": "Formerly Excalibur, X-Babies (guardian), Mojoverse Rebellion, X-Men, Cat's Laughing, Gladiators",
             "relatives": "Bella Blaire (paternal grandmother), Carter Blaire (father, deceased), Katherine Blaire-Brown (Barbara London, mother), Nicholas Brown (step-father), Lois London (half-sister), Longshot (husband)"
         },
-        "images": "211-dazzler.jpg",
-        "poder_total": 321
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/211-dazzler.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/211-dazzler.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/211-dazzler.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/211-dazzler.jpg"
+        }
     },
     {
         "id": 212,
@@ -7371,8 +7959,12 @@ const META = [
             "groupAffiliation": "White Lantern Corps, formerly Sentinels of Magic, Seven Soldiers of Victory, Justice League of Apostles",
             "relatives": "Cleveland Brand (twin brother, deceased), Lita Brand (niece), Unnamed parents"
         },
-        "images": "212-deadman.jpg",
-        "poder_total": 335
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/212-deadman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/212-deadman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/212-deadman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/212-deadman.jpg"
+        }
     },
     {
         "id": 213,
@@ -7427,8 +8019,12 @@ const META = [
             "groupAffiliation": "Thunderbolts (Strike Team), shares body with Agent Preston; formerly X-Force, Deadpool Corps, Agency X, S.H.I.E.L.D.; Code Red, Six Pack, One World Church, DP Inc., Weapon X, Weapon Plus, Heroes for Hire, Secret Defenders, Frightful Four, Team Deadpool, L",
             "relatives": "Thomas \"Mickey\" Wilson (father, deceased); Hailey Wilson (mother, deceased); Gretchen Wilson, Orksa (ex-wives); Evil Deadpool (clone); Widdle Wade (clone)"
         },
-        "images": "213-deadpool.jpg",
-        "poder_total": 451
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/213-deadpool.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/213-deadpool.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/213-deadpool.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/213-deadpool.jpg"
+        }
     },
     {
         "id": 214,
@@ -7477,8 +8073,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "214-deadshot.jpg",
-        "poder_total": 246
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/214-deadshot.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/214-deadshot.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/214-deadshot.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/214-deadshot.jpg"
+        }
     },
     {
         "id": 215,
@@ -7525,8 +8125,12 @@ const META = [
             "groupAffiliation": "Former member of the CIA, Project: Alpha-Mech, US Army, ally of Godwulf's Redeemers",
             "relatives": "Janice (Wife, seperated), Richard (son)"
         },
-        "images": "215-deathlok.jpg",
-        "poder_total": 301
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/215-deathlok.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/215-deathlok.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/215-deathlok.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/215-deathlok.jpg"
+        }
     },
     {
         "id": 216,
@@ -7575,8 +8179,12 @@ const META = [
             "groupAffiliation": "The Society, Titans; Formerly Tartarus, The Injustice League",
             "relatives": "Wade LaFarge (Ravager III, half-brother, deceased), Adeline Kane (ex-wife, deceased), Grant Wilson (Ravager I, son, deceased), Joseph Wilson (Jericho, son), Rose Wilson (Ravager IV, daughter)"
         },
-        "images": "216-deathstroke.jpg",
-        "poder_total": 377
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/216-deathstroke.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/216-deathstroke.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/216-deathstroke.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/216-deathstroke.jpg"
+        }
     },
     {
         "id": 217,
@@ -7623,8 +8231,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "217-demogoblin.jpg",
-        "poder_total": 302
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/217-demogoblin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/217-demogoblin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/217-demogoblin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/217-demogoblin.jpg"
+        }
     },
     {
         "id": 218,
@@ -7671,8 +8283,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "218-destroyer.jpg",
-        "poder_total": 456
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/218-destroyer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/218-destroyer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/218-destroyer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/218-destroyer.jpg"
+        }
     },
     {
         "id": 219,
@@ -7719,8 +8335,12 @@ const META = [
             "groupAffiliation": "Syndicate, formerly Bloods",
             "relatives": "-"
         },
-        "images": "219-diamondback.jpg",
-        "poder_total": 216
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/219-diamondback.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/219-diamondback.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/219-diamondback.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/219-diamondback.jpg"
+        }
     },
     {
         "id": 220,
@@ -7767,8 +8387,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Niki Sanders (wife), Micah Sanders (son), Paulette Hawkins (mother), Monica Dawson (cousin), Damon Dawson (cousin)"
         },
-        "images": "220-dl-hawkins.jpg",
-        "poder_total": 234
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/220-dl-hawkins.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/220-dl-hawkins.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/220-dl-hawkins.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/220-dl-hawkins.jpg"
+        }
     },
     {
         "id": 221,
@@ -7815,8 +8439,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Leonard Skivorski (father); Ricky Myers (son);"
         },
-        "images": "221-doc-samson.jpg",
-        "poder_total": 374
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/221-doc-samson.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/221-doc-samson.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/221-doc-samson.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/221-doc-samson.jpg"
+        }
     },
     {
         "id": 222,
@@ -7864,8 +8492,12 @@ const META = [
             "groupAffiliation": "Future Foundation; Formerly Cabal, Knights of the Atomic Table, Acts of Vengeance Prime Movers, partner of Namor, employer of the Terrible Trio, Fantastic Four (leader)",
             "relatives": "Werner von Doom (father, deceased), Cynthia von Doom (mother, deceased); Kang the Conqueror, his counterparts, and offspring (alleged descendants), Kristoff Vernard (Doctor Doom II, adopted son), Dr Bob Doom (distant cousin), Boris (unofficially adoptive father/guardian), Valeria von Doom (daughter from alternate universe; became baby of Susan Richards and is now called Valeria Richards)"
         },
-        "images": "222-doctor-doom.jpg",
-        "poder_total": 436
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/222-doctor-doom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/222-doctor-doom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/222-doctor-doom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/222-doctor-doom.jpg"
+        }
     },
     {
         "id": 224,
@@ -7912,8 +8544,12 @@ const META = [
             "groupAffiliation": "Formerly All-Star Squadron, Justice Society of America, Justice League International, Black Lantern Corps",
             "relatives": "Inza Cramer (wife), Sven Nelson (father, deceased), Celestine Babcock (mother), Kent Nelson, Jr. (son), Aaron Babcock (uncle), Kent V. Nelson (grand-nephew), Laryn Nelson (great grand-niece)"
         },
-        "images": "224-doctor-fate.jpg",
-        "poder_total": 352
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/224-doctor-fate.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/224-doctor-fate.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/224-doctor-fate.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/224-doctor-fate.jpg"
+        }
     },
     {
         "id": 225,
@@ -7967,8 +8603,12 @@ const META = [
             "groupAffiliation": "Thunderbolts Army; Former leader of the Sinister Six and the Masters of Evil V; Former partner of Green Goblin",
             "relatives": "-"
         },
-        "images": "225-doctor-octopus.jpg",
-        "poder_total": 333
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/225-doctor-octopus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/225-doctor-octopus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/225-doctor-octopus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/225-doctor-octopus.jpg"
+        }
     },
     {
         "id": 226,
@@ -8019,8 +8659,12 @@ const META = [
             "groupAffiliation": "Defenders, underground Avengers; formerly the Order, Midnight Sons; former disciple of the Ancient One",
             "relatives": "Eugene (father, deceased), Beverly (mother, deceased), Victor (Khiron, brother, apparently deceased), Donna (sister, deceased), Clea (wife, estranged), Umar (mother-in-law), Orini (father-in-law), Dormammu (uncle-in-law)"
         },
-        "images": "226-doctor-strange.jpg",
-        "poder_total": 366
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/226-doctor-strange.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/226-doctor-strange.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/226-doctor-strange.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/226-doctor-strange.jpg"
+        }
     },
     {
         "id": 227,
@@ -8076,8 +8720,12 @@ const META = [
             "groupAffiliation": "X-Men; formerly X-Force; 198; X-Corporation; The Underground; X-Force; Six Pack",
             "relatives": "Beatrice (mother), Lazarus (brother), Milo Thurman (husband, deceased)"
         },
-        "images": "227-domino.jpg",
-        "poder_total": 251
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/227-domino.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/227-domino.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/227-domino.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/227-domino.jpg"
+        }
     },
     {
         "id": 228,
@@ -8125,8 +8773,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Leonardo (brother), Michelangelo (brother), Raphael (brother)"
         },
-        "images": "228-donatello.jpg",
-        "poder_total": 341
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/228-donatello.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/228-donatello.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/228-donatello.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/228-donatello.jpg"
+        }
     },
     {
         "id": 230,
@@ -8173,8 +8825,12 @@ const META = [
             "groupAffiliation": "Secret Society of Super Villains, Suicide Squad, Apokolips",
             "relatives": "-"
         },
-        "images": "230-doomsday.jpg",
-        "poder_total": 532
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/230-doomsday.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/230-doomsday.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/230-doomsday.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/230-doomsday.jpg"
+        }
     },
     {
         "id": 231,
@@ -8223,8 +8879,12 @@ const META = [
             "groupAffiliation": "Formerly Carnage Family; Magus' doppelgangers; operative of Demogoblin",
             "relatives": "Anthropomorpho (creator); Hellspawn, Moonshade, many other doppelgangers (brethren)"
         },
-        "images": "231-doppelganger.jpg",
-        "poder_total": 379
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/231-doppelganger.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/231-doppelganger.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/231-doppelganger.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/231-doppelganger.jpg"
+        }
     },
     {
         "id": 232,
@@ -8276,8 +8936,12 @@ const META = [
             "groupAffiliation": "Lords of the Splinter Realms, Lords of the Netherworlds; allied with Umar, Loki, Doctor Doom, Underchild, others",
             "relatives": "Sinifer (parent/genitor), Umar (sister), Clea (niece), Doctor Strange (nephew-in-law), Satannish (alleged offspring)"
         },
-        "images": "232-dormammu.jpg",
-        "poder_total": 546
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/232-dormammu.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/232-dormammu.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/232-dormammu.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/232-dormammu.jpg"
+        }
     },
     {
         "id": 233,
@@ -8325,8 +8989,12 @@ const META = [
             "groupAffiliation": "Watchmen, Crimebusters",
             "relatives": "-"
         },
-        "images": "233-dr-manhattan.jpg",
-        "poder_total": 472
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/233-dr-manhattan.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/233-dr-manhattan.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/233-dr-manhattan.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/233-dr-manhattan.jpg"
+        }
     },
     {
         "id": 234,
@@ -8373,8 +9041,12 @@ const META = [
             "groupAffiliation": "Guardians of the Galaxy; formerly Infinity Watch, Secret Defenders, United Front, Selects of the Phalanx",
             "relatives": "Yvette Steckley Douglas (wife, deceased), Heather Douglas (aka Moondragon, daughter), Pamela Douglas (aka Sundragon, niece), Cammille Benally (foster daughter), Venom (former symbiote)"
         },
-        "images": "234-drax-the-destroyer.jpg",
-        "poder_total": 357
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/234-drax-the-destroyer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/234-drax-the-destroyer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/234-drax-the-destroyer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/234-drax-the-destroyer.jpg"
+        }
     },
     {
         "id": 235,
@@ -8421,8 +9093,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Inapplicable"
         },
-        "images": "235-ego.jpg",
-        "poder_total": 449
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/235-ego.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/235-ego.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/235-ego.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/235-ego.jpg"
+        }
     },
     {
         "id": 236,
@@ -8469,8 +9145,12 @@ const META = [
             "groupAffiliation": "Incredible Family (co-leader), National Supers Agency (ties), Edna Mode (receives costumes and gadgets from her), Frozone (long-time friend), Mirage (ally), Snug Porter (receives aircraft from him)",
             "relatives": "Robert Parr(Mr Incredible, husband), Violet Parr(Violet, daughter), Dashiell Parr (Dash, son), Jack-jack (son)"
         },
-        "images": "236-elastigirl.jpg",
-        "poder_total": 345
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/236-elastigirl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/236-elastigirl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/236-elastigirl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/236-elastigirl.jpg"
+        }
     },
     {
         "id": 237,
@@ -8517,8 +9197,12 @@ const META = [
             "groupAffiliation": "Sinister Six formerly Emissaries of Evil, Frightful Four and Sinister Twelve",
             "relatives": "Norma Lynn Dillon (ex-wife), Jonathan Dillon (father, deceased), Anita Dillon (mother, deceased)"
         },
-        "images": "237-electro.jpg",
-        "poder_total": 316
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/237-electro.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/237-electro.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/237-electro.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/237-electro.jpg"
+        }
     },
     {
         "id": 238,
@@ -8565,8 +9249,12 @@ const META = [
             "groupAffiliation": "S.H.I.E.L.D.; formerly Thunderbolts, Hand, Chaste, Heroes For Hire, Code Red, partner of Daredevil and Deadpool",
             "relatives": "Hugo Kostas Natchios (father, deceased), Christina Natchios (mother, deceased), Orestez Natchios (older brother), Demetrios Natchios (Uncle), Alexia Natchios (Aunt)"
         },
-        "images": "238-elektra.jpg",
-        "poder_total": 291
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/238-elektra.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/238-elektra.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/238-elektra.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/238-elektra.jpg"
+        }
     },
     {
         "id": 239,
@@ -8613,8 +9301,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Bob Bishop (Father)"
         },
-        "images": "239-elle-bishop.jpg",
-        "poder_total": 217
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/239-elle-bishop.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/239-elle-bishop.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/239-elle-bishop.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/239-elle-bishop.jpg"
+        }
     },
     {
         "id": 240,
@@ -8661,8 +9353,12 @@ const META = [
             "groupAffiliation": "Justice League of America, Justice League Europe, Super Buddies, Outsiders, Croatoans, Black Lantern Corps",
             "relatives": "Sue Dibny (wife, deceased); Ken Dibny (brother); Jake Dibny (uncle); Jim (uncle-in-law)"
         },
-        "images": "240-elongated-man.jpg",
-        "poder_total": 292
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/240-elongated-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/240-elongated-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/240-elongated-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/240-elongated-man.jpg"
+        }
     },
     {
         "id": 241,
@@ -8710,8 +9406,12 @@ const META = [
             "groupAffiliation": "Active member of the X-Men, Instructor for Generation X, The Inner Circle of the Hellfire Club",
             "relatives": "Winston Frost (father), Hazel Frost (mother), Christian Frost (brother) Adrienne Frost (sister, deceased,) Cordelia Frost (sister)"
         },
-        "images": "241-emma-frost.jpg",
-        "poder_total": 405
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/241-emma-frost.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/241-emma-frost.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/241-emma-frost.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/241-emma-frost.jpg"
+        }
     },
     {
         "id": 242,
@@ -8759,8 +9459,12 @@ const META = [
             "groupAffiliation": "Forgotten Villains, Sentinels of Magic, Shadowpact, Suicide Squad",
             "relatives": "-"
         },
-        "images": "242-enchantress.jpg",
-        "poder_total": 302
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/242-enchantress.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/242-enchantress.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/242-enchantress.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/242-enchantress.jpg"
+        }
     },
     {
         "id": 245,
@@ -8807,8 +9511,12 @@ const META = [
             "groupAffiliation": "Formerly: United States Army",
             "relatives": "Nathan Hunt (Father), Margaret Hunt (Mother), Donald Hunt (Uncle)"
         },
-        "images": "245-ethan-hunt.jpg",
-        "poder_total": 266
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/245-ethan-hunt.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/245-ethan-hunt.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/245-ethan-hunt.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/245-ethan-hunt.jpg"
+        }
     },
     {
         "id": 246,
@@ -8855,8 +9563,12 @@ const META = [
             "groupAffiliation": "Formerly Justice League of America, Spirit Squad",
             "relatives": "Belial (father), Raan va Daath (mother), Merlin (half Brother)"
         },
-        "images": "246-etrigan.jpg",
-        "poder_total": 402
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/246-etrigan.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/246-etrigan.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/246-etrigan.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/246-etrigan.jpg"
+        }
     },
     {
         "id": 247,
@@ -8903,8 +9615,12 @@ const META = [
             "groupAffiliation": "Evil Deadpool Corps",
             "relatives": "-"
         },
-        "images": "247-evil-deadpool.jpg",
-        "poder_total": 451
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/247-evil-deadpool.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/247-evil-deadpool.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/247-evil-deadpool.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/247-evil-deadpool.jpg"
+        }
     },
     {
         "id": 248,
@@ -8951,8 +9667,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "248-evilhawk.jpg",
-        "poder_total": 334
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/248-evilhawk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/248-evilhawk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/248-evilhawk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/248-evilhawk.jpg"
+        }
     },
     {
         "id": 249,
@@ -8999,8 +9719,12 @@ const META = [
             "groupAffiliation": "Acolytes, formerly Brotherhood and Marauders",
             "relatives": "-"
         },
-        "images": "249-exodus.jpg",
-        "poder_total": 370
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/249-exodus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/249-exodus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/249-exodus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/249-exodus.jpg"
+        }
     },
     {
         "id": 251,
@@ -9051,8 +9775,12 @@ const META = [
             "groupAffiliation": "Mighty Avengers, Avengers, S.H.I.E.L.D.; partner of Redwing; formerly Heroes For Hire, partner of Captain America, Secret Avengers, S.H.I.E.L.D. Super-Agents (leader), Defenders, ally of Secret Warriors , Defenders for a Day",
             "relatives": "Paul Wilson (father, deceased); Darlene Wilson (mother, deceased); Sarah Wilson (sister), Gideon Wilson (brother); Jim Wilson (nephew, deceased); Jody Casper (nephew)"
         },
-        "images": "251-falcon.jpg",
-        "poder_total": 215
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/251-falcon.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/251-falcon.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/251-falcon.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/251-falcon.jpg"
+        }
     },
     {
         "id": 252,
@@ -9099,8 +9827,12 @@ const META = [
             "groupAffiliation": "Heralds of Galactus",
             "relatives": "-"
         },
-        "images": "252-fallen-one-ii.jpg",
-        "poder_total": 512
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/252-fallen-one-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/252-fallen-one-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/252-fallen-one-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/252-fallen-one-ii.jpg"
+        }
     },
     {
         "id": 253,
@@ -9147,8 +9879,12 @@ const META = [
             "groupAffiliation": "Phantom Zone Criminals",
             "relatives": "Hu-Ul (father, presumably deceased)"
         },
-        "images": "253-faora.jpg",
-        "poder_total": 546
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/253-faora.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/253-faora.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/253-faora.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/253-faora.jpg"
+        }
     },
     {
         "id": 254,
@@ -9195,8 +9931,12 @@ const META = [
             "groupAffiliation": "Formerly Morlocks, X-Force, Mutant Liberation Front",
             "relatives": "Mr. Callasantos (father, first name unrevealed, deceased), Marcella Callasantos (mother, deceased), Lucia Callasantos (Thornn, sister), Matteo Callasantos (brother, deceased), Carolina Callasantos (sister, deceased)"
         },
-        "images": "254-feral.jpg",
-        "poder_total": 236
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/254-feral.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/254-feral.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/254-feral.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/254-feral.jpg"
+        }
     },
     {
         "id": 256,
@@ -9243,8 +9983,12 @@ const META = [
             "groupAffiliation": "Affiliation \"Fin Fang Four,\" former ally of the Mandarin, pawn of Doctor Vault, member of starship crew",
             "relatives": "Fraktur (cousin)"
         },
-        "images": "256-fin-fang-foom.jpg",
-        "poder_total": 399
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/256-fin-fang-foom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/256-fin-fang-foom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/256-fin-fang-foom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/256-fin-fang-foom.jpg"
+        }
     },
     {
         "id": 257,
@@ -9293,8 +10037,12 @@ const META = [
             "groupAffiliation": "Catholic Church; formerly the Rangers, provisional member of the Avengers West Coast, Queen's Vengeance",
             "relatives": "-"
         },
-        "images": "257-firebird.jpg",
-        "poder_total": 242
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/257-firebird.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/257-firebird.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/257-firebird.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/257-firebird.jpg"
+        }
     },
     {
         "id": 258,
@@ -9341,8 +10089,12 @@ const META = [
             "groupAffiliation": "Formerly Nova Corps, Guardians of the Galaxy (in an alternate future)",
             "relatives": "-"
         },
-        "images": "258-firelord.jpg",
-        "poder_total": 346
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/258-firelord.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/258-firelord.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/258-firelord.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/258-firelord.jpg"
+        }
     },
     {
         "id": 259,
@@ -9391,8 +10143,12 @@ const META = [
             "groupAffiliation": "New Warriors Reservist, Avengers Reservist, and Former Hellion and student of the White Queen",
             "relatives": "Bartholomew Jones (father), Nana (grandmother)"
         },
-        "images": "259-firestar.jpg",
-        "poder_total": 270
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/259-firestar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/259-firestar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/259-firestar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/259-firestar.jpg"
+        }
     },
     {
         "id": 260,
@@ -9439,8 +10195,12 @@ const META = [
             "groupAffiliation": "Justice League of America, formerly Lexcorp",
             "relatives": "Alvin Rusch (father)"
         },
-        "images": "260-firestorm.jpg",
-        "poder_total": 359
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/260-firestorm.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/260-firestorm.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/260-firestorm.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/260-firestorm.jpg"
+        }
     },
     {
         "id": 261,
@@ -9490,8 +10250,12 @@ const META = [
             "groupAffiliation": "Firestorm Matrix, Justice League,formerly Black Lantern Corps, Power Company, White Lantern Corps",
             "relatives": "Edward Raymond (father); Elaine Rockwell (mother, deceased); Felicity Smoak-Raymond (stepmother); Richard Dare (grandfather)"
         },
-        "images": "261-firestorm.jpg",
-        "poder_total": 396
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/261-firestorm.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/261-firestorm.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/261-firestorm.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/261-firestorm.jpg"
+        }
     },
     {
         "id": 263,
@@ -9539,8 +10303,12 @@ const META = [
             "groupAffiliation": "Justice Society of America, Flash Family; formerly All-Star Squadron",
             "relatives": "Joseph Garrick (father), Joan Williams (wife), Arthur Williams (father-in-law), unnamed adopted son (deceased), Bart Allen (Flash II, ward)"
         },
-        "images": "263-flash.jpg",
-        "poder_total": 323
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/263-flash.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/263-flash.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/263-flash.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/263-flash.jpg"
+        }
     },
     {
         "id": 265,
@@ -9590,8 +10358,12 @@ const META = [
             "groupAffiliation": "Flash Family, Justice League of America; formerly Blue Lantern Corps",
             "relatives": "Henry and Nora (parents), Malcolm Thawne (twin), Iris West Allen (wife), Wally West (Flash III, nephew), Don and Dawn Allen (son and daughter), Bart Allen (Flash IV, grandson), Jenni Ognats (granddaughter)"
         },
-        "images": "265-flash-ii.jpg",
-        "poder_total": 456
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/265-flash-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/265-flash-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/265-flash-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/265-flash-ii.jpg"
+        }
     },
     {
         "id": 266,
@@ -9640,8 +10412,12 @@ const META = [
             "groupAffiliation": "Flash Family, Justice League of America, Titans; formerly Teen Titans",
             "relatives": "Rudolph and Mary West (parents), Ira West (grandfather), Iris Allen (aunt), Barry Allen (Flash II, uncle), Linda Park West (wife), Jai and Iris West (twin children)"
         },
-        "images": "266-flash-iii.jpg",
-        "poder_total": 365
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/266-flash-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/266-flash-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/266-flash-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/266-flash-iii.jpg"
+        }
     },
     {
         "id": 267,
@@ -9689,8 +10465,12 @@ const META = [
             "groupAffiliation": "Flash Family, Teen Titans, Legion of Super-Heroes; formerly Young Justice",
             "relatives": "Barry Allen (Flash II, grandfather), Iris West Allen (grandmother), Don Allen (father), Meloni Thawne (mother), President Thawne (grandfather), Dawn Allen (aunt), Jenni Ognats (cousin), Thaddeus Thawne (clone), Owen Mercer (half-brother), Max Crandall (guardian)"
         },
-        "images": "267-flash-iv.jpg",
-        "poder_total": 353
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/267-flash-iv.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/267-flash-iv.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/267-flash-iv.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/267-flash-iv.jpg"
+        }
     },
     {
         "id": 268,
@@ -9738,8 +10518,12 @@ const META = [
             "groupAffiliation": "X-Factor",
             "relatives": "-"
         },
-        "images": "268-forge.jpg",
-        "poder_total": 186
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/268-forge.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/268-forge.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/268-forge.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/268-forge.jpg"
+        }
     },
     {
         "id": 269,
@@ -9790,8 +10574,12 @@ const META = [
             "groupAffiliation": "Future Foundation; formerly Power Pack, Generation X, Daydreamers",
             "relatives": "Reed Richards (Mister Fantastic, father), Susan Storm Richards (Invisible Woman, mother), Valeria Richards (sister), Jonathan Storm (Human Torch, uncle), Nathaniel Richards (paternal grandfather), Franklin Storm (maternal grandfather, deceased), Evelyn Richards, Mary Storm (grandmothers (paternal and maternal respectively), deceased), Benjamin J. Grimm (Thing, godfather), Alicia Masters (godmother)."
         },
-        "images": "269-franklin-richards.jpg",
-        "poder_total": 403
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/269-franklin-richards.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/269-franklin-richards.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/269-franklin-richards.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/269-franklin-richards.jpg"
+        }
     },
     {
         "id": 270,
@@ -9838,8 +10626,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Mary Storm (wife, deceased), Susan Storm Richards (Invisible Woman, daughter), Jonathan Storm (Human Torch, son), Franklin Richards (grandson), Reed Richards (Mister Fantastic, son-in-law)"
         },
-        "images": "270-franklin-storm.jpg",
-        "poder_total": 60
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/270-franklin-storm.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/270-franklin-storm.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/270-franklin-storm.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/270-franklin-storm.jpg"
+        }
     },
     {
         "id": 271,
@@ -9886,8 +10678,12 @@ const META = [
             "groupAffiliation": "Acolytes, formerly Alliance of Evil; temporarily X-Men while controlled by Jean Grey, Femizons",
             "relatives": "-"
         },
-        "images": "271-frenzy.jpg",
-        "poder_total": 341
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/271-frenzy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/271-frenzy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/271-frenzy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/271-frenzy.jpg"
+        }
     },
     {
         "id": 273,
@@ -9937,8 +10733,12 @@ const META = [
             "groupAffiliation": "Heralds of Galactus; formerly God Squad",
             "relatives": "Galan (\"father\"), Galacta (daughter)"
         },
-        "images": "273-galactus.jpg",
-        "poder_total": 533
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/273-galactus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/273-galactus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/273-galactus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/273-galactus.jpg"
+        }
     },
     {
         "id": 274,
@@ -9988,8 +10788,12 @@ const META = [
             "groupAffiliation": "X-Men (Team Wolverine); formerly Marauders, Horsemen of Apocalypse, Chevaliers, X-Treme X-Men, Thieves & Unified Guild's of New Orleans, Crimson Pirates",
             "relatives": "Jean-Luc LeBeau (father), Belladonna (aka Bella Donna Boudreaux) (wife, separated)"
         },
-        "images": "274-gambit.jpg",
-        "poder_total": 263
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/274-gambit.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/274-gambit.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/274-gambit.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/274-gambit.jpg"
+        }
     },
     {
         "id": 275,
@@ -10037,8 +10841,12 @@ const META = [
             "groupAffiliation": "Guardians of the Galaxy ; formerly Phalanx's Selects, Graces (Leader), Infinity Watch ; United Front ; former minion of Thanos; ally of Adam Warlock and Pip the Troll",
             "relatives": "Thanos (foster father), Thane (foster brother), Unnamed former Symbiote"
         },
-        "images": "275-gamora.jpg",
-        "poder_total": 440
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/275-gamora.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/275-gamora.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/275-gamora.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/275-gamora.jpg"
+        }
     },
     {
         "id": 277,
@@ -10085,8 +10893,12 @@ const META = [
             "groupAffiliation": "Alphas",
             "relatives": "-"
         },
-        "images": "277-gary-bell.jpg",
-        "poder_total": 150
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/277-gary-bell.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/277-gary-bell.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/277-gary-bell.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/277-gary-bell.jpg"
+        }
     },
     {
         "id": 278,
@@ -10133,8 +10945,12 @@ const META = [
             "groupAffiliation": "Phantom Zone criminals; former member of the Kryptonian Defense Council",
             "relatives": "Ursa (mate/wife); Lor-Zod (son); Admiral Zod (possible ancestor)"
         },
-        "images": "278-general-zod.jpg",
-        "poder_total": 585
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/278-general-zod.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/278-general-zod.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/278-general-zod.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/278-general-zod.jpg"
+        }
     },
     {
         "id": 280,
@@ -10181,8 +10997,12 @@ const META = [
             "groupAffiliation": "Quentin Carnival Formerly Midnight Sons, Legion of Monsters, The Champions",
             "relatives": "Barton (father, deceased), Clara (mother, deceased), Craig \"Crash\" Simpson (stepfather, deceased), Mona Simpson (stepmother, deceased), Roxanne Simpson (wife)"
         },
-        "images": "280-ghost-rider.jpg",
-        "poder_total": 390
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/280-ghost-rider.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/280-ghost-rider.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/280-ghost-rider.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/280-ghost-rider.jpg"
+        }
     },
     {
         "id": 284,
@@ -10229,8 +11049,12 @@ const META = [
             "groupAffiliation": "The Injustice League, formerly The Society, Villainy, Inc., The Legion of Doom",
             "relatives": "-"
         },
-        "images": "284-giganta.jpg",
-        "poder_total": 352
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/284-giganta.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/284-giganta.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/284-giganta.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/284-giganta.jpg"
+        }
     },
     {
         "id": 285,
@@ -10279,8 +11103,12 @@ const META = [
             "groupAffiliation": "Galactic Council, Annihilators; formerly Imperial Guard; possibly Heralds of Galactus",
             "relatives": "Kubark (Kid Gladiator) (son), Xenith (The Strontian) (cousin)"
         },
-        "images": "285-gladiator.jpg",
-        "poder_total": 497
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/285-gladiator.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/285-gladiator.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/285-gladiator.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/285-gladiator.jpg"
+        }
     },
     {
         "id": 286,
@@ -10331,8 +11159,12 @@ const META = [
             "groupAffiliation": "Former ally of X-Men, partner of N'Astirh",
             "relatives": "Mister Sinister (creator), Jean Grey (Phoenix, genetic template), Scott Summers (Cyclops, husband), Nathan Christopher Summers (Cable, son), Christopher Summers (Corsair, father-in-law), Alex Summers (Havok, brother-in-law)"
         },
-        "images": "286-goblin-queen.jpg",
-        "poder_total": 257
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/286-goblin-queen.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/286-goblin-queen.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/286-goblin-queen.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/286-goblin-queen.jpg"
+        }
     },
     {
         "id": 287,
@@ -10384,8 +11216,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "287-godzilla.jpg",
-        "poder_total": 418
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/287-godzilla.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/287-godzilla.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/287-godzilla.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/287-godzilla.jpg"
+        }
     },
     {
         "id": 288,
@@ -10433,8 +11269,12 @@ const META = [
             "groupAffiliation": "Sinister Six",
             "relatives": "Seth (creator), Magog (\"brother\")"
         },
-        "images": "no-portrait.jpg",
-        "poder_total": 298
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/no-portrait.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/no-portrait.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/no-portrait.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/no-portrait.jpg"
+        }
     },
     {
         "id": 289,
@@ -10487,8 +11327,12 @@ const META = [
             "groupAffiliation": "Saiyajin, Son family, Z-Fighters",
             "relatives": "-"
         },
-        "images": "289-goku.jpg",
-        "poder_total": 521
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/289-goku.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/289-goku.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/289-goku.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/289-goku.jpg"
+        }
     },
     {
         "id": 294,
@@ -10538,8 +11382,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Boka (wife, separated), Gorbzil Mammit (son), Sam Simeon (grandson)"
         },
-        "images": "294-gorilla-grodd.jpg",
-        "poder_total": 402
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/294-gorilla-grodd.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/294-gorilla-grodd.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/294-gorilla-grodd.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/294-gorilla-grodd.jpg"
+        }
     },
     {
         "id": 296,
@@ -10586,8 +11434,12 @@ const META = [
             "groupAffiliation": "Young Allies; Formerly Great Lakes Initiative, Heavy Hitters",
             "relatives": "Richard Willis (father), Mary Willis (mother)"
         },
-        "images": "296-gravity.jpg",
-        "poder_total": 254
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/296-gravity.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/296-gravity.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/296-gravity.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/296-gravity.jpg"
+        }
     },
     {
         "id": 297,
@@ -10634,8 +11486,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "297-greedo.jpg",
-        "poder_total": 147
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/297-greedo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/297-greedo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/297-greedo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/297-greedo.jpg"
+        }
     },
     {
         "id": 298,
@@ -10683,8 +11539,12 @@ const META = [
             "groupAffiliation": "Justice League Reserve, Connor Hawke, Mia Dearden,  Arsenal, Green Arrows of the World, Black Canary, Green Lantern Hal Jordan, Shado, Eddie Fyers, Justice League Elite, Seven Soldiers of Victory, All-Star Squadron",
             "relatives": "Conner Hawke (son); Robert (son); Cissie King (possible daughter); Roy Harper - Red Arrow (adoptive son); Dinah Laurel Lance (wife); Dinah Drake Lance (mother-in-law, deceased); Larry Lance (father-in-law, deceased)"
         },
-        "images": "298-green-arrow.jpg",
-        "poder_total": 285
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/298-green-arrow.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/298-green-arrow.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/298-green-arrow.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/298-green-arrow.jpg"
+        }
     },
     {
         "id": 299,
@@ -10740,8 +11600,12 @@ const META = [
             "groupAffiliation": "H.A.M.M.E.R., leader of the Dark Avengers; formerly Thunderbolts, The Cabal; Former leader of the Sinister Twelve, partner of Mendell Stromm, Crime Master, employer of the Enforcers, Hellfire Club",
             "relatives": "Alton Osborn, Sr. (paternal great-grandfather, deceased);Alton Osborn, Jr. (paternal grandfather, deceased);Amberson Osborn (father, deceased);Emily Osborn (wife, deceased);Gabriel Stacy (son);Sarah Stacy (daughter);Harry Osborn (Green Goblin II, son);Liz Allan (ex-daughter-in-law);Normie Osborn (grandson);Stanley Osborn (grandson);"
         },
-        "images": "299-green-goblin.jpg",
-        "poder_total": 344
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/299-green-goblin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/299-green-goblin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/299-green-goblin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/299-green-goblin.jpg"
+        }
     },
     {
         "id": 300,
@@ -10788,8 +11652,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Liz Allen-Osborn (Wife,) Norman III (son,)Norman Osborn II - Green Goblin (father)"
         },
-        "images": "300-green-goblin-ii.jpg",
-        "poder_total": 287
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/300-green-goblin-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/300-green-goblin-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/300-green-goblin-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/300-green-goblin-ii.jpg"
+        }
     },
     {
         "id": 303,
@@ -10840,8 +11708,12 @@ const META = [
             "groupAffiliation": "Guardians of the Galaxy, Unnamed Kree covert ops team, formerly Galactic Council, Howling Commandos",
             "relatives": "-"
         },
-        "images": "303-groot.jpg",
-        "poder_total": 427
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/303-groot.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/303-groot.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/303-groot.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/303-groot.jpg"
+        }
     },
     {
         "id": 305,
@@ -10890,8 +11762,12 @@ const META = [
             "groupAffiliation": "Green Lantern Corps, Formerly Justice League of America",
             "relatives": "-"
         },
-        "images": "305-guy-gardner.jpg",
-        "poder_total": 409
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/305-guy-gardner.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/305-guy-gardner.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/305-guy-gardner.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/305-guy-gardner.jpg"
+        }
     },
     {
         "id": 306,
@@ -10940,8 +11816,12 @@ const META = [
             "groupAffiliation": "Green Lantern Corps, Justice League of America, Justice League Europe, frequently teamed with the second Flash and the original Green Arrow",
             "relatives": "Martin H. \"Marty\" Jordan (father, deceased), Jessica Jordan (mother, deceased), Jim Jordan (younger brother), Jack Jordan (older brother, deceased), Jan Jordan (sister-in-law, deceased), Helen Jordan (neice), Larry Jordan (Air Wave I - cousin, deceased), Hal Jordan (Air Wave II - cousin)"
         },
-        "images": "306-hal-jordan.jpg",
-        "poder_total": 484
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/306-hal-jordan.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/306-hal-jordan.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/306-hal-jordan.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/306-hal-jordan.jpg"
+        }
     },
     {
         "id": 307,
@@ -10988,8 +11868,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "307-han-solo.jpg",
-        "poder_total": 200
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/307-han-solo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/307-han-solo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/307-han-solo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/307-han-solo.jpg"
+        }
     },
     {
         "id": 308,
@@ -11036,8 +11920,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "308-hancock.jpg",
-        "poder_total": 470
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/308-hancock.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/308-hancock.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/308-hancock.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/308-hancock.jpg"
+        }
     },
     {
         "id": 309,
@@ -11089,8 +11977,12 @@ const META = [
             "groupAffiliation": "Formerly The Quintets, The Joker, Poison Ivy, Secret Six",
             "relatives": "Barry Quinzel (brother), Sharon Quinzel (mother), Nick Quinzel (father), Jenny Quinzel (niece), Nicky Quinzel (nephew)"
         },
-        "images": "309-harley-quinn.jpg",
-        "poder_total": 333
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/309-harley-quinn.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/309-harley-quinn.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/309-harley-quinn.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/309-harley-quinn.jpg"
+        }
     },
     {
         "id": 310,
@@ -11141,8 +12033,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "310-harry-potter.jpg",
-        "poder_total": 263
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/310-harry-potter.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/310-harry-potter.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/310-harry-potter.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/310-harry-potter.jpg"
+        }
     },
     {
         "id": 311,
@@ -11190,8 +12086,12 @@ const META = [
             "groupAffiliation": "Uncanny Avengers; formerly X-Men, Starjammers, X-Factor Investigations, Six , Brotherhood, X-Factor, Dark Descendants, Genoshan Magistrates, Defenders for a Day",
             "relatives": "Oscar Summers (adoptive paternal distant ancestor, deceased), Daniel Summers (paternal distant ancestor, deceased), Amanda Mueller (Black Womb) (paternal distant ancestor), unnamed paternal great-grandfather, deceased, Gloria Dayne (Fontanelle) (paternal distant ancestor), Philip Summers (paternal grandfather), Deborah Summers (paternal grandmother), Christopher Summers (Corsair) (father, deceased), Katherine Summers (mother, deceased), Andrew Blanding (adoptive father), Joanna Blanding (adoptive mother), Scott Summers (Cyclops) (brother), Gabriel Summers (Vulcan) (brother, deceased), Ahmet Abdol (Living Monolith) (\"brother\" via X-Gene transfer), Haley Blanding (adoptive sister), Todd Blanding (adoptive brother, deceased), Madelyne Pryor-Summers (Red Queen) (sister-in-law/clone of second sister-in-law, deceased), Jean Grey-Summers (Phoenix) (sister-in-law, deceased), Cal'syee Neramani (Deathbird) (sister-in-law), Nathan Summers (Cable) (nephew), Adam Neramani (X-Treme) (nephew, alleged half-brother), Aliya Dayspring (Jenskot) (niece, deceased), Hope Summers (niece, deceased), Madelyne Pryor (Earth-1298) (Marvel Woman) (alternate reality wife), Scott Summers (Earth-1298) (alternate reality son), Rachel Grey (Marvel Girl) (alternate reality niece), Rachel Summers (Mother Askani) (alternate reality niece, deceased), Nathaniel Grey (X-Man) (alternate reality nephew), Stryfe (nephew's clone, deceased), Tyler Dayspring (Genesis) (great-nephew, deceased), Hope Summers (adoptive great-niece), Janet van Dyne (Wasp) (wife), Katie Summers (daughter)"
         },
-        "images": "311-havok.jpg",
-        "poder_total": 274
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/311-havok.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/311-havok.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/311-havok.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/311-havok.jpg"
+        }
     },
     {
         "id": 312,
@@ -11239,8 +12139,12 @@ const META = [
             "groupAffiliation": "Black Lantern Corps, Teen Titans, Hawk and Dove, Titans West",
             "relatives": "Don Hall (brother, deceased), Irwin Hall (father), Rae Penfield (mother), James Penfield (uncle)"
         },
-        "images": "312-hawk.jpg",
-        "poder_total": 291
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/312-hawk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/312-hawk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/312-hawk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/312-hawk.jpg"
+        }
     },
     {
         "id": 313,
@@ -11292,8 +12196,12 @@ const META = [
             "groupAffiliation": "Avengers, Thunderbolts, Avengers West Coast, Great Lakes Avengers, Shadows, Chain Gang, former partner of the Black Widow",
             "relatives": "Harold Barton (father, deceased), Edith Barton (mother, deceased), Bernard Barton (brother, deceased), Barbara Morse (wife, deceased)"
         },
-        "images": "313-hawkeye.jpg",
-        "poder_total": 208
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/313-hawkeye.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/313-hawkeye.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/313-hawkeye.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/313-hawkeye.jpg"
+        }
     },
     {
         "id": 314,
@@ -11340,8 +12248,12 @@ const META = [
             "groupAffiliation": "Young Avengers, partner of Hawkeye (Clint Barton); formerly Secret Avengers",
             "relatives": "Derek Bishop (father); Eleanor Bishop (mother, deceased); Susan Bishop (sister);"
         },
-        "images": "314-hawkeye-ii.jpg",
-        "poder_total": 148
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/314-hawkeye-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/314-hawkeye-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/314-hawkeye-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/314-hawkeye-ii.jpg"
+        }
     },
     {
         "id": 315,
@@ -11389,8 +12301,12 @@ const META = [
             "groupAffiliation": "Justice League of America, formerly a member of the JSA, Birds of Prey",
             "relatives": "Michael Saunders (father, deceased); Trina Saunders (mother, deceased); Cyril \"Speed\" Saunders (grandfather); Mia Saunders (daughter); Shiera Hall (Hawkgirl, great-aunt, deceased); Carter Hall (Hawkman, great-uncle); Hector Hall (Dr. Fate, 2nd cousin); Northwind (cousin through adoption); Hippolyta Hall (Fury, cousin through marriage); Sandman (Daniel Hall, 3rd cousin), Death, Destiny, Destruction, Delirium, Desire (3rd cousins)"
         },
-        "images": "315-hawkgirl.jpg",
-        "poder_total": 398
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/315-hawkgirl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/315-hawkgirl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/315-hawkgirl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/315-hawkgirl.jpg"
+        }
     },
     {
         "id": 320,
@@ -11437,8 +12353,12 @@ const META = [
             "groupAffiliation": "Rogues; formerly Secret Society of Super-Villains, Legion of Doom",
             "relatives": "-"
         },
-        "images": "320-heat-wave.jpg",
-        "poder_total": 167
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/320-heat-wave.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/320-heat-wave.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/320-heat-wave.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/320-heat-wave.jpg"
+        }
     },
     {
         "id": 321,
@@ -11485,8 +12405,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Loki (father), Thor (Uncle)"
         },
-        "images": "321-hela.jpg",
-        "poder_total": 454
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/321-hela.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/321-hela.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/321-hela.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/321-hela.jpg"
+        }
     },
     {
         "id": 322,
@@ -11534,8 +12458,12 @@ const META = [
             "groupAffiliation": "Abe Sapien, Liz Sherman, Roger the Homunculus, Savage Dragon, the Goon, Batman, Starman, Ghost, Painkiller Jane, Lobster Johnson, Torch of Liberty",
             "relatives": "Catherine Tanner-Tremaine (mother, deceased), two unnamed maternal half-siblings (deceased), Professor Trevor Bruttenholm (foster father)"
         },
-        "images": "322-hellboy.jpg",
-        "poder_total": 380
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/322-hellboy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/322-hellboy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/322-hellboy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/322-hellboy.jpg"
+        }
     },
     {
         "id": 323,
@@ -11584,8 +12512,12 @@ const META = [
             "groupAffiliation": "Formerly Alaskan-based Initiative agent, Lady Liberators, Avengers, Defenders, Legion of the Unliving",
             "relatives": "Joshua Walker (father), Dorothy Walker (mother, deceased), Sophia (maternal aunt), Bea (step-mother), Mickey Walker (brother), Robert \"Buzz\" Baxter (aka Mad-Dog, ex-husband), Daimon Hellstrom (aka Hellstorm, ex-husband), Percy Walker"
         },
-        "images": "323-hellcat.jpg",
-        "poder_total": 268
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/323-hellcat.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/323-hellcat.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/323-hellcat.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/323-hellcat.jpg"
+        }
     },
     {
         "id": 325,
@@ -11642,8 +12574,12 @@ const META = [
             "groupAffiliation": "Formerly God Squad, Council of Godheads, Olympia Corp., Mighty Avengers, Renegades, Secret Avengers, Avengers, Champions of Los Angeles, Defenders, Heroes for Hire, Damage Control, Olympian Gods, Argonauts, Defenders for a Day",
             "relatives": "-"
         },
-        "images": "325-hercules.jpg",
-        "poder_total": 483
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/325-hercules.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/325-hercules.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/325-hercules.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/325-hercules.jpg"
+        }
     },
     {
         "id": 327,
@@ -11691,8 +12627,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "327-hit-girl.jpg",
-        "poder_total": 204
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/327-hit-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/327-hit-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/327-hit-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/327-hit-girl.jpg"
+        }
     },
     {
         "id": 330,
@@ -11744,8 +12684,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly Cable",
             "relatives": "Louise Spalding (mother, deceased), unknown biological father, Mrs. Spalding (maternal grandmother), Cable (adoptive father, deceased), Hope (adoptive mother, deceased), Cyclops (adoptive grandfather), Red Queen / Phoenix (adoptive grandmothers, deceased?), X-Man (adoptive uncle), Marvel Girl (adoptive aunt), Havok (adoptive granduncle), Vulcan (adoptive granduncle, deceased), Deathbird (adoptive grandaunt)"
         },
-        "images": "330-hope-summers.jpg",
-        "poder_total": 285
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/330-hope-summers.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/330-hope-summers.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/330-hope-summers.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/330-hope-summers.jpg"
+        }
     },
     {
         "id": 332,
@@ -11799,8 +12743,12 @@ const META = [
             "groupAffiliation": "Defenders, former leader of the new Hulkbusters, member of the Avengers, Pantheon, Titans Three, the Order, Hulkbusters of Counter-Earth-Franklin, alternate Fantastic Four",
             "relatives": "Betty Ross Talbot Banner (wife), Brian Banner (father, apparently deceased), Rebecca Banner (mother, deceased), Morris Walters (uncle), Elaine Banner Walters (aunt, deceased), Jennifer Walters (She-Hulk, cousin), Thaddeus E. 'Thunderbolt' Ross (father"
         },
-        "images": "332-hulk.jpg",
-        "poder_total": 534
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/332-hulk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/332-hulk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/332-hulk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/332-hulk.jpg"
+        }
     },
     {
         "id": 333,
@@ -11848,8 +12796,12 @@ const META = [
             "groupAffiliation": "Fantastic Four",
             "relatives": "Susan Richards - Invisible Woman (sister), Franklin Richards (nephew), Reed Richards - Mister Fantastic (brother-in-law) Lyja (ex-wife)"
         },
-        "images": "333-human-torch.jpg",
-        "poder_total": 336
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/333-human-torch.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/333-human-torch.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/333-human-torch.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/333-human-torch.jpg"
+        }
     },
     {
         "id": 334,
@@ -11898,8 +12850,12 @@ const META = [
             "groupAffiliation": "Batman Family, Birds of Prey, formerly Checkmate, Justice League of America, Outsiders",
             "relatives": "Giuseppe Bertinelli (great-grandfather; deceased), Alfredo Bertinelli (grandfather; deceased), Franco Bertinelli (father; deceased), Maria Panessa Bertinelli (mother; deceased), Santo Cassamento (biological father; deceased), Pino Bertinelli (brother; deceased), Freddy Caldone (cousin; deceased), Tomaso Panessa (uncle), Graziella Panessa (aunt), Monica Simonetta Panessa (cousin), Claudio Panessa (cousin; deceased)"
         },
-        "images": "334-huntress.jpg",
-        "poder_total": 259
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/334-huntress.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/334-huntress.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/334-huntress.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/334-huntress.jpg"
+        }
     },
     {
         "id": 335,
@@ -11946,8 +12902,12 @@ const META = [
             "groupAffiliation": "X-Men, X-Corp, Generation X",
             "relatives": "Thomas Zebulon Guthrie (father,deceased),Lucinda Guthrie (mother),Samuel Zachery Guthrie (brother,Cannonball),Joshua 'Jay' Guthrie (brother,Icarus),Joella Guthrie (sister),Elizabeth Guthrie (sister),Melody Guthrie (sister),Jeb Guthrie (brother),Lewis Guth"
         },
-        "images": "335-husk.jpg",
-        "poder_total": 351
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/335-husk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/335-husk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/335-husk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/335-husk.jpg"
+        }
     },
     {
         "id": 336,
@@ -11998,8 +12958,12 @@ const META = [
             "groupAffiliation": "New Warriors, Guardsmen, NYPD",
             "relatives": "Unnamed mother, Derek Washington (brother, deceased), Hybrid (\"former symbiote\", defused)"
         },
-        "images": "336-hybrid.jpg",
-        "poder_total": 439
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/336-hybrid.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/336-hybrid.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/336-hybrid.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/336-hybrid.jpg"
+        }
     },
     {
         "id": 337,
@@ -12046,8 +13010,12 @@ const META = [
             "groupAffiliation": "Member of the Masters of Evil; formerly Sinister Syndicate; Frightful Four, Sinister Six, Sinister Twelve",
             "relatives": "-"
         },
-        "images": "337-hydro-man.jpg",
-        "poder_total": 272
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/337-hydro-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/337-hydro-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/337-hydro-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/337-hydro-man.jpg"
+        }
     },
     {
         "id": 338,
@@ -12097,8 +13065,12 @@ const META = [
             "groupAffiliation": "Squadron Supreme, (Formerly) Star Masters, ally of Exiles",
             "relatives": "Mr. and Mrs. Hamilton (foster parents)"
         },
-        "images": "338-hyperion.jpg",
-        "poder_total": 550
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/338-hyperion.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/338-hyperion.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/338-hyperion.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/338-hyperion.jpg"
+        }
     },
     {
         "id": 339,
@@ -12150,8 +13122,12 @@ const META = [
             "groupAffiliation": "X-Men (Jean Grey School member, founding member); formerly Murder Circus (brainwashed), Excelsiors (squad leader), The Twelve, X-Factor/X-Terminators (founding member), Chosen (Dualers), Secret Defenders, Defenders, Champions (founder and founding member)",
             "relatives": "William Robert Drake (father), Madeline Beatrice Bass Drake (mother), Mary (cousin), Joel (cousin), Anne (aunt)"
         },
-        "images": "339-iceman.jpg",
-        "poder_total": 412
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/339-iceman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/339-iceman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/339-iceman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/339-iceman.jpg"
+        }
     },
     {
         "id": 340,
@@ -12199,8 +13175,12 @@ const META = [
             "groupAffiliation": "Flash Family, Teen Titans, formerly Legion of Super-Heroes, Young Justice",
             "relatives": "Don Allen (father), Meloni Thawne (mother), Barry Allen (grandfather), Iris West-Allen (grandmother), President Thawne (grandfather), Captain Boomerang (Owen Mercer) (half-brother), Allen Family"
         },
-        "images": "340-impulse.jpg",
-        "poder_total": 354
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/340-impulse.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/340-impulse.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/340-impulse.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/340-impulse.jpg"
+        }
     },
     {
         "id": 341,
@@ -12247,8 +13227,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "341-indiana-jones.jpg",
-        "poder_total": 175
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/341-indiana-jones.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/341-indiana-jones.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/341-indiana-jones.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/341-indiana-jones.jpg"
+        }
     },
     {
         "id": 342,
@@ -12295,8 +13279,12 @@ const META = [
             "groupAffiliation": "Indigo Tribe; formerly the New Guardians",
             "relatives": "-"
         },
-        "images": "342-indigo.jpg",
-        "poder_total": 388
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/342-indigo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/342-indigo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/342-indigo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/342-indigo.jpg"
+        }
     },
     {
         "id": 343,
@@ -12343,8 +13331,12 @@ const META = [
             "groupAffiliation": "Formerly X-Men, Young X-Men",
             "relatives": "-"
         },
-        "images": "343-ink.jpg",
-        "poder_total": 246
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/343-ink.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/343-ink.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/343-ink.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/343-ink.jpg"
+        }
     },
     {
         "id": 344,
@@ -12391,8 +13383,12 @@ const META = [
             "groupAffiliation": "Fantastic Four, formerly; Secret Avengers, Avengers, Brides of Set, Pawns of Death",
             "relatives": "Reed Richards (Mister Fantastic, husband), Franklin Richards (son), Valeria Richards (daughter), Johnny Storm (Human Torch, brother), Franklin Storm (father, deceased), Mary Storm (mother, deceased), Marygay Jewel Dinkins (aunt), \"Bones\" (cousin), Evelyn Richards (mother-in-law, deceased), Nathaniel Richards (father-in-law), Cassandra Richards (Warlord, mother-in-law, deceased), unnamed child of Nathaniel Richards (brother-in-law), Tara Richards (Huntara, sister-in-law), Kristoff Vernard (alleged brother-in-law), Lyja (sister-in-law)"
         },
-        "images": "344-invisible-woman.jpg",
-        "poder_total": 359
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/344-invisible-woman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/344-invisible-woman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/344-invisible-woman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/344-invisible-woman.jpg"
+        }
     },
     {
         "id": 345,
@@ -12443,8 +13439,12 @@ const META = [
             "groupAffiliation": "New Avengers, Heroes for Hire, Inc., Secret Defenders, Defenders, Misty Knight, Luke Cage",
             "relatives": "Wendell Rand-K'ai (father, deceased), Heather Duncan Rand (mother, deceased), Yu-Ti (adopted uncle), Miranda Rand-K'ai (half-sister), Lord Tuan (adopted paternal grandfather, deceased), Lady Ming (adopted paternal grandmother, deceased), Thomas Duncan (maternal grandfather)"
         },
-        "images": "345-iron-fist.jpg",
-        "poder_total": 408
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/345-iron-fist.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/345-iron-fist.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/345-iron-fist.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/345-iron-fist.jpg"
+        }
     },
     {
         "id": 346,
@@ -12496,8 +13496,12 @@ const META = [
             "groupAffiliation": "Avengers, Illuminati, Stark Resilient; formerly S.H.I.E.L.D., leader of Stark Enterprises, the Pro-Registration Superhero Unit, New Avengers, Mighty Avengers, Hellfire Club, Force Works, Avengers West Coast, United States Department of Defense.",
             "relatives": "Howard Anthony Stark (father, deceased), Maria Stark (mother, deceased), Morgan Stark (cousin), Isaac Stark (ancestor)"
         },
-        "images": "346-iron-man.jpg",
-        "poder_total": 492
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/346-iron-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/346-iron-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/346-iron-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/346-iron-man.jpg"
+        }
     },
     {
         "id": 347,
@@ -12544,8 +13548,12 @@ const META = [
             "groupAffiliation": "Stane International",
             "relatives": "Zebediah (father, deceased), unnamed mother (deceased), Ezekiel Stane (son)"
         },
-        "images": "347-iron-monger.jpg",
-        "poder_total": 379
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/347-iron-monger.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/347-iron-monger.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/347-iron-monger.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/347-iron-monger.jpg"
+        }
     },
     {
         "id": 348,
@@ -12592,8 +13600,12 @@ const META = [
             "groupAffiliation": "Black Marvel Family",
             "relatives": "Amon Tomaz (brother, deceased), Black Adam (husband)"
         },
-        "images": "348-isis.jpg",
-        "poder_total": 350
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/348-isis.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/348-isis.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/348-isis.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/348-isis.jpg"
+        }
     },
     {
         "id": 350,
@@ -12640,8 +13652,12 @@ const META = [
             "groupAffiliation": "Avengers, Defenders for a Day",
             "relatives": "Philip (father, deceased), Marie (mother)"
         },
-        "images": "350-jack-of-hearts.jpg",
-        "poder_total": 355
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/350-jack-of-hearts.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/350-jack-of-hearts.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/350-jack-of-hearts.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/350-jack-of-hearts.jpg"
+        }
     },
     {
         "id": 351,
@@ -12688,8 +13704,12 @@ const META = [
             "groupAffiliation": "Incredible Family (genetic member), National Supers Agency (ties), Edna Mode (receives costumes and gadgets from her), Frozone (long-time friend)",
             "relatives": "Robert Parr(Mr Incredible, father), Helen Parr (Elastigirl, mother), Violet Parr(Violet, sister), Dashiell Parr (Dash, brother)"
         },
-        "images": "351-jack-jack.jpg",
-        "poder_total": 293
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/351-jack-jack.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/351-jack-jack.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/351-jack-jack.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/351-jack-jack.jpg"
+        }
     },
     {
         "id": 352,
@@ -12737,8 +13757,12 @@ const META = [
             "groupAffiliation": "Secret Intelligence Service, MI6, C.I.A., Royal Navy",
             "relatives": "Andrew Bond (father), Monique Delacroix (mother)"
         },
-        "images": "352-james-bond.jpg",
-        "poder_total": 268
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/352-james-bond.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/352-james-bond.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/352-james-bond.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/352-james-bond.jpg"
+        }
     },
     {
         "id": 353,
@@ -12786,8 +13810,12 @@ const META = [
             "groupAffiliation": "Federation, Starfleet",
             "relatives": "Winona Kirk (mother), George Kirk (father), George Samuel Kirk (brother), Michele Suzanne Kirk (sister)"
         },
-        "images": "353-james-t.-kirk.jpg",
-        "poder_total": 232
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/353-james-t.-kirk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/353-james-t.-kirk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/353-james-t.-kirk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/353-james-t.-kirk.jpg"
+        }
     },
     {
         "id": 354,
@@ -12834,8 +13862,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "354-jar-jar-binks.jpg",
-        "poder_total": 95
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/354-jar-jar-binks.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/354-jar-jar-binks.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/354-jar-jar-binks.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/354-jar-jar-binks.jpg"
+        }
     },
     {
         "id": 355,
@@ -12882,8 +13914,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "355-jason-bourne.jpg",
-        "poder_total": 285
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/355-jason-bourne.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/355-jason-bourne.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/355-jason-bourne.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/355-jason-bourne.jpg"
+        }
     },
     {
         "id": 356,
@@ -12931,8 +13967,12 @@ const META = [
             "groupAffiliation": "Formerly X-Men (founding member); Clan Rebellion, Muir Island X-Men; X-Factor/X-Terminators (founding member); Brides of Set",
             "relatives": "Rachel Summers (daughter from an alternate universe), X-Man (son from an alternate universe), Cyclops (ex-husband), Havok (former brother-in-law), Corsair (former father-in-law), Madelyne Pryor (clone), Cable (adoptive/biological son), Stryfe (cloned biological son), Genesis (grandson)"
         },
-        "images": "356-jean-grey.jpg",
-        "poder_total": 377
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/356-jean-grey.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/356-jean-grey.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/356-jean-grey.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/356-jean-grey.jpg"
+        }
     },
     {
         "id": 357,
@@ -12979,8 +14019,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Maurice Picard (father), Yvette Picard (mother), Robert Picard (brother), Shinzon (clone)"
         },
-        "images": "357-jean-luc-picard.jpg",
-        "poder_total": 223
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/357-jean-luc-picard.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/357-jean-luc-picard.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/357-jean-luc-picard.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/357-jean-luc-picard.jpg"
+        }
     },
     {
         "id": 358,
@@ -13027,8 +14071,12 @@ const META = [
             "groupAffiliation": "Witches, Legion of the Night",
             "relatives": "Andrew Jackson Kale (brother, deceased), Joshua Kale (grandfather, deceased), Naomi Kale (aunt), Johnny Blaze ( Ghost Rider ), Barbara and Daniel Ketch (cousins); Illyana Kale, Noble and pastor Kale, Magdalena (ancestors)"
         },
-        "images": "358-jennifer-kale.jpg",
-        "poder_total": 308
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/358-jennifer-kale.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/358-jennifer-kale.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/358-jennifer-kale.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/358-jennifer-kale.jpg"
+        }
     },
     {
         "id": 360,
@@ -13076,8 +14124,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Sara Cruz (sister)"
         },
-        "images": "360-jessica-cruz.jpg",
-        "poder_total": 397
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/360-jessica-cruz.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/360-jessica-cruz.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/360-jessica-cruz.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/360-jessica-cruz.jpg"
+        }
     },
     {
         "id": 361,
@@ -13127,8 +14179,12 @@ const META = [
             "groupAffiliation": "Formerly New Avengers, Daily Bugle, Alias Investigations",
             "relatives": "unnamed mother (deceased); Dave Cambell (father, deceased); Phillip Cambell (brother, deceased); unnamed adoptive mother; unnamed adoptive father; unnamed adoptive sister; Jenny (adoptive aunt); Luke Cage (husband); Danielle Cage (daughter);"
         },
-        "images": "361-jessica-jones.jpg",
-        "poder_total": 293
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/361-jessica-jones.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/361-jessica-jones.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/361-jessica-jones.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/361-jessica-jones.jpg"
+        }
     },
     {
         "id": 364,
@@ -13175,8 +14231,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Stephanie Powell (wife), Daphne Powell (duaghter) and JJ Powell (son)"
         },
-        "images": "364-jim-powell.jpg",
-        "poder_total": 222
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/364-jim-powell.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/364-jim-powell.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/364-jim-powell.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/364-jim-powell.jpg"
+        }
     },
     {
         "id": 365,
@@ -13223,8 +14283,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Jim Powell and Stephanie Powell (parents), Daphne Powell (sister)"
         },
-        "images": "365-jj-powell.jpg",
-        "poder_total": 140
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/365-jj-powell.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/365-jj-powell.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/365-jj-powell.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/365-jj-powell.jpg"
+        }
     },
     {
         "id": 367,
@@ -13271,8 +14335,12 @@ const META = [
             "groupAffiliation": "Justice League Dark, Justice League",
             "relatives": "Thomas Constantine (father, deceased), Cheryl Constantine (sister, deceased)"
         },
-        "images": "367-john-constantine.jpg",
-        "poder_total": 240
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/367-john-constantine.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/367-john-constantine.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/367-john-constantine.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/367-john-constantine.jpg"
+        }
     },
     {
         "id": 369,
@@ -13323,8 +14391,12 @@ const META = [
             "groupAffiliation": "Weapon X Program, Team X, C.I.A.",
             "relatives": "-"
         },
-        "images": "no-portrait.jpg",
-        "poder_total": 317
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/no-portrait.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/no-portrait.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/no-portrait.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/no-portrait.jpg"
+        }
     },
     {
         "id": 370,
@@ -13376,8 +14448,12 @@ const META = [
             "groupAffiliation": "Black Glove, Injustice Gang, Injustice League, Joker League of Anarchy",
             "relatives": "Jeannie (wife, deceased); Unborn son (deceased); Melvin Reipan (cousin, deceased)"
         },
-        "images": "370-joker.jpg",
-        "poder_total": 295
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/370-joker.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/370-joker.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/370-joker.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/370-joker.jpg"
+        }
     },
     {
         "id": 371,
@@ -13425,8 +14501,12 @@ const META = [
             "groupAffiliation": "Young Allies; formerly Redeemers, Thunderbolts",
             "relatives": "Robert (father, deceased), Jane (mother, deceased)"
         },
-        "images": "371-jolt.jpg",
-        "poder_total": 207
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/371-jolt.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/371-jolt.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/371-jolt.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/371-jolt.jpg"
+        }
     },
     {
         "id": 372,
@@ -13473,8 +14553,12 @@ const META = [
             "groupAffiliation": "Currently Generation X, formerly X-Men",
             "relatives": "Dr. and Mrs. Lee (parents, deceased)"
         },
-        "images": "372-jubilee.jpg",
-        "poder_total": 262
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/372-jubilee.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/372-jubilee.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/372-jubilee.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/372-jubilee.jpg"
+        }
     },
     {
         "id": 373,
@@ -13522,8 +14606,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Rico Dredd (brother), Judge Kraken (clone), Vienna (niece),"
         },
-        "images": "373-judge-dredd.jpg",
-        "poder_total": 328
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/373-judge-dredd.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/373-judge-dredd.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/373-judge-dredd.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/373-judge-dredd.jpg"
+        }
     },
     {
         "id": 374,
@@ -13571,8 +14659,12 @@ const META = [
             "groupAffiliation": "Formerly Worthy, Thunderbolts, X-Men, Excalibur, Black Tom Cassidy (partner), Exemplars, Brotherhood of Evil Mutants, New World Order, Exiles, U.S. Army",
             "relatives": "Kurt Marko (father, deceased), Marjorie Marko (mother, deceased), Sharon Xavier (step-mother, deceased), Charles Xavier (Professor X, step-brother)"
         },
-        "images": "374-juggernaut.jpg",
-        "poder_total": 441
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/374-juggernaut.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/374-juggernaut.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/374-juggernaut.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/374-juggernaut.jpg"
+        }
     },
     {
         "id": 375,
@@ -13619,8 +14711,12 @@ const META = [
             "groupAffiliation": "Former member of X-Men, former member of S.H.I.E.L.D.",
             "relatives": "-"
         },
-        "images": "375-junkpile.jpg",
-        "poder_total": 306
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/375-junkpile.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/375-junkpile.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/375-junkpile.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/375-junkpile.jpg"
+        }
     },
     {
         "id": 376,
@@ -13671,8 +14767,12 @@ const META = [
             "groupAffiliation": "New Warriors; formerly Avengers Academy, Initiative, partner of Firestar, Avengers, Triune Understanding, Unlimited Class Wrestling Federation, Taskmaster's Circus, Secret Avengers (Civil War)",
             "relatives": "Jerzy Astroyevicht (aka Jerry Astrovik; paternal grandfather); Katerina Astroyevicht (aka Katerina Astrovik; paternal grandmother); Arnold Astrovik (father, deceased); Norma Astrovik (mother);"
         },
-        "images": "376-justice.jpg",
-        "poder_total": 248
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/376-justice.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/376-justice.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/376-justice.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/376-justice.jpg"
+        }
     },
     {
         "id": 379,
@@ -13726,8 +14826,12 @@ const META = [
             "groupAffiliation": "Formerly the Council of Kangs, Cross-Time Kangs",
             "relatives": "Cassandra Richards, their unnamed son, and matriarch of the Eyriennes; Tara Richards, Reed Richards ( Mister Fantastic ), Franklin Richards, Valeria Richards (all ancestors); various Eyriennes (common ancestry); Victor Von Doom (Doctor Doom, alleged ancestor); Ramades (son), Marcus Kang I-XXIII (sons, deceased); Immortus, Iron Lad, and numerous other alternate dimensional counterparts and their offspring"
         },
-        "images": "379-kang.jpg",
-        "poder_total": 446
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/379-kang.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/379-kang.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/379-kang.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/379-kang.jpg"
+        }
     },
     {
         "id": 380,
@@ -13774,8 +14878,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Edward Janeway (father), Gretchen Janeway (mother)"
         },
-        "images": "380-kathryn-janeway.jpg",
-        "poder_total": 200
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/380-kathryn-janeway.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/380-kathryn-janeway.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/380-kathryn-janeway.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/380-kathryn-janeway.jpg"
+        }
     },
     {
         "id": 381,
@@ -13822,8 +14930,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "381-katniss-everdeen.jpg",
-        "poder_total": 189
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/381-katniss-everdeen.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/381-katniss-everdeen.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/381-katniss-everdeen.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/381-katniss-everdeen.jpg"
+        }
     },
     {
         "id": 382,
@@ -13879,8 +14991,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Mrs. Levin (mother), Devlin Levin (alternate future son), Ben Tennyson (Ben 10, best friend), Harvey Hackett (Stepfather), Gwen Tennyson(girlfriend)"
         },
-        "images": "382-kevin-11.jpg",
-        "poder_total": 198
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/382-kevin-11.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/382-kevin-11.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/382-kevin-11.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/382-kevin-11.jpg"
+        }
     },
     {
         "id": 383,
@@ -13927,8 +15043,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Mother (unnamed, deceased), Father (unnamed)"
         },
-        "images": "383-kick-ass.jpg",
-        "poder_total": 184
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/383-kick-ass.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/383-kick-ass.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/383-kick-ass.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/383-kick-ass.jpg"
+        }
     },
     {
         "id": 384,
@@ -13975,8 +15095,12 @@ const META = [
             "groupAffiliation": "Flash Family, Teen Titans, New Teen Titans",
             "relatives": "Rudolph and Mary West (parents), Ira West (grandfather), Iris Allen (aunt), Barry Allen (uncle), Linda Park West (wife), Jai and Iris West (twin children)"
         },
-        "images": "384-kid-flash.jpg",
-        "poder_total": 213
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/384-kid-flash.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/384-kid-flash.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/384-kid-flash.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/384-kid-flash.jpg"
+        }
     },
     {
         "id": 386,
@@ -14023,8 +15147,12 @@ const META = [
             "groupAffiliation": "Secret Society of Super-Villains",
             "relatives": "-"
         },
-        "images": "386-killer-croc.jpg",
-        "poder_total": 310
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/386-killer-croc.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/386-killer-croc.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/386-killer-croc.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/386-killer-croc.jpg"
+        }
     },
     {
         "id": 387,
@@ -14071,8 +15199,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "387-killer-frost.jpg",
-        "poder_total": 235
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/387-killer-frost.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/387-killer-frost.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/387-killer-frost.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/387-killer-frost.jpg"
+        }
     },
     {
         "id": 388,
@@ -14124,8 +15256,12 @@ const META = [
             "groupAffiliation": "Green Lantern Corps; formerly New Guardians, Justice League International",
             "relatives": "-"
         },
-        "images": "388-kilowog.jpg",
-        "poder_total": 446
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/388-kilowog.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/388-kilowog.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/388-kilowog.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/388-kilowog.jpg"
+        }
     },
     {
         "id": 389,
@@ -14173,8 +15309,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "389-king-kong.jpg",
-        "poder_total": 424
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/389-king-kong.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/389-king-kong.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/389-king-kong.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/389-king-kong.jpg"
+        }
     },
     {
         "id": 390,
@@ -14221,8 +15361,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "390-king-shark.jpg",
-        "poder_total": 404
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/390-king-shark.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/390-king-shark.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/390-king-shark.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/390-king-shark.jpg"
+        }
     },
     {
         "id": 391,
@@ -14271,8 +15415,12 @@ const META = [
             "groupAffiliation": "Leader of The Hand, leader of a coalition of East Coast non-Maggia criminal organizations; former director of Las Vegas HYDRA faction.",
             "relatives": "Anatoly Fyskov (ancestor); Vanessa Fisk (wife, deceased); Rose (Richard Fisk) (son, deceased);"
         },
-        "images": "391-kingpin.jpg",
-        "poder_total": 241
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/391-kingpin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/391-kingpin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/391-kingpin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/391-kingpin.jpg"
+        }
     },
     {
         "id": 392,
@@ -14319,8 +15467,12 @@ const META = [
             "groupAffiliation": "Former member of the Masters of Evil, Fearsome Foursome, and Frightful Four; Former ally of Solarr, Molecule Man, and Doctor Doom",
             "relatives": "-"
         },
-        "images": "392-klaw.jpg",
-        "poder_total": 356
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/392-klaw.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/392-klaw.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/392-klaw.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/392-klaw.jpg"
+        }
     },
     {
         "id": 393,
@@ -14367,8 +15519,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "393-kool-aid-man.jpg",
-        "poder_total": 84
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/393-kool-aid-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/393-kool-aid-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/393-kool-aid-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/393-kool-aid-man.jpg"
+        }
     },
     {
         "id": 394,
@@ -14415,8 +15571,12 @@ const META = [
             "groupAffiliation": "Formerly the Sinister Six",
             "relatives": "Sergei Kravinoff (Kraven the Hunter, father, deceased), unidentified mother, Vladimir Kravinoff (Grim Hunter, half-brother, deceased), Nedrocci Tannengarden (half-brother, deceased), Dmitri Smerdyakov"
         },
-        "images": "394-kraven-ii.jpg",
-        "poder_total": 263
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/394-kraven-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/394-kraven-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/394-kraven-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/394-kraven-ii.jpg"
+        }
     },
     {
         "id": 395,
@@ -14465,8 +15625,12 @@ const META = [
             "groupAffiliation": "(formerly) The Sinister Six",
             "relatives": "Nikolai & Anna Makarova Kravinoff (parents, deceased), Dmitri Smerdyakov (Chameleon, half-brother), Vladimir Kravinoff (Grim Hunter, son, deceased), Aloysha \"Al\" Kravinoff (Kraven II, son), Ned Tannengarden (son, deceased)"
         },
-        "images": "395-kraven-the-hunter.jpg",
-        "poder_total": 282
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/395-kraven-the-hunter.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/395-kraven-the-hunter.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/395-kraven-the-hunter.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/395-kraven-the-hunter.jpg"
+        }
     },
     {
         "id": 396,
@@ -14513,8 +15677,12 @@ const META = [
             "groupAffiliation": "Superman",
             "relatives": "-"
         },
-        "images": "396-krypto.jpg",
-        "poder_total": 401
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/396-krypto.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/396-krypto.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/396-krypto.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/396-krypto.jpg"
+        }
     },
     {
         "id": 397,
@@ -14566,8 +15734,12 @@ const META = [
             "groupAffiliation": "Green Lantern Corps, New Guardians, formerly Challengers From Beyond, Sinestro Corps, Justice League of America, Blue Lantern Corps, Titans",
             "relatives": "Aaron Rayner (father), Maura Rayner (mother, deceased), Zachary Rayner (uncle, deceased), Roderick \"Snowy\" Rayner (grandfather, deceased), unnamed maternal great-grandfather (deceased), Kathleen (aunt), Cary Wren (descendant)"
         },
-        "images": "397-kyle-rayner.jpg",
-        "poder_total": 429
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/397-kyle-rayner.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/397-kyle-rayner.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/397-kyle-rayner.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/397-kyle-rayner.jpg"
+        }
     },
     {
         "id": 398,
@@ -14614,8 +15786,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Han Solo (Father), Princess Leia (Mother), Luke Skywalker (Uncle)"
         },
-        "images": "398-kylo-ren.jpg",
-        "poder_total": 333
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/398-kylo-ren.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/398-kylo-ren.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/398-kylo-ren.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/398-kylo-ren.jpg"
+        }
     },
     {
         "id": 400,
@@ -14662,8 +15838,12 @@ const META = [
             "groupAffiliation": "Ally of Reverend William Stryker, former employee of Sabretooth, formerly Reavers",
             "relatives": "Kenji Oyama (Lord Dark Wind, father, deceased), two unnamed brothers (deceased)"
         },
-        "images": "400-lady-deathstrike.jpg",
-        "poder_total": 356
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/400-lady-deathstrike.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/400-lady-deathstrike.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/400-lady-deathstrike.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/400-lady-deathstrike.jpg"
+        }
     },
     {
         "id": 401,
@@ -14710,8 +15890,12 @@ const META = [
             "groupAffiliation": "Leader of Freehold",
             "relatives": "-"
         },
-        "images": "401-leader.jpg",
-        "poder_total": 237
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/401-leader.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/401-leader.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/401-leader.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/401-leader.jpg"
+        }
     },
     {
         "id": 402,
@@ -14758,8 +15942,12 @@ const META = [
             "groupAffiliation": "198; formerly Generation X, Daydreamers, Morlocks, X-Factor (trainee)",
             "relatives": "Annalee (foster mother, deceased)"
         },
-        "images": "402-leech.jpg",
-        "poder_total": 132
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/402-leech.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/402-leech.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/402-leech.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/402-leech.jpg"
+        }
     },
     {
         "id": 403,
@@ -14818,8 +16006,12 @@ const META = [
             "groupAffiliation": "Formerly X-Men, Muir Island X-Men",
             "relatives": "Charles Graymalkin (paternal collateral ancestor), Marcia Graymalkin (paternal collateral ancestor), Jonas Graymalkin (paternal collateral ancestor), Brian Xavier (paternal grandfather), Sharon Xavier (paternal grandmother), Kurt Marko (paternal step-grandfather), Cain Marko (paternal step-uncle), Cassandra Nova Xavier (paternal aunt), Charles Xavier (father), Gabrielle Haller (mother), Daniel Shomron (stepfather), Xavier Family (paternal relatives), Ruth Aldine (lover/current body)"
         },
-        "images": "403-legion.jpg",
-        "poder_total": 397
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/403-legion.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/403-legion.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/403-legion.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/403-legion.jpg"
+        }
     },
     {
         "id": 404,
@@ -14868,8 +16060,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Donatello (brother), Michelangelo (brother), Raphael (brother)"
         },
-        "images": "404-leonardo.jpg",
-        "poder_total": 345
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/404-leonardo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/404-leonardo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/404-leonardo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/404-leonardo.jpg"
+        }
     },
     {
         "id": 405,
@@ -14916,8 +16112,12 @@ const META = [
             "groupAffiliation": "Injustice Gang, Injustice League, Society of Supervillains",
             "relatives": "Casey and Elaine Griggs (foster parents, deceased),\nLena Luthor (sister pre-Crisis; daughter post-Crisis),\nElizabeth Perske (ex-wife),\nPerry J. White Jr. (son, deceased),\nContessa Erica Alexandra del Portenza (wife, assumed deceased)"
         },
-        "images": "405-lex-luthor.jpg",
-        "poder_total": 381
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/405-lex-luthor.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/405-lex-luthor.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/405-lex-luthor.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/405-lex-luthor.jpg"
+        }
     },
     {
         "id": 406,
@@ -14964,8 +16164,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes, formerly the Wanderers",
             "relatives": "Unnamd parents, Garth Ranzz (Lightning Lad, twin brother); Mekt Ranzz (older brother)"
         },
-        "images": "406-light-lass.jpg",
-        "poder_total": 220
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/406-light-lass.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/406-light-lass.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/406-light-lass.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/406-light-lass.jpg"
+        }
     },
     {
         "id": 407,
@@ -15013,8 +16217,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes",
             "relatives": "-"
         },
-        "images": "407-lightning-lad.jpg",
-        "poder_total": 201
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/407-lightning-lad.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/407-lightning-lad.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/407-lightning-lad.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/407-lightning-lad.jpg"
+        }
     },
     {
         "id": 408,
@@ -15061,8 +16269,12 @@ const META = [
             "groupAffiliation": "The Wanderers, former ally of the Legion of Super-Heroes.",
             "relatives": "-"
         },
-        "images": "408-lightning-lord.jpg",
-        "poder_total": 227
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/408-lightning-lord.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/408-lightning-lord.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/408-lightning-lord.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/408-lightning-lord.jpg"
+        }
     },
     {
         "id": 409,
@@ -15109,8 +16321,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "409-living-brain.jpg",
-        "poder_total": 278
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/409-living-brain.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/409-living-brain.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/409-living-brain.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/409-living-brain.jpg"
+        }
     },
     {
         "id": 410,
@@ -15160,8 +16376,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "One-Above-All (creator)"
         },
-        "images": "410-living-tribunal.jpg",
-        "poder_total": 530
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/410-living-tribunal.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/410-living-tribunal.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/410-living-tribunal.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/410-living-tribunal.jpg"
+        }
     },
     {
         "id": 412,
@@ -15208,8 +16428,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Martha (wife, deceased), Billy (son), unnamed sister"
         },
-        "images": "412-lizard.jpg",
-        "poder_total": 317
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/412-lizard.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/412-lizard.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/412-lizard.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/412-lizard.jpg"
+        }
     },
     {
         "id": 413,
@@ -15260,8 +16484,12 @@ const META = [
             "groupAffiliation": "Formerly LEGION, Young Justice; First Celestial Church of the Triple Fish-God",
             "relatives": "Slobo (clone)"
         },
-        "images": "413-lobo.jpg",
-        "poder_total": 533
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/413-lobo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/413-lobo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/413-lobo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/413-lobo.jpg"
+        }
     },
     {
         "id": 414,
@@ -15316,8 +16544,12 @@ const META = [
             "groupAffiliation": "Asgardians, Karnilla, Enchantress, Skurge the Executioner, Cobra, Mister Hyde, Absorbing Man, Igron, Tyr, Lorelei, Hela, Ulik, Frost Giants, Storm Giants (former), Dormammu, \"Acts of Vengeance\" prime movers (Dr. Doom, Magneto, Red Skull, Mandari",
             "relatives": "Laufey (father, deceased), Farbauti (mother, deceased), Sigyn (wife, deceased), Odin (foster father, deceased), Frigga (foster mother, deceased), Thor, Vidar (foster brothers, deceased), Hela,Fenris (Wolf), Jordmungand (Midgard Serpent) (children, deceased), Arkin (cousin, deceased)"
         },
-        "images": "414-loki.jpg",
-        "poder_total": 442
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/414-loki.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/414-loki.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/414-loki.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/414-loki.jpg"
+        }
     },
     {
         "id": 415,
@@ -15365,8 +16597,12 @@ const META = [
             "groupAffiliation": "X-Factor Investigations; rebel forces on his homeworld; formerly Exiles; X-Men",
             "relatives": "Arize (creator), Alison Blaire (Dazzler) (wife), Gaveedra Seven (Shatterstar) (alleged son)"
         },
-        "images": "415-longshot.jpg",
-        "poder_total": 238
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/415-longshot.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/415-longshot.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/415-longshot.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/415-longshot.jpg"
+        }
     },
     {
         "id": 416,
@@ -15417,8 +16653,12 @@ const META = [
             "groupAffiliation": "Underground Avengers (formerly Daredevil's Unnamed Super-Hero Team), Secret Defenders, Heroes for Hire, Nightwing Restorations, Fantastic Four, Defenders, Bloods",
             "relatives": "Jessica Jones (wife), James Leonard Lucas (father), Esther (mother, deceased), James Jr. (Coldfire, brother), unnamed daughter"
         },
-        "images": "416-luke-cage.jpg",
-        "poder_total": 351
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/416-luke-cage.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/416-luke-cage.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/416-luke-cage.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/416-luke-cage.jpg"
+        }
     },
     {
         "id": 418,
@@ -15467,8 +16707,12 @@ const META = [
             "groupAffiliation": "Alliance to Restore the Republic, Jedi Order, Alliance of Free Planets, Bright Tree Village, New Republic, New Jedi Order",
             "relatives": "Darth Vader (father), Princes Leia (Sister), Yoda (Master), Obi-Wan Kenobi (Master)"
         },
-        "images": "418-luke-skywalker.jpg",
-        "poder_total": 374
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/418-luke-skywalker.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/418-luke-skywalker.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/418-luke-skywalker.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/418-luke-skywalker.jpg"
+        }
     },
     {
         "id": 419,
@@ -15515,8 +16759,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Quicksilver (Pietro Maximoff, father), Magneto (grandfather), Crystal (mother), Scarlet Witch, (aunt), Polaris (aunt)"
         },
-        "images": "419-luna.jpg",
-        "poder_total": 208
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/419-luna.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/419-luna.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/419-luna.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/419-luna.jpg"
+        }
     },
     {
         "id": 421,
@@ -15567,8 +16815,12 @@ const META = [
             "groupAffiliation": "formerly Thunderbolts, Masters of Evil, Sinister Syndicate, Justin Hammer's Hit Squad, Maggia, Sinister Seven, Commission on Superhuman Activities, Defenders impersonators, Burton Canyon Police Department",
             "relatives": "-"
         },
-        "images": "421-mach-iv.jpg",
-        "poder_total": 371
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/421-mach-iv.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/421-mach-iv.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/421-mach-iv.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/421-mach-iv.jpg"
+        }
     },
     {
         "id": 422,
@@ -15616,8 +16868,12 @@ const META = [
             "groupAffiliation": "Avengers",
             "relatives": "Dr. Able Stack, 'father'"
         },
-        "images": "422-machine-man.jpg",
-        "poder_total": 329
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/422-machine-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/422-machine-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/422-machine-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/422-machine-man.jpg"
+        }
     },
     {
         "id": 423,
@@ -15668,8 +16924,12 @@ const META = [
             "groupAffiliation": "Currently None, formerly Brotherhood of Evil Mutants I and II, X-Men, teacher of the New Mutants, Lords Cardinal of the Hellfire Club, leader of the Acolytes",
             "relatives": "Magda (wife, deceased), Anya (daughter, deceased), Pietro Maximoff (Quicksilver, son), Wanda Maximoff (Scarlet Witch, daughter), Lorna Dane (Polaris, daughter), Joseph (clone, deceased), Luna (granddaughter)"
         },
-        "images": "423-magneto.jpg",
-        "poder_total": 450
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/423-magneto.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/423-magneto.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/423-magneto.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/423-magneto.jpg"
+        }
     },
     {
         "id": 424,
@@ -15716,8 +16976,12 @@ const META = [
             "groupAffiliation": "formerly Justice Society of America, formerally United States Marine Corps",
             "relatives": "Franklin Delano Roosevelt (great-grandfather, deceased)"
         },
-        "images": "424-magog.jpg",
-        "poder_total": 323
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/424-magog.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/424-magog.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/424-magog.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/424-magog.jpg"
+        }
     },
     {
         "id": 425,
@@ -15764,8 +17028,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Warlock (son, deceased)"
         },
-        "images": "425-magus.jpg",
-        "poder_total": 531
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/425-magus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/425-magus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/425-magus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/425-magus.jpg"
+        }
     },
     {
         "id": 426,
@@ -15812,8 +17080,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "426-man-of-miracles.jpg",
-        "poder_total": 600
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/426-man-of-miracles.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/426-man-of-miracles.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/426-man-of-miracles.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/426-man-of-miracles.jpg"
+        }
     },
     {
         "id": 427,
@@ -15860,8 +17132,12 @@ const META = [
             "groupAffiliation": "Formerly Spirit Squad, The Network",
             "relatives": "Francine Langstrom (wife), Rebecca Elizabeth Langtrom (daughter); Aaron Langstrom (son); Britt Langstrom (sister); Ted Friedel (brother-in-law)"
         },
-        "images": "427-man-bat.jpg",
-        "poder_total": 239
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/427-man-bat.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/427-man-bat.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/427-man-bat.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/427-man-bat.jpg"
+        }
     },
     {
         "id": 428,
@@ -15908,8 +17184,12 @@ const META = [
             "groupAffiliation": "Thunderbolts, Legion of Monsters, Daydreamers",
             "relatives": "Ellen Brandt (ex-wife) Job Burke (son)"
         },
-        "images": "428-man-thing.jpg",
-        "poder_total": 330
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/428-man-thing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/428-man-thing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/428-man-thing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/428-man-thing.jpg"
+        }
     },
     {
         "id": 429,
@@ -15958,8 +17238,12 @@ const META = [
             "groupAffiliation": "Ravencroft Insitute Staff, Avengers Support Crew, NASA, USAF",
             "relatives": "J. Jonah (father), Joan (mother, deceased), Marla Madison (stepmother), David (paternal grandfather, presumed deceased), Betty (paternal grandmother, presumed deceased)"
         },
-        "images": "429-man-wolf.jpg",
-        "poder_total": 299
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/429-man-wolf.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/429-man-wolf.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/429-man-wolf.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/429-man-wolf.jpg"
+        }
     },
     {
         "id": 430,
@@ -16010,8 +17294,12 @@ const META = [
             "groupAffiliation": "current CEO of Prometheus Corporation; has employed the Avatars, Living Laser, Power Man, Swordsman, Enchantress, Executioner, Sandman, and Ladykiller.",
             "relatives": "Unidentified father, mother, paternal aunt (all deceased). Mei-Ling (fianc?e, deceased), Temujin (son), Genghis Khan (alleged ancestor, deceased)"
         },
-        "images": "430-mandarin.jpg",
-        "poder_total": 374
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/430-mandarin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/430-mandarin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/430-mandarin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/430-mandarin.jpg"
+        }
     },
     {
         "id": 431,
@@ -16062,8 +17350,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Libra (Gustav Brandt) (father), Lau Brandt (mother), Cotati possessing Jacques Duquesne (husband), Quoi (son)"
         },
-        "images": "431-mantis.jpg",
-        "poder_total": 364
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/431-mantis.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/431-mantis.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/431-mantis.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/431-mantis.jpg"
+        }
     },
     {
         "id": 432,
@@ -16112,8 +17404,12 @@ const META = [
             "groupAffiliation": "Darkstars, Justice League of Aliens, Justice League Of America, Justice League Task Force, Justice League Unlimited, Martians, Outsiders",
             "relatives": "M'yrnn J'onzz (father, deceased); Sha'sheen J'onzz (mother, deceased); M'yri'ah (wife, deceased); K'hym (daughter, deceased); Ma'alefa'ak (twin brother); D'all (father-in-law, deceased); J'ahrl J'onzz (ancestor, deceased)"
         },
-        "images": "432-martian-manhunter.jpg",
-        "poder_total": 572
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/432-martian-manhunter.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/432-martian-manhunter.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/432-martian-manhunter.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/432-martian-manhunter.jpg"
+        }
     },
     {
         "id": 433,
@@ -16164,8 +17460,12 @@ const META = [
             "groupAffiliation": "Starjammers, formerly X-Men, former servant of Elias Bogan, formerly Clan Askani (leader), Excalibur, former servant of Ahab",
             "relatives": "Scott Summers (Cyclops, alternate timeline father, deceased in own time), Jean Grey-Summers (Phoenix, alternate timeline mother, deceased in own time), Alex Summers (Havok, alternate timeline uncle), Franklin Richards (alternate future husband), Jonathan Reed Richards (Hyperstorm, alternate future son), David Richards (alternate future son)"
         },
-        "images": "433-marvel-girl.jpg",
-        "poder_total": 417
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/433-marvel-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/433-marvel-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/433-marvel-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/433-marvel-girl.jpg"
+        }
     },
     {
         "id": 435,
@@ -16215,8 +17515,12 @@ const META = [
             "groupAffiliation": "United Nations Space Command, Navy",
             "relatives": "-"
         },
-        "images": "435-master-chief.jpg",
-        "poder_total": 432
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/435-master-chief.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/435-master-chief.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/435-master-chief.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/435-master-chief.jpg"
+        }
     },
     {
         "id": 436,
@@ -16264,8 +17568,12 @@ const META = [
             "groupAffiliation": "Titans East, the Agenda, Project Cadmus",
             "relatives": "Superman (genetic template via Superboy), Lex Luthor (genetic Template via Superboy), Superboy (genetic template)"
         },
-        "images": "436-match.jpg",
-        "poder_total": 508
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/436-match.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/436-match.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/436-match.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/436-match.jpg"
+        }
     },
     {
         "id": 437,
@@ -16312,8 +17620,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Maury Parkman (father), Janice Parkman (ex-wife)"
         },
-        "images": "437-matt-parkman.jpg",
-        "poder_total": 214
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/437-matt-parkman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/437-matt-parkman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/437-matt-parkman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/437-matt-parkman.jpg"
+        }
     },
     {
         "id": 438,
@@ -16361,8 +17673,12 @@ const META = [
             "groupAffiliation": "(As Maverick) Formerly Gene Nation, Cable?s Underground; (as Bolt) formerly New Warriors",
             "relatives": "Robert Bradley (Frank Johnson, father), Marion Bradley (Rose Johnson, mother), Catherine Bradley (Jennifer Johnson, sister)"
         },
-        "images": "438-maverick.jpg",
-        "poder_total": 272
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/438-maverick.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/438-maverick.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/438-maverick.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/438-maverick.jpg"
+        }
     },
     {
         "id": 439,
@@ -16410,8 +17726,12 @@ const META = [
             "groupAffiliation": "Justice League Task Force, Extreme Justice",
             "relatives": "-"
         },
-        "images": "439-maxima.jpg",
-        "poder_total": 412
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/439-maxima.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/439-maxima.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/439-maxima.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/439-maxima.jpg"
+        }
     },
     {
         "id": 440,
@@ -16458,8 +17778,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Alejandro (twin brother)"
         },
-        "images": "440-maya-herrera.jpg",
-        "poder_total": 160
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/440-maya-herrera.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/440-maya-herrera.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/440-maya-herrera.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/440-maya-herrera.jpg"
+        }
     },
     {
         "id": 441,
@@ -16507,8 +17831,12 @@ const META = [
             "groupAffiliation": "Inhumans, Fantastic Four",
             "relatives": "Kobar, La (maternal grandparents), Azur (maternal aunt), Mander (maternal uncle-by-marriage), Quelin (father), Ambur (mother), Crystal (sister), Black Bolt (husband, second cousin), Ahura (son), Karnak (cousin), Triton (cousin), Psynapse (second cousin), Maximus (brother-in-law, second cousin), Ronan the Accuser (brother-in-law), Quicksilver (ex-brother-in-law), Luna (niece)"
         },
-        "images": "441-medusa.jpg",
-        "poder_total": 307
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/441-medusa.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/441-medusa.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/441-medusa.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/441-medusa.jpg"
+        }
     },
     {
         "id": 442,
@@ -16560,8 +17888,12 @@ const META = [
             "groupAffiliation": "Formerly Nextwave, X-Force, Genoshan Mutates, New Mutants, X-Terminators, X-Factor (trainee), Fallen Angels",
             "relatives": "Martin Louis Smith (father), Mandy Smith (step-mother), Wanda Jo Bialowsky-Smith (step-mother)"
         },
-        "images": "442-meltdown.jpg",
-        "poder_total": 228
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/442-meltdown.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/442-meltdown.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/442-meltdown.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/442-meltdown.jpg"
+        }
     },
     {
         "id": 443,
@@ -16622,8 +17954,12 @@ const META = [
             "groupAffiliation": "Hell-lords, Lords of the Splinter Realms; formerly manipulator of the Six-Fingered Hand",
             "relatives": "Blackheart (son), Mephista (daughter); presumptive relationship to other Hell-lords; quasi-paternal relationship to Mikal Drakonmegas (Hellfire) and Daimon (Hellstorm) and Satana Hellstrom; formerly engaged to unidentified demoness"
         },
-        "images": "443-mephisto.jpg",
-        "poder_total": 445
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/443-mephisto.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/443-mephisto.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/443-mephisto.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/443-mephisto.jpg"
+        }
     },
     {
         "id": 444,
@@ -16673,8 +18009,12 @@ const META = [
             "groupAffiliation": "Aquaman Family; formerly Red Lantern Corps",
             "relatives": "Aquaman (husband); Aquababy (son, deceased); A.J. (son); Siren (Hila, twin sister)"
         },
-        "images": "444-mera.jpg",
-        "poder_total": 429
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/444-mera.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/444-mera.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/444-mera.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/444-mera.jpg"
+        }
     },
     {
         "id": 445,
@@ -16721,8 +18061,12 @@ const META = [
             "groupAffiliation": "Superman Revenge Squad",
             "relatives": "-"
         },
-        "images": "445-metallo.jpg",
-        "poder_total": 396
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/445-metallo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/445-metallo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/445-metallo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/445-metallo.jpg"
+        }
     },
     {
         "id": 448,
@@ -16769,8 +18113,12 @@ const META = [
             "groupAffiliation": "New Gods",
             "relatives": "-"
         },
-        "images": "448-metron.jpg",
-        "poder_total": 329
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/448-metron.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/448-metron.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/448-metron.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/448-metron.jpg"
+        }
     },
     {
         "id": 449,
@@ -16817,8 +18165,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Niki Sanders (Mother), DL Hawkins (Father), Paulette Hawkins (paternal grandmother), Hal Sanders (maternal grandfather), Nana Dawson (Guardian)\nNana Dawson (Great-aunt), Monica Dawson (Cousin), Damon Dawson (Cousin)"
         },
-        "images": "449-micah-sanders.jpg",
-        "poder_total": 168
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/449-micah-sanders.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/449-micah-sanders.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/449-micah-sanders.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/449-micah-sanders.jpg"
+        }
     },
     {
         "id": 450,
@@ -16868,8 +18220,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Leonardo (brother), Donatello (brother), Raphael (brother)"
         },
-        "images": "450-michelangelo.jpg",
-        "poder_total": 326
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/450-michelangelo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/450-michelangelo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/450-michelangelo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/450-michelangelo.jpg"
+        }
     },
     {
         "id": 451,
@@ -16917,8 +18273,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes",
             "relatives": "-"
         },
-        "images": "451-micro-lad.jpg",
-        "poder_total": 197
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/451-micro-lad.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/451-micro-lad.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/451-micro-lad.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/451-micro-lad.jpg"
+        }
     },
     {
         "id": 452,
@@ -16967,8 +18327,12 @@ const META = [
             "groupAffiliation": "Formerly Brotherhood Of Mutants, Excalibur, X-Men, former agent of Onslaught and Sledge",
             "relatives": "Ronald Rankin (father, deceased)"
         },
-        "images": "452-mimic.jpg",
-        "poder_total": 354
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/452-mimic.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/452-mimic.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/452-mimic.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/452-mimic.jpg"
+        }
     },
     {
         "id": 454,
@@ -17015,8 +18379,12 @@ const META = [
             "groupAffiliation": "Birds of Prey",
             "relatives": "-"
         },
-        "images": "454-misfit.jpg",
-        "poder_total": 331
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/454-misfit.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/454-misfit.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/454-misfit.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/454-misfit.jpg"
+        }
     },
     {
         "id": 455,
@@ -17064,8 +18432,12 @@ const META = [
             "groupAffiliation": "Teen Titans",
             "relatives": "-"
         },
-        "images": "455-miss-martian.jpg",
-        "poder_total": 451
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/455-miss-martian.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/455-miss-martian.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/455-miss-martian.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/455-miss-martian.jpg"
+        }
     },
     {
         "id": 456,
@@ -17112,8 +18484,12 @@ const META = [
             "groupAffiliation": "Fantastic Four",
             "relatives": "Nathaniai (father), Evelyn (mother, deceased), Susan Storm - Invisible Woman (wife), Franklin (son), Johnny Storm - Human Torch (brother-inlaw), Cassandra (stepmother, deceased), Immortus (father's descendant, see Immortus, Kang, Rama-Tut)."
         },
-        "images": "456-mister-fantastic.jpg",
-        "poder_total": 295
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/456-mister-fantastic.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/456-mister-fantastic.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/456-mister-fantastic.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/456-mister-fantastic.jpg"
+        }
     },
     {
         "id": 457,
@@ -17162,8 +18538,12 @@ const META = [
             "groupAffiliation": "Assorted Batman rogues, The Society",
             "relatives": "Nora Fries (wife, deceased, then resurrected as Lazara), Charles (Father) and Lorraine Fries (Mother)"
         },
-        "images": "457-mister-freeze.jpg",
-        "poder_total": 254
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/457-mister-freeze.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/457-mister-freeze.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/457-mister-freeze.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/457-mister-freeze.jpg"
+        }
     },
     {
         "id": 458,
@@ -17213,8 +18593,12 @@ const META = [
             "groupAffiliation": "Slaughter Lords (leader); formerly Galactic Council, ruler of the Spartoi Empire",
             "relatives": "Eson (father, deceased), Peter Quill (Star-Lord, son), Victoria (daughter)"
         },
-        "images": "458-mister-knife.jpg",
-        "poder_total": 210
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/458-mister-knife.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/458-mister-knife.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/458-mister-knife.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/458-mister-knife.jpg"
+        }
     },
     {
         "id": 459,
@@ -17261,8 +18645,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "459-mister-mxyzptlk.jpg",
-        "poder_total": 535
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/459-mister-mxyzptlk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/459-mister-mxyzptlk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/459-mister-mxyzptlk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/459-mister-mxyzptlk.jpg"
+        }
     },
     {
         "id": 460,
@@ -17320,8 +18708,12 @@ const META = [
             "groupAffiliation": "Marauders (founder), Nasty Boys (founder); formerly Weapon X, Third Reich",
             "relatives": "Rebecca Essex (wife, deceased), Adam Stanislaus Essex (son, deceased), N2 (creation, deceased), Madelyne Pryor (creation, deceased), Claudine Renko (clone \"daughter\")"
         },
-        "images": "460-mister-sinister.jpg",
-        "poder_total": 434
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/460-mister-sinister.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/460-mister-sinister.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/460-mister-sinister.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/460-mister-sinister.jpg"
+        }
     },
     {
         "id": 461,
@@ -17368,8 +18760,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "no-portrait.jpg",
-        "poder_total": 274
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/no-portrait.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/no-portrait.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/no-portrait.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/no-portrait.jpg"
+        }
     },
     {
         "id": 462,
@@ -17420,8 +18816,12 @@ const META = [
             "groupAffiliation": "World Counterterrorism Agency; formerly Secret Avengers, New Avengers, West Coast Avengers, Avengers, Great Lakes Avengers, S.H.I.E.L.D.; partner of Hawkeye; associate of Dr. Wilma Calvin",
             "relatives": "Susan Morse (mother); Ben Morse (brother); Hawkeye (Clint Barton) (ex-husband)"
         },
-        "images": "462-mockingbird.jpg",
-        "poder_total": 307
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/462-mockingbird.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/462-mockingbird.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/462-mockingbird.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/462-mockingbird.jpg"
+        }
     },
     {
         "id": 463,
@@ -17469,8 +18869,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "M.O.D.O.K. Superior (clone), Head Case (son), Number None (son)"
         },
-        "images": "463-modok.jpg",
-        "poder_total": 262
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/463-modok.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/463-modok.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/463-modok.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/463-modok.jpg"
+        }
     },
     {
         "id": 467,
@@ -17517,8 +18921,12 @@ const META = [
             "groupAffiliation": "Exterminators",
             "relatives": "Doris Raxton (mother), Liz Allan Osborn (step-sister), Harry Osborn (Green Goblin II , step-brother-in-law, deceased), Norman Osborn Jr. (Green Goblin I, step-nephew)"
         },
-        "images": "467-molten-man.jpg",
-        "poder_total": 339
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/467-molten-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/467-molten-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/467-molten-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/467-molten-man.jpg"
+        }
     },
     {
         "id": 469,
@@ -17565,8 +18973,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Nana Dawson (Grandmother), Damon (brother), DL Hawkins (cousin), Niki Sanders (cousin-in-law once removed), Micah Sanders (second cousin)"
         },
-        "images": "469-monica-dawson.jpg",
-        "poder_total": 247
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/469-monica-dawson.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/469-monica-dawson.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/469-monica-dawson.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/469-monica-dawson.jpg"
+        }
     },
     {
         "id": 470,
@@ -17618,8 +19030,12 @@ const META = [
             "groupAffiliation": "Secret Avengers; formerly: US Marine Corps, Central Intelligence Agency (CIA), partner of Jean-Paul du Champ, partner of Raoul Bushman, partner of Midnight, West Coast Avengers, Marvel Knights, Defenders",
             "relatives": "Shadowknight (Randall Spector) (brother, deceased), Elias (father, deceased), Seth Phalkon (alleged great-great-grandfather)"
         },
-        "images": "470-moon-knight.jpg",
-        "poder_total": 254
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/470-moon-knight.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/470-moon-knight.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/470-moon-knight.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/470-moon-knight.jpg"
+        }
     },
     {
         "id": 471,
@@ -17667,8 +19083,12 @@ const META = [
             "groupAffiliation": "Dark Avengers, Formerly; Thunderbolts, Femizons, Masters of Evil, Doctor Faustus, the Corporation, former partner of Blackout (Marcus Daniels)",
             "relatives": "Karl August Sofen (father), Marion Sofen (mother), unnamed maternal grandparents (only mentioned )"
         },
-        "images": "471-moonstone.jpg",
-        "poder_total": 376
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/471-moonstone.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/471-moonstone.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/471-moonstone.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/471-moonstone.jpg"
+        }
     },
     {
         "id": 472,
@@ -17715,8 +19135,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "472-morlun.jpg",
-        "poder_total": 330
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/472-morlun.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/472-morlun.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/472-morlun.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/472-morlun.jpg"
+        }
     },
     {
         "id": 474,
@@ -17763,8 +19187,12 @@ const META = [
             "groupAffiliation": "Magnum Force (leader), agent of Apocalypse; former agent of They Who Wield Power",
             "relatives": "-"
         },
-        "images": "474-moses-magnum.jpg",
-        "poder_total": 268
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/474-moses-magnum.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/474-moses-magnum.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/474-moses-magnum.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/474-moses-magnum.jpg"
+        }
     },
     {
         "id": 475,
@@ -17811,8 +19239,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "no-portrait.jpg",
-        "poder_total": 267
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/no-portrait.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/no-portrait.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/no-portrait.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/no-portrait.jpg"
+        }
     },
     {
         "id": 476,
@@ -17861,8 +19293,12 @@ const META = [
             "groupAffiliation": "Incredible Family",
             "relatives": "Helen Parr (Elastigirl, wife), Violet Parr(Violet, daughter), Dashiell Parr (Dash, son), Jack-jack (son)"
         },
-        "images": "476-mr-incredible.jpg",
-        "poder_total": 330
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/476-mr-incredible.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/476-mr-incredible.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/476-mr-incredible.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/476-mr-incredible.jpg"
+        }
     },
     {
         "id": 477,
@@ -17909,8 +19345,12 @@ const META = [
             "groupAffiliation": "Former member of the Fantastic Four, Frightful Four, Unlimited Class Wrestling Federation, Thunderiders",
             "relatives": "-"
         },
-        "images": "477-ms-marvel-ii.jpg",
-        "poder_total": 275
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/477-ms-marvel-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/477-ms-marvel-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/477-ms-marvel-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/477-ms-marvel-ii.jpg"
+        }
     },
     {
         "id": 478,
@@ -17957,8 +19397,12 @@ const META = [
             "groupAffiliation": "X-Factor Investigations (formerly) X-Factor, Fallen Angels, X-Corps, X-Corporation",
             "relatives": "Dr. Daniel Madrox (father, deceased), Joan Madrox (mother, deceased)"
         },
-        "images": "478-multiple-man.jpg",
-        "poder_total": 257
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/478-multiple-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/478-multiple-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/478-multiple-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/478-multiple-man.jpg"
+        }
     },
     {
         "id": 479,
@@ -18008,8 +19452,12 @@ const META = [
             "groupAffiliation": "None; Former Sinister Six",
             "relatives": "Henrietta Beck (mother), Elmore Beck (father), Vincent (uncle), Maguire Beck (Jack O'Lantern) (cousin)"
         },
-        "images": "479-mysterio.jpg",
-        "poder_total": 300
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/479-mysterio.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/479-mysterio.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/479-mysterio.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/479-mysterio.jpg"
+        }
     },
     {
         "id": 480,
@@ -18056,8 +19504,12 @@ const META = [
             "groupAffiliation": "Founder and leader of the third Brotherhood of Evil Mutants, now known as Freedom Force; X-Factor, X-Men",
             "relatives": "Rogue (unofficial foster daughter), Ralph Brickman (husband), Gloria Brickman (daughter), Graydon Creed (son, deceased)"
         },
-        "images": "480-mystique.jpg",
-        "poder_total": 312
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/480-mystique.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/480-mystique.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/480-mystique.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/480-mystique.jpg"
+        }
     },
     {
         "id": 481,
@@ -18115,8 +19567,12 @@ const META = [
             "groupAffiliation": "Cabal (founder), Invaders, Atlantis; formerly Illuminati, X-Men, Extinction Team, Phoenix Five, Defenders, Osborn's X-Men, Osborn's Cabal, Avengers, All-Winners Squad, Titans Three, Fantastic Four, Oracle Inc., Order, Deep Six (founder and leader); ally o",
             "relatives": "Elanna (maternal ancestor), Tanas (maternal ancestor), Zartra (maternal ancestor), Orrek (maternal distant relative), Stegor (maternal ancestor), Kamuu (maternal ancestor), Harran (maternal ancestor), Kalen (maternal ancestor), Ossem (maternal ancestor), Balaal (maternal ancestor), Thallo (maternal ancestor), Immanu (maternal great-grandfather-in-law, deceased), Thakorr (maternal grandfather, deceased), Korra (maternal grandmother), Wa-Korr (grandfather-in-law, presumed deceased), Wathan (father-in-law, presumed deceased), Tom Smallwood (father-in-law), Gladys Smallwood (mother-in-law), Zarina (maternal aunt), Namora's father (uncle), Daka (maternal uncle), Brynn (aunt-by-marriage/step-grandmother), Fen (mother, deceased), Leonard McKenzie (father, deceased), Experiment N2 (clone), Lawrence McKenzie (paternal half-brother), Dorma (wife / distant cousin, deceased), Marrina (wife), three unnamed children (by Marrina), Kamar (son, deceased), Black Moray (Leon McKenzie) (paternal half-nephew), Llyron McKenzie (paternal great-nephew), Dan Smallwood (brother-in-law), Namora (maternal cousin), Beemer (maternal cousin), Bobo (maternal cousin), Byrrahna (maternal cousin), Namita (maternal cousin), Daro (maternal cousin), Dara (maternal cousin), Seth (maternal cousin), Argus (maternal cousin), Arkus (maternal cousin), Byrrah (maternal cousin), Namorita (maternal 1st cousin once removed)."
         },
-        "images": "481-namor.jpg",
-        "poder_total": 450
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/481-namor.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/481-namor.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/481-namor.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/481-namor.jpg"
+        }
     },
     {
         "id": 483,
@@ -18165,8 +19621,12 @@ const META = [
             "groupAffiliation": "Agents of Atlas, Long-time ally of Namor; Monster Hunters, Invaders, All Winners Squad; At one time or another was partnered with FBI Agent Jimmy Woo, Sun Girl, Venus, Golden Girl, Hulk",
             "relatives": "Namor (cousin), Talan (husband, deceased), Namorita (\"daughter\" cloned)"
         },
-        "images": "483-namora.jpg",
-        "poder_total": 331
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/483-namora.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/483-namora.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/483-namora.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/483-namora.jpg"
+        }
     },
     {
         "id": 484,
@@ -18214,8 +19674,12 @@ const META = [
             "groupAffiliation": "Formerly Council of Three, New Warriors, Fantastic Four, Soldiers of Misfortune, Water Children",
             "relatives": "Namora (mother); Talan (father, deceased); Namor, Byrrah, Dara, Arkus (first cousins once removed); Fen (great-aunt, deceased); Thakorr (great-grandfather, deceased); Korra (great-grandmother, presumed deceased); large extended family; Betty Prentiss (legal guardian, deceased)"
         },
-        "images": "484-namorita.jpg",
-        "poder_total": 346
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/484-namorita.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/484-namorita.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/484-namorita.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/484-namorita.jpg"
+        }
     },
     {
         "id": 485,
@@ -18262,8 +19726,12 @@ const META = [
             "groupAffiliation": "Team 7",
             "relatives": "-"
         },
-        "images": "485-naruto-uzumaki.jpg",
-        "poder_total": 442
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/485-naruto-uzumaki.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/485-naruto-uzumaki.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/485-naruto-uzumaki.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/485-naruto-uzumaki.jpg"
+        }
     },
     {
         "id": 487,
@@ -18310,8 +19778,12 @@ const META = [
             "groupAffiliation": "Graces, United Front, former leader of a mercenary band",
             "relatives": "-"
         },
-        "images": "487-nebula.jpg",
-        "poder_total": 280
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/487-nebula.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/487-nebula.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/487-nebula.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/487-nebula.jpg"
+        }
     },
     {
         "id": 488,
@@ -18358,8 +19830,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "488-negasonic-teenage-warhead.jpg",
-        "poder_total": 155
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/488-negasonic-teenage-warhead.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/488-negasonic-teenage-warhead.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/488-negasonic-teenage-warhead.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/488-negasonic-teenage-warhead.jpg"
+        }
     },
     {
         "id": 489,
@@ -18409,8 +19885,12 @@ const META = [
             "groupAffiliation": "Secret Avengers, SHIELD (both incarnations); formerly Team Valkyrie, C.I.A., liaison to MI-5, O.S.S., Howling Commandos, U.S. Army",
             "relatives": "Jack Fury (father, deceased);\nunnamed mother;\nunnamed stepmother (deceased);\nDawn Fury (half-sister);\nJake Fury (half-brother);\nMikel Fury (son, deceased);\nJerry Sapristi (cousin);\nTina Sapristi (cousin by marriage);\nErnesto, Pietro, Giovanni, Maria, Rosa and Gabriella (1st cousins once removed);"
         },
-        "images": "489-nick-fury.jpg",
-        "poder_total": 276
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/489-nick-fury.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/489-nick-fury.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/489-nick-fury.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/489-nick-fury.jpg"
+        }
     },
     {
         "id": 490,
@@ -18457,8 +19937,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly Excalibur",
             "relatives": "Eric Wagner (father, deceased), Margali Szardos (foster mother), Jimaine Szardos (Daytripper, alias Amanda Sefton, foster sister), Stefan Szardos (foster brother, deceased), Mystique (mother), Graydon Creed (half-brother, deceased)."
         },
-        "images": "490-nightcrawler.jpg",
-        "poder_total": 277
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/490-nightcrawler.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/490-nightcrawler.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/490-nightcrawler.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/490-nightcrawler.jpg"
+        }
     },
     {
         "id": 491,
@@ -18514,8 +19998,12 @@ const META = [
             "groupAffiliation": "Batman Family and the JLA; formerly the Teen Titans, the New Titans, the Titans and the Outsiders",
             "relatives": "John Grayson (father, deceased), Mary Grayson (mother, deceased), Bruce Wayne / Batman (adoptive father), Damian Wayne / Robin (foster brother), Jason Todd / Red Hood (adoptive brother), Tim Drake / Red Robin (adoptive brother), Cassandra Cain / Batgirl IV (adoptive sister)"
         },
-        "images": "491-nightwing.jpg",
-        "poder_total": 296
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/491-nightwing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/491-nightwing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/491-nightwing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/491-nightwing.jpg"
+        }
     },
     {
         "id": 492,
@@ -18563,8 +20051,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "DL Hawkins (husband), Hal Sanders (father), Micah Sanders (son), Jessica Sanders (sister,deceased), Monica Dawson (cousin-in-law), Damon Dawson (cousin-in-law), Paulette Hawkins (mother-in-law)"
         },
-        "images": "492-niki-sanders.jpg",
-        "poder_total": 271
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/492-niki-sanders.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/492-niki-sanders.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/492-niki-sanders.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/492-niki-sanders.jpg"
+        }
     },
     {
         "id": 493,
@@ -18611,8 +20103,12 @@ const META = [
             "groupAffiliation": "Alphas",
             "relatives": "-"
         },
-        "images": "493-nina-theroux.jpg",
-        "poder_total": 174
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/493-nina-theroux.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/493-nina-theroux.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/493-nina-theroux.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/493-nina-theroux.jpg"
+        }
     },
     {
         "id": 495,
@@ -18659,8 +20155,12 @@ const META = [
             "groupAffiliation": "None, formerly Hydra, Xavier Institute Faculty/Alpha Squadron (teacher/advisor), X-Men, Alpha Flight, Front de Lib?ration du Qu?bec/Cell Combattre",
             "relatives": "Jean-Baptiste Beaubier (father, deceased), unnamed mother (deceased), Louis Martin (adoptive father, deceased), unnamed adoptive mother (deceased), Jeanne-Marie Beaubier (Aurora, sister), Joanne Beaubier (adopted daughter, deceased)"
         },
-        "images": "495-northstar.jpg",
-        "poder_total": 342
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/495-northstar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/495-northstar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/495-northstar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/495-northstar.jpg"
+        }
     },
     {
         "id": 496,
@@ -18713,8 +20213,12 @@ const META = [
             "groupAffiliation": "Nova Corps formely United Front (Leader), New Warriors, Champions of Xandar, Secret Defenders, Defender for a day",
             "relatives": "Charles Rider (Father), Gloria Rider (Mother), Robbie Rider (Brother) , Ralph Rider (Uncle, deceased) , Ellen (aunt)"
         },
-        "images": "496-nova.jpg",
-        "poder_total": 540
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/496-nova.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/496-nova.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/496-nova.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/496-nova.jpg"
+        }
     },
     {
         "id": 497,
@@ -18762,8 +20266,12 @@ const META = [
             "groupAffiliation": "Defenders (Valkyrior), formerly Heralds of Galactus, Fantastic Four",
             "relatives": "\"Thomas Raye\" (Phineas T. Horton, stepfather, deceased), Thomas Raymond (Toro, possible biological father); Lanette Raye (mother)"
         },
-        "images": "497-nova.jpg",
-        "poder_total": 458
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/497-nova.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/497-nova.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/497-nova.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/497-nova.jpg"
+        }
     },
     {
         "id": 498,
@@ -18817,8 +20325,12 @@ const META = [
             "groupAffiliation": "Asgardians, Council of Godheads",
             "relatives": "Buri (Tiwaz) (paternal grandfather), Bolthorn (maternal grandfather), Bor Burison (father, deceased), Bestla (mother), Mimir Burison (paternal uncle), Njord (paternal uncle), Vili, Ve, Cul (brothers), Frigga (wife), Freyr (father-in-law), Gullveig (sister-in-law), Thor (son by Jord), Vidar (son by Grid), Balder (son by Frigga), Tyr, Hermod (allegedly sons by Frigga), Angela (daughter by Frigga), Laussa (daughter by Frigga and Surtur), Loki (foster son), Hoder (nephew), Skadi (niece)"
         },
-        "images": "498-odin.jpg",
-        "poder_total": 535
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/498-odin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/498-odin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/498-odin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/498-odin.jpg"
+        }
     },
     {
         "id": 499,
@@ -18866,8 +20378,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "499-offspring.jpg",
-        "poder_total": 350
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/499-offspring.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/499-offspring.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/499-offspring.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/499-offspring.jpg"
+        }
     },
     {
         "id": 502,
@@ -18914,8 +20430,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Genos (partner)"
         },
-        "images": "502-one-punch-man.jpg",
-        "poder_total": 421
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/502-one-punch-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/502-one-punch-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/502-one-punch-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/502-one-punch-man.jpg"
+        }
     },
     {
         "id": 503,
@@ -18962,8 +20482,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Living Tribunal (creation)"
         },
-        "images": "503-one-above-all.jpg",
-        "poder_total": 600
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/503-one-above-all.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/503-one-above-all.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/503-one-above-all.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/503-one-above-all.jpg"
+        }
     },
     {
         "id": 504,
@@ -19016,8 +20540,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Professor Charles Xavier (fusee, deceased); Magneto (fusee)"
         },
-        "images": "504-onslaught.jpg",
-        "poder_total": 476
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/504-onslaught.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/504-onslaught.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/504-onslaught.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/504-onslaught.jpg"
+        }
     },
     {
         "id": 505,
@@ -19065,8 +20593,12 @@ const META = [
             "groupAffiliation": "Birds of Prey, Batman Family, Seven Soldiers of Victory, Suicide Squad, Justice League",
             "relatives": "Roger C. Gordon (father, deceased); Thelma (mother, deceased); James Gordon (uncle/adoptive father); Barbara Eileen Gordon (aunt/adoptive mother); James Gordon Jr. (cousin)"
         },
-        "images": "505-oracle.jpg",
-        "poder_total": 232
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/505-oracle.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/505-oracle.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/505-oracle.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/505-oracle.jpg"
+        }
     },
     {
         "id": 506,
@@ -19113,8 +20645,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Isis (Sister, deceased), Black Adam (Brother-in-Law)"
         },
-        "images": "506-osiris.jpg",
-        "poder_total": 422
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/506-osiris.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/506-osiris.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/506-osiris.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/506-osiris.jpg"
+        }
     },
     {
         "id": 508,
@@ -19161,8 +20697,12 @@ const META = [
             "groupAffiliation": "Formerly The Crimebusters",
             "relatives": "Friedrich Werner Veidt (father), Ingrid Renata Veidt (mother)"
         },
-        "images": "508-ozymandias.jpg",
-        "poder_total": 315
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/508-ozymandias.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/508-ozymandias.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/508-ozymandias.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/508-ozymandias.jpg"
+        }
     },
     {
         "id": 509,
@@ -19209,8 +20749,12 @@ const META = [
             "groupAffiliation": "Darkseid",
             "relatives": "-"
         },
-        "images": "509-parademon.jpg",
-        "poder_total": 182
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/509-parademon.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/509-parademon.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/509-parademon.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/509-parademon.jpg"
+        }
     },
     {
         "id": 510,
@@ -19257,8 +20801,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "510-paul-blart.jpg",
-        "poder_total": 102
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/510-paul-blart.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/510-paul-blart.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/510-paul-blart.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/510-paul-blart.jpg"
+        }
     },
     {
         "id": 514,
@@ -19305,8 +20853,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Miranda Cobblepot (Aunt), Miranda (Mother, deceased), Father (deceased)"
         },
-        "images": "514-penguin.jpg",
-        "poder_total": 200
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/514-penguin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/514-penguin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/514-penguin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/514-penguin.jpg"
+        }
     },
     {
         "id": 516,
@@ -19353,8 +20905,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "516-phantom-girl.jpg",
-        "poder_total": 194
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/516-phantom-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/516-phantom-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/516-phantom-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/516-phantom-girl.jpg"
+        }
     },
     {
         "id": 517,
@@ -19402,8 +20958,12 @@ const META = [
             "groupAffiliation": "Formerly X-Men (founding member); Clan Rebellion, Muir Island X-Men; X-Factor/X-Terminators (founding member); Brides of Set",
             "relatives": "Rachel Summers (daughter from an alternate universe), X-Man (son from an alternate universe), Cyclops (ex-husband), Havok (former brother-in-law), Corsair (former father-in-law), Madelyne Pryor (clone), Cable (adoptive/biological son), Stryfe (cloned biological son), Genesis (grandson)"
         },
-        "images": "517-phoenix.jpg",
-        "poder_total": 563
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/517-phoenix.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/517-phoenix.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/517-phoenix.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/517-phoenix.jpg"
+        }
     },
     {
         "id": 518,
@@ -19450,8 +21010,12 @@ const META = [
             "groupAffiliation": "Formerly Thunderbolts (as Blackheath), Crime Wave, Defenders (Villains) , New Enforcers, former associate of the Maggia under Count Nefaria, ally of Wizard.",
             "relatives": "-"
         },
-        "images": "518-plantman.jpg",
-        "poder_total": 289
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/518-plantman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/518-plantman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/518-plantman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/518-plantman.jpg"
+        }
     },
     {
         "id": 520,
@@ -19498,8 +21062,12 @@ const META = [
             "groupAffiliation": "The FBI; formerly the Justice League of America; the All-Star Squadron and the Freedom Fighters",
             "relatives": "Offspring (son)"
         },
-        "images": "520-plastic-man.jpg",
-        "poder_total": 392
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/520-plastic-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/520-plastic-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/520-plastic-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/520-plastic-man.jpg"
+        }
     },
     {
         "id": 521,
@@ -19546,8 +21114,12 @@ const META = [
             "groupAffiliation": "Suicide Squad, formerly Bomb Squad, Extreme Justice",
             "relatives": "Nathaniel Adam (Captain Atom,husband), Margaret Eiling (step-daughter), Randall Eiling (step-son)"
         },
-        "images": "521-plastique.jpg",
-        "poder_total": 213
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/521-plastique.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/521-plastique.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/521-plastique.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/521-plastique.jpg"
+        }
     },
     {
         "id": 522,
@@ -19594,8 +21166,12 @@ const META = [
             "groupAffiliation": "Formerly Injustice Gang, Suicide Squad, Harley Quinn, Secret Society of Super Villains, Joker League of Anarchy",
             "relatives": "-"
         },
-        "images": "522-poison-ivy.jpg",
-        "poder_total": 296
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/522-poison-ivy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/522-poison-ivy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/522-poison-ivy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/522-poison-ivy.jpg"
+        }
     },
     {
         "id": 523,
@@ -19647,8 +21223,12 @@ const META = [
             "groupAffiliation": "X-Factor (Serval Industries); formerly X-Factor Investigations, Starjammers, X-Men, Horsemen of Apocalypse, Genoshan Cabinet, X-Factor (Government), The Twelve, Acolytes, Muir Island X-Men, Defenders for a Day, Marauders (possessed by Malice)",
             "relatives": "Joseph (father's clone/paternal uncle, deceased), Magneto (father), Magda Lehnsherr (step-mother, deceased), Zaladane (sister, status uncertain), Anya Lehnsherr (paternal half-sister, deceased), Scarlet Witch (paternal half-sister), Quicksilver (paternal half-brother), Nightcrawler (half-brother-in-law), Vision (half-brother-in-law), Crystal (half-sister-in-law), Nocturne (half-niece), Speed (half-nephew), Wiccan (half-nephew), Luna Maximoff (half-niece)"
         },
-        "images": "523-polaris.jpg",
-        "poder_total": 373
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/523-polaris.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/523-polaris.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/523-polaris.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/523-polaris.jpg"
+        }
     },
     {
         "id": 524,
@@ -19696,8 +21276,12 @@ const META = [
             "groupAffiliation": "Justice Society of America, Justice League Europe, Infinity, Inc., Sovereign Seven",
             "relatives": "Zor-L (father, deceased), Allura (mother, deceased), Jor-L (uncle, deceased), Lora (aunt, deceased), Kal-L (Earth-Two Superman, cousin and adopted father, deceased), Earth-Two Lois Lane (adopted mother, deceased), Equinox (son, deceased), Kara Zor-El (alternate universe version)"
         },
-        "images": "524-power-girl.jpg",
-        "poder_total": 569
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/524-power-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/524-power-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/524-power-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/524-power-girl.jpg"
+        }
     },
     {
         "id": 526,
@@ -19746,8 +21330,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "526-predator.jpg",
-        "poder_total": 393
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/526-predator.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/526-predator.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/526-predator.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/526-predator.jpg"
+        }
     },
     {
         "id": 527,
@@ -19797,8 +21385,12 @@ const META = [
             "groupAffiliation": "Formerly X-Men (founder; formerly teacher & leader), Illuminati, Genoshan Excalibur, Brotherhood of Evil Mutants (leader), Cadre K, Generation X (founder), Starjammers, The Twelve, New Mutants (founder, teacher & leader), United States Army, X-Corporation",
             "relatives": "Brian Xavier (father, deceased), Sharon Xavier (mother, deceased), Cassandra Nova (sister), Kurt Marko (stepfather, deceased), Cain Marko (Juggernaut, stepbrother), Lilandra (ex-wife), David Charles Haller (Legion, son, deceased)"
         },
-        "images": "527-professor-x.jpg",
-        "poder_total": 266
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/527-professor-x.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/527-professor-x.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/527-professor-x.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/527-professor-x.jpg"
+        }
     },
     {
         "id": 528,
@@ -19848,8 +21440,12 @@ const META = [
             "groupAffiliation": "Formerly Secret Society of Super-Villains, Black Lantern Corps, White Lantern Corps",
             "relatives": "Robern Thawne (brother), Malcolm Thawne (Cobalt Blue) (distant ancestor), President Thawne, Meloni Thawne, Bart Allen, Owen Mercer (descendants) - see Allen Family for complete family tree"
         },
-        "images": "528-professor-zoom.jpg",
-        "poder_total": 327
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/528-professor-zoom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/528-professor-zoom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/528-professor-zoom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/528-professor-zoom.jpg"
+        }
     },
     {
         "id": 529,
@@ -19898,8 +21494,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly agent of S.T.R.I.K.E., ally of R.C.X., partner of Captain U.K.",
             "relatives": "John Braddock (ancestor, possibly grandfather); Sir James Braddock (father, deceased); Lady Elizabeth Braddock (mother, deceased); Brian Braddock (Captain Britain) (twin brother); Jamie Braddock (brother, deceased); Meggan Braddock (sister-in-law);"
         },
-        "images": "529-psylocke.jpg",
-        "poder_total": 351
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/529-psylocke.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/529-psylocke.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/529-psylocke.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/529-psylocke.jpg"
+        }
     },
     {
         "id": 530,
@@ -19965,8 +21565,12 @@ const META = [
             "groupAffiliation": "None; Formerly Secret Avengers, Daredevil's Unnamed Super-Hero Team, Green Berets, U.S. Marine Corps",
             "relatives": "Maria Castle (Wife, deceased), Christie Castle (Daughter, deceased), Frank Castle Junior (Son, deceased), Mario Castle (Father, deceased), Louisa Castle (Mother, deceased), Rocco Castiglione (Uncle, deceased), Esmerelda Castiglione (Aunt, deceased), Michael Castle (Brother, stillborn, deceased)."
         },
-        "images": "530-punisher.jpg",
-        "poder_total": 293
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/530-punisher.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/530-punisher.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/530-punisher.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/530-punisher.jpg"
+        }
     },
     {
         "id": 531,
@@ -20013,8 +21617,12 @@ const META = [
             "groupAffiliation": "Formerly Purple Children (leader and father), Villains for Hire, Hood's gang, partner of Electro, his own band of criminals",
             "relatives": "Melanie Killgrave (ex-wife); Persuasion (Kara Killgrave) (daughter); Joe (son); Shallah (daughter); Connor (son); Jamie (son); Unnamed daughter"
         },
-        "images": "531-purple-man.jpg",
-        "poder_total": 206
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/531-purple-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/531-purple-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/531-purple-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/531-purple-man.jpg"
+        }
     },
     {
         "id": 532,
@@ -20061,8 +21669,12 @@ const META = [
             "groupAffiliation": "Formerly Freedom Force, Brotherhood of Evil Mutants",
             "relatives": "-"
         },
-        "images": "532-pyro.jpg",
-        "poder_total": 156
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/532-pyro.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/532-pyro.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/532-pyro.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/532-pyro.jpg"
+        }
     },
     {
         "id": 533,
@@ -20109,8 +21721,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "533-q.jpg",
-        "poder_total": 369
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/533-q.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/533-q.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/533-q.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/533-q.jpg"
+        }
     },
     {
         "id": 535,
@@ -20157,8 +21773,12 @@ const META = [
             "groupAffiliation": "Formerly L.A.W., JLA, Black Lantern Corps",
             "relatives": "-"
         },
-        "images": "535-question.jpg",
-        "poder_total": 257
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/535-question.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/535-question.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/535-question.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/535-question.jpg"
+        }
     },
     {
         "id": 536,
@@ -20207,8 +21827,12 @@ const META = [
             "groupAffiliation": "Avengers, unofficial member of the Royal Family of the Inhumans, (former) Brotherhood of Evil Mutants I, X-Factor II",
             "relatives": "Wanda Maximoff (Scarlet Witch, sister), Magnus (Magneto, father), Magda (mother, deceased), Django Maximoff (adoptive father), Marya Maximoff (adoptive mother, deceased), Crystal (wife), Maximoff, Luna (daughter), Medusa (sister-in-law), Black Bolt, Gorgon, Karnak, Triton, Maximus (cousins by marriage), Vision (ex-brother-in-law)"
         },
-        "images": "536-quicksilver.jpg",
-        "poder_total": 388
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/536-quicksilver.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/536-quicksilver.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/536-quicksilver.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/536-quicksilver.jpg"
+        }
     },
     {
         "id": 537,
@@ -20255,8 +21879,12 @@ const META = [
             "groupAffiliation": "Corsairs",
             "relatives": "-"
         },
-        "images": "537-quill.jpg",
-        "poder_total": 111
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/537-quill.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/537-quill.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/537-quill.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/537-quill.jpg"
+        }
     },
     {
         "id": 538,
@@ -20303,8 +21931,12 @@ const META = [
             "groupAffiliation": "League of Assassins",
             "relatives": "The Sensei (father), White Ghost (Dusan al Ghul) (son), Talia al Ghul (daughter), Nyssa Raatko (daughter), Robin V (Damian Wayne) (grandson)"
         },
-        "images": "538-ras-al-ghul.jpg",
-        "poder_total": 329
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/538-ras-al-ghul.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/538-ras-al-ghul.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/538-ras-al-ghul.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/538-ras-al-ghul.jpg"
+        }
     },
     {
         "id": 539,
@@ -20351,8 +21983,12 @@ const META = [
             "groupAffiliation": "Alphas",
             "relatives": "-"
         },
-        "images": "539-rachel-pirzad.jpg",
-        "poder_total": 147
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/539-rachel-pirzad.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/539-rachel-pirzad.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/539-rachel-pirzad.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/539-rachel-pirzad.jpg"
+        }
     },
     {
         "id": 540,
@@ -20400,8 +22036,12 @@ const META = [
             "groupAffiliation": "United States Army (former)",
             "relatives": "R. Rambo (father), Marie Drago (mother), Col. Sam Trautman (close-friend, father-figure, trainer, best-friend until death)"
         },
-        "images": "540-rambo.jpg",
-        "poder_total": 262
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/540-rambo.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/540-rambo.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/540-rambo.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/540-rambo.jpg"
+        }
     },
     {
         "id": 541,
@@ -20448,8 +22088,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Leonardo (brother), Donatello (brother), Michelangelo (brother)"
         },
-        "images": "541-raphael.jpg",
-        "poder_total": 334
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/541-raphael.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/541-raphael.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/541-raphael.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/541-raphael.jpg"
+        }
     },
     {
         "id": 542,
@@ -20497,8 +22141,12 @@ const META = [
             "groupAffiliation": "Teen Titans, formerly Sentinels of Magic",
             "relatives": "Trigon (father), Angela Roth (mother, deceased), Gluttony, Greed, Lust, Wrath, Envy, Sloth (half-brothers, status unknown)"
         },
-        "images": "542-raven.jpg",
-        "poder_total": 283
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/542-raven.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/542-raven.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/542-raven.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/542-raven.jpg"
+        }
     },
     {
         "id": 543,
@@ -20545,8 +22193,12 @@ const META = [
             "groupAffiliation": "Freedom Fighters, formerly Justice League of America, Justice League Task Force, Young Justice, JSA Reserves, Forgotten Heroes, Justice League Internationa",
             "relatives": "Happy Terrill (father), Nadine Terrill (mother), Joshua Terrill (Spitfire, brother), Thomas Terrill (uncle/foster father, deceased), Hank Terrill (cousin)"
         },
-        "images": "543-ray.jpg",
-        "poder_total": 372
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/543-ray.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/543-ray.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/543-ray.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/543-ray.jpg"
+        }
     },
     {
         "id": 545,
@@ -20594,8 +22246,12 @@ const META = [
             "groupAffiliation": "Titans, Justice League of America, formerly Outsiders, Teen Titans, Checkmate, Central Bureau of Investigations",
             "relatives": "Roy William Harper, Sr. (father, deceased); Brave Bow (adoptive father, deceased); Oliver \"Ollie\" Queen (Green Arrow - adoptive father); Jim Harper (Guardian- great-uncle); Lian Harper (daughter), Vandal Savage (ancestor)"
         },
-        "images": "545-red-arrow.jpg",
-        "poder_total": 227
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/545-red-arrow.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/545-red-arrow.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/545-red-arrow.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/545-red-arrow.jpg"
+        }
     },
     {
         "id": 546,
@@ -20646,8 +22302,12 @@ const META = [
             "groupAffiliation": "formerly Batman Family, Teen Titans",
             "relatives": "Willis Todd (father, deceased); Sheila Haywood (mother, deceased); Catherine Ann Todd (adoptive mother, deceased), Bruce Wayne (adoptive father), Dick Grayson and Tim Drake (adoptive brothers)"
         },
-        "images": "546-red-hood.jpg",
-        "poder_total": 268
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/546-red-hood.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/546-red-hood.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/546-red-hood.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/546-red-hood.jpg"
+        }
     },
     {
         "id": 547,
@@ -20697,8 +22357,12 @@ const META = [
             "groupAffiliation": "Code Red, AIM; Formerly Offenders",
             "relatives": "-"
         },
-        "images": "547-red-hulk.jpg",
-        "poder_total": 439
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/547-red-hulk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/547-red-hulk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/547-red-hulk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/547-red-hulk.jpg"
+        }
     },
     {
         "id": 548,
@@ -20745,8 +22409,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Johnny G (father)"
         },
-        "images": "548-red-mist.jpg",
-        "poder_total": 148
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/548-red-mist.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/548-red-mist.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/548-red-mist.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/548-red-mist.jpg"
+        }
     },
     {
         "id": 549,
@@ -20797,8 +22465,12 @@ const META = [
             "groupAffiliation": "Teen Titans, Batman Family, Batman Inc., Wayne Enterprises; formerly Young Justice",
             "relatives": "Jack Drake (father, deceased), Janet Drake (mother, deceased), Dana Winters Drake (step-mother, status unknown), Bruce Wayne (adoptive father), Damian Wayne (adoptive brother), Dick Grayson (adoptive brother), Jason Todd (adoptive brother), Cassandra Cain (adoptive sister)"
         },
-        "images": "549-red-robin.jpg",
-        "poder_total": 260
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/549-red-robin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/549-red-robin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/549-red-robin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/549-red-robin.jpg"
+        }
     },
     {
         "id": 550,
@@ -20853,8 +22525,12 @@ const META = [
             "groupAffiliation": "Special operative in the government of Germany's Third Reich, former leader of most currently active Nazi subversives throughout the world, former ally of THEM and A.I.M., former leader of the Nevada-based fragment of Hydra, leader of the People's Militia",
             "relatives": "Hermann Shmidt (father, deceased), Martha Shmidt (mother, deceased), Sinthea Shmidt (Mother Superior/Sin, daughter)"
         },
-        "images": "550-red-skull.jpg",
-        "poder_total": 210
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/550-red-skull.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/550-red-skull.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/550-red-skull.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/550-red-skull.jpg"
+        }
     },
     {
         "id": 551,
@@ -20905,8 +22581,12 @@ const META = [
             "groupAffiliation": "Justice League of America, formerly Parliament of Vapors, T.O. Morrow, Justice Society of America, Young Justice, Primal Force, Leymen, Donna Troy",
             "relatives": "T.O. Morrow (creator/father),Red Volcano (brother; deceased), Red Inferno (brother; deceased), Red Torpedo (sister; deceased), Tomorrow Woman (\"sister\"), Kathy Sutton (wife), Traya Sutton (adoptive daughter)"
         },
-        "images": "551-red-tornado.jpg",
-        "poder_total": 380
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/551-red-tornado.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/551-red-tornado.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/551-red-tornado.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/551-red-tornado.jpg"
+        }
     },
     {
         "id": 555,
@@ -20953,8 +22633,12 @@ const META = [
             "groupAffiliation": "Resistence",
             "relatives": "-"
         },
-        "images": "555-rey.jpg",
-        "poder_total": 224
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/555-rey.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/555-rey.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/555-rey.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/555-rey.jpg"
+        }
     },
     {
         "id": 556,
@@ -21002,8 +22686,12 @@ const META = [
             "groupAffiliation": "Sinister Syndicate",
             "relatives": "Miriam Sytsevich (mother, deceased), Alexia (niece, lastname unrevealed), unnamed grandmother"
         },
-        "images": "556-rhino.jpg",
-        "poder_total": 359
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/556-rhino.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/556-rhino.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/556-rhino.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/556-rhino.jpg"
+        }
     },
     {
         "id": 557,
@@ -21050,8 +22738,12 @@ const META = [
             "groupAffiliation": "Suicide Squad, Task Force X",
             "relatives": "Richard Flag, Sr. (father, deceased); Richard Flag III (son); Karin Grace (mother of child)"
         },
-        "images": "557-rick-flag.jpg",
-        "poder_total": 264
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/557-rick-flag.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/557-rick-flag.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/557-rick-flag.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/557-rick-flag.jpg"
+        }
     },
     {
         "id": 558,
@@ -21099,8 +22791,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "558-riddler.jpg",
-        "poder_total": 160
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/558-riddler.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/558-riddler.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/558-riddler.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/558-riddler.jpg"
+        }
     },
     {
         "id": 559,
@@ -21153,8 +22849,12 @@ const META = [
             "groupAffiliation": "Formerly leader of the Time Masters; former member of the Forgotten Heroes; former member of the Linear Men, Booster Gold International (BGI)",
             "relatives": "Michael Carter, (Booster Gold, father),  Unknown (mother), Jonar Carter (grandfather), Ellen Carter (grandmother, deceased), Michelle Carter (Goldstar) (aunt), Daniel Carter (21st century ancestor), Rose Levin (ancestor), Dan Hunter (cousin),"
         },
-        "images": "559-rip-hunter.jpg",
-        "poder_total": 251
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/559-rip-hunter.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/559-rip-hunter.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/559-rip-hunter.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/559-rip-hunter.jpg"
+        }
     },
     {
         "id": 561,
@@ -21203,8 +22903,12 @@ const META = [
             "groupAffiliation": "Batman Family, Batman Incorporated, Justice League; formerly Teen Titans, Outsiders, Bludhaven Police Department, Secret Society of Super-Villains",
             "relatives": "John Grayson (father), Mary Grayson (mother), Bruce Wayne (adoptive father), Damian Wayne (adoptive brother), Jason Todd (adoptive brother), Tim Drake (adoptive brother), Cassandra Cain (adoptive sister)"
         },
-        "images": "561-robin.jpg",
-        "poder_total": 271
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/561-robin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/561-robin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/561-robin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/561-robin.jpg"
+        }
     },
     {
         "id": 562,
@@ -21257,8 +22961,12 @@ const META = [
             "groupAffiliation": "Batman Family, Teen Titans, Challengers from Beyond",
             "relatives": "Willis Todd (father), Sheila Haywood (mother), Catherine Todd (step-mother), Bruce Wayne (Batman, adoptive father), Damian Wayne (Robin V, adoptive brother), Dick Grayson (Robin I, adoptive brother), Timothy Drake (Robin III, adoptive brother), Cassandra Cain (Batgirl IV, adoptive sister)"
         },
-        "images": "562-robin-ii.jpg",
-        "poder_total": 254
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/562-robin-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/562-robin-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/562-robin-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/562-robin-ii.jpg"
+        }
     },
     {
         "id": 563,
@@ -21308,8 +23016,12 @@ const META = [
             "groupAffiliation": "Teen Titans, Batman Family, Batman Inc., Wayne Enterprises; formerly Young Justice",
             "relatives": "Jack Drake (father, deceased), Janet Drake (mother, deceased), Dana Winters Drake (step-mother, status unknown), Bruce Wayne (Batman, adoptive father), Damian Wayne (Robin V, adoptive brother), Dick Grayson (Robin I, adoptive brother), Jason Todd (Robin II, adoptive brother), Cassandra Cain (Batgirl IV, adoptive sister)"
         },
-        "images": "563-robin-iii.jpg",
-        "poder_total": 261
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/563-robin-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/563-robin-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/563-robin-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/563-robin-iii.jpg"
+        }
     },
     {
         "id": 564,
@@ -21359,8 +23071,12 @@ const META = [
             "groupAffiliation": "Batman Family, Batman Inc., Wayne Enterprises; formerly Teen Titans, League of Assassins",
             "relatives": "Talia al Ghul (mother),\nBruce Wayne (Batman, father),\nRa's Al Ghul (maternal grandfather),\nMelisande (maternal grandmother),\nThomas Wayne (paternal grandfather),\nMartha Wayne (paternal grandmother),\nSensei (great-grandfather),\nSimon Hurt (ancestor),\nNyssa Raatko (aunt, deceased),\nDusan al Ghul (White Ghost, uncle, deceased),\nRichard Grayson (Nightwing, adoptive brother),\nTim Drake (Red Robin, adoptive brother),\nCassandra Cain (Batgirl IV, adoptive sister),\nJason Todd (Red Hood, adoptive brother), \nPatrick Wayne (great-grandfather, deceased); \nCharles Wayne (great-great-grandfather, deceased);\nConstance Wayne (great-great-grandmother, deceased); \nAlan Wayne (ancestor, deceased); \nSolomon Wayne (ancestor, deceased); \nDarius Wayne (ancestor, deceased); \nJoshua Wayne (ancestor, deceased)"
         },
-        "images": "564-robin-v.jpg",
-        "poder_total": 220
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/564-robin-v.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/564-robin-v.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/564-robin-v.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/564-robin-v.jpg"
+        }
     },
     {
         "id": 565,
@@ -21407,8 +23123,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "565-robin-vi.jpg",
-        "poder_total": 190
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/565-robin-vi.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/565-robin-vi.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/565-robin-vi.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/565-robin-vi.jpg"
+        }
     },
     {
         "id": 566,
@@ -21457,8 +23177,12 @@ const META = [
             "groupAffiliation": "Guardians of the Galaxy; Formerly Star-Lord's unnamed commando team",
             "relatives": "Lylla (mate)"
         },
-        "images": "566-rocket-raccoon.jpg",
-        "poder_total": 198
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/566-rocket-raccoon.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/566-rocket-raccoon.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/566-rocket-raccoon.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/566-rocket-raccoon.jpg"
+        }
     },
     {
         "id": 567,
@@ -21509,8 +23233,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly X-Treme Sanctions Executive, X-Treme X-Men, Brotherhood of Evil Mutants",
             "relatives": "Owen (father), Priscilla (mother), Carrie (aunt), Raven Darkh?lme (Mystique, foster mother), Kurt Wagner (Nightcrawler, foster brother), Graydon Creed (foster brother, deceased)"
         },
-        "images": "567-rogue.jpg",
-        "poder_total": 285
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/567-rogue.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/567-rogue.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/567-rogue.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/567-rogue.jpg"
+        }
     },
     {
         "id": 568,
@@ -21568,8 +23296,12 @@ const META = [
             "groupAffiliation": "Avengers; formerly founding member of Avengers West Coast and first chairman, Thunderbolts, S.H.I.E.L.D. (unofficial), Chain Gang 421-011, Shadows, Great Lakes Avengers, Cross Technological Enterprises, Defenders, Carson Carnival of Traveling Wonders, Ti",
             "relatives": "Harold Barton (father), Edith Barton (mother), Charles Bernard \"Barney\" Barton (brother), Barbara Morse 'Bobbi' Barton (Mockingbird, wife), Brett Barton (ancestor), Mack Barton (ancestor); all deceased"
         },
-        "images": "no-portrait.jpg",
-        "poder_total": 192
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/no-portrait.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/no-portrait.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/no-portrait.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/no-portrait.jpg"
+        }
     },
     {
         "id": 569,
@@ -21616,8 +23348,12 @@ const META = [
             "groupAffiliation": "Crimebusters",
             "relatives": "-"
         },
-        "images": "569-rorschach.jpg",
-        "poder_total": 237
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/569-rorschach.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/569-rorschach.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/569-rorschach.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/569-rorschach.jpg"
+        }
     },
     {
         "id": 570,
@@ -21665,8 +23401,12 @@ const META = [
             "groupAffiliation": "Weapon X, Marauders, Brotherhood of Evil Mutants",
             "relatives": "Grayden Creed (son; deceased)"
         },
-        "images": "570-sabretooth.jpg",
-        "poder_total": 382
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/570-sabretooth.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/570-sabretooth.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/570-sabretooth.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/570-sabretooth.jpg"
+        }
     },
     {
         "id": 571,
@@ -21713,8 +23453,12 @@ const META = [
             "groupAffiliation": "Excalibur, formerly X-Men, X-Treme Sanctions Executive, X-Treme X-Men, Hellfire Club",
             "relatives": "-"
         },
-        "images": "571-sage.jpg",
-        "poder_total": 195
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/571-sage.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/571-sage.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/571-sage.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/571-sage.jpg"
+        }
     },
     {
         "id": 572,
@@ -21763,8 +23507,12 @@ const META = [
             "groupAffiliation": "(Formerly) Sinister Twelve, the Sinister Six, the Frightful Four, the Outlaws and the Wild Pack, reserve member of the Avengers",
             "relatives": "Mrs. Baker (mother), unidentified cousin"
         },
-        "images": "572-sandman.jpg",
-        "poder_total": 415
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/572-sandman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/572-sandman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/572-sandman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/572-sandman.jpg"
+        }
     },
     {
         "id": 573,
@@ -21812,8 +23560,12 @@ const META = [
             "groupAffiliation": "Omega Flight; formerly Alpha Flight, Beta Flight, Gamma Flight, Howling Commandos",
             "relatives": "Veronica Langkowsi (ex-wife), unidentified son, Lillian von Loont (Gilded Lily, great-aunt, deceased)"
         },
-        "images": "573-sasquatch.jpg",
-        "poder_total": 291
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/573-sasquatch.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/573-sasquatch.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/573-sasquatch.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/573-sasquatch.jpg"
+        }
     },
     {
         "id": 574,
@@ -21866,8 +23618,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "574-sauron.jpg",
-        "poder_total": 476
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/574-sauron.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/574-sauron.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/574-sauron.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/574-sauron.jpg"
+        }
     },
     {
         "id": 575,
@@ -21914,8 +23670,12 @@ const META = [
             "groupAffiliation": "Liberty League, Chicago Police Department, Special Operations Strikeforce (S.O.S.)",
             "relatives": "-"
         },
-        "images": "575-savage-dragon.jpg",
-        "poder_total": 410
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/575-savage-dragon.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/575-savage-dragon.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/575-savage-dragon.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/575-savage-dragon.jpg"
+        }
     },
     {
         "id": 576,
@@ -21962,8 +23722,12 @@ const META = [
             "groupAffiliation": "Injustice Gang",
             "relatives": "-"
         },
-        "images": "576-scarecrow.jpg",
-        "poder_total": 215
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/576-scarecrow.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/576-scarecrow.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/576-scarecrow.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/576-scarecrow.jpg"
+        }
     },
     {
         "id": 577,
@@ -22011,8 +23775,12 @@ const META = [
             "groupAffiliation": "None; formerly New Warriors",
             "relatives": "Peter Parker (clone of), May Parker (Aunt), Ben Parker (Uncle)"
         },
-        "images": "577-scarlet-spider.jpg",
-        "poder_total": 364
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/577-scarlet-spider.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/577-scarlet-spider.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/577-scarlet-spider.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/577-scarlet-spider.jpg"
+        }
     },
     {
         "id": 578,
@@ -22061,8 +23829,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Miles Warren (creator), Peter Parker (Spider-Man, genetic template), Ben Reilly (Scarlet Spider, fellow clone, deceased), Spidercide (fellow clone, allegedly deceased), Guardian (fellow clone, deceased), Jack (fellow clone, deceased)"
         },
-        "images": "578-scarlet-spider-ii.jpg",
-        "poder_total": 336
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/578-scarlet-spider-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/578-scarlet-spider-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/578-scarlet-spider-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/578-scarlet-spider-ii.jpg"
+        }
     },
     {
         "id": 579,
@@ -22113,8 +23885,12 @@ const META = [
             "groupAffiliation": "None, Formerly Avengers, Avengers West Coast, Force Works, Queen's Vengeance, Secret Defenders, Lady Liberators, Brotherhood of Evil Mutants",
             "relatives": "Pietro (Quicksilver, twin brother), Magnus (Magneto, father), Magda Lehnsherr (mother, deceased), Anya (half-sister, deceased), Lorna Dane (Polaris, half-sister), Vision (estranged husband), Django Maximoff (foster father, deceased), Marya Maximoff (foster mother, deceased), Crystal (sister-in-law), Luna (niece), Tommy & Billy (reincarnated sons), Talia Wagner (Nocturne, alternate reality daughter)"
         },
-        "images": "579-scarlet-witch.jpg",
-        "poder_total": 389
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/579-scarlet-witch.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/579-scarlet-witch.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/579-scarlet-witch.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/579-scarlet-witch.jpg"
+        }
     },
     {
         "id": 580,
@@ -22161,8 +23937,12 @@ const META = [
             "groupAffiliation": "Hells Kitchen Mob; formerly Sinister Seven, allied with Silvermane",
             "relatives": "Vincent Coll (grandfather, deceased)"
         },
-        "images": "580-scorpia.jpg",
-        "poder_total": 198
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/580-scorpia.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/580-scorpia.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/580-scorpia.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/580-scorpia.jpg"
+        }
     },
     {
         "id": 581,
@@ -22210,8 +23990,12 @@ const META = [
             "groupAffiliation": "Avengers (Osborn's team); formerly Thunderbolts, Masters of Evil, \"Spider-Man Revenge League\"; Sinister Twelve; formerly partners with Mister Hyde and Delilah",
             "relatives": "-"
         },
-        "images": "581-scorpion.jpg",
-        "poder_total": 376
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/581-scorpion.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/581-scorpion.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/581-scorpion.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/581-scorpion.jpg"
+        }
     },
     {
         "id": 582,
@@ -22258,8 +24042,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "no-portrait.jpg",
-        "poder_total": 347
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/no-portrait.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/no-portrait.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/no-portrait.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/no-portrait.jpg"
+        }
     },
     {
         "id": 583,
@@ -22310,8 +24098,12 @@ const META = [
             "groupAffiliation": "Formerly Horsemen of Death, Osborn's Avengers, Mighty Avengers, New Avengers, partner of Scout",
             "relatives": "Lindy Reynolds (wife, deceased), Mrs. Reynolds (mother)"
         },
-        "images": "583-sentry.jpg",
-        "poder_total": 499
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/583-sentry.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/583-sentry.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/583-sentry.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/583-sentry.jpg"
+        }
     },
     {
         "id": 584,
@@ -22366,8 +24158,12 @@ const META = [
             "groupAffiliation": "Shadow Mob; former head of the Gladiators and the Cairo?s Thieves Quarter",
             "relatives": "-"
         },
-        "images": "584-shadow-king.jpg",
-        "poder_total": 389
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/584-shadow-king.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/584-shadow-king.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/584-shadow-king.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/584-shadow-king.jpg"
+        }
     },
     {
         "id": 585,
@@ -22414,8 +24210,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "585-shadow-lass.jpg",
-        "poder_total": 319
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/585-shadow-lass.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/585-shadow-lass.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/585-shadow-lass.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/585-shadow-lass.jpg"
+        }
     },
     {
         "id": 586,
@@ -22465,8 +24265,12 @@ const META = [
             "groupAffiliation": "X-Men (New Charles Xavier School member), X-Men (Past) (tutor); formerly X-Men, Murder Circus (brainwashed), Lights (liaison), Paladins Squad, S.H.I.E.L.D., Gladiators, Excalibur (founding member), New Mutants, Knights of Wundagore",
             "relatives": "Kate (maternal great-grandmother), Samuel Prydeman (paternal grandfather, deceased), Chava Rosanoff (paternal great-aunt, deceased), Mr. Rosanoff (paternal great-uncle, apparently deceased), Nina (aunt), Carmen Pryde (father, deceased), Theresa Pryde (mother), Kenny (cousin)"
         },
-        "images": "586-shadowcat.jpg",
-        "poder_total": 281
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/586-shadowcat.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/586-shadowcat.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/586-shadowcat.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/586-shadowcat.jpg"
+        }
     },
     {
         "id": 587,
@@ -22513,8 +24317,12 @@ const META = [
             "groupAffiliation": "MI-5, MI-6, \"Marvel Knights\", Heroes For Hire, Freelance Restorations, Si-Fan, Secret Avengers",
             "relatives": "Fu Manchu, father; unnamed mother; Fah Lo Suee, (half-sister); Whispering Shadow (half-brother, deceased)"
         },
-        "images": "587-shang-chi.jpg",
-        "poder_total": 284
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/587-shang-chi.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/587-shang-chi.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/587-shang-chi.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/587-shang-chi.jpg"
+        }
     },
     {
         "id": 588,
@@ -22561,8 +24369,12 @@ const META = [
             "groupAffiliation": "X-Force, Blood Cadre Alliance (former member)",
             "relatives": "Longshot (father), Dazzler (mother), Mojo V"
         },
-        "images": "588-shatterstar.jpg",
-        "poder_total": 353
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/588-shatterstar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/588-shatterstar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/588-shatterstar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/588-shatterstar.jpg"
+        }
     },
     {
         "id": 589,
@@ -22609,8 +24421,12 @@ const META = [
             "groupAffiliation": "Goodman, Lieber, Kurtzberg, & Holliway; formerly Avengers, Fantastic Four, Heroes for Hire",
             "relatives": "Bruce Banner (Hulk, cousin)"
         },
-        "images": "589-she-hulk.jpg",
-        "poder_total": 433
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/589-she-hulk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/589-she-hulk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/589-she-hulk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/589-she-hulk.jpg"
+        }
     },
     {
         "id": 590,
@@ -22658,8 +24474,12 @@ const META = [
             "groupAffiliation": "Frightful Four; formerly Fantastic Four, Unlimited Class Wrestling Federation, Thunderiders",
             "relatives": "Jack Ventura (father, deceased), Mrs. Ventura (mother, deceased)"
         },
-        "images": "590-she-thing.jpg",
-        "poder_total": 330
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/590-she-thing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/590-she-thing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/590-she-thing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/590-she-thing.jpg"
+        }
     },
     {
         "id": 591,
@@ -22706,8 +24526,12 @@ const META = [
             "groupAffiliation": "Formerly Masters of Evil, Sinister Syndicate, Sinister Seven, Sinister Twelve",
             "relatives": "Mr. & Mrs. Schultz (parents)"
         },
-        "images": "591-shocker.jpg",
-        "poder_total": 301
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/591-shocker.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/591-shocker.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/591-shocker.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/591-shocker.jpg"
+        }
     },
     {
         "id": 592,
@@ -22754,8 +24578,12 @@ const META = [
             "groupAffiliation": "Formerly Carnage Family",
             "relatives": "Carnage (adopted husband), Carrion (Malcolm McBride) and Demogoblin (adopted sons), Doppelganger (adopted pet)"
         },
-        "images": "592-shriek.jpg",
-        "poder_total": 198
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/592-shriek.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/592-shriek.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/592-shriek.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/592-shriek.jpg"
+        }
     },
     {
         "id": 594,
@@ -22805,8 +24633,12 @@ const META = [
             "groupAffiliation": "The Gods of Asgard",
             "relatives": "Heimdall (brother)"
         },
-        "images": "594-sif.jpg",
-        "poder_total": 470
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/594-sif.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/594-sif.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/594-sif.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/594-sif.jpg"
+        }
     },
     {
         "id": 595,
@@ -22853,8 +24685,12 @@ const META = [
             "groupAffiliation": "Black Cat's Gang, Fact Channel News; formerly Spider-Army, partner of Spider-Man, Ezekiel Sims",
             "relatives": "Albert Moon. Sr. (father, estranged), unnamed mother (estranged), Albert Moon, Jr. (brother, estranged), Spider-Man (Peter Parker, bit by same spider)"
         },
-        "images": "595-silk.jpg",
-        "poder_total": 400
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/595-silk.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/595-silk.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/595-silk.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/595-silk.jpg"
+        }
     },
     {
         "id": 598,
@@ -22901,8 +24737,12 @@ const META = [
             "groupAffiliation": "Former member of Defenders, former member of the Star Masters",
             "relatives": "Jartran Radd (father, deceased), Elmar Radd (mother, deceased)"
         },
-        "images": "598-silver-surfer.jpg",
-        "poder_total": 478
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/598-silver-surfer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/598-silver-surfer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/598-silver-surfer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/598-silver-surfer.jpg"
+        }
     },
     {
         "id": 599,
@@ -22950,8 +24790,12 @@ const META = [
             "groupAffiliation": "The Secret Avengers, formerly reserve member of the Avengers",
             "relatives": "Jaime Santiago (father), Peliali (mother), Edwin Jarvis (\"uncle\")"
         },
-        "images": "599-silverclaw.jpg",
-        "poder_total": 231
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/599-silverclaw.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/599-silverclaw.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/599-silverclaw.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/599-silverclaw.jpg"
+        }
     },
     {
         "id": 600,
@@ -22999,8 +24843,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Sira Baz (sister), Farid Amar (nephew), Nazir Amar (brother in-law)"
         },
-        "images": "600-simon-baz.jpg",
-        "poder_total": 403
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/600-simon-baz.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/600-simon-baz.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/600-simon-baz.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/600-simon-baz.jpg"
+        }
     },
     {
         "id": 601,
@@ -23051,8 +24899,12 @@ const META = [
             "groupAffiliation": "Sinestro Corps, formerly Green Lantern Corps, Secret Society, Injustice League",
             "relatives": "Witch Queen (sister, pre-Crisis), Soranik Natu (daughter), Arin Sur (wife, deceased), Abin Sur (brother-in-law, deceased), Amon Sur (nephew)"
         },
-        "images": "601-sinestro.jpg",
-        "poder_total": 432
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/601-sinestro.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/601-sinestro.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/601-sinestro.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/601-sinestro.jpg"
+        }
     },
     {
         "id": 602,
@@ -23099,8 +24951,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Mera (twin sister), Aquaman (brother-in-law)"
         },
-        "images": "602-siren.jpg",
-        "poder_total": 409
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/602-siren.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/602-siren.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/602-siren.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/602-siren.jpg"
+        }
     },
     {
         "id": 604,
@@ -23147,8 +25003,12 @@ const META = [
             "groupAffiliation": "(Current) X-Factor (former) Ally of Black Tom and the Juggernaut, Fallen Angels, X-Force",
             "relatives": "Sean Cassidy (Banshee, father), Maeve Rourke (mother, deceased), Black Tom Cassidy (cousin)"
         },
-        "images": "604-siryn.jpg",
-        "poder_total": 213
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/604-siryn.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/604-siryn.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/604-siryn.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/604-siryn.jpg"
+        }
     },
     {
         "id": 605,
@@ -23200,8 +25060,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Morris Walters (granduncle), Elaine Banner-Walters (paternal grandaunt, deceased), Brian Banner (paternal grandfather, deceased), Rebecca Banner (paternal grandmother, deceased), She-Hulk (1st cousin once removed), Hulk (father), Caiera the Oldstrong (mother, deceased), Hiro-Kala (Twin brother), Lyra (half-sister)"
         },
-        "images": "605-skaar.jpg",
-        "poder_total": 406
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/605-skaar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/605-skaar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/605-skaar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/605-skaar.jpg"
+        }
     },
     {
         "id": 607,
@@ -23248,8 +25112,12 @@ const META = [
             "groupAffiliation": "God Squad; formerly Alpha Flight, Eskimo Gods, Royal Canadian Mounted Police, The Flight",
             "relatives": "Hodiak (grandfather), Nelvanna (mother), Richard Lawrence Easton (father, deceased), Michael Twoyoungmen (Shaman, foster father), Douglas Thompson (husband, deceased), unnamed son (deceased)"
         },
-        "images": "607-snowbird.jpg",
-        "poder_total": 273
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/607-snowbird.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/607-snowbird.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/607-snowbird.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/607-snowbird.jpg"
+        }
     },
     {
         "id": 608,
@@ -23296,8 +25164,12 @@ const META = [
             "groupAffiliation": "Black Marvel Family, Four Horsemen",
             "relatives": "-"
         },
-        "images": "608-sobek.jpg",
-        "poder_total": 229
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/608-sobek.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/608-sobek.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/608-sobek.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/608-sobek.jpg"
+        }
     },
     {
         "id": 609,
@@ -23344,8 +25216,12 @@ const META = [
             "groupAffiliation": "Formerly, Injustice Society, Injustice League, the Society, Infinity, Inc; Injustice Unlimited, Black Lantern Corps",
             "relatives": "Unnamed wife (deceased); Karin Rykel (possible descendant, deceased); Chrissie Cavendish (possible descendant)"
         },
-        "images": "609-solomon-grundy.jpg",
-        "poder_total": 337
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/609-solomon-grundy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/609-solomon-grundy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/609-solomon-grundy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/609-solomon-grundy.jpg"
+        }
     },
     {
         "id": 610,
@@ -23394,8 +25270,12 @@ const META = [
             "groupAffiliation": "Formerly Thunderbolts, Masters of Evil, Unlimited Class Wrestling Federation, Grapplers",
             "relatives": "Mimi Gold (mother), Mr. Gold (father)"
         },
-        "images": "610-songbird.jpg",
-        "poder_total": 291
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/610-songbird.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/610-songbird.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/610-songbird.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/610-songbird.jpg"
+        }
     },
     {
         "id": 611,
@@ -23443,8 +25323,12 @@ const META = [
             "groupAffiliation": "Galactic Heroes",
             "relatives": "-"
         },
-        "images": "611-space-ghost.jpg",
-        "poder_total": 304
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/611-space-ghost.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/611-space-ghost.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/611-space-ghost.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/611-space-ghost.jpg"
+        }
     },
     {
         "id": 612,
@@ -23492,8 +25376,12 @@ const META = [
             "groupAffiliation": "Eighth Circle of Hell; formerly (as Al Simmons) CIA (U.S. Security Service), U.S. Secret Service, U.S. Marine Corps",
             "relatives": "Wanda (widow), Cyan (widow's daughter)"
         },
-        "images": "612-spawn.jpg",
-        "poder_total": 470
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/612-spawn.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/612-spawn.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/612-spawn.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/612-spawn.jpg"
+        }
     },
     {
         "id": 613,
@@ -23546,8 +25434,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "613-spectre.jpg",
-        "poder_total": 558
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/613-spectre.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/613-spectre.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/613-spectre.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/613-spectre.jpg"
+        }
     },
     {
         "id": 615,
@@ -23596,8 +25488,12 @@ const META = [
             "groupAffiliation": "Team Arrow",
             "relatives": "Moira Queen (mother, deceased), Robert Queen (foster father, deceased), Walter Steele (step-father, formerly), Malcolm Merlyn (biological father), Oliver Queen (Green Arrow, half-brother), Tommy Merlyn (half-brother, deceased), William Clayton (nephew)"
         },
-        "images": "615-speedy.jpg",
-        "poder_total": 205
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/615-speedy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/615-speedy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/615-speedy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/615-speedy.jpg"
+        }
     },
     {
         "id": 618,
@@ -23644,8 +25540,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "618-spider-girl.jpg",
-        "poder_total": 354
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/618-spider-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/618-spider-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/618-spider-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/618-spider-girl.jpg"
+        }
     },
     {
         "id": 619,
@@ -23692,8 +25592,12 @@ const META = [
             "groupAffiliation": "Warriors of the Great Web; formerly Mary Janes, Spider-Army",
             "relatives": "George Stacy (father), Helen Stacy (mother, deceased)"
         },
-        "images": "619-spider-gwen.jpg",
-        "poder_total": 399
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/619-spider-gwen.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/619-spider-gwen.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/619-spider-gwen.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/619-spider-gwen.jpg"
+        }
     },
     {
         "id": 620,
@@ -23754,8 +25658,12 @@ const META = [
             "groupAffiliation": "Member of the Avengers, formerly member of Outlaws, alternate Fantastic Four",
             "relatives": "Richard Parker (father, deceased), Mary Parker(mother, deceased), Benjamin Parker (uncle, deceased), May Parker (aunt), Mary Jane Watson-Parker (wife), May Parker (daughter, allegedly deceased)"
         },
-        "images": "620-spider-man.jpg",
-        "poder_total": 446
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/620-spider-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/620-spider-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/620-spider-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/620-spider-man.jpg"
+        }
     },
     {
         "id": 623,
@@ -23805,8 +25713,12 @@ const META = [
             "groupAffiliation": "Former agent of HYDRA",
             "relatives": "Jonathan (father, deceased), Merriem (mother, deceased)"
         },
-        "images": "623-spider-woman.jpg",
-        "poder_total": 338
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/623-spider-woman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/623-spider-woman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/623-spider-woman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/623-spider-woman.jpg"
+        }
     },
     {
         "id": 625,
@@ -23853,8 +25765,12 @@ const META = [
             "groupAffiliation": "Formerly Gathering of the Five",
             "relatives": "Jeremy Franklin (father, deceased), Bernice Franklin (mother, deceased), J. Jonah Jameson (foster father), Marla Madison (foster mother)"
         },
-        "images": "625-spider-woman-iii.jpg",
-        "poder_total": 255
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/625-spider-woman-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/625-spider-woman-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/625-spider-woman-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/625-spider-woman-iii.jpg"
+        }
     },
     {
         "id": 627,
@@ -23901,8 +25817,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "627-spock.jpg",
-        "poder_total": 252
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/627-spock.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/627-spock.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/627-spock.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/627-spock.jpg"
+        }
     },
     {
         "id": 628,
@@ -23950,8 +25870,12 @@ const META = [
             "groupAffiliation": "Morlocks; Formerly: X-Men",
             "relatives": "Mr. Daniels (father), Vivian Munroe-Daniels (mother), Storm (maternal aunt)"
         },
-        "images": "628-spyke.jpg",
-        "poder_total": 217
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/628-spyke.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/628-spyke.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/628-spyke.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/628-spyke.jpg"
+        }
     },
     {
         "id": 630,
@@ -23998,8 +25922,12 @@ const META = [
             "groupAffiliation": "Guardians of the Galaxy (leader); formerly unnamed commando team, United Front, Imperial Guard, partner of Ship, NASA",
             "relatives": "Eson (grandfather, deceased), Gareth (great-uncle, deceased), Jason of Sparta (father), Meredith Quill (mother, deceased), Victoria (half-sister), Kip Holm (adopted brother), Sandy (adopted sister in-law), Alain (adopted niece), Rhys, Robyn (adopted nephews), Kitty Pryde (fiance), Unnamed former Symbiote"
         },
-        "images": "630-star-lord.jpg",
-        "poder_total": 267
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/630-star-lord.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/630-star-lord.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/630-star-lord.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/630-star-lord.jpg"
+        }
     },
     {
         "id": 631,
@@ -24046,8 +25974,12 @@ const META = [
             "groupAffiliation": "Heralds of Galactus ; Formerly United Front",
             "relatives": "-"
         },
-        "images": "631-stardust.jpg",
-        "poder_total": 568
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/631-stardust.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/631-stardust.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/631-stardust.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/631-stardust.jpg"
+        }
     },
     {
         "id": 632,
@@ -24096,8 +26028,12 @@ const META = [
             "groupAffiliation": "Formerly R.E.B.E.L.S., Justice League of America, Teen Titans, Outsiders",
             "relatives": "King Myand'r (father), Queen Luand'r (mother), Queen Komand'r (sister, Blackfire), Ryand'r (brother), Prince Karras (husband, deceased), Ph'yzzon (husband, deceased)"
         },
-        "images": "632-starfire.jpg",
-        "poder_total": 377
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/632-starfire.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/632-starfire.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/632-starfire.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/632-starfire.jpg"
+        }
     },
     {
         "id": 633,
@@ -24146,8 +26082,12 @@ const META = [
             "groupAffiliation": "Justice Society of America",
             "relatives": "Barbara Whitmore-Dugan (mother); Sam Kurtis (father, deceased); Pat Dugan (S.T.R.I.P.E., Stepfather); Mike Dugan (stepbrother); Patricia Dugan (sister)"
         },
-        "images": "633-stargirl.jpg",
-        "poder_total": 400
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/633-stargirl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/633-stargirl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/633-stargirl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/633-stargirl.jpg"
+        }
     },
     {
         "id": 634,
@@ -24197,8 +26137,12 @@ const META = [
             "groupAffiliation": "Shadow Cabinet, Heroes, Teen Titans",
             "relatives": "Robert Hawkins (father), Jean Hawkins (mother), Sharon Hawkins (sister), Homer Hawkins (grandfather), Teshom? Hawkins (uncle, deceased),"
         },
-        "images": "634-static.jpg",
-        "poder_total": 299
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/634-static.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/634-static.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/634-static.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/634-static.jpg"
+        }
     },
     {
         "id": 635,
@@ -24246,8 +26190,12 @@ const META = [
             "groupAffiliation": "Reserve member of the Justice League of America",
             "relatives": "Mrs. Irons (mother, deceased), Mr. Irons (father, deceased), Maternal Grandmother (deceased), maternal grandfather (deceased), Butter (grandfather), Bess (grandmother, deceased), Clay Irons (brother), Jemahl Irons (nephew), Blondell Irons (sister-in-law), Natasha Irons (Starlight, niece), Paco (nephew), Tyke (former foster nephew)"
         },
-        "images": "635-steel.jpg",
-        "poder_total": 434
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/635-steel.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/635-steel.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/635-steel.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/635-steel.jpg"
+        }
     },
     {
         "id": 636,
@@ -24294,8 +26242,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Jim Powell (husband), Daphne Powell (daughter), JJ Powell (son)"
         },
-        "images": "636-stephanie-powell.jpg",
-        "poder_total": 177
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/636-stephanie-powell.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/636-stephanie-powell.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/636-stephanie-powell.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/636-stephanie-powell.jpg"
+        }
     },
     {
         "id": 637,
@@ -24342,8 +26294,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "637-steppenwolf.jpg",
-        "poder_total": 577
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/637-steppenwolf.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/637-steppenwolf.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/637-steppenwolf.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/637-steppenwolf.jpg"
+        }
     },
     {
         "id": 638,
@@ -24402,8 +26358,12 @@ const META = [
             "groupAffiliation": "X-Men (Jean Grey School member, leader); formerly X-Force (Strike Team); Murder Circus (brainwashed), Extinction Team, Avengers[3], Fantastic Four, X.S.E., X-Treme X-Men, Tokyo Arena, The Twelve, Seven Brides of Set, Hellfire Club (Inner Circle), Morlocks",
             "relatives": "Ayesha of Balobedu (ancestor), Ashake of Egypt (ancestor), Ashake of Mero? (ancestor), unnamed ancestor, Harriet Munroe (paternal grandmother), unnamed paternal grandfather, unnamed maternal grandmother, David Munroe (father, deceased), N'Dar? Munroe (mother, deceased), Ainet (unofficial foster mother), Achmed El Gib?r (unofficial foster father), Colonel Shetani (maternal uncle), unnamed paternal aunt (deceased), David Munroe, Jr. (cousin), Munroe Family (relatives), Black Panther (T'Challa) (ex-husband, marriage annulled)"
         },
-        "images": "638-storm.jpg",
-        "poder_total": 325
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/638-storm.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/638-storm.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/638-storm.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/638-storm.jpg"
+        }
     },
     {
         "id": 639,
@@ -24450,8 +26410,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "639-stormtrooper.jpg",
-        "poder_total": 66
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/639-stormtrooper.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/639-stormtrooper.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/639-stormtrooper.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/639-stormtrooper.jpg"
+        }
     },
     {
         "id": 640,
@@ -24501,8 +26465,12 @@ const META = [
             "groupAffiliation": "Avengers; formerly X-Men, New Mutants, Young X-Men, X-Corporation (Los Angeles branch), MLF, X-Force, Fallen Angels, Hellfire Club, Bratpack",
             "relatives": "Emmanuel da Costa (father, deceased), Nina da Costa (mother), Reignfire (genetic copy, deceased)"
         },
-        "images": "640-sunspot.jpg",
-        "poder_total": 346
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/640-sunspot.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/640-sunspot.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/640-sunspot.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/640-sunspot.jpg"
+        }
     },
     {
         "id": 641,
@@ -24550,8 +26518,12 @@ const META = [
             "groupAffiliation": "Teen Titans, Legion of Super-Heroes, Team Superman; Formerly Young Justice, Project Cadmus, Ravers",
             "relatives": "Superman (Kryptonian genetic template), Lex Luthor (Human genetic template), Match (clone)"
         },
-        "images": "641-superboy.jpg",
-        "poder_total": 498
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/641-superboy.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/641-superboy.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/641-superboy.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/641-superboy.jpg"
+        }
     },
     {
         "id": 642,
@@ -24598,8 +26570,12 @@ const META = [
             "groupAffiliation": "Formerly Black Lantern Corps, Legion of Super-Villains, Sinestro Corps",
             "relatives": "Jor-El (father; deceased); Lara (mother, deceased); Jerry Kent (adoptive father); Naomi Kent (adoptive mother)"
         },
-        "images": "642-superboy-prime.jpg",
-        "poder_total": 579
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/642-superboy-prime.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/642-superboy-prime.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/642-superboy-prime.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/642-superboy-prime.jpg"
+        }
     },
     {
         "id": 643,
@@ -24657,8 +26633,12 @@ const META = [
             "groupAffiliation": "Formerly Justice League of America, Supermen of America, Justice League of Amazons, Kent Family, Superman Family, Kryptonian Science Guild, Teen Titans, Legion of Super-Heroes, Outsiders",
             "relatives": "Zor-El (father), Allura In-Ze (mother), Jor-El II (uncle, deceased), Lara Lor-Van (aunt, deceased), Kal-El (Superman,Clark Kent, cousin), Lois Lane (cousin-in-law), Jonathan Kent (adopted uncle), Martha Kent (adopted aunt), Kon-El (Superboy, Conner Kent, clone cousin, deceased), Nim-El (uncle), Dondra Klu-Ta (aunt), Don-El (cousin), Jor-El I (praternal grandfather, deceased), Nimda An-Dor (paternal grandmother, deceased), Lar-Van (maternal grandfather, deceased), Lara Rok-Var (maternal grandmother, deceased), Val-El, Sul-El, Tala-El, Hatu-El, Gam-El (ancestors, deceased)"
         },
-        "images": "643-supergirl.jpg",
-        "poder_total": 569
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/643-supergirl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/643-supergirl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/643-supergirl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/643-supergirl.jpg"
+        }
     },
     {
         "id": 644,
@@ -24711,8 +26691,12 @@ const META = [
             "groupAffiliation": "Justice League of America, The Legion of Super-Heroes (pre-Crisis as Superboy); Justice Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis Earth-2 version)",
             "relatives": "Lois Lane (wife), Jor-El (father, deceased), Lara (mother, deceased), Jonathan Kent (adoptive father), Martha Kent (adoptive mother), Seyg-El (paternal grandfather, deceased), Zor-El (uncle, deceased), Alura (aunt, deceased), Supergirl (Kara Zor-El, cousin), Superboy (Kon-El/Conner Kent, partial clone)"
         },
-        "images": "644-superman.jpg",
-        "poder_total": 579
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/644-superman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/644-superman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/644-superman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/644-superman.jpg"
+        }
     },
     {
         "id": 645,
@@ -24763,8 +26747,12 @@ const META = [
             "groupAffiliation": "formerly (Parliament of Trees; Parliament of Stones, Parliament of Flames, Parliament of Waves, and Parliament of Vapors), The Parliament of Worlds",
             "relatives": "Larry Holland (father, deceased); Alice Holland (mother, deceased); Edward Holland (brother); Linda Holland (first wife, deceased); Abigail Holland (second wife); Tef? Holland (daughter); Gregori Arcane (father-in-law, deceased)"
         },
-        "images": "645-swamp-thing.jpg",
-        "poder_total": 463
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/645-swamp-thing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/645-swamp-thing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/645-swamp-thing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/645-swamp-thing.jpg"
+        }
     },
     {
         "id": 646,
@@ -24811,8 +26799,12 @@ const META = [
             "groupAffiliation": "Leader of the All-New Sinister Six; formerly Exterminators, Nazi Party",
             "relatives": "-"
         },
-        "images": "646-swarm.jpg",
-        "poder_total": 306
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/646-swarm.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/646-swarm.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/646-swarm.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/646-swarm.jpg"
+        }
     },
     {
         "id": 647,
@@ -24863,8 +26855,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Virginia Gray (mother)"
         },
-        "images": "647-sylar.jpg",
-        "poder_total": 272
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/647-sylar.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/647-sylar.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/647-sylar.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/647-sylar.jpg"
+        }
     },
     {
         "id": 648,
@@ -24911,8 +26907,12 @@ const META = [
             "groupAffiliation": "Generation X",
             "relatives": "Stan Thomas (father), Ida Thomas (mother), Kim Ho Twae (adopted sister)"
         },
-        "images": "648-synch.jpg",
-        "poder_total": 323
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/648-synch.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/648-synch.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/648-synch.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/648-synch.jpg"
+        }
     },
     {
         "id": 649,
@@ -24960,8 +26960,12 @@ const META = [
             "groupAffiliation": "Skynet",
             "relatives": "-"
         },
-        "images": "649-t-1000.jpg",
-        "poder_total": 417
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/649-t-1000.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/649-t-1000.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/649-t-1000.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/649-t-1000.jpg"
+        }
     },
     {
         "id": 650,
@@ -25008,8 +27012,12 @@ const META = [
             "groupAffiliation": "Skynet",
             "relatives": "-"
         },
-        "images": "650-t-800.jpg",
-        "poder_total": 324
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/650-t-800.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/650-t-800.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/650-t-800.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/650-t-800.jpg"
+        }
     },
     {
         "id": 651,
@@ -25056,8 +27064,12 @@ const META = [
             "groupAffiliation": "Skynet",
             "relatives": "-"
         },
-        "images": "651-t-850.jpg",
-        "poder_total": 428
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/651-t-850.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/651-t-850.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/651-t-850.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/651-t-850.jpg"
+        }
     },
     {
         "id": 652,
@@ -25104,8 +27116,12 @@ const META = [
             "groupAffiliation": "Skynet",
             "relatives": "-"
         },
-        "images": "652-t-x.jpg",
-        "poder_total": 432
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/652-t-x.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/652-t-x.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/652-t-x.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/652-t-x.jpg"
+        }
     },
     {
         "id": 653,
@@ -25152,8 +27168,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Mercedes Merced (wife), Jeanne Foucault (Finesse, alleged daughter)"
         },
-        "images": "653-taskmaster.jpg",
-        "poder_total": 320
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/653-taskmaster.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/653-taskmaster.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/653-taskmaster.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/653-taskmaster.jpg"
+        }
     },
     {
         "id": 654,
@@ -25200,8 +27220,12 @@ const META = [
             "groupAffiliation": "Formerly New Warriors; Special Class",
             "relatives": "Tito Bohusk (son); Axel Bohusk (son); Kara Bohusk (daughter); three other unidentified children;"
         },
-        "images": "654-tempest.jpg",
-        "poder_total": 247
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/654-tempest.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/654-tempest.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/654-tempest.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/654-tempest.jpg"
+        }
     },
     {
         "id": 655,
@@ -25251,8 +27275,12 @@ const META = [
             "groupAffiliation": "Zodiac (ally); formerly Infinity Watch, Defenders",
             "relatives": "A'Lars (father): Sui-San (mother, deceased; Eros (brother);Kronos (paternal Grandfather, deceased); Daina (paternal grandmother, deceased); Zuras (uncle, deceased); Thena (cousin); Gamora (foster daughter);Nebula (alleged granddaughter); Rot (\"child\" by Death);"
         },
-        "images": "655-thanos.jpg",
-        "poder_total": 513
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/655-thanos.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/655-thanos.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/655-thanos.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/655-thanos.jpg"
+        }
     },
     {
         "id": 656,
@@ -25299,8 +27327,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Trip Faraday (son), Dana Thompson-Faraday (wife)"
         },
-        "images": "656-the-cape.jpg",
-        "poder_total": 189
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/656-the-cape.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/656-the-cape.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/656-the-cape.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/656-the-cape.jpg"
+        }
     },
     {
         "id": 657,
@@ -25347,8 +27379,12 @@ const META = [
             "groupAffiliation": "Formerly Crimebusters, Minutemen",
             "relatives": "Silk Spectre (Laurel \"Laurie\" Juspeczyk) (daughter)"
         },
-        "images": "657-the-comedian.jpg",
-        "poder_total": 196
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/657-the-comedian.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/657-the-comedian.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/657-the-comedian.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/657-the-comedian.jpg"
+        }
     },
     {
         "id": 658,
@@ -25397,8 +27433,12 @@ const META = [
             "groupAffiliation": "Fantastic Four formerly Avengers West Coast, Unlimited Class Wrestling Federation, Thunderiders",
             "relatives": "Daniel (father, deceased), Elsie (mother, deceased), Daniel Jr. (brother, deceased), Jacob ('Jake,' uncle), Alyce (aunt, deceased), Pentunia ('Penny,' aunt, Jacob's second wife)"
         },
-        "images": "658-thing.jpg",
-        "poder_total": 398
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/658-thing.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/658-thing.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/658-thing.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/658-thing.jpg"
+        }
     },
     {
         "id": 659,
@@ -25448,8 +27488,12 @@ const META = [
             "groupAffiliation": "Avengers",
             "relatives": "Odin (father), Gaea (mother), Frigga (step-mother), Loki (step-brother), Vidar (half-brother), Buri (paternal great-grandfather), Bolthorn (maternal great grandfather), Bor (grandfather), Bestla (grandmother), Vili (uncle), Ve (uncle), Sigyn (former sister-in-law), Hela (alleged niece), Jormungand (alleged nephew), Fernis Wolf (alleged nephew)"
         },
-        "images": "659-thor.jpg",
-        "poder_total": 552
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/659-thor.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/659-thor.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/659-thor.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/659-thor.jpg"
+        }
     },
     {
         "id": 660,
@@ -25507,8 +27551,12 @@ const META = [
             "groupAffiliation": "Ally of the Asgardians",
             "relatives": "-"
         },
-        "images": "660-thor-girl.jpg",
-        "poder_total": 482
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/660-thor-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/660-thor-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/660-thor-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/660-thor-girl.jpg"
+        }
     },
     {
         "id": 661,
@@ -25555,8 +27603,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly US Marine Corp",
             "relatives": "Unidentified grandfather (deceased), Neal Proudstar (father, deceased), Maria Proudstar (mother, deceased), James Proudstar (Warpath, brother)"
         },
-        "images": "661-thunderbird.jpg",
-        "poder_total": 224
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/661-thunderbird.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/661-thunderbird.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/661-thunderbird.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/661-thunderbird.jpg"
+        }
     },
     {
         "id": 664,
@@ -25603,8 +27655,12 @@ const META = [
             "groupAffiliation": "(At time of death) Avengers; (Formerly) Legion of the Unliving, Thor Corps",
             "relatives": "Marcy Masterson Steele (wife, divorced), Kevin Masterson (son)"
         },
-        "images": "664-thunderstrike.jpg",
-        "poder_total": 411
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/664-thunderstrike.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/664-thunderstrike.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/664-thunderstrike.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/664-thunderstrike.jpg"
+        }
     },
     {
         "id": 665,
@@ -25651,8 +27707,12 @@ const META = [
             "groupAffiliation": "Lady Liberators; Empress of the Sisterhood; formerly Frightful Four, Fantastic Four, former agent of Roxxon Oil Corporation",
             "relatives": "Superia (alleged ancestor), Arkon (consort) Lyra (alternate reality daughter)"
         },
-        "images": "665-thundra.jpg",
-        "poder_total": 295
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/665-thundra.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/665-thundra.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/665-thundra.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/665-thundra.jpg"
+        }
     },
     {
         "id": 666,
@@ -25699,8 +27759,12 @@ const META = [
             "groupAffiliation": "Villains for Hire, Lethal Legion, Dr. Dorcas; Masters of Evil; Namor's Deep Six; Attuma's Deep Six; Offenders",
             "relatives": "Diane Newell (sister); Mara (wife, deceased); Walter Newell (brother-in-law);"
         },
-        "images": "666-tiger-shark.jpg",
-        "poder_total": 305
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/666-tiger-shark.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/666-tiger-shark.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/666-tiger-shark.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/666-tiger-shark.jpg"
+        }
     },
     {
         "id": 667,
@@ -25748,8 +27812,12 @@ const META = [
             "groupAffiliation": "Avengers",
             "relatives": "Mr. Grant (father), Mrs. Grant (mother, deceased), William Nelson (husband, deceased)"
         },
-        "images": "667-tigra.jpg",
-        "poder_total": 309
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/667-tigra.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/667-tigra.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/667-tigra.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/667-tigra.jpg"
+        }
     },
     {
         "id": 668,
@@ -25796,8 +27864,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Deborah Watts Mason (wife, deceased), Rick Mason (aka Agent, son, deceased)"
         },
-        "images": "668-tinkerer.jpg",
-        "poder_total": 171
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/668-tinkerer.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/668-tinkerer.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/668-tinkerer.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/668-tinkerer.jpg"
+        }
     },
     {
         "id": 670,
@@ -25844,8 +27916,12 @@ const META = [
             "groupAffiliation": "198; (formerly) Brotherhood of Evil Mutants, Misfits; (formerly) associate of Gideon, Emma Frost",
             "relatives": "-"
         },
-        "images": "670-toad.jpg",
-        "poder_total": 296
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/670-toad.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/670-toad.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/670-toad.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/670-toad.jpg"
+        }
     },
     {
         "id": 671,
@@ -25892,8 +27968,12 @@ const META = [
             "groupAffiliation": "Ally of Spider-Man and Black Cat",
             "relatives": "Gina Mulligan (wife), Edward Mulligan (son), Mr. Mulligan (father), Mrs. Mulligan (mother), Carnage (\"father\"), Venom (\"grandfather\")"
         },
-        "images": "671-toxin.jpg",
-        "poder_total": 435
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/671-toxin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/671-toxin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/671-toxin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/671-toxin.jpg"
+        }
     },
     {
         "id": 672,
@@ -25948,8 +28028,12 @@ const META = [
             "groupAffiliation": "Formerly; temporary partner of Agent Venom, Savage Six, Sinister Six, Revengers, former partner of Vengeance, Spider-Man, Scarlet Spider. Volunteer at F.E.A.S.T.",
             "relatives": "Carl Brock (father, estranged), Janine Brock (mother, deceased), Mary Brock (sister), Ann Weying (ex-wife, deceased), Symbiotes' relatives: Anti-Venom Symbiote (former symbiote, uncle and former brother, deceased), Venom Symbiote (former symbiote, grandfather, former brother), Agony, Phage, Riot, Lasher (uncles, former sons), Scorn (sister, former niece), Carnage (father, former son), Scream (aunt, former daughter, deceased), Hybrid (uncle, former son, deceased)"
         },
-        "images": "672-toxin.jpg",
-        "poder_total": 449
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/672-toxin.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/672-toxin.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/672-toxin.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/672-toxin.jpg"
+        }
     },
     {
         "id": 676,
@@ -25998,8 +28082,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes",
             "relatives": "-"
         },
-        "images": "676-triplicate-girl.jpg",
-        "poder_total": 224
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/676-triplicate-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/676-triplicate-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/676-triplicate-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/676-triplicate-girl.jpg"
+        }
     },
     {
         "id": 677,
@@ -26046,8 +28134,12 @@ const META = [
             "groupAffiliation": "Inhuman Royal Family, Universal Inhumans, Royal Guard, New Inhuman Elite; formerly Shi'ar Army Elite Corps & Imperial Guard[citation needed], Namor's Deep Six",
             "relatives": "Mander, Azur (parents, deceased), Karnak (brother, deceased), Magnar, Zeta (paternal grandparents), Kobar, La (maternal grandparents), Rynda (paternal aunt), Ambur (maternal aunt) ,Black Bolt, Maximus, Medusa, Crystal (cousins)"
         },
-        "images": "677-triton.jpg",
-        "poder_total": 324
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/677-triton.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/677-triton.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/677-triton.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/677-triton.jpg"
+        }
     },
     {
         "id": 678,
@@ -26094,8 +28186,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Duela Dent (Daughter), Gilda Dent (Wife), Poison Ivy (Fianc?e), Rachel Dawes (Girlfriend)"
         },
-        "images": "678-two-face.jpg",
-        "poder_total": 161
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/678-two-face.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/678-two-face.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/678-two-face.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/678-two-face.jpg"
+        }
     },
     {
         "id": 679,
@@ -26143,8 +28239,12 @@ const META = [
             "groupAffiliation": "Initiative, New Warriors",
             "relatives": "Toby Sherman (father)"
         },
-        "images": "679-ultragirl.jpg",
-        "poder_total": 350
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/679-ultragirl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/679-ultragirl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/679-ultragirl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/679-ultragirl.jpg"
+        }
     },
     {
         "id": 680,
@@ -26200,8 +28300,12 @@ const META = [
             "groupAffiliation": "Phalanx; formerly Sons of Yinsen, Lethal Legion, Masters of Evil",
             "relatives": "Hank Pym (Yellowjacket, creator, \"father\"), Janet Van Dyne (Wasp, regarded by Ultron as \"mother\" due to marriage to Pym), Jocasta (creation, former mate), Alkhema (creation, former mate, deactivated), Vision (creation, \"son\"), Victor Mancha (creation, son), Rex (creation, pet, deactivated), Robos & Bio-Synthezoids (creations of Alkhema, \"grandchildren\";, destroyed); Simon Williams (Wonder Man), Eric Williams (Grim Reaper) & Wanda Maximoff (Scarlet Witch), all regarded by Ultron as part of his \"extended family\" due to their familial connections with the Vision"
         },
-        "images": "680-ultron.jpg",
-        "poder_total": 477
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/680-ultron.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/680-ultron.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/680-ultron.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/680-ultron.jpg"
+        }
     },
     {
         "id": 681,
@@ -26248,8 +28352,12 @@ const META = [
             "groupAffiliation": "Giants of Jotunheim",
             "relatives": "-"
         },
-        "images": "681-utgard-loki.jpg",
-        "poder_total": 386
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/681-utgard-loki.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/681-utgard-loki.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/681-utgard-loki.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/681-utgard-loki.jpg"
+        }
     },
     {
         "id": 685,
@@ -26296,8 +28404,12 @@ const META = [
             "groupAffiliation": "(former) Outer Circle of Enforcers II, Factor Three, Fallen Angels",
             "relatives": "-"
         },
-        "images": "685-vanisher.jpg",
-        "poder_total": 307
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/685-vanisher.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/685-vanisher.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/685-vanisher.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/685-vanisher.jpg"
+        }
     },
     {
         "id": 686,
@@ -26356,8 +28468,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "686-vegeta.jpg",
-        "poder_total": 568
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/686-vegeta.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/686-vegeta.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/686-vegeta.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/686-vegeta.jpg"
+        }
     },
     {
         "id": 687,
@@ -26404,8 +28520,12 @@ const META = [
             "groupAffiliation": "Sinister Six (formerly)",
             "relatives": "Eddie Brock: Carl Brock (father), Jamie Brock (mother), Anne Weying (She-Venom, ex wife, deceased); Venom symbiote: Carnage (bonded to Cletus Kasidy, 1st generation offspring), five forced offspring - one independant (bonded to Donna, last name unrevealed, 1st generation offspring), four forming a composite symbiote (Hybrid (bonded to Scott Washington, 1st generation offspring), Toxin (bonded to Patrick Mulligan, 2nd generation offspring)"
         },
-        "images": "687-venom.jpg",
-        "poder_total": 451
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/687-venom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/687-venom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/687-venom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/687-venom.jpg"
+        }
     },
     {
         "id": 688,
@@ -26452,8 +28572,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Vincente Paolo Fortunato (father), unidentified mother (deceased), Giacomo Fortunato (Jimmy-Six, brother), Anna Fortunato (sister), Mary Fortunato (sister-in-law), James Fortunato (nephew), other unidentified neices or nephews"
         },
-        "images": "688-venom-ii.jpg",
-        "poder_total": 334
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/688-venom-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/688-venom-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/688-venom-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/688-venom-ii.jpg"
+        }
     },
     {
         "id": 689,
@@ -26500,8 +28624,12 @@ const META = [
             "groupAffiliation": "Thunderbolts; formerly (as Scorpion) Masters of Evil, \"Spider-Man Revenge League\"; (as Venom) Sinister Twelve",
             "relatives": "-"
         },
-        "images": "689-venom-iii.jpg",
-        "poder_total": 390
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/689-venom-iii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/689-venom-iii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/689-venom-iii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/689-venom-iii.jpg"
+        }
     },
     {
         "id": 690,
@@ -26548,8 +28676,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "690-venompool.jpg",
-        "poder_total": 489
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/690-venompool.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/690-venompool.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/690-venompool.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/690-venompool.jpg"
+        }
     },
     {
         "id": 692,
@@ -26596,8 +28728,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Rapture (Armando Ramon, brother), Dante Ramon (brother)"
         },
-        "images": "692-vibe.jpg",
-        "poder_total": 236
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/692-vibe.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/692-vibe.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/692-vibe.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/692-vibe.jpg"
+        }
     },
     {
         "id": 693,
@@ -26644,8 +28780,12 @@ const META = [
             "groupAffiliation": "Alpha Flight",
             "relatives": "Guardian, husband"
         },
-        "images": "693-vindicator.jpg",
-        "poder_total": 371
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/693-vindicator.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/693-vindicator.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/693-vindicator.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/693-vindicator.jpg"
+        }
     },
     {
         "id": 696,
@@ -26694,8 +28834,12 @@ const META = [
             "groupAffiliation": "Incredible Family, National Supers Agency",
             "relatives": "Robert Parr (Mr Incredible, father), Helen Parr (Elastigirl, mother), Dashiel Parr(Dash, brother), Jack-jack (brother)"
         },
-        "images": "696-violet-parr.jpg",
-        "poder_total": 222
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/696-violet-parr.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/696-violet-parr.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/696-violet-parr.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/696-violet-parr.jpg"
+        }
     },
     {
         "id": 697,
@@ -26742,8 +28886,12 @@ const META = [
             "groupAffiliation": "Young Avengers, formerly; Avengers, West Coast Avengers, Defenders, Queen's Vengeance",
             "relatives": "Wanda Maximoff (Scarlet Witch, ex-wife), Thomas Shepherd (Speed, son), William Kaplan (Wiccan, son), Ultron (\"father\"), Henry Pym (Ant-Man, \"grandfather\"), Pietro Maximoff (Quicksilver, ex-brother-in-law), Erik Magnus Lensher (Magneto, ex-father-in-law), Jocasta (fellow creation, \"sister\"), Simon Williams (Wonder Man, \"brother\"), Victor Mancha (fellow creation, half brother), Alkhema (fellow creation, \"stepmother\")"
         },
-        "images": "697-vision.jpg",
-        "poder_total": 491
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/697-vision.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/697-vision.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/697-vision.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/697-vision.jpg"
+        }
     },
     {
         "id": 699,
@@ -26790,8 +28938,12 @@ const META = [
             "groupAffiliation": "Formerly Suicide Squad, Checkmate, Ultramarines, Birds of Prey, Justice League of America",
             "relatives": "Reverend Richard Jiwe (father, deceased), Jeanne-Mari Jiwe (mother, deceased), General Mustapha Maksai (uncle, deceased), Tantu (ancestor)"
         },
-        "images": "699-vixen.jpg",
-        "poder_total": 275
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/699-vixen.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/699-vixen.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/699-vixen.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/699-vixen.jpg"
+        }
     },
     {
         "id": 701,
@@ -26838,8 +28990,12 @@ const META = [
             "groupAffiliation": "Formerly Sinister Twelve, Sinister Six",
             "relatives": "Marcus (brother, possibly deceased), Malachi Toomes (nephew, deceased), Valeria Toomes (daughter), unnamed son, Ramona (daughter-in-law), unnamed grandson"
         },
-        "images": "701-vulture.jpg",
-        "poder_total": 220
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/701-vulture.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/701-vulture.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/701-vulture.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/701-vulture.jpg"
+        }
     },
     {
         "id": 702,
@@ -26886,8 +29042,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Humbert Carpenter (uncle)"
         },
-        "images": "702-walrus.jpg",
-        "poder_total": 167
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/702-walrus.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/702-walrus.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/702-walrus.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/702-walrus.jpg"
+        }
     },
     {
         "id": 703,
@@ -26936,8 +29096,12 @@ const META = [
             "groupAffiliation": "Initiative; formerly: Sentinel Squad O*N*E, Office of National Emergency (O*N*E), Crew, Secret Defenders, Worldwatch, Stark Enterprises, Force Works, West Coast Avengers, U.S. Marine Corps",
             "relatives": "David Rhodes (father), Roberta Rhodes (mother), Jeanette Rhodes (sister, deceased), Josh (uncle, last name unrevealed), unnamed alleged son"
         },
-        "images": "703-war-machine.jpg",
-        "poder_total": 491
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/703-war-machine.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/703-war-machine.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/703-war-machine.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/703-war-machine.jpg"
+        }
     },
     {
         "id": 705,
@@ -26985,8 +29149,12 @@ const META = [
             "groupAffiliation": "Infinity Watch, (as the Magus) head of Universal Church of Truth in an alternate future",
             "relatives": "-"
         },
-        "images": "705-warlock.jpg",
-        "poder_total": 464
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/705-warlock.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/705-warlock.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/705-warlock.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/705-warlock.jpg"
+        }
     },
     {
         "id": 706,
@@ -27033,8 +29201,12 @@ const META = [
             "groupAffiliation": "Brotherhood of Evil, The Society",
             "relatives": "-"
         },
-        "images": "706-warp.jpg",
-        "poder_total": 234
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/706-warp.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/706-warp.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/706-warp.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/706-warp.jpg"
+        }
     },
     {
         "id": 707,
@@ -27081,8 +29253,12 @@ const META = [
             "groupAffiliation": "X-Men (Team Cyclops), Security Recon; formerly X-Force (Strike Team), X-Corporation, X-Force, New Mutants, Hellions",
             "relatives": "Thunderbird (John Proudstar, brother, deceased), Maria Proudstar (mother, deceased), Neal Proudstar (father, deceased)"
         },
-        "images": "707-warpath.jpg",
-        "poder_total": 337
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/707-warpath.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/707-warpath.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/707-warpath.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/707-warpath.jpg"
+        }
     },
     {
         "id": 708,
@@ -27129,8 +29305,12 @@ const META = [
             "groupAffiliation": "Avengers",
             "relatives": "Vernon Van Dyne (father, deceased), unnamed mother (deceased), Henry \"Hank\" Pym (ex-husband)"
         },
-        "images": "708-wasp.jpg",
-        "poder_total": 261
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/708-wasp.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/708-wasp.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/708-wasp.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/708-wasp.jpg"
+        }
     },
     {
         "id": 709,
@@ -27177,8 +29357,12 @@ const META = [
             "groupAffiliation": "The Watchers, Friend and Ally of the Fantastic Four, among other Earth heroes",
             "relatives": "Ikor (father); Aron (nephew); Qyre, Zoma (cousins)"
         },
-        "images": "709-watcher.jpg",
-        "poder_total": 492
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/709-watcher.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/709-watcher.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/709-watcher.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/709-watcher.jpg"
+        }
     },
     {
         "id": 711,
@@ -27226,8 +29410,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "-"
         },
-        "images": "711-white-canary.jpg",
-        "poder_total": 257
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/711-white-canary.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/711-white-canary.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/711-white-canary.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/711-white-canary.jpg"
+        }
     },
     {
         "id": 713,
@@ -27277,8 +29465,12 @@ const META = [
             "groupAffiliation": "Legion of Super-Heroes",
             "relatives": "-"
         },
-        "images": "713-wildfire.jpg",
-        "poder_total": 324
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/713-wildfire.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/713-wildfire.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/713-wildfire.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/713-wildfire.jpg"
+        }
     },
     {
         "id": 714,
@@ -27326,8 +29518,12 @@ const META = [
             "groupAffiliation": "Black Widow (partner), Nick Fury (employer); formerly Avengers, New Avengers, Invaders, Kid Commandos, Liberty Legion, Young Allies, Crazy S.U.E.S., Captain America (partner), Falcon (partner)",
             "relatives": "George M. Barnes (father, deceased), Winifred C. Barnes (mother, deceased), Rebecca P. Barnes Proctor (sister), Ida (aunt, presumed deceased), Mr. Proctor (brother-in-law), unidentified niece and nephew, Scott Proctor (grandnephew), Kimberly Proctor (grandniece)"
         },
-        "images": "714-winter-soldier.jpg",
-        "poder_total": 332
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/714-winter-soldier.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/714-winter-soldier.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/714-winter-soldier.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/714-winter-soldier.jpg"
+        }
     },
     {
         "id": 716,
@@ -27375,8 +29571,12 @@ const META = [
             "groupAffiliation": "(current) X-Factor Investigations, (former) X-Factor, New Mutants, Hellions, Excalibur",
             "relatives": "Reverand Craig (father), Moira MacTaggert (surrogate mother, deceased)"
         },
-        "images": "716-wolfsbane.jpg",
-        "poder_total": 199
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/716-wolfsbane.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/716-wolfsbane.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/716-wolfsbane.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/716-wolfsbane.jpg"
+        }
     },
     {
         "id": 717,
@@ -27434,8 +29634,12 @@ const META = [
             "groupAffiliation": "X-Men, formerly Horsemen of Apocalypse, Fantastic Four, Secret Defenders, Clan Yashida, Department H, Alpha Flight, Department K, Team X, Team_Weapon_X, Devil's Brigade, Canadian Army",
             "relatives": "John Howlett Sr. (father, deceased), Elizabeth Howlett (mother, deceased), John Howlett Jr. (brother, allegedly deceased), Viper (ex-wife), Amiko (foster daughter), Erista (son), X-23 (clone)"
         },
-        "images": "717-wolverine.jpg",
-        "poder_total": 434
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/717-wolverine.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/717-wolverine.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/717-wolverine.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/717-wolverine.jpg"
+        }
     },
     {
         "id": 718,
@@ -27486,8 +29690,12 @@ const META = [
             "groupAffiliation": "Teen Titans, Young Justice, Themyscira",
             "relatives": "-"
         },
-        "images": "718-wonder-girl.jpg",
-        "poder_total": 369
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/718-wonder-girl.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/718-wonder-girl.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/718-wonder-girl.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/718-wonder-girl.jpg"
+        }
     },
     {
         "id": 719,
@@ -27535,8 +29743,12 @@ const META = [
             "groupAffiliation": "Former ally of the original Masters of Evil, former member of the East Coast Avengers, current member of the West Coast Avengers",
             "relatives": "Sanford (father, deceased) Martha (mother), Eric (alias the Grim Reaper, brother, deceased), Vision II ('brother')"
         },
-        "images": "719-wonder-man.jpg",
-        "poder_total": 446
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/719-wonder-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/719-wonder-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/719-wonder-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/719-wonder-man.jpg"
+        }
     },
     {
         "id": 720,
@@ -27588,8 +29800,12 @@ const META = [
             "groupAffiliation": "Justice League of America, Justice Society of America (pre-Crisis Earth-2 version); All-Star Squadron (pre-Crisis Earth-2 version)",
             "relatives": "Queen Hippolyta (mother, deceased), Donna Troy (Troia) (magically-created duplicate)"
         },
-        "images": "720-wonder-woman.jpg",
-        "poder_total": 567
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/720-wonder-woman.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/720-wonder-woman.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/720-wonder-woman.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/720-wonder-woman.jpg"
+        }
     },
     {
         "id": 722,
@@ -27636,8 +29852,12 @@ const META = [
             "groupAffiliation": "Ally and companion of the Fantastic Four",
             "relatives": "Will Wingfoot (father, deceased), Chief Silent Fox (grandfather, deceased)"
         },
-        "images": "722-wyatt-wingfoot.jpg",
-        "poder_total": 90
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/722-wyatt-wingfoot.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/722-wyatt-wingfoot.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/722-wyatt-wingfoot.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/722-wyatt-wingfoot.jpg"
+        }
     },
     {
         "id": 723,
@@ -27689,8 +29909,12 @@ const META = [
             "groupAffiliation": "New X-Men, formerly Xavier Institute Student Body, The Facility",
             "relatives": "Sarah Kinney (surrogate mother, deceased), James Howlett (Wolverine, genetic progenitor)"
         },
-        "images": "723-x-23.jpg",
-        "poder_total": 391
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/723-x-23.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/723-x-23.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/723-x-23.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/723-x-23.jpg"
+        }
     },
     {
         "id": 724,
@@ -27737,8 +29961,12 @@ const META = [
             "groupAffiliation": "Formerly X-Men, Brotherhood of Mutants, Forge's resistance",
             "relatives": "Scott Summers of Earth-295 (Cyclops, genetic template), Jean Grey of Earth-295 (genetic template)"
         },
-        "images": "724-x-man.jpg",
-        "poder_total": 473
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/724-x-man.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/724-x-man.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/724-x-man.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/724-x-man.jpg"
+        }
     },
     {
         "id": 726,
@@ -27785,8 +30013,12 @@ const META = [
             "groupAffiliation": "The Avengers, The West Coast Avengers, Secret Defenders",
             "relatives": "Maria Trovaya (first wife, deceased), Janet Van Dyne a.k.a. The Wasp (second wife, divorced), Ultron (creation, \"son\"), Jocasta (\"first daughter-in-law\"), Alkhema (\"second daughter-in-law\"), Vision (\"grandson\"), Scarlet Witch (former granddaughter-in-law), Victor Mancha (\"grandson\")"
         },
-        "images": "726-yellowjacket.jpg",
-        "poder_total": 164
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/726-yellowjacket.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/726-yellowjacket.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/726-yellowjacket.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/726-yellowjacket.jpg"
+        }
     },
     {
         "id": 727,
@@ -27833,8 +30065,12 @@ const META = [
             "groupAffiliation": "Formerly Guardians of the Galaxy, Avengers, Masters of Evil",
             "relatives": "-"
         },
-        "images": "727-yellowjacket-ii.jpg",
-        "poder_total": 182
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/727-yellowjacket-ii.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/727-yellowjacket-ii.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/727-yellowjacket-ii.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/727-yellowjacket-ii.jpg"
+        }
     },
     {
         "id": 728,
@@ -27881,8 +30117,12 @@ const META = [
             "groupAffiliation": "-",
             "relatives": "Utgard-Loki, Loki, and the race of Frost Giants (descendants)"
         },
-        "images": "728-ymir.jpg",
-        "poder_total": 403
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/728-ymir.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/728-ymir.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/728-ymir.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/728-ymir.jpg"
+        }
     },
     {
         "id": 729,
@@ -27929,8 +30169,12 @@ const META = [
             "groupAffiliation": "Jedi Order, Jedi High Counsl, Galactic Republic",
             "relatives": "Master: N'Kata Del Gormo, Apprentices: Dooku, Cin Drallig, Ikrit, Rahm Kota, Ki-Adi-Mundi, Oppo Rancisis, Luke Skywalker"
         },
-        "images": "729-yoda.jpg",
-        "poder_total": 388
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/729-yoda.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/729-yoda.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/729-yoda.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/729-yoda.jpg"
+        }
     },
     {
         "id": 730,
@@ -27977,8 +30221,12 @@ const META = [
             "groupAffiliation": "Misty Kilgore, Seven Soldiers of Victory, Justice League, Sentinels of Magic",
             "relatives": "Giovanni \"John\" Zatara (father, deceased), Sindella (mother, deceased), Leonardo da Vinci (paternal ancestor, deceased)"
         },
-        "images": "730-zatanna.jpg",
-        "poder_total": 298
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/730-zatanna.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/730-zatanna.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/730-zatanna.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/730-zatanna.jpg"
+        }
     },
     {
         "id": 731,
@@ -28025,7 +30273,11 @@ const META = [
             "groupAffiliation": "Secret Society of Super Villains, formerly Keystone Police Department, F.B.I.",
             "relatives": "Ashley Zolomon (ex-wife)"
         },
-        "images": "731-zoom.jpg",
-        "poder_total": 316
+        "images": {
+            "xs": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/xs/731-zoom.jpg",
+            "sm": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/sm/731-zoom.jpg",
+            "md": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/md/731-zoom.jpg",
+            "lg": "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/images/lg/731-zoom.jpg"
+        }
     }
 ]

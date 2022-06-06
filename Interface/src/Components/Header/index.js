@@ -12,7 +12,7 @@ function Header(){
 
 setTimeout(()=>{
     app().innerHTML = Header() + app().innerHTML
-    goRoute('inventario')
+    goRoute('cartas')
     goRoute_ = goRoute
 })
 

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <base href="./">
     <link rel="stylesheet" href="./src/Components/card.css">
     <link rel="stylesheet" href="./styles/style.css">
     <script src="./src/Main/index.js"></script>
@@ -12,7 +13,10 @@
     <script src="./src/dados/meta_humans.js"></script>
     <script src="./src/Components/Card.js"></script>
 
+    <script src="./src/Components/routes/Cartas/auxiliar.js"></script>
     <script src="./src/Components/routes/Cartas/index.js"></script>
+    <link rel="stylesheet" href="./src/Components/routes/Cartas/style.css">
+
     <script src="./src/Components/routes/Inventario/index.js"></script>
     <script src="./src/Components/routes/Mercado/index.js"></script>
 
@@ -22,7 +26,7 @@
 <body>
     <div class="main">
         <div class="header">
-            <div class="icon"><img src="./assets/images/icon_r.png" alt="" height="21px"></div>
+            <div class="icon"><img src="../assets/images/icon_r.png" alt="" height="21px"></div>
             <div class="title">Infinity Deck</div>
             <div class="options"></div>
         </div>
@@ -38,81 +42,80 @@
 </body>
 <script src="./src/Listeners/index.js"></script>
 <script>
-    const CARDS = META.map(card=>{
-        let image = card.images.lg.split('/').pop()
-        return {...card,images:image}
-    })
-    let main = document.getElementsByClassName("main")[0]
-    let cards = ''
-    let min = undefined
-    let max = undefined
-    let maxs = 0
-    let rares = 0
-    let epic = 0
-    let legendary = 0
-    let supreme = 0
-    let comun = 0
-    let total = 0
-    CARDS.forEach((card,index) => {
-        let power = Object.values(card.powerstats).reduce((prev,current)=>prev+current)
-        let aux = {
-            value:power,
-            name:card.name,
-            index:index,
-        }
-        let poder = aux.value
-        if(aux.value == 600){
-            maxs++
-        }
+    // const CARDS = META.map(card=>{
+    //     let image = card.images.lg.split('/').pop()
+    //     return {...card,images:image}
+    // })
+    // let main = document.getElementsByClassName("main")[0]
+    // let cards = ''
+    // let min = undefined
+    // let max = undefined
+    // let maxs = 0
+    // let rares = 0
+    // let epic = 0
+    // let legendary = 0
+    // let supreme = 0
+    // let comun = 0
+    // let total = 0
+    // CARDS.forEach((card,index) => {
+    //     let power = Object.values(card.powerstats).reduce((prev,current)=>prev+current)
+    //     let aux = {
+    //         value:power,
+    //         name:card.name,
+    //         index:index,
+    //     }
+    //     let poder = aux.value
+    //     if(aux.value == 600){
+    //         maxs++
+    //     }
 
-        if(poder>=569){
-            supreme++
-            cards+=Card(card,'supreme')
-        }
-        if(poder>=500 && poder<569){
-            legendary++
-            cards+=Card(card,'legendary')
-        }
-        if(poder>=400 && poder<500){
-            epic++
-            cards+=Card(card,'epic')
-        }
-        if(poder>=250 && poder<400){
-            rares++
-            cards+=Card(card,'rare')
-        }
-        if(poder<250){
-            comun++
-            cards+=Card(card,'comun')
-        }
+    //     if(poder>=569){
+    //         supreme++
+    //         cards+=Card(card,'supreme')
+    //     }
+    //     if(poder>=500 && poder<569){
+    //         legendary++
+    //         cards+=Card(card,'legendary')
+    //     }
+    //     if(poder>=400 && poder<500){
+    //         epic++
+    //         cards+=Card(card,'epic')
+    //     }
+    //     if(poder>=250 && poder<400){
+    //         rares++
+    //         cards+=Card(card,'rare')
+    //     }
+    //     if(poder<250){
+    //         comun++
+    //         cards+=Card(card,'comun')
+    //     }
 
-        if(index==0){
-            max = {...aux}
-            min = {...aux}
-        }
-        if(power>max.value){
-            max = {...aux}
-        }
-        if(power<min.value){
-            min = {...aux}
-        }
-        total++
-        // if(card.name == 'One-Above-All') console.log(index)
-    });
-    // main.innerHTML = Card(CARDS[23],'rare') + Card(CARDS[13],'legendary') + Card(CARDS[317],'supreme') + Card(CARDS[3],'epic') + Card(CARDS[197],'comun')
-    // main.innerHTML = cards
-    console.log(max)
-    console.log(min)
-    console.log(maxs)
-    console.log(`
-    DEUSES: ${supreme}
-    LENDARIOS: ${legendary}
-    ÉPICOS: ${epic}
-    RAROS: ${rares}
-    COMUNS: ${comun}
+    //     if(index==0){
+    //         max = {...aux}
+    //         min = {...aux}
+    //     }
+    //     if(power>max.value){
+    //         max = {...aux}
+    //     }
+    //     if(power<min.value){
+    //         min = {...aux}
+    //     }
+    //     total++
+    //     // if(card.name == 'One-Above-All') console.log(index)
+    // });
+    // // main.innerHTML = Card(CARDS[23],'rare') + Card(CARDS[13],'legendary') + Card(CARDS[317],'supreme') + Card(CARDS[3],'epic') + Card(CARDS[197],'comun')
+    // // main.innerHTML = cards
+    // console.log(max)
+    // console.log(min)
+    // console.log(maxs)
+    // console.log(`
+    // DEUSES: ${supreme}
+    // LENDARIOS: ${legendary}
+    // ÉPICOS: ${epic}
+    // RAROS: ${rares}
+    // COMUNS: ${comun}
     
-
-    TOTAL:${supreme+legendary+epic+rares+comun}
-    `)
+    // TOTAL:${supreme+legendary+epic+rares+comun}
+    // `)
 </script>
 </html>

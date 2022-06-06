@@ -7,15 +7,23 @@ const createWindow = () => {
       width: 1600,
       height: 720,
       transparent:true,
-      // frame:false,
+      frame:false,
+      // customFileProtocol:"./",
+      // backgroundColor:"red",
+      // show: false,
       webPreferences: {
+        devTools: false,
         nodeIntegration: true,
         contextIsolation: false,
         enableRemoteModule: true,
     }
     })
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
     win.loadFile('index.html')
+
+    // win.once('ready-to-show', () => {
+    //     win.show()
+    // })
   }
 
   app.whenReady().then(() => {
@@ -28,18 +36,18 @@ const createWindow = () => {
     }
   })
 
-  var client = new net.Socket();
-  client.connect(5000, '127.0.0.1', function() {
-      console.log('Connected');
-  });
+  // var client = new net.Socket();
+  // client.connect(5000, '127.0.0.1', function() {
+  //     console.log('Connected');
+  // });
   
-  client.on('data', function(data) {
-      console.log('Received: ' + data);
-      // client.destroy();
-  });
+  // client.on('data', function(data) {
+  //     console.log('Received: ' + data);
+  //     // client.destroy();
+  // });
 
-  ipcMain.on('sendMessage', (event, msg) => {
-    client.write(msg)
-    // console.log(msg)
-    // event.reply('getDataResponse', 'recebido !')
-  })
+  // ipcMain.on('sendMessage', (event, msg) => {
+  //   client.write(msg)
+  //   // console.log(msg)
+  //   // event.reply('getDataResponse', 'recebido !')
+  // })
