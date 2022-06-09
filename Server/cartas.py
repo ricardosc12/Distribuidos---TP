@@ -4,10 +4,22 @@ f = open('./Banco/testes.json')
   
 data = json.load(f)
 
-for i in data:
-    aux=aux+1
-    print(i['image'])
+insert = []
 
+for i in data:
+    del i['id']
+    # aux=aux+1
+    # print(i['image'])
+
+
+teste = data[0:2]
+for x in teste:
+    dic = (x['name'], json.dumps(x, separators=(',', ':')))
+    insert.append(dic)
+
+print(insert)
+
+# print(text[0])
 
 # f.close()
 

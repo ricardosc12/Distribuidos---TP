@@ -42,3 +42,25 @@ CREATE TABLE "Trocas" (
 """)
 
 bd.close()
+
+
+# def createCarta(self,nome,descricao):
+
+#     self.cursor.execute("""
+#         SELECT * FROM Cartas WHERE Name = ?;
+#     """, (nome,))
+
+#     data = self.cursor.fetchall()
+
+#     if(len(data)):
+#         print("Carta já adicionada !")
+#         return False
+
+#     self.cursor.execute("""
+#         INSERT INTO Cartas (Name, Descricao)
+#         VALUES (?,?)
+#     """,(nome,descricao))
+
+#     print("Carta adicionada !")
+
+#     return True
