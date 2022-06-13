@@ -16,11 +16,15 @@
       "target": "nsis",
       "icon": "build/icon.png"
     },
-    "extraResources":["./assets/**"]
+    "extraResources": [
+      "./assets/**"
+    ]
   },
   "devDependencies": {
     "electron": "18.3.0",
     "electron-builder": "^23.0.3"
+  },
+  "dependencies": {
+    "electron-promise-ipc": "^2.2.4"
   }
-
 }

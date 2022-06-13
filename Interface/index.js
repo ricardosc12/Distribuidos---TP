@@ -1,6 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 var net = require('net');
 const { ipcMain } = require('electron')
+var promiseIpc = require('electron-promise-ipc') 
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -12,13 +13,13 @@ const createWindow = () => {
       // backgroundColor:"red",
       // show: false,
       webPreferences: {
-        devTools: false,
+        // devTools: false,
         nodeIntegration: true,
         contextIsolation: false,
         enableRemoteModule: true,
     }
     })
-    // win.webContents.openDevTools()
+    win.webContents.openDevTools()
     win.loadFile('index.html')
 
     // win.once('ready-to-show', () => {
@@ -36,18 +37,91 @@ const createWindow = () => {
     }
   })
 
-  // var client = new net.Socket();
-  // client.connect(5000, '127.0.0.1', function() {
-  //     console.log('Connected');
-  // });
-  
-  // client.on('data', function(data) {
-  //     console.log('Received: ' + data);
-  //     // client.destroy();
-  // });
+  var client = new net.Socket();
+  let serverLive = false
+  let dataReceived = ''
+  let received = ''
+  let bigdata = false
 
-  // ipcMain.on('sendMessage', (event, msg) => {
-  //   client.write(msg)
-  //   // console.log(msg)
-  //   // event.reply('getDataResponse', 'recebido !')
-  // })
+  client.on('connect', function() {
+    console.log('Connected');
+    serverLive=true
+  });
+
+  connectToServer=()=>{
+    client.connect(5000, '127.0.0.1')
+  }
+  connectToServer()
+  
+  client.on('error', function() {
+  });
+
+  client.on('close', function() {
+    console.log('Server off !');
+    console.log('Reconectando...')
+    serverLive=false
+    setTimeout(()=>{
+      connectToServer()
+    },2000)
+  });
+  
+  client.on('data', function(data) {
+      data = data.toString()
+      if(data.includes('$INIT$')){
+          bigdata = true
+          data = data.replace("$INIT$","")
+          received+=data
+      }
+      else if (data.includes('$EOF$')){
+          bigdata = false
+          data = data.replace("$EOF$","")
+          received+=data
+          dataReceived = received
+      }
+      else if(bigdata){
+          received+=data
+      }
+      else {
+        dataReceived = data
+      }
+  });
+
+  ipcMain.on('serverLive', (event, arg) => {
+    event.returnValue = serverLive
+  })
+
+  ipcMain.on('requestToServer', (event, arg) => {
+
+    console.log("Listando usuários")
+    request = "$gu$"
+    client.write(request);
+
+    event.returnValue = new Promise((resolve)=>{
+      setTimeout(() => {
+        resolve('asd')
+      }, 1000);
+    })
+  })
+
+  // let timer = setInterval(()=>{
+  //   if(dataReceived){
+  //     clearInterval(timer)
+  //     dataReceived = ''
+  //     resolve(dataReceived)
+  //   }
+  // },10)
+
+  promiseIpc.on('request', (resp, event) => {
+    client.write(resp);
+
+    return new Promise(resolve=>{
+      let timer = setInterval(()=>{
+        if(dataReceived){
+          clearInterval(timer)
+          aux = dataReceived
+          dataReceived = ''
+          resolve(aux)
+        }
+      },10)
+    })
+  });

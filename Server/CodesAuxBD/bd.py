@@ -7,38 +7,70 @@ cursor = bd.cursor()
 cursor.execute("""
 CREATE TABLE "Usuarios" 
 (
-    ID integer PRIMARY KEY, 
-    Name varchar(20), 
-    Login TEXT, 
-    Password TEXT)
+    id integer PRIMARY KEY, 
+    name varchar(20), 
+    login TEXT, 
+    password TEXT)
 """)
 
 cursor.execute("""
 CREATE TABLE "Cartas" (
-    ID integer PRIMARY KEY, 
-    Name TEXT, 
-    Descricao TEXT
+    id integer PRIMARY KEY, 
+    name TEXT, 
+    descricao TEXT
 )
 """)
 
 cursor.execute("""
 CREATE TABLE "Inventario" 
 (
-    ID integer PRIMARY KEY,
-    ID_Carta INTEGER,
-    ID_Usuario INTEGER,
-    FOREIGN KEY(ID_Carta) REFERENCES Cartas(ID),
-    FOREIGN KEY(ID_Usuario) REFERENCES Usuarios(ID)
+    id integer PRIMARY KEY,
+    idCarta INTEGER,
+    idUsuario INTEGER,
+    qts INTEGER,
+    FOREIGN KEY(idCarta) REFERENCES Cartas(id),
+    FOREIGN KEY(idUsuario) REFERENCES Usuarios(id),
+    UNIQUE(idCarta, idUsuario) ON CONFLICT REPLACE
 )
 """)
 
 cursor.execute("""
-CREATE TABLE "Trocas" (
-    ID integer PRIMARY KEY, 
-    UsuárioAlvo INTEGER, 
-    Cartas TEXT, 
-    Usuário INTEGER
+    CREATE TRIGGER del_inventory AFTER UPDATE ON Inventario
+    BEGIN
+        DELETE FROM Inventario WHERE Inventario.qts = 0;
+    END;
+""")
+
+
+cursor.execute("""
+CREATE TABLE "PropostaCartas" (
+    id integer PRIMARY KEY, 
+    idUser INTEGER,
+    idCarta INTEGER,
+    qtsCarta INTEGER,
+    idProposta INTEGER,
+    FOREIGN KEY(idProposta) REFERENCES Propostas(id),
+    FOREIGN KEY(idCarta) REFERENCES Cartas(id),
+    FOREIGN KEY(idUser) REFERENCES Usuarios(id)
 )
+""")
+
+cursor.execute("""
+CREATE TABLE "Propostas" (
+    id integer PRIMARY KEY, 
+    idUserDono INTEGER,
+    idUserAlvo INTEGER, 
+    status TEXT,
+    FOREIGN KEY(idUserDono) REFERENCES Usuarios(id),
+    FOREIGN KEY(idUserAlvo) REFERENCES Usuarios(id)
+)
+""")
+
+cursor.execute("""
+    CREATE TRIGGER del_propostas AFTER DELETE ON Propostas
+    BEGIN
+        DELETE FROM PropostaCartas WHERE PropostaCartas.idProposta = old.id;
+    END;
 """)
 
 bd.close()

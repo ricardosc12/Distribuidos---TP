@@ -12,8 +12,12 @@ function Header(){
 
 setTimeout(()=>{
     app().innerHTML = Header() + app().innerHTML
-    goRoute('cartas')
-    goRoute_ = goRoute
+
+    // goRoute('cartas')
+    // goRoute_ = goRoute
+    if(!auth){
+        goRoute('auth')
+    }
 })
 
 function goRoute(route){
@@ -21,6 +25,10 @@ function goRoute(route){
     switch (route) {
         case 'cartas':
             routes.innerHTML = routeCartas()
+            break;
+
+        case 'auth':
+            routes.innerHTML = routeAuth()
             break;
     
         case 'inventario':
