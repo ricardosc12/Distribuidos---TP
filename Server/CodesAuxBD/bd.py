@@ -8,9 +8,10 @@ cursor.execute("""
 CREATE TABLE "Usuarios" 
 (
     id integer PRIMARY KEY, 
-    name varchar(20), 
-    login TEXT, 
-    password TEXT)
+    name varchar(20) NOT NULL, 
+    login TEXT NOT NULL, 
+    password TEXT NOT NULL
+)
 """)
 
 cursor.execute("""

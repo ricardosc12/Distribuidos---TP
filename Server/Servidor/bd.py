@@ -50,9 +50,11 @@ class BD:
 
     def getUsers(self):
         self.cursor.execute("""
-            SELECT id,name,login FROM Usuarios;
+            SELECT name,login FROM Usuarios;
         """, ())
         data = self.cursor.fetchall()
+        for d in data:
+            d['cartas'] = self.getInventory(d['login'])
         return data
 
     def logarUser(self,login,password):
@@ -327,10 +329,10 @@ class BD:
 
 
 
-# banco = BD()
+banco = BD()
 
 
-# banco.getUsers()
+banco.getUsers()
 # banco.createUniverse()
 
 # banco.createUser('Ricardo','ric','12345')
@@ -339,8 +341,8 @@ class BD:
 # banco.createCarta('Super-Man','maveriq')
 # banco.createCarta('Spider-Man','vernix')
 
-# banco.addInventoryById('isa',[('2',1)])
-# banco.addInventoryById('ric',[('2',1)])
+# banco.addInventoryById('isa',[('5',2),('1',3),('53',5),('67',2)])
+# banco.addInventoryById('ric',[('12',2),('3',3),('87',5),('244',2)])
 # banco.createProposta('ric','isa',[],[('2',1)])
 
 # print(banco.getProposta('ric',False))
@@ -348,7 +350,7 @@ class BD:
 # banco.deleteProposta(10)
 
 # print("INVENTARIO RIC")
-# banco.getInventory('ric')
+# print(banco.getInventory('ric'))
 # print("INVENTARIO ISA")
 # print(banco.getInventory('isa'))
 # banco.findUsers(['ric','isa'])
@@ -360,7 +362,7 @@ class BD:
 # print(cartas[0]['name'])
 # print(cartas[0]['name'])
 
-# banco.deleteUser('isa')
+# banco.deleteUser('asd')
 
 # banco.save()
 # banco.close()

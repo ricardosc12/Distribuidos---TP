@@ -97,6 +97,10 @@ font-family: 'Roboto Slab', serif; */
     background-color: black;
     padding: 10px;
 }
+.header-option-logout{
+    position: absolute;
+    bottom: 0px;
+}
 
 .routes {
     display: flex;

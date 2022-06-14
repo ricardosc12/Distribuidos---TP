@@ -120,7 +120,7 @@ const createWindow = () => {
           clearInterval(timer)
           aux = dataReceived
           dataReceived = ''
-          resolve(aux)
+          resolve(JSON.parse(aux))
         }
       },10)
     })

@@ -1,11 +1,15 @@
 // import routes
+exportRoute('Usuarios')
+exportRoute('Propostas')
 
 function Header(){
     return /*html*/`
         <div class="app-header">
             <div class="header-option" onclick="goRoute('inventario')">Inventário</div>
             <div class="header-option" onclick="goRoute('cartas')">Cartas</div>
-            <div class="header-option" onclick="goRoute('mercado')">Mercado</div>
+            <div class="header-option" onclick="goRoute('propostas')">Propostas</div>
+            <div class="header-option" onclick="goRoute('usuarios')">Usuários</div>
+            <div class='header-option header-option-logout' onclick="logout()">SAIR</div>
         </div>
     `
 }
@@ -13,11 +17,11 @@ function Header(){
 setTimeout(()=>{
     app().innerHTML = Header() + app().innerHTML
 
-    // goRoute('cartas')
+    goRoute('cartas')
     // goRoute_ = goRoute
-    if(!auth){
-        goRoute('auth')
-    }
+    // if(!$AUTH){
+        // goRoute('auth')
+    // }
 })
 
 function goRoute(route){
@@ -35,8 +39,18 @@ function goRoute(route){
             routes.innerHTML = routeInventario()
             break;
 
-        case 'mercado':
-            routes.innerHTML = routeMercado()
+        case 'propostas':
+            routes.innerHTML = routePropostas()
+            break;
+    
+        case 'usuarios':
+            routes.innerHTML = routeUsuarios()
             break;
     }
+}
+
+
+function logout(){
+    $AUTH = null
+    goRoute('auth')
 }

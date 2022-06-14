@@ -30,14 +30,29 @@ function requestAuth(){
     if(requestType=='login'){
         let login = document.getElementById('login-field').value
         let pass = document.getElementById('pass-field').value
-        console.log(login,pass)
+        logarUser(login,pass).then(resolve=>{
+            // console.log(resolve)
+            if(resolve.status){
+                $AUTH = {login:login}
+                goRoute('cartas')
+            }
+        })
     }
     else {
         let login = document.getElementById('login-field').value
         let pass = document.getElementById('pass-field').value
         let name = document.getElementById('name-field').value
-        // console.log(login,pass,name)
-        createUser(name,login,pass)
+        if(!name || !login || !pass) {
+            console.log("ERROR")
+            return
+        }
+        createUser(name,login,pass).then(resolve=>{
+            // console.log(resolve)
+            if(resolve.status){
+                $AUTH = {login:login,name:name}
+                goRoute('cartas')
+            }
+        })
     }
 }
 

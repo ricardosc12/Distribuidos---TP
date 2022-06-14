@@ -9,7 +9,11 @@ ipcRenderer.on('serverLive',(event,resp) => {
 })
 
 function createBody(route,body){
-    return `$${route}$${JSON.stringify(body)}`
+    if(body) {
+        return `$${route}$${JSON.stringify(body)}`
+    }
+    return `$${route}$`
+    
 }
 
 function sendMessage(mensagem){
@@ -18,15 +22,15 @@ function sendMessage(mensagem){
 }
 
 setInterval(() => {
-    console.log(ipcRenderer.sendSync('serverLive'))
+    ipcRenderer.sendSync('serverLive')
 }, 2000);
 
-setTimeout(() => {
-    promiseIpc.send('request',"$gu$").then(resp=>{
-        resp = JSON.parse(resp)
-        console.log(resp)
-    })
-}, 3000);
+// setTimeout(() => {
+//     promiseIpc.send('request',"$gu$").then(resp=>{
+//         resp = JSON.parse(resp)
+//         console.log(resp)
+//     })
+// }, 3000);
 
 function requestServer(req){
     return promiseIpc.send('request',req)
@@ -39,5 +43,32 @@ function createUser(name,login,password){
         password:password
     }
     request = createBody('cu',request)
-    console.log(request)
+    return requestServer(request)
+}
+
+function logarUser(login,password){
+    let request = {
+        login:login,
+        password:password
+    }
+    request = createBody('lu',request)
+    return requestServer(request)
+}
+
+function getCartas(){
+    request = createBody('gc')
+    return requestServer(request)
+}
+
+function getUsers(){
+    request = createBody('gu')
+    return requestServer(request)
+}
+
+function getInventory(login){
+    let request = {
+        user:login,
+    }
+    request = createBody('gi',request)
+    return requestServer(request)
 }

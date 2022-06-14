@@ -1,8 +1,8 @@
 function Card(card,raridade){
     return /*html*/`
     <div class='card_shadow ${raridade}'>
-        <div key=${card.id} class='card' image=${card.images} onclick="clickCard(this)">
-           <img src="./assets/images/heroes/${card.images}" alt="" width="auto" height="190px">
+        <div key=${card.id} class='card' image=${card.image} onclick="clickCard(this)">
+           <img src="./assets/images/heroes/${card.image}" alt="" width="auto" height="190px">
         </div>
     </div>
 
