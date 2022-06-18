@@ -332,7 +332,7 @@ class BD:
 banco = BD()
 
 
-banco.getUsers()
+# banco.getUsers()
 # banco.createUniverse()
 
 # banco.createUser('Ricardo','ric','12345')
@@ -345,7 +345,7 @@ banco.getUsers()
 # banco.addInventoryById('ric',[('12',2),('3',3),('87',5),('244',2)])
 # banco.createProposta('ric','isa',[],[('2',1)])
 
-# print(banco.getProposta('ric',False))
+print(banco.getProposta('isa',False))
 # banco.aceitaProposta(1)
 # banco.deleteProposta(10)
 
@@ -366,5 +366,3 @@ banco.getUsers()
 
 # banco.save()
 # banco.close()
-
-

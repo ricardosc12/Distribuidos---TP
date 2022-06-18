@@ -72,3 +72,13 @@ function getInventory(login){
     request = createBody('gi',request)
     return requestServer(request)
 }
+
+function createProposta(request){
+    request = createBody('cp',request)
+    return requestServer(request)
+}
+
+function getPropostas(login){
+    request = createBody('gp',{user:login})
+    return requestServer(request)
+}

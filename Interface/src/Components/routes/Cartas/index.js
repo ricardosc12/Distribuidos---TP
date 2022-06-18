@@ -24,21 +24,21 @@ function filterByName(e){
 
 function initRoute(){
     setTimeout(()=>{
-        CLASS_CARTAS = new listaCartas(CARDS)
-        list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
-        // if(!$CARTAS){
-        //     getCartas().then(resolve=>{
-        //         if(resolve.status){
-        //             $CARTAS = resolve.dados
-        //             CLASS_CARTAS = new listaCartas($CARTAS)
-        //             list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
-        //         }
-        //     })
-        // }
-        // else {
-        //     CLASS_CARTAS = new listaCartas($CARTAS)
-        //     list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
-        // }
+        // CLASS_CARTAS = new listaCartas(CARDS)
+        // list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
+        if(!$CARTAS){
+            getCartas().then(resolve=>{
+                if(resolve.status){
+                    $CARTAS = resolve.dados
+                    CLASS_CARTAS = new listaCartas($CARTAS)
+                    list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
+                }
+            })
+        }
+        else {
+            CLASS_CARTAS = new listaCartas($CARTAS)
+            list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
+        }
     })
 }
 

@@ -1,6 +1,9 @@
 // import routes
 exportRoute('Usuarios')
 exportRoute('Propostas')
+exportRoute('Modal/Proposta')
+exportRoute('Modal/CartasProposta')
+//
 
 function Header(){
     return /*html*/`
@@ -17,12 +20,12 @@ function Header(){
 setTimeout(()=>{
     app().innerHTML = Header() + app().innerHTML
 
-    goRoute('cartas')
+    goRoute('propostas')
     // goRoute_ = goRoute
     // if(!$AUTH){
         // goRoute('auth')
     // }
-})
+},200)
 
 function goRoute(route){
     let routes = document.getElementsByClassName('routes')[0]

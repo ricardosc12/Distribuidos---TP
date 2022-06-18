@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron')
+require('electron-reload')(__dirname);
 var net = require('net');
 const { ipcMain } = require('electron')
 var promiseIpc = require('electron-promise-ipc') 
@@ -122,6 +123,6 @@ const createWindow = () => {
           dataReceived = ''
           resolve(JSON.parse(aux))
         }
-      },10)
+       })
     })
   });

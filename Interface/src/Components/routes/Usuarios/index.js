@@ -18,7 +18,8 @@ function routeUsuarios(){
 
 function specUser(login){
     let user = $USUARIOS.filter(user=>user.login==login)[0]
-    console.log(user)
+    // console.log(user)
+    openModalProposta(user)
 }
 
 
@@ -31,6 +32,7 @@ function initRouteUser(){
                 renderUsers($USUARIOS)
             }
         })
+        // renderUsers($USUARIOS)
     });
 }
 
@@ -45,6 +47,7 @@ function renderUsers(users){
     let listUsers = document.getElementsByClassName('route-users-list')[0]
     if(Array.isArray(users)){
         users.forEach(user => {
+            if(user.login!=$AUTH.login)
             inner+=cardUser(user)
         });
         listUsers.innerHTML = inner

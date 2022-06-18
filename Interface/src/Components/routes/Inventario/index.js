@@ -21,6 +21,7 @@ function initInventoryRoute(){
         getInventory($AUTH.login).then(resolve=>{
             if(resolve.status){
                 $INVENTORY = resolve.dados
+                $AUTH.cartas = resolve.dados
                 cartas = resolve.dados.map(ct=>ct.id)
                 cartasToInventory = []
                 if($CARTAS){
@@ -29,17 +30,29 @@ function initInventoryRoute(){
                             cartasToInventory.push(carta)
                         }
                     });
-                    renderCarts(cartasToInventory)
+                    renderCartsInvent(cartasToInventory)
                 }
             }
         })
+        // cartas = $INVENTORY.map(ct=>ct.id)
+        // cartasToInventory = []
+        // if(CARDS){
+        //     CARDS.forEach(carta => {
+        //         if(cartas.includes(carta.id)){
+        //             cartasToInventory.push(carta)
+        //         }
+        //     });
+        //     renderCartsInvent(cartasToInventory)
+        // }
+
     });
 }
 
-function renderCarts(cards){
+function renderCartsInvent(cards){
     let list = document.getElementsByClassName('route-inventory-list')[0]
     if(Array.isArray(cards)){
         CLASS_CARTAS = new listaCartas(cards)
         list.innerHTML = CLASS_CARTAS.getRenderCartas
     }
 }
+

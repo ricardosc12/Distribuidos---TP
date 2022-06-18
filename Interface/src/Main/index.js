@@ -19,7 +19,16 @@ let $INVENTORY = null
 
 
 
-
+function getCartsFromUser(user){
+    cartasUser = user.cartas.map(ct=>ct.id)
+    cartasToRender = []
+    CARDS.forEach(ct => {
+        if(cartasUser.includes(ct.id)){
+            cartasToRender.push(ct)
+        }
+    });
+    return cartasToRender
+}
 
 function exportRoute(src){
     var head  = document.getElementsByTagName('head')[0];
@@ -35,4 +44,11 @@ function importCss(css){
     link.type = 'text/css';
     link.href = css;
     head.appendChild(link);
+}
+
+function getClass(cl){
+    return document.getElementsByClassName(cl)[0]
+}
+function getId(id){
+    return document.getElementById(id)
 }
