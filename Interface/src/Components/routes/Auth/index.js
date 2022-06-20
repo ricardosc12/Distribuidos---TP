@@ -54,6 +54,9 @@ function requestAuth(){
                 $AUTH = {login:login}
                 goRoute('cartas')
             }
+            else{
+                notify("Não foi possível logar !")
+            }
         })
     }
     else {
@@ -61,7 +64,7 @@ function requestAuth(){
         let pass = document.getElementById('pass-field').value
         let name = document.getElementById('name-field').value
         if(!name || !login || !pass) {
-            console.log("ERROR")
+            notify("Preencha todos os campos !")
             return
         }
         createUser(name,login,pass).then(resolve=>{
@@ -69,6 +72,9 @@ function requestAuth(){
             if(resolve.status){
                 $AUTH = {login:login,name:name}
                 goRoute('cartas')
+            }
+            else{
+                notify("Não foi possível cadastrar usuário !")
             }
         })
     }
