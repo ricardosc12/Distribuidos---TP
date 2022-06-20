@@ -3,6 +3,7 @@ require('electron-reload')(__dirname);
 var net = require('net');
 const { ipcMain } = require('electron')
 var promiseIpc = require('electron-promise-ipc') 
+const assetsPath = app.isPackaged ? ".." : ".";
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -50,7 +51,7 @@ const createWindow = () => {
   });
 
   connectToServer=()=>{
-    client.connect(5000, '127.0.0.1')
+    client.connect(23123, '192.168.1.2')
   }
   connectToServer()
   
@@ -90,6 +91,9 @@ const createWindow = () => {
   ipcMain.on('serverLive', (event, arg) => {
     event.returnValue = serverLive
   })
+  ipcMain.on('devMode', (event, arg) => {
+    event.returnValue = assetsPath
+  })
 
   ipcMain.on('requestToServer', (event, arg) => {
 
@@ -121,7 +125,10 @@ const createWindow = () => {
           clearInterval(timer)
           aux = dataReceived
           dataReceived = ''
-          resolve(JSON.parse(aux))
+          try{
+            resolve(JSON.parse(aux))
+          }
+          catch{resolve({status:false,mensagem:"Erro grave"})}
         }
        })
     })

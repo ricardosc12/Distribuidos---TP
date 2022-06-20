@@ -43,21 +43,21 @@ JSON = JSON()
 #     ]
 # }
 
-dic = {  #Criar Proposta
-    'user':'ric',
-    'userAlvo':'isa',
-    'cartas':[
-        {'id':1,'qts':1},
-        {'id':5,'qts':1},
-    ],
-    'cartasAlvo':[
-        {'id':1,'qts':1},
-        {'id':5,'qts':1},
-    ]
-}
+# dic = {  #Criar Proposta
+#     'user':'ric',
+#     'userAlvo':'isa',
+#     'cartas':[
+#         {'id':1,'qts':1},
+#         {'id':5,'qts':1},
+#     ],
+#     'cartasAlvo':[
+#         {'id':1,'qts':1},
+#         {'id':5,'qts':1},
+#     ]
+# }
 
 
-msg = "$cu${}".format(JSON.string(dic))
+# msg = "$cu${}".format(JSON.string(dic))
 
 
 class Controller:
@@ -111,10 +111,10 @@ class Controller:
 
             elif(api == 'gi'):
                 resp = banco.getInventory(body['user'])
-                if resp:
-                    resp = {'status':True,'dados':resp}
-                else: 
+                if resp == False:
                     resp = {'status':False,'mensagem':"Usuário inexistente"}
+                else: 
+                    resp = {'status':True,'dados':resp}
             
             elif(api == 'gc'):
                 resp = "$INIT$"+JSON.string({'status':True,'dados':banco.getCartas()})+"$EOF$"
@@ -155,8 +155,10 @@ class Controller:
 
             elif(api == 'ap'):
                 resp = banco.aceitaProposta(body['id'])
-                if(resp):
+                if(resp==True):
                     resp = {'status':True}
+                elif (resp==-1):
+                    resp = {'status':False,'mensagem':'Usuários não possuem mais as cartas necessárias !'}
                 else:
                     resp = {'status':False,'mensagem':'Proposta encerrada !'}
             

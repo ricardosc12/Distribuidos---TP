@@ -9,7 +9,7 @@ function routeUsuarios(){
             </div>
             <div class="route-users-filter">
                 <div class="search-filter-users">
-                    <input oninput="" type="text">
+                    <!-- <input oninput="" type="text"> -->
                 </div>
             </div>
         </div>
@@ -31,6 +31,9 @@ function initRouteUser(){
                 $USUARIOS = resolve.dados
                 renderUsers($USUARIOS)
             }
+            else{
+                notify("Não foi possível carregar usuários")
+            }
         })
         // renderUsers($USUARIOS)
     });
@@ -38,7 +41,12 @@ function initRouteUser(){
 
 function cardUser(user){
     return /*html*/`
-        <div onclick="specUser('${user.login}')" class='card-user'>${user.name}</div>
+        <div onclick="specUser('${user.login}')" class='card-user'>
+            <div class="icon_person">
+                <img width="30px" height="30px" src="${$PATH}/assets/images/person.png" alt="">
+            </div>
+            <p>${user.name}</p>
+        </div>
     `
 }
 

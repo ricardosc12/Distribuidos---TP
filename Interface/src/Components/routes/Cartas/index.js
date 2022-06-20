@@ -11,7 +11,10 @@ function routeCartas(){
             </div>
             <div class="route-cartas-filter">
                 <div class="search-filter">
-                    <input oninput="filterByName(this)" type="text">
+                    <div class="filter_atom">
+                        ${iconSearch()}
+                        <input oninput="filterByName(this)" type="text">
+                    </div>
                 </div>
             </div>
         </div>
@@ -32,6 +35,9 @@ function initRoute(){
                     $CARTAS = resolve.dados
                     CLASS_CARTAS = new listaCartas($CARTAS)
                     list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
+                }
+                else{
+                    notify("Não foi possível carregar cartas !")
                 }
             })
         }

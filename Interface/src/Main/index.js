@@ -1,7 +1,8 @@
-let app=()=>document.getElementsByClassName('app')[0]
+let $APP=()=>document.getElementsByClassName('app')[0]
 
 let goRoute_ = null // goRoute - Header
 
+let $SERVER = false
 let $AUTH = {login:'ric'}
 let $CARTAS = null
 let $USUARIOS = null
@@ -22,7 +23,7 @@ let $INVENTORY = null
 function getCartsFromUser(user){
     cartasUser = user.cartas.map(ct=>ct.id)
     cartasToRender = []
-    CARDS.forEach(ct => {
+    $CARTAS.forEach(ct => {
         if(cartasUser.includes(ct.id)){
             cartasToRender.push(ct)
         }
@@ -51,4 +52,35 @@ function getClass(cl){
 }
 function getId(id){
     return document.getElementById(id)
+}
+
+function blockApp(block){
+    if (block){
+        if(getClass('screen_loading')) return
+        let inner = /*html*/`
+        <div class="screen_loading">
+            <lottie-player class="anime_lottie" src="./src/scripts/animations/load_server.json" background=transparent\  speed=1 style="width: 250px; height: 250px; opacity: 0.4;" loop autoplay></lottie-player>
+            ${getTextAnimation()}
+        </div>`
+        getClass('app').innerHTML+=inner
+    }
+    else{
+        getClass('screen_loading')?.remove()
+    }
+
+}
+function getTextAnimation(){
+    let inner = ''
+    "Conectando ao servidor ...".split('').forEach((char,index) => {
+        inner+=`<span style="--i:${index+1}">${char!=' '?char:'&nbsp;'}</span>`
+    });
+    return /*html*/`
+    <div class="waviy">
+        ${inner}
+    </div>`
+}
+
+function firstLetterUp(str){
+    try{return str[0].toUpperCase()+str.substr(1)}
+    catch {return "string null"}
 }

@@ -8,6 +8,11 @@
     <base href="./">
     <link rel="stylesheet" href="./src/Components/card.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/notify.css">
+    <script src="./src/scripts/icons/index.js"></script>
+    <script src="./src/scripts/notification/index.js"></script>
+
+    <script src="./src/scripts/lottie.js"></script>
     
     <script src="./src/Main/index.js"></script>
     <script src="./src/Middleware/index.js"></script>
@@ -25,11 +30,13 @@
 
     <script src="./src/Components/Header/index.js"></script>
     
+    
+    
 </head>
 <body>
     <div class="main">
         <div class="header">
-            <div class="icon"><img src="./assets/images/icon_r.png" alt="" height="21px"></div>
+            <div class="icon"></div>
             <div class="title">Infinity Deck</div>
             <div class="options"></div>
         </div>
@@ -37,14 +44,15 @@
 
             <div class="routes"></div>
 
-            <div id="server">
+            <!-- <div id="server"> -->
                 <!-- <input id="server_input" type="text"> -->
-            </div>
+            <!-- </div> -->
         </div>
     </div>
 </body>
 <script src="./src/Listeners/index.js"></script>
 <script>
+    getClass('icon').innerHTML = `<img src="${$PATH}/assets/images/icon_r.png" alt="" height="21px">`
     // const CARDS = META.map(card=>{
     //     let image = card.images.lg.split('/').pop()
     //     return {...card,images:image}

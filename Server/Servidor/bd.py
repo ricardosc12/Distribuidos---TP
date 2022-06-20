@@ -112,8 +112,9 @@ class BD:
         except:
             print("Carta inválida")
             return False
+
         self.cursor.executemany("""
-            INSERT OR REPLACE INTO Inventario (idUsuario, idCarta, qts) VALUES (?,?, 
+            INSERT OR REPLACE INTO Inventario (idUsuario, idCarta, qts) VALUES (?,?,
             COALESCE (
                 (SELECT qts FROM Inventario
                 WHERE idUsuario=? AND idCarta=?),0) + ?
@@ -187,6 +188,7 @@ class BD:
         else:   
             print("Usuário inexistente !")
             return False
+
         verifyDono = self.verifyCartas(userIdDono,cartasDono)
         verifyAlvo = self.verifyCartas(userIdAlvo,cartasAlvo)
 
@@ -202,7 +204,7 @@ class BD:
 
         propostaDono = list(map(lambda x: (userIdDono,*x,idProposta),cartasDono))
         propostaAlvo = list(map(lambda x: (userIdAlvo,*x,idProposta),cartasAlvo))
-        propostaList = propostaDono+propostaAlvo
+        propostaList = propostaDono + propostaAlvo
         
         self.cursor.executemany("""
             INSERT INTO PropostaCartas(idUser, idCarta, qtsCarta, idProposta)
@@ -238,9 +240,9 @@ class BD:
                     _json['status'] = d['status']
                     _json['user'] = {'name':d['name'],'login':d['login']}
                     if(d['idUserDono'] == d['idUser']):
-                        _json['cartasDono'].append({'carta':d['idCarta'],'qts':d['qtsCarta']})
+                        _json['cartasDono'].append({'id':d['idCarta'],'qts':d['qtsCarta']})
                     if(d['idUserAlvo'] == d['idUser']):
-                        _json['cartasAlvo'].append({'carta':d['idCarta'],'qts':d['qtsCarta']})
+                        _json['cartasAlvo'].append({'id':d['idCarta'],'qts':d['qtsCarta']})
             resp.append(_json)
 
         return resp
@@ -259,10 +261,6 @@ class BD:
             WHERE id = ? AND status='pendente'
         """,(id,))
 
-        data = self.cursor.fetchall()
-        if(not len(data)):
-            print("Proposta encerrada !")
-            return False
         return True
     
     def aceitaProposta(self,id):
@@ -282,7 +280,8 @@ class BD:
         for i in data:
             if not self.verifyCartas(i['idUser'],[(i['idCarta'],i['qtsCarta'])]):
                 print("Usuário {} não tem a carta no inventário !".format(i['idUser']))
-                return False
+                self.rejeitaProposta(id)
+                return -1
             updates.append(i)
 
         for up in updates:
@@ -317,6 +316,7 @@ class BD:
             DELETE FROM Usuarios
             WHERE login = ?
         """,(login,))
+
     def clearCartas(self):
         self.cursor.execute("""
             DELETE FROM Cartas
@@ -324,6 +324,7 @@ class BD:
 
     def save(self):
         self.bd.commit()
+
     def close(self):
         self.bd.close()
 
@@ -335,22 +336,24 @@ banco = BD()
 # banco.getUsers()
 # banco.createUniverse()
 
-# banco.createUser('Ricardo','ric','12345')
-# banco.createUser('Isabella','isa','12345')
+# banco.createUser('Ricardo','ric','123')
+# banco.createUser('Isabella','isa','123')
 
-# banco.createCarta('Super-Man','maveriq')
-# banco.createCarta('Spider-Man','vernix')
+# banco.createCarta('Super-Man','maveriq')  LIXO
+# banco.createCarta('Spider-Man','vernix')  LIXO
 
-# banco.addInventoryById('isa',[('5',2),('1',3),('53',5),('67',2)])
-# banco.addInventoryById('ric',[('12',2),('3',3),('87',5),('244',2)])
-# banco.createProposta('ric','isa',[],[('2',1)])
+# banco.addInventoryById('isa',[('1',2)])
+# banco.addInventoryById('ric',[('2',2)])
 
-print(banco.getProposta('isa',False))
-# banco.aceitaProposta(1)
-# banco.deleteProposta(10)
+# banco.createProposta('ric','isa',[('2',2)],[('1',2)])
+
+# print(banco.getProposta('ric',True))
+# banco.aceitaProposta(7)
+# banco.rejeitaProposta(5)
+# banco.deleteProposta(5)
 
 # print("INVENTARIO RIC")
-# print(banco.getInventory('ric'))
+print(banco.getInventory('isa'))
 # print("INVENTARIO ISA")
 # print(banco.getInventory('isa'))
 # banco.findUsers(['ric','isa'])
@@ -364,5 +367,5 @@ print(banco.getProposta('isa',False))
 
 # banco.deleteUser('asd')
 
-# banco.save()
-# banco.close()
+banco.save()
+banco.close()

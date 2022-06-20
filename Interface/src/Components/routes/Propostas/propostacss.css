@@ -5,7 +5,7 @@
     width: 100%;
     height: 100%;
     padding: 30px;
-    background-color: aquamarine;
+    background-color: transparent;
 }
 
 .box_proposta{
@@ -20,13 +20,26 @@
 .head_proposta{
     display: flex;
     position: relative;
-    height: 60px;
+    height: 30px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0px 30px;
-    background-color: red;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: var(--primary);
+    background-color: transparent;
 }
+.head_proposta::after{
+    content: '';
+    display: flex;
+    flex: 1;
+    position: relative;
+    margin-left: 20px;
+    height: 1px;
+    background-color: var(--primary-hover);
+}
+
 
 .list_propostas{
     display: flex;
@@ -37,15 +50,27 @@
     height: auto;
     overflow-y: scroll;
     max-height: 0px;
-    background-color: burlywood;
+    background-color: transparent;
     transition: all 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
+
+.list_propostas::-webkit-scrollbar {
+    width: 5px;
+}
+.list_propostas::-webkit-scrollbar-track {
+    background: transparent;
+}
+.list_propostas::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 40px;
+}
+  
 .list_recebidas{
-    max-height: 500px;
+    max-height: 260px;
     transition: all 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 .list_feitas{
-    max-height: 520px;
+    max-height: 240px;
     transition: all 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 
@@ -54,23 +79,105 @@
     height: 30px;
     min-height: 30px;
     width: 100%;
-    background-color: black;
+    background-color: rgba(106, 108, 251,0.02);
     margin-bottom: 10px;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(50,50,50,.1);
+    border: 1px solid rgba(255,255,255,.01);
 }
 .user_prop{
-
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    overflow: visible;
 }
+.user_prop > :nth-child(1) {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgba(100,100,255,.07);
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    margin-right: 20px;
+    font-weight: bold;
+    color: rgba(255,255,255,.5);
+    z-index: 1;
+}
+
+.user_prop > :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 13px;
+    overflow: hidden;
+    color: rgba(255,255,255,.75);
+}
+
 .cartas_prop{
+    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 100%;
-    background-color: red;
 }
 .choose_prop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding-right: 50px;
+}
+.choose_prop button {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    height: 20px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.choose_prop button:hover{
+    transform: translate(-1px, -1px);
+}
 
+.choose_prop #acceppt {
+    color: rgb(124, 223, 124);
+    background-color: rgba(102, 173, 92, 0.096);
+    border: 1px solid rgb(124, 223, 124,.6);
+}
+
+.choose_prop #reject {
+    color: rgb(223, 124, 124);
+    background-color: rgba(173, 92, 92, 0.096);
+    border: 1px solid rgba(223, 124, 124, 0.6);
+}
+.statusprop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 13px;
+    height: 20px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.statusprop {
+    color: rgb(223, 223, 223,.7);
+    background-color: rgba(97, 97, 97, 0.37);
+    border: 1px solid rgba(163, 163, 163, 0.6);
 }

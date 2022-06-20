@@ -7,8 +7,8 @@ import multiprocessing
 import queue
 import signal
 
-HOST = ''              # Endereco IP do Servidor
-PORT = 5000            # Porta que o Servidor esta
+HOST = '192.168.1.2'
+PORT = 23123
 
 class Server:
 
@@ -46,7 +46,7 @@ class Server:
                 print(e)
                 print("\033[1;94m[*] ID: {} - {} Desconecado\033[0;0m".format(addr[0],addr[1]))
                 break
-            
+
 
 def main():
     while True:

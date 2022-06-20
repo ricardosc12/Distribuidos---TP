@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "VOID",
   "main": "index.js",
-  "author": "I.R",
+  "repository": "https://github.com/ricardosc12/Distribuidos---TP",
+  "author": "Isabella Ricardo <ricardo.spinola9@gmail.com>",
   "license": "ISC",
   "scripts": {
     "start": "electron .",
@@ -12,8 +13,13 @@
   },
   "build": {
     "appId": "com.jamzi.quickstart",
-    "win": {
-      "target": "nsis",
+    "linux": {
+      "target": [
+        "deb",
+        "spap",
+        "rpm"
+      ],
+      "category": "Utility",
       "icon": "build/icon.png"
     },
     "extraResources": [

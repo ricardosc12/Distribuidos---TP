@@ -6,8 +6,9 @@
     top: 35px;
     left: 0px;
     width: 100vw;
+    z-index: 2;
     height: calc(100vh - 35px);
-    background-color: red;
+    background-color: rgba(25,25,30,1);
 }
 
 .box-login{
@@ -16,9 +17,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     width: 300px;
     height: 400px;
-    background-color: black;
+    background-color: rgba(10,10,10);
 }
 
 .page-sinout{
@@ -32,6 +34,7 @@
     justify-content: center;
 }
 .page-sinout label {
+    font-size: 13px;
     margin-bottom: 10px;
 }
 
@@ -42,6 +45,21 @@
     justify-content: center;
     align-items: flex-start;
 }
+.information_status{
+    margin-top: 20px;
+}
+.information_status span{
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    color: rgba(255,255,255,.4);
+}
+.information_status a{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: rgba(83,86,251,.9);
+}
 
 .selector-sinout{
     margin-top: 20px;
@@ -49,4 +67,50 @@
 
 .request-auth{
     margin-top: 20px;
+}
+.request-auth button {
+    width: auto;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 25px;
+    border-radius: 20px;
+    color: rgba(255,255,255,.6);
+    background-color: var(--primary);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    outline: none;
+    border: none;
+    height: 35px;
+    transition: all .1s;
+    box-shadow: 1px 1px 15px rgba(83,86,251,.5);
+}
+.request-auth button:hover{
+    box-shadow: 2px 2px 15px rgba(83,86,251,.6);
+    background-color: var(--primary-hover);
+}
+
+.box-login input {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    height: 30px;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,.8);
+    padding: 0px 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(18,17,40);
+}
+.box-login input:focus {
+    outline: none;
+    border: 2px solid var(--primary);
+}
+
+.box-login label {
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,.5);
+    padding-bottom: 10px;
 }

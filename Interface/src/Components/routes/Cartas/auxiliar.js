@@ -11,6 +11,7 @@ class listaCartas {
         let render = ""
         cartas.forEach((card,index) => {
             let poder = Object.values(card.powerstats).reduce((prev,current)=>prev+current)
+            card.poder = poder
             if(poder>=569){
                 render+=Card(card,'supreme',min)
             }
@@ -52,6 +53,7 @@ function getCreateRender(cartas,min,func=Card,alvo){
     let render = ""
     cartas.forEach((card,index) => {
         let poder = Object.values(card.powerstats).reduce((prev,current)=>prev+current)
+        card.poder = poder
         if(poder>=569){
             render+=func(card,'supreme',min,alvo)
         }

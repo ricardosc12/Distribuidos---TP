@@ -1,19 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 .card {
     display: flex;
     position: relative;
-    width: 140px;
-    height: 190px;
-    justify-content: center;
-    align-items: flex-start;
+    flex-direction: column;
+    width: 142px;
+    height: 192px;
+    justify-content: flex-start;
+    align-items: center;
     border-radius: 7px;
     overflow: hidden;
+    background-color: black;
+}
+
+.card p {
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Bangers', cursive;
+    margin-top: 12px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,.65);
+}
+.card img {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 .card.min {
-    width: 110px;
-    height: 150px;
+    width: 112px;
+    height: 152px;
 }
 .card.gray {
     -webkit-filter: grayscale(1);
+}
+.card span {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+    margin-top: 4px;
+    color: rgba(255,255,255,.7);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'Bangers', cursive;
 }
 
 .card_shadow{
@@ -26,13 +56,17 @@
     height: 195px;
     border-radius: 7px;
     margin: 0px 50px 50px 0px;
+    transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
 }
 .card_shadow.min {
     width: 115px;
     height: 155px;
     margin: 0px 25px 25px 0px;
 }
-
+.card_shadow:hover{
+    transform: translate(1px, -1px);
+    transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+}
 /* .card_shadow.legendary{
     background: radial-gradient(ellipse farthest-corner at right bottom, #dbbb2c 0%, #d89d27 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #cec081 0%, #bdae6e 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
@@ -48,10 +82,15 @@
 .card_shadow.legendary{
     background: radial-gradient(ellipse farthest-corner at right bottom, #db7b2c 0%, #d87d27 8%, #9f6828 30%, #8a602f 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #a86220 0%, #ac6019 8%, #d19064 25%, #5d401f 62.5%, #5d441f 100%);
+}
+.card_shadow.legendary .card {
+    background-color: rgb(37, 31, 19);
+}
+.card_shadow.legendary img {
     box-shadow: 0px 0px 10px #f09e32,
     0px 0px 15px #9f7528;
 }
-.card_shadow.legendary:hover{
+.card_shadow.legendary img{
     box-shadow: 0px 0px 10px #f09e32,
     0px 0px 15px #9f7528,
     0px 0px 50px #c57529;
@@ -60,10 +99,15 @@
 .card_shadow.epic{
     background: radial-gradient(ellipse farthest-corner at right bottom, #8627c5 0%, #8d22be 8%, #682288 30%, #5a2677 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #8d21be 0%, #7516a1 8%, #8a3dad 25%, #341449 62.5%, #331342 100%);
+}
+.card_shadow.epic .card {
+    background-color: rgb(27, 19, 37);
+}
+.card_shadow.epic img {
     box-shadow: 0px 0px 5px #831eb3,
     0px 0px 8px #79289f;
 }
-.card_shadow.epic:hover{
+.card_shadow.epic img{
     box-shadow: 0px 0px 5px #831eb3,
     0px 0px 8px #79289f,
     0px 0px 50px #6d24a8;
@@ -72,10 +116,15 @@
 .card_shadow.rare{
     background: radial-gradient(ellipse farthest-corner at right bottom, #2cdb49 0%, #27d845 8%, #289f50 30%, #2f8a46 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #20a849 0%, #19ac51 8%, #64d188 25%, #1f5d32 62.5%, #1f5d2f 100%);
+}
+.card_shadow.rare .card {
+    background-color: rgb(19, 37, 24);
+}
+.card_shadow.rare img {
     box-shadow: 0px 0px 5px #1c8825,
     0px 0px 8px #289f2e;
 }
-.card_shadow.rare:hover{
+.card_shadow.rare img{
     box-shadow: 0px 0px 5px #1c8825,
     0px 0px 8px #289f2e,
     0px 0px 50px #1c6933;
@@ -84,10 +133,15 @@
 .card_shadow.comun{
     background: radial-gradient(ellipse farthest-corner at right bottom, #dbdbdb 0%, #c9c9c9 8%, #9e9e9e 30%, #818181 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #aaaaaa 0%, #8a8a8a 8%, #d3d3d3 25%, #525252 62.5%, #3d3d3d 100%);
+}
+.card_shadow.comun .card {
+    background-color: rgb(32, 32, 32);
+}
+.card_shadow.comun img {
     box-shadow: 0px 0px 4px #afafaf,
     0px 0px 7px #aaaaaa;
 }
-.card_shadow.comun:hover{
+.card_shadow.comun img{
     box-shadow: 0px 0px 4px #afafaf,
     0px 0px 7px #aaaaaa,
     0px 0px 40px #6b6b6b;
@@ -96,11 +150,16 @@
 .card_shadow.supreme{
     background: radial-gradient(ellipse farthest-corner at right bottom, #db2c2c 0%, #d82727 8%, #832020 30%, #662222 40%, transparent 80%),
                 radial-gradient(ellipse farthest-corner at left top, #a82020 0%, #ac1919 8%, #d16464 25%, #521b1b 62.5%, #441616 100%);
+}
+.card_shadow.supreme .card {
+    background-color: rgb(37, 19, 19);
+}
+.card_shadow.supreme img {
     box-shadow: 0px 0px 10px #f03232,
     0px 0px 12px #9f2828,
     0px 0px 18px #861d1d;
 }
-.card_shadow.supreme:hover{
+.card_shadow.supreme img{
     box-shadow: 0px 0px 10px #f03232,
     0px 0px 12px #9f2828,
     0px 0px 18px #9f2828,

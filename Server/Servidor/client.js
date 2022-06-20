@@ -2,7 +2,7 @@ var net = require('net');
 var readline = require('readline');
 
 var client = new net.Socket();
-client.connect(5000, '127.0.0.1', function() {
+client.connect(23123, '192.168.1.2', function() {
     console.log('Connected');
 });
 

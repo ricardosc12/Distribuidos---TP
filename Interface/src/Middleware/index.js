@@ -1,8 +1,6 @@
-// const { BrowserWindow } = require('@electron/remote')
-const ipc = require('electron').ipcRenderer;
 const promiseIpc = require('electron-promise-ipc') 
-const { ipcRenderer } = require('electron')
-
+const { ipcRenderer  } = require('electron')
+const $PATH = ipcRenderer.sendSync('devMode')
 
 ipcRenderer.on('serverLive',(event,resp) => {
     console.log(resp)
@@ -21,9 +19,18 @@ function sendMessage(mensagem){
     ipcRenderer.send('sendMessage',mensagem)
 }
 
-setInterval(() => {
-    ipcRenderer.sendSync('serverLive')
-}, 2000);
+function serverLive(){
+  setTimeout(() => {
+    $SERVER = ipcRenderer.sendSync('serverLive')
+    blockApp(!$SERVER)
+    setInterval(() => {
+        $SERVER = ipcRenderer.sendSync('serverLive')
+        blockApp(!$SERVER)
+    }, 2000);
+  },10);
+}
+
+serverLive()
 
 // setTimeout(() => {
 //     promiseIpc.send('request',"$gu$").then(resp=>{
@@ -81,4 +88,11 @@ function createProposta(request){
 function getPropostas(login){
     request = createBody('gp',{user:login})
     return requestServer(request)
+}
+
+function confirmProposta(status,id){
+    let api = status?'ap':'rp'
+    request = createBody(api,{id:id})
+    return requestServer(request)
+
 }

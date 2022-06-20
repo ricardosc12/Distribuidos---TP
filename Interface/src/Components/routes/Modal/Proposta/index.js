@@ -3,6 +3,17 @@ importCss('./src/Components/routes/Modal/Proposta/cssmodalproposta.css')
 let mainToModal = document.getElementsByClassName("app")[0]
 console.log(mainToModal)
 
+let $PROPOSTA = {
+    cartas:{},
+    cartasAlvo:{}
+}
+function resetVarProp(){
+    $PROPOSTA = {
+        cartas:{},
+        cartasAlvo:{}
+    }
+}
+
 function modalUser(){
     return /*html*/`
         <div id='modal-proposta' class="modal-proposta" onclick="closeModalProposta(event)">
@@ -39,9 +50,7 @@ function openModalProposta(user){
         renderUser(user.name)
     }   
 }
-
 // openModalProposta()
-
 function closeModalProposta(event,force){
     if(event && event.target.className.includes('modal-proposta') && !force){
         removeModal()
@@ -69,10 +78,6 @@ function renderUser(name){
     header.innerHTML = inner
 }
 
-let $PROPOSTA = {
-    cartas:{},
-    cartasAlvo:{}
-}
 
 function proposta(card,alvo){
     card.classList.toggle('gray')
@@ -101,7 +106,9 @@ function CardProposta(card,raridade,min,alvo){
     return /*html*/`
     <div class='card_shadow ${raridade} ${min&&'min'}'>
         <div key=${card.id} class='card ${min&&'min'} gray' image=${card.image} onclick="proposta(this,${alvo})">
-           <img src="./assets/images/heroes/${card.image}" alt="" width="auto" height="190px">
+           <img src="${$PATH}/assets/images/heroes/${card.image}" alt="" width="auto" height="${min?'100':'140'}px">
+           <p>${card.name}</p>
+           <span>${iconPowerStatus()}${card.poder}</span>
         </div>
     </div>
     `
@@ -160,6 +167,7 @@ function makeProposta(){
     let cartasAlvo = Object.values($PROPOSTA.cartasAlvo)
     if(!cartas.length && !cartasAlvo.length){
         console.log("Sem cartas")
+        notify("Deve haver ao menos uma carta na negociação !")
         return
     }
     let request = {
@@ -170,16 +178,25 @@ function makeProposta(){
     }
     console.log(request)
     createProposta(request).then(resolve=>{
+        if(resolve?.status){
+            notify("Proposta realizada com sucesso !")
+            closeModalProposta('',true)
+        }
+        else{
+            notify("Não foi possível realizar proposta !")
+        }
         console.log(resolve)
     })
     // console.log(request)
 }
 
 function startProposta(){
+    resetVarProp()
     try{
         renderLoadingProposta()
         getInventory($AUTH.login).then(resolve=>{
-            
+            closeLoadProposta()
+            console.log(resolve)
             if(!resolve.status) return
             let cartas = resolve.dados
 
@@ -192,7 +209,7 @@ function startProposta(){
                 cartas: getCreateRender(getCartsFromUser({cartas:cartas}),true,CardProposta)
             }
             renderProposta(alvo,dono)
-            closeLoadProposta()
+            
         })
     }catch{
         console.error("ERROR em pegar inventario")

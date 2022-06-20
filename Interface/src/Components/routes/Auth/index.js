@@ -8,12 +8,16 @@ function routeAuth(){
                 <div id='page-type-auth' class="page-sinout">
                     ${loginPage()}
                 </div>
-                <div class='selector-sinout'>
-                    <button onclick='selectType("login")'>LOGAR</button>
+                <!-- <div class='selector-sinout'>
+                     <button onclick='selectType("login")'>LOGAR</button>
+  
                     <button onclick='selectType("register")'>CADASTRAR</button>
-                </div>
+                </div> -->
                 <div class='request-auth'>
-                    <button onclick='requestAuth()'>REQUEST</button>
+                    <button id="button-type" onclick='requestAuth()'>Entrar</button>
+                </div>
+                <div class="information_status">
+                    ${renderInfoRegister()}
                 </div>
             </div>
         </div>
@@ -24,6 +28,20 @@ function requestInEnter(e){
     if(e.key == 'Enter'){
         requestAuth()
     }
+}
+
+function renderInfoRegister(){
+    return /*html*/`
+        <span>Não possui uma conta ?</span>
+        <a onclick="selectType('register')">Cadastre-se</a>
+    `
+}
+
+function renderInfoLogin(){
+    return /*html*/`
+        <span>Já possui uma conta ?</span>
+        <a onclick="selectType('login')">Logar-se</a>
+    `
 }
 
 function requestAuth(){
@@ -61,17 +79,21 @@ function selectType(type){
     if(type=='login'){
         authPage.innerHTML = loginPage()
         requestType='login'
+        getClass('information_status').innerHTML = renderInfoRegister()
+        getId('button-type').innerHTML = "Entrar"
         return
     }
     authPage.innerHTML = registerPage()
+    getClass('information_status').innerHTML = renderInfoLogin()
+    getId('button-type').innerHTML = "Cadastrar-se"
     requestType='register'
 }
 
 function loginPage(){
     return /*html*/`
         <div class="login-page">
-            <label>Login: <input id='login-field' type="text"></label>
-            <label>Senha: <input id='pass-field' type="text"></label>           
+            <label>Login <input id='login-field' type="text"></label>
+            <label>Senha <input id='pass-field' type="text"></label>           
         </div>
 `
 }
@@ -79,9 +101,9 @@ function loginPage(){
 function registerPage(){
     return /*html*/`
         <div class="register-page">
-            <label>Nome: <input id='name-field' type="text"></label>
-            <label>Login: <input id='login-field' type="text"></label>
-            <label>Senha: <input id='pass-field' type="text"></label>         
+            <label>Nome <input id='name-field' type="text"></label>
+            <label>Login <input id='login-field' type="text"></label>
+            <label>Senha <input id='pass-field' type="text"></label>         
         </div>
 `
 }

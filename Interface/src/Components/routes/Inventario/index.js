@@ -1,5 +1,8 @@
 importCss('./src/Components/routes/Inventario/invetorycss.css')
 
+let CLASS_CARTAS_INVENTORY = null
+const list_cards_inventory=()=>document.getElementsByClassName("route-inventory-list")[0]
+
 function routeInventario(){
     initInventoryRoute()
     return /*html*/`
@@ -9,11 +12,18 @@ function routeInventario(){
             </div>
             <div class="route-inventory-filter">
                 <div class="search-filter-inventory">
-                    <input oninput="" type="text">
+                    <div class="filter_atom">
+                        ${iconSearch()}
+                        <input oninput="filterByNameIn(this)" type="text">
+                    </div>
                 </div>
             </div>
         </div>
     `
+}
+
+function filterByNameIn(e){
+    CLASS_CARTAS_INVENTORY.filterByName(e.value,list_cards_inventory())
 }
 
 function initInventoryRoute(){
@@ -33,6 +43,9 @@ function initInventoryRoute(){
                     renderCartsInvent(cartasToInventory)
                 }
             }
+            else{
+                notify("Não foi possível carregar inventário !")
+            }
         })
         // cartas = $INVENTORY.map(ct=>ct.id)
         // cartasToInventory = []
@@ -51,8 +64,8 @@ function initInventoryRoute(){
 function renderCartsInvent(cards){
     let list = document.getElementsByClassName('route-inventory-list')[0]
     if(Array.isArray(cards)){
-        CLASS_CARTAS = new listaCartas(cards)
-        list.innerHTML = CLASS_CARTAS.getRenderCartas
+        CLASS_CARTAS_INVENTORY = new listaCartas(cards)
+        list.innerHTML = CLASS_CARTAS_INVENTORY.getRenderCartas
     }
 }
 
