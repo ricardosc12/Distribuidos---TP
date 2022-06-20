@@ -45,7 +45,7 @@ const createWindow = () => {
   let received = ''
   let bigdata = false
   let PORT = 23123
-  let HOST = '192.168.1.2'
+  let HOST = '127.0.0.1'
 
   client.on('connect', function() {
     console.log('Connected');

@@ -7,7 +7,7 @@ import multiprocessing
 import queue
 import signal
 
-HOST = '192.168.1.2'
+HOST = ''
 PORT = 23123
 
 class Server:
