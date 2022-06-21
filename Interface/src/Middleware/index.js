@@ -96,3 +96,17 @@ function confirmProposta(status,id){
     return requestServer(request)
 
 }
+
+function addCartas(id){
+    let request = {
+        user:$AUTH.login,
+        cartas:[
+            {
+                id:id,
+                qts:1
+            }
+        ]
+    }
+    request = createBody('ac',request)
+    return requestServer(request)
+}

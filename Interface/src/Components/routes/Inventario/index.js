@@ -31,6 +31,7 @@ function initInventoryRoute(){
         getInventory($AUTH.login).then(resolve=>{
             if(resolve.status){
                 $INVENTORY = resolve.dados
+                console.log(resolve.dados)
                 $AUTH.cartas = resolve.dados
                 cartas = resolve.dados.map(ct=>ct.id)
                 cartasToInventory = []

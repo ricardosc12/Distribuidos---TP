@@ -4,6 +4,7 @@ exportRoute('Propostas')
 exportRoute('Modal/Proposta')
 exportRoute('Modal/CartasProposta')
 exportRoute('Modal/Config')
+exportRoute('Quiz')
 //
 
 let $MARK = null
@@ -31,6 +32,10 @@ function Header(){
                 ${iconPeople()}
                 <p>Usuários</p>
             </div>
+            <div id="side_quiz" class="header-option" onclick="goRoute('quiz')">
+                ${iconPeople()}
+                <p>Quiz</p>
+            </div>
             <div class='header-option header-option-config' onclick="openModalConfig()">
                 ${iconConfig(15)}
                 <p>Configuração</p>
@@ -47,7 +52,7 @@ function Header(){
 setTimeout(()=>{
     $APP().innerHTML = Header() + $APP().innerHTML
 
-    goRoute('auth')
+    goRoute('cartas')
     // goRoute_ = goRoute
     // if(!$AUTH){
         // goRoute('auth')
@@ -77,7 +82,10 @@ function goRoute(route){
         case 'usuarios':
             routes.innerHTML = routeUsuarios()
             break;
-    }   
+        case 'quiz':
+            routes.innerHTML = routeQuiz()
+            break;
+        }   
 }
 
 

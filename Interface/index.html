@@ -42,11 +42,13 @@
         </div>
         <div class="app">
 
-            <div class="routes"></div>
+            <div class="routes">
+            </div>
 
             <!-- <div id="server"> -->
                 <!-- <input id="server_input" type="text"> -->
             <!-- </div> -->
+            <!-- <input onkeydown="testeQuiz(event)" type="text" name="" id="teste_quiz"> -->
         </div>
     </div>
 </body>
@@ -54,80 +56,6 @@
 <script>
     getClass('icon').innerHTML = `<img src="${$PATH}/assets/images/icon_r.png" alt="" height="21px">`
     getClass('options').innerHTML = iconExit()
-    // const CARDS = META.map(card=>{
-    //     let image = card.images.lg.split('/').pop()
-    //     return {...card,images:image}
-    // })
-    // let main = document.getElementsByClassName("main")[0]
-    // let cards = ''
-    // let min = undefined
-    // let max = undefined
-    // let maxs = 0 
-    // let rares = 0
-    // let epic = 0
-    // let legendary = 0
-    // let supreme = 0
-    // let comun = 0
-    // let total = 0
-    // CARDS.forEach((card,index) => {
-    //     let power = Object.values(card.powerstats).reduce((prev,current)=>prev+current)
-    //     let aux = {
-    //         value:power,
-    //         name:card.name,
-    //         index:index,
-    //     }
-    //     let poder = aux.value
-    //     if(aux.value == 600){
-    //         maxs++
-    //     }
 
-    //     if(poder>=569){
-    //         supreme++
-    //         cards+=Card(card,'supreme')
-    //     }
-    //     if(poder>=500 && poder<569){
-    //         legendary++
-    //         cards+=Card(card,'legendary')
-    //     }
-    //     if(poder>=400 && poder<500){
-    //         epic++
-    //         cards+=Card(card,'epic')
-    //     }
-    //     if(poder>=250 && poder<400){
-    //         rares++
-    //         cards+=Card(card,'rare')
-    //     }
-    //     if(poder<250){
-    //         comun++
-    //         cards+=Card(card,'comun')
-    //     }
-
-    //     if(index==0){
-    //         max = {...aux}
-    //         min = {...aux}
-    //     }
-    //     if(power>max.value){
-    //         max = {...aux}
-    //     }
-    //     if(power<min.value){
-    //         min = {...aux}
-    //     }
-    //     total++
-    //     // if(card.name == 'One-Above-All') console.log(index)
-    // });
-    // // main.innerHTML = Card(CARDS[23],'rare') + Card(CARDS[13],'legendary') + Card(CARDS[317],'supreme') + Card(CARDS[3],'epic') + Card(CARDS[197],'comun')
-    // // main.innerHTML = cards
-    // console.log(max)
-    // console.log(min)
-    // console.log(maxs)
-    // console.log(`
-    // DEUSES: ${supreme}
-    // LENDARIOS: ${legendary}
-    // ÉPICOS: ${epic}
-    // RAROS: ${rares}
-    // COMUNS: ${comun}
-    
-    // TOTAL:${supreme+legendary+epic+rares+comun}
-    // `)
 </script>
 </html>

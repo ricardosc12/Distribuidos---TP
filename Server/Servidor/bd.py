@@ -343,7 +343,9 @@ banco = BD()
 # banco.createCarta('Spider-Man','vernix')  LIXO
 
 # banco.addInventoryById('isa',[('1',2)])
-# banco.addInventoryById('ric',[('2',2)])
+# banco.addInventoryById('ric',[('50',1),('42',1),('59',1),
+#                         ('38',1),('224',1),('544',1),
+#                         ('69',1)])
 
 # banco.createProposta('ric','isa',[('2',2)],[('1',2)])
 
@@ -353,7 +355,7 @@ banco = BD()
 # banco.deleteProposta(5)
 
 # print("INVENTARIO RIC")
-print(banco.getInventory('isa'))
+# print(banco.getInventory('isa'))
 # print("INVENTARIO ISA")
 # print(banco.getInventory('isa'))
 # banco.findUsers(['ric','isa'])

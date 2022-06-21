@@ -87,3 +87,46 @@ function firstLetterUp(str){
     try{return str[0].toUpperCase()+str.substr(1)}
     catch {return "string null"}
 }
+
+let inventario = [
+    {
+        "id": 2,
+        "name": "Abe Sapien",
+        "qts": 1
+    },
+    {
+        "id": 50,
+        "name": "Batgirl IV",
+        "qts": 1
+    },
+    {
+        "id": 42,
+        "name": "Atom II",
+        "qts": 1
+    },
+    {
+        "id": 59,
+        "name": "Ben 10",
+        "qts": 1
+    },
+    {
+        "id": 38,
+        "name": "Armor",
+        "qts": 1
+    },
+    {
+        "id": 224,
+        "name": "Harry Potter",
+        "qts": 1
+    },
+    {
+        "id": 544,
+        "name": "Warpath",
+        "qts": 1
+    },
+    {
+        "id": 69,
+        "name": "Bizarro",
+        "qts": 1
+    }
+]

@@ -129,6 +129,9 @@ class Controller:
                 resp = banco.addInventoryById(body['user'],cartas)
                 if(resp):
                     resp = {'status':True}
+                else:
+                    resp = {'status':False}
+                
             
             elif(api == 'cp'):
                 cartasDono = list(map(lambda x: (x['id'],x['qts']),body['cartas']))
