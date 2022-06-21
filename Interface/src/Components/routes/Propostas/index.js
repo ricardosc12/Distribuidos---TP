@@ -31,6 +31,7 @@ function routePropostas(){
 function initRoutePropostas(){
     setTimeout(() => {
         getPropostas($AUTH.login).then(resolve=>{
+            console.log(resolve)
             if(resolve?.status){
                 $PROPOSTAS = resolve.dados
                 renderItemsPropostas($PROPOSTAS.feitas,'propostas_feitas')

@@ -59,12 +59,12 @@ class BD:
 
     def logarUser(self,login,password):
         self.cursor.execute("""
-            SELECT id FROM Usuarios
+            SELECT id,name,login FROM Usuarios
             WHERE login=? and password=?;
         """, (login,password))
         data = self.cursor.fetchall()
         
-        return True if len(data) else False
+        return data if len(data) else False
 
 
     def findUsers(self,user):

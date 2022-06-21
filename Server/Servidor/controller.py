@@ -101,7 +101,8 @@ class Controller:
 
         try:
             if(api == 'lu'):
-                resp = {'status':banco.logarUser(body['login'],body['password'])}
+                sts = banco.logarUser(body['login'],body['password'])
+                resp = {'status':True if len(sts) else False, 'dados':sts}
 
             if(api == 'cu'):
                 resp = {'status':banco.createUser(body['nome'],body['login'],body['password'])}

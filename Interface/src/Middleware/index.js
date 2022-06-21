@@ -32,12 +32,12 @@ function serverLive(){
 
 serverLive()
 
-// setTimeout(() => {
-//     promiseIpc.send('request',"$gu$").then(resp=>{
-//         resp = JSON.parse(resp)
-//         console.log(resp)
-//     })
-// }, 3000);
+function changeServer(host,port){
+    ipcRenderer.sendSync('changeServer',{host:host,port:port})
+}
+function closeAplication(){
+    ipcRenderer.sendSync('closeApp')
+}
 
 function requestServer(req){
     return promiseIpc.send('request',req)

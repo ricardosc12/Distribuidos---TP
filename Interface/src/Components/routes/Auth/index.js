@@ -51,7 +51,10 @@ function requestAuth(){
         logarUser(login,pass).then(resolve=>{
             // console.log(resolve)
             if(resolve.status){
-                $AUTH = {login:login}
+                console.log(resolve)
+                let auth = resolve.dados[0]
+                document.getElementById('user_name_profile').innerHTML = auth.name
+                $AUTH = auth
                 goRoute('cartas')
             }
             else{

@@ -38,7 +38,7 @@
         <div class="header">
             <div class="icon"></div>
             <div class="title">Infinity Deck</div>
-            <div class="options"></div>
+            <div onclick="closeAplication()" class="options"></div>
         </div>
         <div class="app">
 
@@ -53,6 +53,7 @@
 <script src="./src/Listeners/index.js"></script>
 <script>
     getClass('icon').innerHTML = `<img src="${$PATH}/assets/images/icon_r.png" alt="" height="21px">`
+    getClass('options').innerHTML = iconExit()
     // const CARDS = META.map(card=>{
     //     let image = card.images.lg.split('/').pop()
     //     return {...card,images:image}
@@ -61,7 +62,7 @@
     // let cards = ''
     // let min = undefined
     // let max = undefined
-    // let maxs = 0
+    // let maxs = 0 
     // let rares = 0
     // let epic = 0
     // let legendary = 0

@@ -37,7 +37,13 @@ function initRoute(){
                     list_cards().innerHTML = CLASS_CARTAS.getRenderCartas
                 }
                 else{
-                    notify("Não foi possível carregar cartas !")
+                    if(resolve.mensagem == 'reboot'){
+                        notify("Falha grave, reiniciando requisição !")
+                        initRoute()
+                    }
+                    else notify("Não foi possível carregar cartas !")
+                    console.log(resolve)
+                    
                 }
             })
         }

@@ -61,6 +61,9 @@ function blockApp(block){
         <div class="screen_loading">
             <lottie-player class="anime_lottie" src="./src/scripts/animations/load_server.json" background=transparent\  speed=1 style="width: 250px; height: 250px; opacity: 0.4;" loop autoplay></lottie-player>
             ${getTextAnimation()}
+            <div class="icon_config" onclick="openModalConfig()">
+                ${iconConfig(20)}
+            </div>
         </div>`
         getClass('app').innerHTML+=inner
     }

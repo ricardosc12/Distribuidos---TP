@@ -1,7 +1,6 @@
 importCss('./src/Components/routes/Modal/Proposta/cssmodalproposta.css')
 
 let mainToModal = document.getElementsByClassName("app")[0]
-console.log(mainToModal)
 
 let $PROPOSTA = {
     cartas:{},
@@ -64,6 +63,7 @@ function closeModalProposta(event,force){
 
 function renderCarts(cards){
     let list = document.getElementsByClassName('list-cards-user')[0]
+    console.log(list)
     if(Array.isArray(cards)){
         CLASS_CARTAS = new listaCartas(cards,true)
         list.innerHTML = CLASS_CARTAS.getRenderCartas

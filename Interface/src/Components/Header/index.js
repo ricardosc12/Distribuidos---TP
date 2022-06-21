@@ -3,6 +3,7 @@ exportRoute('Usuarios')
 exportRoute('Propostas')
 exportRoute('Modal/Proposta')
 exportRoute('Modal/CartasProposta')
+exportRoute('Modal/Config')
 //
 
 let $MARK = null
@@ -10,7 +11,10 @@ let $MARK = null
 function Header(){
     return /*html*/`
         <div class="app-header">
-            <div class="person_icon"></div>
+            <div class="person_icon">
+                <img width="30px" height="30px" src="${$PATH}/assets/images/person.png" alt="">
+                <p id="user_name_profile">Sistema</p>
+            </div>
             <div id="side_inventario" class="header-option" onclick="goRoute('inventario')">
                 ${iconBack()}
                 <p>Inventário</p>
@@ -27,10 +31,15 @@ function Header(){
                 ${iconPeople()}
                 <p>Usuários</p>
             </div>
+            <div class='header-option header-option-config' onclick="openModalConfig()">
+                ${iconConfig(15)}
+                <p>Configuração</p>
+            </div>
             <div class='header-option header-option-logout' onclick="logout()">
                 ${iconClose()}
                 <p>Sair</p>
             </div>
+            
         </div>
     `
 }
@@ -38,12 +47,12 @@ function Header(){
 setTimeout(()=>{
     $APP().innerHTML = Header() + $APP().innerHTML
 
-    goRoute('cartas')
+    goRoute('auth')
     // goRoute_ = goRoute
     // if(!$AUTH){
         // goRoute('auth')
     // }
-},200)
+},50)
 
 function goRoute(route){
     markSide(route)
@@ -68,7 +77,7 @@ function goRoute(route){
         case 'usuarios':
             routes.innerHTML = routeUsuarios()
             break;
-    }
+    }   
 }
 
 

@@ -21,7 +21,7 @@ const createWindow = () => {
         enableRemoteModule: true,
     }
     })
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
     win.loadFile('index.html')
 
     // win.once('ready-to-show', () => {
@@ -44,6 +44,8 @@ const createWindow = () => {
   let dataReceived = ''
   let received = ''
   let bigdata = false
+  let PORT = 23123
+  let HOST = '192.168.1.2'
 
   client.on('connect', function() {
     console.log('Connected');
@@ -51,7 +53,7 @@ const createWindow = () => {
   });
 
   connectToServer=()=>{
-    client.connect(23123, '192.168.1.2')
+    client.connect(PORT, HOST)
   }
   connectToServer()
   
@@ -69,13 +71,16 @@ const createWindow = () => {
   
   client.on('data', function(data) {
       data = data.toString()
+      // console.log(data)
       if(data.includes('$INIT$')){
+          // console.log('INIT')
           bigdata = true
           data = data.replace("$INIT$","")
           received+=data
       }
       else if (data.includes('$EOF$')){
           bigdata = false
+          // console.log('FIM')
           data = data.replace("$EOF$","")
           received+=data
           dataReceived = received
@@ -94,41 +99,40 @@ const createWindow = () => {
   ipcMain.on('devMode', (event, arg) => {
     event.returnValue = assetsPath
   })
-
-  ipcMain.on('requestToServer', (event, arg) => {
-
-    console.log("Listando usuários")
-    request = "$gu$"
-    client.write(request);
-
-    event.returnValue = new Promise((resolve)=>{
-      setTimeout(() => {
-        resolve('asd')
-      }, 1000);
-    })
+  ipcMain.on('closeApp', (event, arg) => {
+    app.quit()
+    event.returnValue = true
+  })
+  
+  ipcMain.on('changeServer', (event, {host,port}) => {
+    HOST = host
+    PORT = port
+    client.destroy()
+    event.returnValue = true
   })
 
-  // let timer = setInterval(()=>{
-  //   if(dataReceived){
-  //     clearInterval(timer)
-  //     dataReceived = ''
-  //     resolve(dataReceived)
-  //   }
-  // },10)
-
+  let $TIMER = null
   promiseIpc.on('request', (resp, event) => {
     client.write(resp);
 
     return new Promise(resolve=>{
-      let timer = setInterval(()=>{
+      $TIMER = setInterval(()=>{
         if(dataReceived){
-          clearInterval(timer)
+          clearInterval($TIMER)
           aux = dataReceived
           dataReceived = ''
           try{
             resolve(JSON.parse(aux))
           }
-          catch{resolve({status:false,mensagem:"Erro grave"})}
+          catch{
+            resolve({status:false,mensagem:"reboot"})
+            // client.destroy()
+            aux = ''
+            dataReceived = ''
+            received=''
+            bigdata = false
+            // connectToServer()
+          }
         }
        })
     })
