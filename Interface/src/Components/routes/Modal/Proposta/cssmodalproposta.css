@@ -62,8 +62,13 @@
     height: 70px;
     padding: 10px 20px;
     background-color: transparent;
+    
 }
-
+.header-proposta p {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1.3px;
+    color: rgba(255,255,255,.9);
+}
 .button-proposta{
     display: flex;
     padding: 10px 20px;

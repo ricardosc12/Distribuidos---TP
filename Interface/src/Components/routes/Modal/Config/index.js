@@ -39,15 +39,15 @@ function closeModalConfig(event,force){
 function serverChange(){
     const host = getId("host_server").value
     const port = getId("port_server").value
-    if(!host || !port) {
-        notify("Preencha todos os campos !")
+    if(!port) {
+        notify("Campo porta necessário !")
         return
     }
     if(parseInt(port)<0 || parseInt(port)>65536){
         notify("Número de porta deve ser entre 0 e 65536")
         return
     }
-    notify(`Conectando a ${host}:${port}`)
+    notify(`Conectando a ${host || '127.0.0.1'}:${port}`)
     changeServer(host,port)
     closeModalConfig(null,true)
 }

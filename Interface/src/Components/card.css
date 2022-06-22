@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap'); */
 .card {
     display: flex;
     position: relative;
@@ -15,8 +13,6 @@
 }
 
 .card p {
-    /* font-family: 'Permanent Marker', cursive; */
-    /* font-family: 'Acme', sans-serif; */
     font-family: 'Bangers', cursive;
     margin-top: 12px;
     font-size: 13px;

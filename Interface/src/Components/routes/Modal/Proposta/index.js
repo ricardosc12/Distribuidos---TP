@@ -73,7 +73,7 @@ function renderCarts(cards){
 function renderUser(name){
     let header = document.getElementsByClassName('header-proposta')[0]
     let inner = /*html*/`
-        <div>${name}</div>
+        <p>${name}</p>
     `
     header.innerHTML = inner
 }
@@ -120,7 +120,7 @@ function renderProposta(userAlvo,userDono){
         <div class='modal-init-proposta'>
             <div id='userDono' class="inventory-proposta">
                 <div class="header-proposta">
-                    <div>Inventário</div>
+                    <p>Inventário</p>
                 </div>
                 <div class="list-cards-user expand">
                    ${userDono.cartas}
@@ -128,7 +128,7 @@ function renderProposta(userAlvo,userDono){
             </div>
             <div id='userAlvo' class="inventory-proposta">
                 <div class="header-proposta">
-                    <div>${userAlvo.nome}</div>
+                    <p>${userAlvo.nome}</p>
                 </div>
                 <div class="list-cards-user expand">
                     ${userAlvo.cartas}
