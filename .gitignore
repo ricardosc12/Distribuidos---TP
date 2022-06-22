@@ -2,3 +2,4 @@
 /Server/Images
 node_modules
 dist
+*.pyc
