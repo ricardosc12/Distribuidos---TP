@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 import sqlite3 as sql
 import os
 import json
+
 
 os.remove('../Banco/meta_verso.db')
 bd = sql.connect('../Banco/meta_verso.db')
