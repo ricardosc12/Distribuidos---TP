@@ -54,7 +54,7 @@ def main():
         try:
             kill=input()
             if(kill=='cls'):
-                os.system('cls')
+                os.system('clear')
                 print("\n\033[1;35m[*] On: {} - {}\033[0;0m\n".format(HOST,PORT))
         except KeyboardInterrupt:
             os.kill(os.getpid(),signal.SIGKILL)

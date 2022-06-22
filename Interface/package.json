@@ -14,11 +14,7 @@
   "build": {
     "appId": "com.jamzi.quickstart",
     "linux": {
-      "target": [
-        "deb",
-        "spap",
-        "rpm"
-      ],
+      "target": ["deb"],
       "category": "Utility",
       "icon": "build/icon.png"
     },
