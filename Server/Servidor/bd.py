@@ -1,5 +1,6 @@
 import sqlite3 as sql
 import json
+import random
 
 def dict_factory(cursor, row):
     d = {}
@@ -14,7 +15,7 @@ class BD:
         self.cursor = self.bd.cursor()
     
     def createUniverse(self):
-        f = open('../Banco/testes.json')
+        f = open('../Banco/cartas.json')
         data = json.load(f)
         for i in data:
             del i['id']
@@ -37,12 +38,17 @@ class BD:
             print("Usuário já cadastrado !")
             return False
 
+        cartasIniciais = random.sample(range(1,564), 3)
+        cartasIniciais = list(map(lambda x:(x,1),cartasIniciais))
+
         self.cursor.execute("""
             INSERT INTO Usuarios (name, login, password)
             VALUES (?,?,?)
         """,(nome,login,password))
 
-        # print(self.cursor.lastrowid)
+        idUser = self.cursor.lastrowid
+
+        self.addCartas(idUser,cartasIniciais)
 
         print("Usuário cadastrado com sucesso !")
 
@@ -97,6 +103,9 @@ class BD:
             print("Usuário inexistente !")
             return False
 
+        return self.addCartas(user_id,cartas)
+    
+    def addCartas(self,user_id,cartas):
         carts_id = list(map(lambda x: x[0],cartas))
 
         self.cursor.execute("""
@@ -120,7 +129,6 @@ class BD:
                 WHERE idUsuario=? AND idCarta=?),0) + ?
         )
         """, values)
-        return True
     
     def getInventory(self,user):
         user_id = self.findUsers([user])
@@ -330,7 +338,7 @@ class BD:
 
 
 
-banco = BD()
+# banco = BD()
 
 
 # banco.getUsers()
@@ -338,14 +346,12 @@ banco = BD()
 
 # banco.createUser('Ricardo','ric','123')
 # banco.createUser('Isabella','isa','123')
-
+# print(random.sample(range(1,4), 3))
 # banco.createCarta('Super-Man','maveriq')  LIXO
 # banco.createCarta('Spider-Man','vernix')  LIXO
 
-# banco.addInventoryById('isa',[('1',2)])
-# banco.addInventoryById('ric',[('50',1),('42',1),('59',1),
-#                         ('38',1),('224',1),('544',1),
-#                         ('69',1)])
+# banco.addInventoryById('isa',[('1',1)])
+# banco.addInventoryById('ric',[('50',1)])
 
 # banco.createProposta('ric','isa',[('2',2)],[('1',2)])
 
@@ -369,5 +375,5 @@ banco = BD()
 
 # banco.deleteUser('asd')
 
-banco.save()
-banco.close()
+# banco.save()
+# banco.close()

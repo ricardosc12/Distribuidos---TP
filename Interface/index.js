@@ -21,7 +21,7 @@ const createWindow = () => {
         enableRemoteModule: true,
     }
     })
-    win.webContents.openDevTools()
+    // win.webContents.openDevTools()
     win.loadFile('index.html')
 
     // win.once('ready-to-show', () => {

@@ -52,7 +52,7 @@ function Header(){
 setTimeout(()=>{
     $APP().innerHTML = Header() + $APP().innerHTML
 
-    goRoute('quiz')
+    goRoute('auth')
     // goRoute_ = goRoute
     // if(!$AUTH){
         // goRoute('auth')

@@ -2,6 +2,7 @@ importCss('./src/Components/routes/Auth/cssAuth.css')
 let requestType = 'login'
 
 function routeAuth(){
+    requestType="login"
     return /*html*/`
         <div class=main-login>
             <div class="box-login" onkeydown='requestInEnter(event)'>
@@ -74,7 +75,9 @@ function requestAuth(){
             // console.log(resolve)
             if(resolve.status){
                 $AUTH = {login:login,name:name}
+                document.getElementById('user_name_profile').innerHTML = name
                 goRoute('cartas')
+                notify("Gerando deck inicial...")
             }
             else{
                 notify("Não foi possível cadastrar usuário !")
