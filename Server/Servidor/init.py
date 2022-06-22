@@ -1,5 +1,8 @@
 import sqlite3 as sql
+import os
+import json
 
+os.remove('../Banco/meta_verso.db')
 bd = sql.connect('../Banco/meta_verso.db')
 
 cursor = bd.cursor()
@@ -74,6 +77,19 @@ cursor.execute("""
     END;
 """)
 
+f = open('../Banco/cartas.json')
+data = json.load(f)
+for i in data:
+    del i['id']
+insert = []
+for x in data:
+    dic = (x['name'], json.dumps(x, separators=(',', ':')))
+    insert.append(dic)
+cursor.executemany("""
+    INSERT INTO Cartas (name, descricao) VALUES (?,?);
+""", insert)
+
+bd.commit()
 bd.close()
 
 
