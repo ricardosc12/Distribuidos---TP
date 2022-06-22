@@ -33,7 +33,7 @@ function Header(){
                 <p>Usuários</p>
             </div>
             <div id="side_quiz" class="header-option" onclick="goRoute('quiz')">
-                ${iconPeople()}
+                ${iconQuiz()}
                 <p>Quiz</p>
             </div>
             <div class='header-option header-option-config' onclick="openModalConfig()">
@@ -52,7 +52,7 @@ function Header(){
 setTimeout(()=>{
     $APP().innerHTML = Header() + $APP().innerHTML
 
-    goRoute('cartas')
+    goRoute('quiz')
     // goRoute_ = goRoute
     // if(!$AUTH){
         // goRoute('auth')

@@ -7,8 +7,8 @@ const assetsPath = app.isPackaged ? ".." : ".";
 
 const createWindow = () => {
     const win = new BrowserWindow({
-      width: 1280,
-      height: 620,
+      width: 1600,
+      height: 786,
       transparent:true,
       frame:false,
       // customFileProtocol:"./",

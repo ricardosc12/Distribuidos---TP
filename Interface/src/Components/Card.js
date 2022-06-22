@@ -7,13 +7,12 @@ function Card(card,raridade,min){
            <span>${iconPowerStatus()}${card.poder}</span>
         </div>
     </div>
-
     `
 }
 
 function clickCard(card,openModal){
     console.log(card.getAttribute('image'))
     // console.log(CLASS_CARTAS.cartaByIndex(card.getAttribute('key')).name)
-    openModal&&openModalProposta()
+    // openModal&&openModalProposta()
     
 }

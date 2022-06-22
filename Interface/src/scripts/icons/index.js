@@ -31,9 +31,9 @@ function iconPeople(){
     `
 }
 
-function iconPowerStatus(){
+function iconPowerStatus(tam){
     return /*html*/`
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="12" height="12" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M221.7 34.3A8.1 8.1 0 0 0 216 32l-63.8.2a8.1 8.1 0 0 0-6.2 2.9l-70.4 85.2l-8.3-8.3a16.1 16.1 0 0 0-22.6 0L32 124.7a15.9 15.9 0 0 0 0 22.6l20.9 20.9l-30 29.9a16.2 16.2 0 0 0 0 22.7l12.3 12.3a16.3 16.3 0 0 0 22.7 0l29.9-30l20.9 20.9a16.1 16.1 0 0 0 22.6 0l12.7-12.7a15.9 15.9 0 0 0 0-22.6l-8.3-8.3l85.2-70.4a8.1 8.1 0 0 0 2.9-6.2L224 40a8.1 8.1 0 0 0-2.3-5.7ZM207.8 100l-83.5 69l-13-13l54.4-54.3a8.1 8.1 0 0 0-11.4-11.4L100 144.7l-13-13l69-83.5l52-.2Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="${tam || '12'}" height="${tam || '12'}" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M221.7 34.3A8.1 8.1 0 0 0 216 32l-63.8.2a8.1 8.1 0 0 0-6.2 2.9l-70.4 85.2l-8.3-8.3a16.1 16.1 0 0 0-22.6 0L32 124.7a15.9 15.9 0 0 0 0 22.6l20.9 20.9l-30 29.9a16.2 16.2 0 0 0 0 22.7l12.3 12.3a16.3 16.3 0 0 0 22.7 0l29.9-30l20.9 20.9a16.1 16.1 0 0 0 22.6 0l12.7-12.7a15.9 15.9 0 0 0 0-22.6l-8.3-8.3l85.2-70.4a8.1 8.1 0 0 0 2.9-6.2L224 40a8.1 8.1 0 0 0-2.3-5.7ZM207.8 100l-83.5 69l-13-13l54.4-54.3a8.1 8.1 0 0 0-11.4-11.4L100 144.7l-13-13l69-83.5l52-.2Z"></path></svg>
     `
 }
 
@@ -58,5 +58,11 @@ function iconConfig(tam){
 function iconExit(){
     return /*html*/`
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--mdi" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12L19 6.41Z"></path></svg>
+    `
+}
+
+function iconQuiz(){
+    return /*html*/`
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="${iconWidth}" height="${iconHeight}" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M224 170.3V208a16 16 0 0 1-16 16H64a16 16 0 0 1-16-16v-32.2l-4 .2a36 36 0 0 1 0-72l4 .2V72a16 16 0 0 1 16-16h36.2c-.1-1.3-.2-2.7-.2-4a36 36 0 0 1 72 0c0 1.3-.1 2.7-.2 4H208a16 16 0 0 1 16 16v37.7a7.9 7.9 0 0 1-3.6 6.6a7.7 7.7 0 0 1-7.5.7a24.3 24.3 0 0 0-8.9-1.7c-13.2 0-24 11.1-24 24.7s10.8 24.7 24 24.7a24.3 24.3 0 0 0 8.9-1.7a7.7 7.7 0 0 1 7.5.7a7.9 7.9 0 0 1 3.6 6.6Z"></path></svg>
     `
 }
