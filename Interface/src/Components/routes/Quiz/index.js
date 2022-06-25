@@ -59,6 +59,7 @@ let $TIMER_GENERATE_CART
 function generateQuiz(){
     clearTimeout($TIMER_GENERATE_CART)
     randomCarta = null
+    getId('quiz-input').value = ''
     getId('carta_random').innerHTML = animationCardRandom()
     $TIMER_GENERATE_CART = setTimeout(() => {
         let idsCartasInventario = $INVENTORY.map(x=>x['id'])
@@ -81,6 +82,7 @@ function quizResp(){
         if(nameQuiz.includes(nameCarta)){
             addCartas(randomCarta.id)
             $INVENTORY = [...$INVENTORY,{id:randomCarta.id,name:randomCarta.name,qts:1}]
+            getId('quiz-input').value = ''
             notify(`${randomCarta.name} adicionado(a) ao inventário !`)
             generateQuiz()
         }

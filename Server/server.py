@@ -7,9 +7,15 @@ import subprocess
 import multiprocessing
 import queue
 import signal
+import sys
 
-HOST = ''
-PORT = 23123
+try:
+    HOST = str(sys.argv[1])
+    PORT = int(sys.argv[2])
+except:
+    HOST = ''
+    PORT = 23123
+
 
 class Server:
 
@@ -65,3 +71,4 @@ try:
     main()
 except KeyboardInterrupt:
     os.kill(os.getpid(),signal.SIGKILL)
+

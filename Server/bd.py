@@ -11,12 +11,12 @@ def dict_factory(cursor, row):
 
 class BD:
     def __init__(self):
-        self.bd = sql.connect('../Banco/meta_verso.db')
+        self.bd = sql.connect('./Banco/meta_verso.db')
         self.bd.row_factory = dict_factory
         self.cursor = self.bd.cursor()
     
     def createUniverse(self):
-        f = open('../Banco/cartas.json')
+        f = open('./Banco/cartas.json')
         data = json.load(f)
         for i in data:
             del i['id']

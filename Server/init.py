@@ -4,8 +4,8 @@ import os
 import json
 
 
-os.remove('../Banco/meta_verso.db')
-bd = sql.connect('../Banco/meta_verso.db')
+os.remove('./Banco/meta_verso.db')
+bd = sql.connect('./Banco/meta_verso.db')
 
 cursor = bd.cursor()
 
@@ -79,7 +79,7 @@ cursor.execute("""
     END;
 """)
 
-f = open('../Banco/cartas.json')
+f = open('./Banco/cartas.json')
 data = json.load(f)
 for i in data:
     del i['id']
@@ -93,25 +93,3 @@ cursor.executemany("""
 
 bd.commit()
 bd.close()
-
-
-# def createCarta(self,nome,descricao):
-
-#     self.cursor.execute("""
-#         SELECT * FROM Cartas WHERE Name = ?;
-#     """, (nome,))
-
-#     data = self.cursor.fetchall()
-
-#     if(len(data)):
-#         print("Carta já adicionada !")
-#         return False
-
-#     self.cursor.execute("""
-#         INSERT INTO Cartas (Name, Descricao)
-#         VALUES (?,?)
-#     """,(nome,descricao))
-
-#     print("Carta adicionada !")
-
-#     return True
