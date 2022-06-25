@@ -104,8 +104,8 @@ function selectType(type){
 function loginPage(){
     return /*html*/`
         <div class="login-page">
-            <label>Login <input id='login-field' type="text"></label>
-            <label>Senha <input id='pass-field' type="text"></label>           
+            <label>Login <input oninput="mask$(event)" id='login-field' type="text"></label>
+            <label>Senha <input oninput="mask$(event)" id='pass-field' type="text"></label>           
         </div>
 `
 }
@@ -113,9 +113,10 @@ function loginPage(){
 function registerPage(){
     return /*html*/`
         <div class="register-page">
-            <label>Nome <input id='name-field' type="text"></label>
-            <label>Login <input id='login-field' type="text"></label>
-            <label>Senha <input id='pass-field' type="text"></label>         
+            <label>Nome <input oninput="mask$(event)" id='name-field' type="text"></label>
+            <label>Login <input oninput="mask$(event)" id='login-field' type="text"></label>
+            <label>Senha <input oninput="mask$(event)" id='pass-field' type="text"></label>         
         </div>
 `
 }
+

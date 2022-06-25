@@ -39,10 +39,18 @@ function initRouteQuiz(){
             return
         }
         else if(!$INVENTORY){
-            notify("Carregue o inventário primeiro !")
+            getInventory($AUTH.login).then(resolve=>{
+                console.log(resolve)
+                if(resolve.status){
+                    $INVENTORY = resolve.dados
+                    generateQuiz()
+                }
+                else{
+                    notify("Não foi possível carregar inventário !")
+                }
+            })
         }
         else {
-            console.log($INVENTORY)
             generateQuiz()
         }
     });

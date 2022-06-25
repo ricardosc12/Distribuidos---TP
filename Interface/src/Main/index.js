@@ -91,3 +91,7 @@ function firstLetterUp(str){
 function processString(str){
     return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/gi, '').replace(' ','').toLowerCase()
 }
+
+function mask$(event){
+    event.target.value = event.target.value.replace('$','')
+}
