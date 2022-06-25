@@ -87,3 +87,7 @@ function firstLetterUp(str){
     try{return str[0].toUpperCase()+str.substr(1)}
     catch {return "string null"}
 }
+
+function processString(str){
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/gi, '').replace(' ','').toLowerCase()
+}

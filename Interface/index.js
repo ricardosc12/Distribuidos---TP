@@ -39,11 +39,14 @@ const createWindow = () => {
     }
   })
 
-  var client = new net.Socket();
+
   let serverLive = false
   let dataReceived = ''
   let received = ''
   let bigdata = false
+
+
+  var client = new net.Socket();
   let PORT = 23123
   let HOST = '127.0.0.1'
 
@@ -55,6 +58,7 @@ const createWindow = () => {
   connectToServer=()=>{
     client.connect(PORT, HOST)
   }
+
   connectToServer()
   
   client.on('error', function() {
@@ -71,16 +75,13 @@ const createWindow = () => {
   
   client.on('data', function(data) {
       data = data.toString()
-      // console.log(data)
       if(data.includes('$INIT$')){
-          // console.log('INIT')
           bigdata = true
           data = data.replace("$INIT$","")
           received+=data
       }
       else if (data.includes('$EOF$')){
           bigdata = false
-          // console.log('FIM')
           data = data.replace("$EOF$","")
           received+=data
           dataReceived = received
@@ -103,6 +104,10 @@ const createWindow = () => {
     app.quit()
     event.returnValue = true
   })
+  ipcMain.on('miniApp', (event, arg) => {
+    BrowserWindow.getFocusedWindow().minimize();
+    event.returnValue = true
+  })
   
   ipcMain.on('changeServer', (event, {host,port}) => {
     HOST = host
@@ -112,6 +117,7 @@ const createWindow = () => {
   })
 
   let $TIMER = null
+  
   promiseIpc.on('request', (resp, event) => {
     client.write(resp);
 
@@ -126,12 +132,10 @@ const createWindow = () => {
           }
           catch{
             resolve({status:false,mensagem:"reboot"})
-            // client.destroy()
             aux = ''
             dataReceived = ''
             received=''
             bigdata = false
-            // connectToServer()
           }
         }
        })

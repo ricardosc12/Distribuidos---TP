@@ -38,7 +38,9 @@ function changeServer(host,port){
 function closeAplication(){
     ipcRenderer.sendSync('closeApp')
 }
-
+function miniAplication(){
+    ipcRenderer.sendSync('miniApp')
+}
 function requestServer(req){
     return promiseIpc.send('request',req)
 }

@@ -65,13 +65,3 @@ try:
     main()
 except KeyboardInterrupt:
     os.kill(os.getpid(),signal.SIGKILL)
-
-# while True:
-#     con, cliente = tcp.accept()
-#     print ('Concetado por', cliente)
-#     while True:
-#         msg = con.recv(1024)
-#         if not msg: break
-#         print (cliente, msg)
-#     print ('Finalizando conexao do cliente', cliente)
-#     # con.close()

@@ -57,7 +57,7 @@ setTimeout(()=>{
     // if(!$AUTH){
         // goRoute('auth')
     // }
-},50)
+},200)
 
 function goRoute(route){
     markSide(route)

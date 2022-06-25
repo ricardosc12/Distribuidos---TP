@@ -66,3 +66,20 @@ function iconQuiz(){
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ph" width="${iconWidth}" height="${iconHeight}" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 256"><path fill="currentColor" d="M224 170.3V208a16 16 0 0 1-16 16H64a16 16 0 0 1-16-16v-32.2l-4 .2a36 36 0 0 1 0-72l4 .2V72a16 16 0 0 1 16-16h36.2c-.1-1.3-.2-2.7-.2-4a36 36 0 0 1 72 0c0 1.3-.1 2.7-.2 4H208a16 16 0 0 1 16 16v37.7a7.9 7.9 0 0 1-3.6 6.6a7.7 7.7 0 0 1-7.5.7a24.3 24.3 0 0 0-8.9-1.7c-13.2 0-24 11.1-24 24.7s10.8 24.7 24 24.7a24.3 24.3 0 0 0 8.9-1.7a7.7 7.7 0 0 1 7.5.7a7.9 7.9 0 0 1 3.6 6.6Z"></path></svg>
     `
 }
+
+function iconRefresh(refresh){
+    setTimeout(() => {
+        getId('refresh').addEventListener('click',()=>{
+            refresh()
+        })
+    });
+    return /*html*/`
+        <svg id="refresh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--tabler" width="21" height="21" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"></path></svg>
+    `
+}
+
+function iconPlayCard(){
+    return /*html*/`
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--tabler" width="20" height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect width="18" height="14" x="3" y="5" rx="2" transform="rotate(90 12 12)"></rect><path d="M8 6h.01M16 18h.01M12 16l-3-4l3-4l3 4z"></path></g></svg>
+    `
+}

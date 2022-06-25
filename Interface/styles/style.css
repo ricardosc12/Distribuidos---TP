@@ -87,6 +87,26 @@ body{
     padding: 2px;
     color: rgba(150,150,150,.9);
 }
+.header .option-mini{
+    display: flex;
+    -webkit-user-select: none;
+    -webkit-app-region: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 12px;
+    padding: 2px;
+    color: rgba(150,150,150,.9);   
+}
+.header .option-mini span {
+    margin-bottom: 11px;
+}
+.header .option-mini:hover{
+    background-color: rgb(67, 131, 50);
+}
 .header .options:hover{
     background-color: rgb(139, 35, 35);
 }
@@ -257,3 +277,8 @@ body{
   }
 
 
+.fccr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
