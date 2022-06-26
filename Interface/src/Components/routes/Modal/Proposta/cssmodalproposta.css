@@ -101,7 +101,7 @@
     position: relative;
     flex-direction: row;
     width: 100%;
-    height: calc(100% - 30px);
+    height: calc(100% - 40px);
 }
 
 .inventory-proposta {
@@ -120,8 +120,9 @@
 .proposta-navigation{
     display: flex;
     position: relative;
-    height: 30px;
+    height: 40px;
     width: 100%;
+    align-items: center;
     justify-content: space-around;
     background-color: transparent;
 }

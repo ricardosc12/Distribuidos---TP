@@ -10,10 +10,11 @@
     margin: 0px;
 }.quiz-list h3 {
     display: flex;
-    position: absolute;
+    position: relative;
     font-family: 'Bangers', cursive;
-    top: 70px;
+    top: 0px;
     font-size: 28px;
+    margin-bottom: 40px;
     letter-spacing: 1.3px;
 
 }

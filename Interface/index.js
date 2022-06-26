@@ -7,7 +7,7 @@ const assetsPath = app.isPackaged ? ".." : ".";
 
 const createWindow = () => {
     const win = new BrowserWindow({
-      width: 1600,
+      width: 1366,
       height: 786,
       transparent:true,
       frame:false,
