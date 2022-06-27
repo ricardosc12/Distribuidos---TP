@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 /Server/Images
+/Distribuidos
 node_modules
 dist
 

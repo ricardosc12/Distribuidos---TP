@@ -5,6 +5,7 @@ const { ipcMain } = require('electron')
 var promiseIpc = require('electron-promise-ipc') 
 const assetsPath = app.isPackaged ? ".." : ".";
 
+
 const createWindow = () => {
     const win = new BrowserWindow({
       width: 1366,
@@ -14,6 +15,7 @@ const createWindow = () => {
       // customFileProtocol:"./",
       // backgroundColor:"red",
       // show: false,
+      icon: `${assetsPath}/assets/images/icon_r.png`,
       webPreferences: {
         devTools: false,
         nodeIntegration: true,

@@ -6,9 +6,9 @@
     align-items: center;
     top: 35px;
     left: 0px;
-    width: 100vw;
+    width: 100%;
     z-index: 2;
-    height: calc(100vh - 35px);
+    height: calc(100% - 35px);
     background-color: rgba(25,25,30,1);
 }
 

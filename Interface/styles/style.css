@@ -30,10 +30,16 @@ body{
     .routes{
         zoom: 90%;
     }
+    .app-header{
+        zoom: 90%;
+    }
 }
 
 @media only screen and (max-height: 600px) {
     .routes{
+        zoom: 90%;
+    }
+    .app-header{
         zoom: 90%;
     }
 }
