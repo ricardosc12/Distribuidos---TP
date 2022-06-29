@@ -85,13 +85,12 @@ function confirmProp(status,id){
             getId(`choose_prop_${id}`).innerHTML = `<div class="statusprop ${status?"aceita":"rejeitada"}">${status?"Aceita":"Rejeitada"}</div>`
         }
         else if(resolve?.mensagem.includes('possuem mais as cartas')){
-            getClass(`choose_prop_${id}`).innerHTML = `<div class="statusprop rejeitada">Rejeitada</div>`
+            getId(`choose_prop_${id}`).innerHTML = `<div class="statusprop rejeitada">Rejeitada</div>`
             notify(resolve.mensagem)
         }
         else{
             notify(resolve.mensagem)
         }
-        console.log(resolve)
     })
 }
 

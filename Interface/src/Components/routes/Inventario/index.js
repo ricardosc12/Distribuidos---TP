@@ -48,17 +48,6 @@ function initInventoryRoute(){
                 notify("Não foi possível carregar inventário !")
             }
         })
-        // cartas = $INVENTORY.map(ct=>ct.id)
-        // cartasToInventory = []
-        // if(CARDS){
-        //     CARDS.forEach(carta => {
-        //         if(cartas.includes(carta.id)){
-        //             cartasToInventory.push(carta)
-        //         }
-        //     });
-        //     renderCartsInvent(cartasToInventory)
-        // }
-
     });
 }
 

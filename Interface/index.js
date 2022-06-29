@@ -17,13 +17,13 @@ const createWindow = () => {
       // show: false,
       icon: `${assetsPath}/assets/images/icon_r.png`,
       webPreferences: {
-        devTools: false,
+        // devTools: false,
         nodeIntegration: true,
         contextIsolation: false,
         enableRemoteModule: true,
     }
     })
-    // win.webContents.openDevTools()
+    win.webContents.openDevTools()
     win.loadFile('index.html')
 
     // win.once('ready-to-show', () => {

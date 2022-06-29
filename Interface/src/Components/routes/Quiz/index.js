@@ -6,7 +6,6 @@ function routeQuiz(){
     <div class="quiz-list">
         <h3>Qual é o personagem ?</h3>
         <div id="carta_random">
-            <!-- ${CardD(CARDS[0],'epic')} -->
             ${animationCardRandom()}
         </div>
         <div onkeydown="pressToQuiz(event)" class="input-area-quiz">
