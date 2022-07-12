@@ -181,5 +181,3 @@ class Controller:
         banco.save()
         banco.close()
         return JSON.string(resp)
-
-

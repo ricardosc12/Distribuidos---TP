@@ -6,6 +6,33 @@ var promiseIpc = require('electron-promise-ipc')
 const assetsPath = app.isPackaged ? ".." : ".";
 
 
+const grpc = require('@grpc/grpc-js')
+const protoLoader = require('@grpc/proto-loader')
+const PROTO_PATH = "./controller.proto";
+const options = {
+    keepCase: true,
+    longs: String,
+    enums: String,
+    defaults: true,
+    oneofs: true,
+};
+  
+const packageDefinition = protoLoader.loadSync(PROTO_PATH,options);
+const Controller = grpc.loadPackageDefinition(packageDefinition).controller.Controller;
+
+const client_grpc = new Controller('localhost:23123',
+    grpc.credentials.createInsecure())
+    
+function sendMessage(request){
+  return new Promise(resolve=>{
+      client_grpc.executeOperation({message:request}, (error, response) => {
+          response.message = response.message.replace("$INIT$","")
+          response.message = response.message.replace("$EOF$","")
+          resolve(JSON.parse(response.message))
+      });
+  })
+}
+
 const createWindow = () => {
     const win = new BrowserWindow({
       width: 1366,
@@ -42,60 +69,12 @@ const createWindow = () => {
   })
 
 
-  let serverLive = false
-  let dataReceived = ''
-  let received = ''
-  let bigdata = false
+  let serverLive = true
 
-
-  var client = new net.Socket();
   let PORT = 23123
   let HOST = '127.0.0.1'
 
-  client.on('connect', function() {
-    console.log('Connected');
-    serverLive=true
-  });
-
-  connectToServer=()=>{
-    client.connect(PORT, HOST)
-  }
-
-  connectToServer()
-  
-  client.on('error', function() {
-  });
-
-  client.on('close', function() {
-    console.log('Server off !');
-    console.log('Reconectando...')
-    serverLive=false
-    setTimeout(()=>{
-      connectToServer()
-    },2000)
-  });
-  
-  client.on('data', function(data) {
-      data = data.toString()
-      if(data.includes('$INIT$')){
-          bigdata = true
-          data = data.replace("$INIT$","")
-          received+=data
-      }
-      else if (data.includes('$EOF$')){
-          bigdata = false
-          data = data.replace("$EOF$","")
-          received+=data
-          dataReceived = received
-      }
-      else if(bigdata){
-          received+=data
-      }
-      else {
-        dataReceived = data
-      }
-  });
-
+ 
   ipcMain.on('serverLive', (event, arg) => {
     event.returnValue = serverLive
   })
@@ -118,28 +97,7 @@ const createWindow = () => {
     event.returnValue = true
   })
 
-  let $TIMER = null
   
-  promiseIpc.on('request', (resp, event) => {
-    client.write(resp);
-
-    return new Promise(resolve=>{
-      $TIMER = setInterval(()=>{
-        if(dataReceived){
-          clearInterval($TIMER)
-          aux = dataReceived
-          dataReceived = ''
-          try{
-            resolve(JSON.parse(aux))
-          }
-          catch{
-            resolve({status:false,mensagem:"reboot"})
-            aux = ''
-            dataReceived = ''
-            received=''
-            bigdata = false
-          }
-        }
-       })
-    })
+  promiseIpc.on('request', (request, event) => {
+    return sendMessage(request)
   });
