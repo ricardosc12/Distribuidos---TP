@@ -1,0 +1,64 @@
+.route-users {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.route-users-list {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    height: 100%;
+    width: 80%;
+    background-color: transparent;
+}
+
+.route-users-filter {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    min-width: 250px;
+}
+
+.search-filter-users input {
+    margin: 20px;
+    height: 50px;
+}
+
+.card-user {
+    cursor: pointer;
+    display: flex;
+    border-radius: 7px;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    height: 110px;
+    margin: 0px 40px 40px 0px;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255,255,255,.75);
+}
+.card-user p {
+    font-family: 'Bangers', cursive;
+    max-width: 75px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.icon_person{
+    display: flex;
+    filter: brightness(0) saturate(100%) invert(37%) sepia(66%) saturate(6064%) hue-rotate(233deg) brightness(101%) contrast(97%);
+    margin-bottom: 15px;
+    width: 30px;
+    height: 30px;
+}
