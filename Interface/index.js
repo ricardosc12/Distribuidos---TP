@@ -42,20 +42,20 @@ function sendMessage(request){
   })
 }
 
-function serverAlive(){
-    let timeout = new Date( Date.now() + 2000)
-    client_grpc.serverAlive({},{deadline:timeout},(error,response) => {
-        if(error && (error.code===14 || error.code===4)){
-          serverLive=false
-        }
-        else{serverLive=true}
-    })
-}
+    function serverAlive(){
+        let timeout = new Date( Date.now() + 2000)
+        client_grpc.serverAlive({},{deadline:timeout},(error,response) => {
+            if(error && (error.code===14 || error.code===4)){ // Código para indisponibilidade
+              serverLive=false
+            }
+            else{serverLive=true}
+        })
+    }
 
-serverAlive()
-setInterval(() => {
-  serverAlive()
-}, 2000);
+    serverAlive()
+    setInterval(() => {
+      serverAlive()
+    }, 2000);
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -63,7 +63,7 @@ const createWindow = () => {
       height: 786,
       transparent:true,
       frame:false,
-      // customFileProtocol:"./",
+      // customFileProtocol:"           ./",
       // backgroundColor:"red",
       // show: false,
       icon: `${assetsPath}/assets/images/icon_r.png`,
