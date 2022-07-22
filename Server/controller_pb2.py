@@ -14,12 +14,20 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x63ontroller.proto\x12\ncontroller\"\x1a\n\x07Message\x12\x0f\n\x07message\x18\x01 \x01(\t\"\"\n\x0fMessageResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2T\n\nController\x12\x46\n\x10\x65xecuteOperation\x12\x13.controller.Message\x1a\x1b.controller.MessageResponse\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x63ontroller.proto\x12\ncontroller\"\x07\n\x05\x45mpty\"\x1a\n\x07Message\x12\x0f\n\x07message\x18\x01 \x01(\t\"\"\n\x0fMessageResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2\x97\x01\n\nController\x12\x46\n\x10\x65xecuteOperation\x12\x13.controller.Message\x1a\x1b.controller.MessageResponse\"\x00\x12\x41\n\x0bserverAlive\x12\x13.controller.Message\x1a\x1b.controller.MessageResponse\"\x00\x62\x06proto3')
 
 
 
+_EMPTY = DESCRIPTOR.message_types_by_name['Empty']
 _MESSAGE = DESCRIPTOR.message_types_by_name['Message']
 _MESSAGERESPONSE = DESCRIPTOR.message_types_by_name['MessageResponse']
+Empty = _reflection.GeneratedProtocolMessageType('Empty', (_message.Message,), {
+  'DESCRIPTOR' : _EMPTY,
+  '__module__' : 'controller_pb2'
+  # @@protoc_insertion_point(class_scope:controller.Empty)
+  })
+_sym_db.RegisterMessage(Empty)
+
 Message = _reflection.GeneratedProtocolMessageType('Message', (_message.Message,), {
   'DESCRIPTOR' : _MESSAGE,
   '__module__' : 'controller_pb2'
@@ -38,10 +46,12 @@ _CONTROLLER = DESCRIPTOR.services_by_name['Controller']
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _MESSAGE._serialized_start=32
-  _MESSAGE._serialized_end=58
-  _MESSAGERESPONSE._serialized_start=60
-  _MESSAGERESPONSE._serialized_end=94
-  _CONTROLLER._serialized_start=96
-  _CONTROLLER._serialized_end=180
+  _EMPTY._serialized_start=32
+  _EMPTY._serialized_end=39
+  _MESSAGE._serialized_start=41
+  _MESSAGE._serialized_end=67
+  _MESSAGERESPONSE._serialized_start=69
+  _MESSAGERESPONSE._serialized_end=103
+  _CONTROLLER._serialized_start=106
+  _CONTROLLER._serialized_end=257
 # @@protoc_insertion_point(module_scope)

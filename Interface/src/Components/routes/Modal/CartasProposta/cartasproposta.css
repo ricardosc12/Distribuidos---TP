@@ -64,9 +64,10 @@
 .main_modal_cartas .list_modal{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding: 20px;
+    padding: 12px;
     width: 100%;
     height: calc(100% - 60px);
     background-color: var(--main);

@@ -5,10 +5,10 @@ const { ipcMain } = require('electron')
 var promiseIpc = require('electron-promise-ipc') 
 const assetsPath = app.isPackaged ? ".." : ".";
 
-
 const grpc = require('@grpc/grpc-js')
 const protoLoader = require('@grpc/proto-loader')
-const PROTO_PATH = "./controller.proto";
+
+const PROTO_PATH = `./controller.proto`;
 const options = {
     keepCase: true,
     longs: String,
@@ -20,18 +20,42 @@ const options = {
 const packageDefinition = protoLoader.loadSync(PROTO_PATH,options);
 const Controller = grpc.loadPackageDefinition(packageDefinition).controller.Controller;
 
-const client_grpc = new Controller('localhost:23123',
+let PORT = 23123
+let HOST = '127.0.0.1'
+let serverLive = true
+
+let client_grpc = new Controller(`${HOST}:${PORT}`,
     grpc.credentials.createInsecure())
-    
+
 function sendMessage(request){
   return new Promise(resolve=>{
-      client_grpc.executeOperation({message:request}, (error, response) => {
-          response.message = response.message.replace("$INIT$","")
-          response.message = response.message.replace("$EOF$","")
-          resolve(JSON.parse(response.message))
+    client_grpc.executeOperation({message:request}, (error, response) => {
+
+          if(error && error.code === 14){
+            // Server desconectado
+            resolve({status:false,message:"Servidor desconectado !"})
+          }
+          else {
+            resolve(JSON.parse(response.message))
+          }
       });
   })
 }
+
+function serverAlive(){
+    let timeout = new Date( Date.now() + 2000)
+    client_grpc.serverAlive({},{deadline:timeout},(error,response) => {
+        if(error && (error.code===14 || error.code===4)){
+          serverLive=false
+        }
+        else{serverLive=true}
+    })
+}
+
+serverAlive()
+setInterval(() => {
+  serverAlive()
+}, 2000);
 
 const createWindow = () => {
     const win = new BrowserWindow({
@@ -69,10 +93,7 @@ const createWindow = () => {
   })
 
 
-  let serverLive = true
-
-  let PORT = 23123
-  let HOST = '127.0.0.1'
+  
 
  
   ipcMain.on('serverLive', (event, arg) => {
@@ -93,7 +114,6 @@ const createWindow = () => {
   ipcMain.on('changeServer', (event, {host,port}) => {
     HOST = host
     PORT = port
-    client.destroy()
     event.returnValue = true
   })
 

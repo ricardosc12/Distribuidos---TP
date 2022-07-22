@@ -119,7 +119,7 @@ class Controller:
                     resp = {'status':True,'dados':resp}
             
             elif(api == 'gc'):
-                resp = "$INIT$"+JSON.string({'status':True,'dados':banco.getCartas()})+"$EOF$"
+                resp = JSON.string({'status':True,'dados':banco.getCartas()})
                 return resp
 
             elif(api == 'ac'):

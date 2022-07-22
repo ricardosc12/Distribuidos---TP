@@ -25,7 +25,14 @@
       "icon": "build/icon.png"
     },
     "extraResources": [
-      "./assets/**"
+      "./assets/**",
+      {
+        "from": "./assets/",
+        "to": "../",
+        "filter": [
+          "*.proto"
+        ]
+      }
     ]
   },
   "devDependencies": {

@@ -5,7 +5,11 @@ package controller;
 service Controller{
 
  rpc executeOperation(Message) returns (MessageResponse) {}
+ rpc serverAlive(Empty) returns (Empty) {}
 
+}
+
+message Empty{
 }
 
 message Message{

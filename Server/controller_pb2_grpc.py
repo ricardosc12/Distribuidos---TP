@@ -19,6 +19,11 @@ class ControllerStub(object):
                 request_serializer=controller__pb2.Message.SerializeToString,
                 response_deserializer=controller__pb2.MessageResponse.FromString,
                 )
+        self.serverAlive = channel.unary_unary(
+                '/controller.Controller/serverAlive',
+                request_serializer=controller__pb2.Message.SerializeToString,
+                response_deserializer=controller__pb2.MessageResponse.FromString,
+                )
 
 
 class ControllerServicer(object):
@@ -30,11 +35,22 @@ class ControllerServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def serverAlive(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_ControllerServicer_to_server(servicer, server):
     rpc_method_handlers = {
             'executeOperation': grpc.unary_unary_rpc_method_handler(
                     servicer.executeOperation,
+                    request_deserializer=controller__pb2.Message.FromString,
+                    response_serializer=controller__pb2.MessageResponse.SerializeToString,
+            ),
+            'serverAlive': grpc.unary_unary_rpc_method_handler(
+                    servicer.serverAlive,
                     request_deserializer=controller__pb2.Message.FromString,
                     response_serializer=controller__pb2.MessageResponse.SerializeToString,
             ),
@@ -60,6 +76,23 @@ class Controller(object):
             timeout=None,
             metadata=None):
         return grpc.experimental.unary_unary(request, target, '/controller.Controller/executeOperation',
+            controller__pb2.Message.SerializeToString,
+            controller__pb2.MessageResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def serverAlive(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/controller.Controller/serverAlive',
             controller__pb2.Message.SerializeToString,
             controller__pb2.MessageResponse.FromString,
             options, channel_credentials,

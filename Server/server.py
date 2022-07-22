@@ -52,10 +52,15 @@ class ControllerService(pb2_grpc.ControllerServicer):
     def executeOperation(self, request, context):
 
         message = request.message
-        print(message)
+        print("\033[1;94m[*] Cliente: {}".format(context.peer()),end="")
+        print("\033[1;31m Mensagem: {}\033[1;00m".format(message))
         resp = self.controller.executeOperation(message)
         result = {'message': resp}
         return pb2.MessageResponse(**result)
+    
+    def serverAlive(self,request,context):
+        return pb2.Empty()
+
 
 
 def serve():
