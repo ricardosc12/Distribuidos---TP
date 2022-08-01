@@ -60,6 +60,17 @@ JSON = JSON()
 
 # msg = "$cu${}".format(JSON.string(dic))
 
+def reportError(body,data):
+    msg = "Campos obrigatórios - "
+    err = False
+    for prop in data:
+        try:
+            temp = body[prop]
+        except:
+            err = True
+            msg = msg + "{} ".format(prop)    
+    return False if not err else JSON.string({'status':False,'mensagem':msg})
+
 
 class Controller:
 
@@ -80,6 +91,19 @@ class Controller:
     def toString(self,dic):
         return json.dumps(dic, separators=(',', ':'))
 
+    def logarUser(self,body):
+        banco = BD()
+        error = reportError(body,['login','password'])
+        if(error):
+            return error
+        sts = banco.logarUser(body['login'],body['password'])
+        resp = {
+            'status':True if sts else False, 
+            'dados':sts if sts else "Dados incorretos, não foi possível logar"
+        }
+        banco.save()
+        banco.close()
+        return JSON.string(resp)
     
     def executeOperation(self,msg):
         try:
@@ -97,8 +121,8 @@ class Controller:
             print("Erro ao tratar body !")
             return False
         
-        banco = BD()
         resp = {'status':False}
+        banco = BD()    
 
         try:
             if(api == 'lu'):

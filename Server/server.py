@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from cmath import exp
 import socket
 from controller import *
 import threading
@@ -8,19 +9,56 @@ import multiprocessing
 import queue
 import signal
 import sys
+from flask import Flask
+from flask import request
+import json
 
-import grpc
-from concurrent import futures
-import time
-import controller_pb2_grpc as pb2_grpc
-import controller_pb2 as pb2
+class JSON:
+    def __init__(self):
+        self.json = "JSON"
+    def string(self,dic):
+        return json.dumps(dic, separators=(',', ':'))
+    def parse(self,string):
+        return json.loads(string)
+
+JSON = JSON()
 
 try:
     HOST = str(sys.argv[1])
     PORT = int(sys.argv[2])
 except:
-    HOST = 'localhost'
+    HOST = ''
     PORT = 23123
+
+class WebService:
+    def __init__(self):
+        self.app = Flask(__name__)
+        self.controller = Controller()
+
+        @self.app.route('/')
+        def index():
+            return 'Hello world'
+        
+        @self.app.route('/cartas', methods = ['POST'])
+        def cartas():
+            resp = {'cartas':[{'carta1':'1'},{'carta2':'2'}]}
+            return JSON.string(resp)
+
+        @self.app.route('/logarUser', methods = ['POST'])
+        def logarUser():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            print(data)
+            resp = self.controller.logarUser(data)
+            return resp
+    
+    def run(self):
+        self.app.run(debug=False, host='0.0.0.0')
+    
+
+
 
 
 
@@ -34,46 +72,11 @@ def main():
         except KeyboardInterrupt:
             os.kill(os.getpid(),signal.SIGKILL)
 
-
-# try:
-#     server = Server(HOST,PORT)
-#     server.handlerThread()
-#     main()
-# except KeyboardInterrupt:
-#     os.kill(os.getpid(),signal.SIGKILL)
-
-
-class ControllerService(pb2_grpc.ControllerServicer):
-
-    def __init__(self, *args, **kwargs):
-        self.controller = Controller()
-        pass
-
-    def executeOperation(self, request, context):
-
-        message = request.message
-        print("\033[1;94m[*] Cliente: {}".format(context.peer()),end="")
-        print("\033[1;31m Mensagem: {}\033[1;00m".format(message))
-        resp = self.controller.executeOperation(message)
-        result = {'message': resp}
-        return pb2.MessageResponse(**result)
-    
-    def serverAlive(self,request,context):
-        return pb2.Empty()
-
-
-
-def serve():
-    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))
-    
-    pb2_grpc.add_ControllerServicer_to_server(ControllerService(), server)
-
-    print("\n\033[1;35m[*] On: {} - {}\033[0;0m\n".format(HOST,PORT))
-    server.add_insecure_port('{}:{}'.format(HOST,PORT))
-    server.start()
-    server.wait_for_termination()
-
-if __name__ == '__main__':
+try:
     thread = threading.Thread(target=main)
     thread.start()
-    serve()
+    web_service = WebService()
+    web_service.run()
+except KeyboardInterrupt:
+    os.kill(os.getpid(),signal.SIGKILL)
+
