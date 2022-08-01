@@ -38,11 +38,10 @@ class WebService:
         @self.app.route('/')
         def index():
             return 'Hello world'
-        
-        @self.app.route('/cartas', methods = ['POST'])
-        def cartas():
-            resp = {'cartas':[{'carta1':'1'},{'carta2':'2'}]}
-            return JSON.string(resp)
+
+        @self.app.route('/isa')
+        def isa():
+            return '<h1>Isabella</h1>'
 
         @self.app.route('/logarUser', methods = ['POST'])
         def logarUser():
@@ -52,6 +51,20 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             print(data)
             resp = self.controller.logarUser(data)
+            return resp
+
+        @self.app.route('/createUser', methods = ['POST'])
+        def createUser():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.createUser(data)
+            return resp
+
+        @self.app.route('/getCartas')
+        def getCartas():
+            resp = self.controller.getCartas()
             return resp
     
     def run(self):

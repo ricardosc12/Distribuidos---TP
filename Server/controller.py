@@ -96,11 +96,35 @@ class Controller:
         error = reportError(body,['login','password'])
         if(error):
             return error
+
         sts = banco.logarUser(body['login'],body['password'])
         resp = {
             'status':True if sts else False, 
             'dados':sts if sts else "Dados incorretos, não foi possível logar"
         }
+
+        banco.save()
+        banco.close()
+        return JSON.string(resp)
+
+    def createUser(self,body):
+        banco = BD()
+        error = reportError(body,['login','password','nome'])
+        if(error):
+            return error
+
+        query = banco.createUser(body['nome'],body['login'],body['password'])
+        resp = {'status':query,'mensagem':"Usuário cadastrado com sucesso !" if query else "Usuário já cadastrado !"}
+
+        banco.save()
+        banco.close()
+        return JSON.string(resp)
+
+    def getCartas(self):
+        banco = BD()
+
+        resp = {'status':True,'dados':banco.getCartas()}
+
         banco.save()
         banco.close()
         return JSON.string(resp)
