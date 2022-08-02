@@ -66,7 +66,17 @@ class WebService:
         def getCartas():
             resp = self.controller.getCartas()
             return resp
-    
+
+        @self.app.route('/getUsers')
+        def getUsers():
+            resp = self.controller.getUsers()
+            return resp
+
+        @self.app.route('/getInventory')
+        def getInventory():
+            resp = self.controller.getInventory()
+            return resp
+
     def run(self):
         self.app.run(debug=False, host='0.0.0.0')
     
