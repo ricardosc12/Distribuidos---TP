@@ -59,7 +59,7 @@ function requestAuth(){
                 goRoute('cartas')
             }
             else{
-                notify("Não foi possível logar !")
+                notify(resolve.mensagem || "Não foi possível logar !")
             }
         })
     }

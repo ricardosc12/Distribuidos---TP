@@ -35,21 +35,12 @@ class WebService:
         self.app = Flask(__name__)
         self.controller = Controller()
 
-        @self.app.route('/')
-        def index():
-            return 'Hello world'
-
-        @self.app.route('/isa')
-        def isa():
-            return '<h1>Isabella</h1>'
-
         @self.app.route('/logarUser', methods = ['POST'])
         def logarUser():
             try:
                 data = request.json
             except:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
-            print(data)
             resp = self.controller.logarUser(data)
             return resp
 
@@ -72,10 +63,60 @@ class WebService:
             resp = self.controller.getUsers()
             return resp
 
-        @self.app.route('/getInventory')
+        @self.app.route('/getInventory', methods=['POST'])
         def getInventory():
-            resp = self.controller.getInventory()
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.getInventory(data)
             return resp
+
+        @self.app.route('/addCarta', methods=['POST'])
+        def addCarta():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.addCarta(data)
+            return resp
+        
+        @self.app.route('/createProposta', methods=['POST'])
+        def createProposta():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.createProposta(data)
+            return resp
+
+        @self.app.route('/getProposta', methods=['POST'])
+        def getProposta():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.getProposta(data)
+            return resp
+
+        @self.app.route('/aceitaProposta', methods=['POST'])
+        def aceitaProposta():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.aceitaProposta(data)
+            return resp
+
+        @self.app.route('/rejeitaProposta', methods=['POST'])
+        def rejeitaProposta():
+            try:
+                data = request.json
+            except:
+                return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
+            resp = self.controller.rejeitaProposta(data)
+            return resp
+
 
     def run(self):
         self.app.run(debug=False, host='0.0.0.0')

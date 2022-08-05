@@ -128,7 +128,132 @@ class Controller:
         banco.save()
         banco.close()
         return JSON.string(resp)
+
+    def getInventory(self,body):
+        banco = BD()
+        error = reportError(body,['user'])
+        if(error):
+            return error
+
+        query = banco.getInventory(body['user'])
+        if query == False:
+            query = {'status':False,'mensagem':"Usuário inexistente"}
+        else: 
+            query = {'status':True,'dados':query}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
+
+    def getUsers(self):
+        banco = BD()
+
+        query = {'status':True,'dados':banco.getUsers()}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
     
+    
+    def addCarta(self,body):
+        banco = BD()
+        error = reportError(body,['cartas','user'])
+        if(error):
+            return error
+
+        cartas = list(map(lambda x: (x['id'],x['qts']),body['cartas']))
+        if(not len(cartas)):
+            print("Parametro $cartas vazio !")
+            return JSON.string({'status':False,'mensagem':'$cartas vazio'})
+
+        query = banco.addInventoryById(body['user'],cartas)
+        if(query):
+            query = {'status':True}
+        else:
+            query = {'status':False}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
+
+    def createProposta(self,body):
+        banco = BD()
+        error = reportError(body,['cartas','cartasAlvo','user','userAlvo'])
+        if(error):
+            return error
+
+        cartasDono = list(map(lambda x: (x['id'],x['qts']),body['cartas']))
+        cartasAlvo = list(map(lambda x: (x['id'],x['qts']),body['cartasAlvo']))
+
+        if(not len(cartasDono) and not len(cartasAlvo)):
+            print("Troca entre usuários, mas nenhuma carta !")
+            return JSON.string({'status':False})
+
+        query = banco.createProposta(body['userAlvo'],body['user'],cartasAlvo,cartasDono)
+        if(query):
+            query = {"status":True}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
+
+    
+    def getProposta(self,body):
+        banco = BD()
+        error = reportError(body,['user'])
+        if(error):
+            return error
+
+        propostasRecebidas = banco.getProposta(body['user'],False)
+        propostasFeitas = banco.getProposta(body['user'],True)
+        if(propostasRecebidas != False and propostasFeitas != False):
+            query = {'status':True,
+            'dados':{
+                'recebidas':propostasRecebidas,
+                'feitas':propostasFeitas
+            }}
+        else:
+            query = {'status':False,'mensagem':'Usuário inexistente'}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
+    
+    
+    def aceitaProposta(self,body):
+        banco = BD()
+        error = reportError(body,['id'])
+        if(error):
+            return error
+
+        query = banco.aceitaProposta(body['id'])
+        if(query==True):
+            query = {'status':True}
+        elif (query==-1):
+            query = {'status':False,'mensagem':'Usuários não possuem mais as cartas necessárias !'}
+        else:
+            query = {'status':False,'mensagem':'Proposta encerrada !'}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
+
+    def rejeitaProposta(self,body):
+        banco = BD()
+        error = reportError(body,['id'])
+        if(error):
+            return error
+
+        query = banco.rejeitaProposta(body['id'])
+        if(query):
+            query = {'status':True}
+        else:
+            query = {'status':False,'mensagem':'Proposta encerrada !'}
+
+        banco.save()
+        banco.close()
+        return JSON.string(query)
+
     def executeOperation(self,msg):
         try:
             api, body = msg.split('$')[1:3]
