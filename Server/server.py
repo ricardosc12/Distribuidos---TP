@@ -35,6 +35,10 @@ class WebService:
         self.app = Flask(__name__)
         self.controller = Controller()
 
+        @self.app.route('/')
+        def index():
+            return 'top'
+
         @self.app.route('/logarUser', methods = ['POST'])
         def logarUser():
             try:
@@ -119,7 +123,7 @@ class WebService:
 
 
     def run(self):
-        self.app.run(debug=False, host='0.0.0.0')
+        self.app.run(debug=False, host=HOST, port=PORT)
     
 
 

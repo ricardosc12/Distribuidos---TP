@@ -6,7 +6,7 @@ var promiseIpc = require('electron-promise-ipc')
 const assetsPath = app.isPackaged ? ".." : ".";
 const request = require('request');
 
-let PORT = 5000
+let PORT = 23123
 let HOST = '127.0.0.1'
 let serverLive = true
 
@@ -14,15 +14,15 @@ let serverLive = true
 function requestServer(method,api,body){
   if(method=='post')
     return new Promise(resolve=>{
-        request.post(`http://127.0.0.1:${PORT}/${api}`,{json:JSON.parse(body)},(err,resp,body)=>{
+        request.post(`http://${HOST}:${PORT}/${api}`,{json:JSON.parse(body)},(err,resp,body)=>{
           resolve(body)
         })
     })
   else {
     return new Promise(resolve=>{
-      let url = `http://127.0.0.1:${PORT}/${api}`
+      let url = `http://${HOST}:${PORT}/${api}`
         request({url},(err,resp,body)=>{
-          if(body.includes('Error')) {
+          if(!body || body.includes('Error')) {
             resolve({'status':false,'mensagem':'Erro no servidor !'})
             return
           }
@@ -32,6 +32,16 @@ function requestServer(method,api,body){
      })
   }
 }
+
+function serverALive(){
+    let url = `http://${HOST}:${PORT}`
+    request({url},(err,resp,body)=>{serverLive = body?true:false})
+}
+
+serverALive()
+setInterval(() => {
+  serverALive()
+}, 2000);
 
 function getApi(rq){
   let api = {

@@ -37,8 +37,6 @@ function closeModalConfig(event,force){
 }
 
 function serverChange(){
-    notify("Função indisponível temporariamente !")
-    return
     const host = getId("host_server").value
     const port = getId("port_server").value
     if(!port) {
