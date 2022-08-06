@@ -1,0 +1,118 @@
+.main-login {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 35px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    height: calc(100% - 35px);
+    background-color: rgba(25,25,30,1);
+}
+
+.box-login{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(10,10,10);
+}
+
+.page-sinout{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.page-sinout label {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.login-page,.register-page{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.information_status{
+    margin-top: 20px;
+}
+.information_status span{
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    color: rgba(255,255,255,.4);
+}
+.information_status a{
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: rgba(83,86,251,.9);
+}
+
+.selector-sinout{
+    margin-top: 20px;
+}
+
+.request-auth{
+    margin-top: 20px;
+}
+.request-auth button {
+    width: auto;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 25px;
+    border-radius: 20px;
+    color: rgba(255,255,255,.6);
+    background-color: var(--primary);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    outline: none;
+    border: none;
+    height: 35px;
+    transition: all .1s;
+    box-shadow: 1px 1px 15px rgba(83,86,251,.5);
+}
+.request-auth button:hover{
+    box-shadow: 2px 2px 15px rgba(83,86,251,.6);
+    background-color: var(--primary-hover);
+}
+
+.box-login input {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    height: 30px;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,.8);
+    padding: 0px 8px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(18,17,40);
+}
+.box-login input:focus {
+    outline: none;
+    border: 2px solid var(--primary);
+}
+
+.box-login label {
+    width: 100%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,.5);
+    padding-bottom: 10px;
+}

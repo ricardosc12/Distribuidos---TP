@@ -208,13 +208,28 @@ class Controller:
         return JSON.string(query)
 
     def executeOperation(self,msg):
+        try:
+            api, body = msg.split('$')[1:3]
+        except:
+            print("Operação inválida !")
+            return JSON.string({'status':False,'mensagem':'Formato inválido !'})
+        if(not api in self.routes):
+            print("Rota inválida !")
+            return JSON.string({'status':False,'mensagem':'Rota inválida !'})
+
+        try:
+            body = JSON.parse(body) if body else None
+        except:
+            print("Erro ao tratar body !")
+            return False
         
         resp = {'status':False}
         banco = BD()    
 
-        if(api == 'lu'):
-            sts = banco.logarUser(body['login'],body['password'])
-            resp = {'status':True if len(sts) else False, 'dados':sts}
+        try:
+            if(api == 'lu'):
+                sts = banco.logarUser(body['login'],body['password'])
+                resp = {'status':True if len(sts) else False, 'dados':sts}
 
             if(api == 'cu'):
                 resp = {'status':banco.createUser(body['nome'],body['login'],body['password'])}

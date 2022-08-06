@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <base href="./">
+    <link rel="stylesheet" href="./src/fonts/fonts.css">
+    <link rel="stylesheet" href="./src/Components/card.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/notify.css">
+    <script src="./src/scripts/icons/index.js"></script>
+    <script src="./src/scripts/notification/index.js"></script>
+
+    <script src="./src/scripts/lottie.js"></script>
+    
+    <script src="./src/Main/index.js"></script>
+    <script src="./src/Middleware/index.js"></script>
+    <!-- <script src="./src/dados/meta_humans.js"></script> -->
+    <script src="./src/Components/Card.js"></script>
+
+    <script src="./src/Components/routes/Auth/index.js"></script>
+
+    <script src="./src/Components/routes/Cartas/auxiliar.js"></script>
+    <script src="./src/Components/routes/Cartas/index.js"></script>
+    <link rel="stylesheet" href="./src/Components/routes/Cartas/style.css">
+
+    <script src="./src/Components/routes/Inventario/index.js"></script>
+    <script src="./src/Components/routes/Mercado/index.js"></script>
+
+    <script src="./src/Components/Header/index.js"></script>
+    
+    
+    
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="icon"></div>
+            <div class="title"></div>
+            <div class="fccr">
+                <div onclick="miniAplication()" class="option-mini"><span>__</span></div>
+                <div onclick="closeAplication()" class="options"></div>
+            </div>
+        </div>
+        <div class="app">
+
+            <div class="routes">
+            </div>
+
+            <!-- <div id="server"> -->
+                <!-- <input id="server_input" type="text"> -->
+            <!-- </div> -->
+            <!-- <input onkeydown="testeQuiz(event)" type="text" name="" id="teste_quiz"> -->
+        </div>
+    </div>
+</body>
+<script src="./src/Listeners/index.js"></script>
+<script>
+    getClass('icon').innerHTML = `<img src="${$PATH}/assets/images/icon_r.png" alt="" height="21px">`
+    getClass('options').innerHTML = iconExit()
+
+</script>
+</html>
