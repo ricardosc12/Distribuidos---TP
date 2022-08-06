@@ -80,11 +80,12 @@ function renderUser(name){
 
 
 function proposta(card,alvo){
+    console.log("PROPOSTA")
     card.classList.toggle('gray')
     let key = card.getAttribute('key')
     let cart = {id:key,qts:1}
     let tipoCarta = alvo?'cartasAlvo':'cartas'
-    if($PROPOSTA.cartasAlvo[key]){
+    if($PROPOSTA[tipoCarta][key]){
         delete $PROPOSTA[tipoCarta][key]
     }else{
         $PROPOSTA[tipoCarta][key] = cart

@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
-from cmath import exp
-import socket
 from controller import *
 import threading
 import os
-import subprocess
-import multiprocessing
-import queue
 import signal
 import sys
 from flask import Flask
@@ -38,7 +33,7 @@ class WebService:
         @self.app.route('/')
         def index():
             return 'top'
-
+        
         @self.app.route('/logarUser', methods = ['POST'])
         def logarUser():
             try:
@@ -47,7 +42,7 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             resp = self.controller.logarUser(data)
             return resp
-
+        
         @self.app.route('/createUser', methods = ['POST'])
         def createUser():
             try:
@@ -56,17 +51,17 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             resp = self.controller.createUser(data)
             return resp
-
+        
         @self.app.route('/getCartas')
         def getCartas():
             resp = self.controller.getCartas()
             return resp
-
+        
         @self.app.route('/getUsers')
         def getUsers():
             resp = self.controller.getUsers()
             return resp
-
+        
         @self.app.route('/getInventory', methods=['POST'])
         def getInventory():
             try:
@@ -75,7 +70,7 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             resp = self.controller.getInventory(data)
             return resp
-
+        
         @self.app.route('/addCarta', methods=['POST'])
         def addCarta():
             try:
@@ -84,7 +79,7 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             resp = self.controller.addCarta(data)
             return resp
-        
+       
         @self.app.route('/createProposta', methods=['POST'])
         def createProposta():
             try:
@@ -93,7 +88,7 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             resp = self.controller.createProposta(data)
             return resp
-
+            
         @self.app.route('/getProposta', methods=['POST'])
         def getProposta():
             try:
@@ -111,7 +106,7 @@ class WebService:
                 return {"status":False,"mensage":"Dados (JSON) ausentes, Method Post"}
             resp = self.controller.aceitaProposta(data)
             return resp
-
+            
         @self.app.route('/rejeitaProposta', methods=['POST'])
         def rejeitaProposta():
             try:

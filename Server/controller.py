@@ -12,53 +12,6 @@ class JSON:
 
 JSON = JSON()
 
-# banco = BD()
-# banco.createUniverse()
-# banco.createUser('Ricardo','ric',123)
-# banco.save()
-# banco.close()
-# createUniverse(self)
-# createUser(self,nome,login,password)
-# getCartas()
-# clearCartas(self)
-# addInventoryById(self,user,cartas)
-# getInventory(self,user)
-# clearInventory(self,user)
-# createProposta(self,userAlvo, userDono, cartasAlvo, cartasDono)
-# getProposta(self, user, dono)
-# rejeitaProposta(self,id)
-# aceitaProposta(self,id)
-# deleteUser(self,login)
-
-# dic = {  #Criar Usuário
-#     'nome':'Ricardo',
-#     'login':'ric',
-#     'password':123
-# }
-
-# dic = {  #Adicionar à inventário
-#     'user':'ric',
-#     'cartas':[
-#         {'id':1,'qts':1},
-#         {'id':5,'qts':1},
-#     ]
-# }
-
-# dic = {  #Criar Proposta
-#     'user':'ric',
-#     'userAlvo':'isa',
-#     'cartas':[
-#         {'id':1,'qts':1},
-#         {'id':5,'qts':1},
-#     ],
-#     'cartasAlvo':[
-#         {'id':1,'qts':1},
-#         {'id':5,'qts':1},
-#     ]
-# }
-
-
-# msg = "$cu${}".format(JSON.string(dic))
 
 def reportError(body,data):
     msg = "Campos obrigatórios - "

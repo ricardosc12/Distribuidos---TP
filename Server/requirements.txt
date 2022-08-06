@@ -1,2 +1,1 @@
-grpcio
-grpcio-tools
+Flask==2.1.3
